@@ -31,6 +31,7 @@ h2 {
     font-weight: 700;
 }
 /*********** Customized ***********/
+/* .h-25{ height: 25vh; } */
 .Content{
     max-height: 100%;
 }
@@ -64,6 +65,10 @@ h2 {
 .ContentText{
     font-weight: 500;
     --bs-gutter-x: -4rem;
+}
+
+@media (min-width: 425px){
+    .h-25{ height: 25vh; }
 }
 
 @media (min-width: 576px) {
