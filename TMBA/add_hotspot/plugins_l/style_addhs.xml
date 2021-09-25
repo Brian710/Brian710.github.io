@@ -113,7 +113,7 @@
 		/>
 
 	<style name="frame_html_2" type="container" alpha="0" keep="true" align="righttop" width="40%" height="100%" align.mobile="center" 
-			  width.mobile="90%" height.mobile="100%" ox="350"
+			  width.mobile="90%" height.mobile="90%" ox="350"
 		      padding="0"  zorder="52"  bgroundedge="2"
 		/>
 	<!-- Контейнер под HTML  -->	 
