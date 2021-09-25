@@ -32,6 +32,7 @@ h2 {
     font-weight: 700;
 }
 /*********** Customized ***********/
+.pd-5{ padding: 0 5%; }
 .Content{
     max-height: 100%;
 }
@@ -47,7 +48,7 @@ h2 {
     top: 35vh;
     padding-top: 3.25rem;
     overflow: auto;
-    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: auto;
 }
 .ContentImage{
     /* width: 75%; */
