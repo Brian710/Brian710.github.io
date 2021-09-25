@@ -400,7 +400,7 @@
 	
   <hotspot  name="Word_m_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Word_m_1.png" distorted="true" enabled="false" visible="false" handcursor="false" zorder="5" zoom="true" rx="-22" ry="30" rz="0.28"
  			ath="-29.667" atv="-21.313" width="100" height="prop" scale="1" edge="center" alpha="0.95"
- 			install_onclick="5" title="Word_m_1" scene_EL="scenes_00001" fov_EL="130" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="Word_m_1" scene_EL="scenes_00001" fov_EL="130" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
@@ -427,7 +427,7 @@
 	
   <hotspot  name="Word_m_1i" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Word_m_1i.png" distorted="true" enabled="false" visible="false" handcursor="false" zorder="5" zoom="true" rx="-22" ry="30" rz="0.28"
  			ath="-29.667" atv="-21.313" width="100" height="prop" scale="1" edge="center" alpha="0.95"
- 			install_onclick="5" title="Word_m_1i" scene_EL="scenes_00001_01" fov_EL="130" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="Word_m_1i" scene_EL="scenes_00001_01" fov_EL="130" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
@@ -454,7 +454,7 @@
 	
   <hotspot  name="Word_m_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Word_m_2.png" distorted="true" enabled="false" visible="false" handcursor="false" zorder="5" zoom="true" rx="-22" ry="30" rz="-1"
  			ath="-34.6431" atv="-19.3489" width="100" height="prop" scale="3" edge="center" alpha="0.95"
- 			install_onclick="5" title="Word_m_2" scene_EL="scenes_00002" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="Word_m_2" scene_EL="scenes_00002" fov_EL="120.07" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
@@ -481,7 +481,7 @@
 	
   <hotspot  name="Word_m_2i" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Word_m_2i.png" distorted="true" enabled="false" visible="false" handcursor="false" zorder="5" zoom="true" rx="-22" ry="30" rz="-1"
  			ath="-34.6431" atv="-19.3489" width="100" height="prop" scale="3" edge="center" alpha="0.95"
- 			install_onclick="5" title="Word_m_2i" scene_EL="scenes_00002_01" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="Word_m_2i" scene_EL="scenes_00002_01" fov_EL="120.07" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
@@ -508,7 +508,7 @@
 	
   <hotspot  name="Word_m_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Word_m_3.png" distorted="true" enabled="false" visible="false" handcursor="false" zorder="5" zoom="true" rx="-22" ry="30" rz="0.5"
  			ath="-31.447" atv="-19.986" width="100" height="prop" scale="2.5" edge="center" alpha="0.95"
- 			install_onclick="5" title="Word_m_3" scene_EL="scenes_00003" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="Word_m_3" scene_EL="scenes_00003" fov_EL="120.07" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
@@ -535,7 +535,7 @@
 	
   <hotspot  name="Word_m_3i" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Word_m_3i.png" distorted="true" enabled="false" visible="false" handcursor="false" zorder="5" zoom="true" rx="-22" ry="30" rz="0.5"
  			ath="-31.447" atv="-19.986" width="100" height="prop" scale="2.5" edge="center" alpha="0.95"
- 			install_onclick="5" title="Word_m_3i" scene_EL="scenes_00003_01" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="Word_m_3i" scene_EL="scenes_00003_01" fov_EL="120.07" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
