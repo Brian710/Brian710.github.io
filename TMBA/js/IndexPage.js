@@ -147,3 +147,12 @@ function ChangeSceneCloseFrame(){
     pano.call("set(visible,false);tween(layer[IFRAME_HTML].oy, -350);tween(layer[IFRAME_HTML].alpha, 0);tween(layer[freim_bg_Adhs].alpha, 0);set(layer[fon_zad_plan_adhs].enabled, false);tween(layer[fon_zad_plan_adhs].alpha, 0);delayedcall(0.3,removelayer(IFRAME_HTML);removelayer(freim_bg_Adhs);")
     SetDisableFrame();
 }
+
+function DisplayLogo(status){
+    if(status == "true"){
+        document.getElementById("TMBALogo").style.display = "";
+    }
+    else if(status == "false"){
+        document.getElementById("TMBALogo").style.display = "none";
+    }
+}
