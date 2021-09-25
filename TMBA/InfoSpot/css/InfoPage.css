@@ -51,8 +51,7 @@ h2 {
     -webkit-overflow-scrolling: auto;
 }
 .ContentImage{
-    /* width: 75%; */
-    /* height: auto; */
+    padding: 0;
 }
 .ContentTitle{
     font-size: 1.25rem;
