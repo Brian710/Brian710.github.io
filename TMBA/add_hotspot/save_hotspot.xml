@@ -5,7 +5,7 @@
 	<include url="plugins_l/plugin_a/youtube.xml"/>
 	<include url="plugins_l/plugin_a/video.xml"/>
 
-	<addhs_settings  pin_cod="5656" 
+	<addhs_settings  pin_cod="" 
  					 sound_close_click="true" 
  					 video_close_click="true" 
  					 youtube_close_click="true" 
@@ -353,7 +353,7 @@
  		/>
 	
   <hotspot  name="hotspot_45" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Plus_Btn.png" enabled="false" visible="false" zorder="5"
- atv="-24" width="100" height="prop" scale="0.8" scale.mobil="0.5" edge="center"
+ atv="-24" width="100" height="prop" scale="0.8" scale.mobil="0.5" scale.mobil="0.3" edge="center"
  			install_onclick="5" title="hotspot_45" scene_EL="scenes_00005" fov_EL="140" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot_2(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/SmartFactory.html); js(SetEnableFrame(get(name)));"
 			ondown="drag_LinkSM()"
