@@ -66,6 +66,6 @@ h2 {
     --bs-gutter-x: -1rem;
 }
 
-@media (min-width: 425px){
+@media (max-width: 425px){
     .pd-5{ padding: 0; }
 }
