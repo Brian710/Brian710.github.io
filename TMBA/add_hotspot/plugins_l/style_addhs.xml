@@ -108,7 +108,7 @@
 		/>
 	<!-- Окно под инфо html  -->
 	<style name="frame_html" type="container" alpha="0" keep="true" align="righttop" width="30%" height="85%" align.mobile="righttop" 
-			  width.mobile="90%" height.mobile="85%" ox="350"
+			  width.mobile="95%" height.mobile="85%" ox="350"
 		      padding="0"  zorder="52"  bgroundedge="2"
 		/>
 
