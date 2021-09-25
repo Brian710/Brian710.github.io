@@ -47,6 +47,7 @@ h2 {
     top: 35vh;
     padding-top: 3.25rem;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 .ContentImage{
     /* width: 75%; */
