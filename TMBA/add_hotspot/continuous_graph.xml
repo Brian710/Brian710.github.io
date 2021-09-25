@@ -1,0 +1,96 @@
+
+<krpano>
+
+    <action name="do_crop_animation_register">
+		registerattribute(xframes, calc((imagewidth / %1) BOR 0));
+		registerattribute(yframes, calc((imageheight / %2) BOR 0));
+		registerattribute(frames, calc(xframes * yframes));
+		registerattribute(frame, 0);
+		set(crop, '0|0|%1|%2');	
+	</action>
+	<action name="do_crop_animation_onclick">
+		if(hotspot[get(name)].animated === null OR hotspot[get(name)].animated == false,
+		    set(hotspot[get(name)].animated,true);
+			setinterval(calc('crop_anim_' + name), calc(1.0 / %3),
+					inc(frame);
+					if(frame GE frames, if(onlastframe !== null, onlastframe() ); set(frame,0); );
+					mod(xpos, frame, xframes);
+					div(ypos, frame, xframes);
+					Math.floor(ypos);
+					mul(xpos, %1);
+					mul(ypos, %2);
+					calc(crop, xpos + '|' + ypos + '|%1|%2');
+			  	);
+			);
+	</action>
+	<action name="do_crop_animation" scope="local" args="framewidth, frameheight, framerate">
+		<!-- 定義區域性變數 -->
+		calc(local.xframes, (caller.imagewidth /framewidth) BOR 0);
+		calc(local.frames, xframes * ((caller.imageheight / frameheight) BOR 0));
+		def(local.frame, integer, 0);
+		
+		<!-- 設定第一幀 -->
+		calc(caller.crop, '0|0|' + framewidth + '|' + frameheight);
+		
+		<!-- 動畫部分 -->
+		setinterval(calc('crop_anim_' + caller.name), calc(1.0 / framerate),
+			if(caller.loaded,
+				inc(frame);
+				if(frame GE frames, if(caller.onlastframe !== null, callwith(caller, onlastframe() ) ); set(frame,0); );
+				mod(xpos, frame, xframes);
+				div(ypos, frame, xframes);
+				Math.floor(ypos);
+				mul(xpos, framewidth);
+				mul(ypos, frameheight);
+				calc(caller.crop, xpos + '|' + ypos + '|' + framewidth + '|' + frameheight);
+			,
+				<!-- 當熱點移除時停止動畫 -->
+				clearinterval(calc('crop_anim_' + caller.name));
+			);
+		);
+	</action>
+
+	<action name="do_animation" scope="local">
+		<!-- 定義區域性變數 -->
+		calc(local.xframes, (100 /100) BOR 0);
+		calc(local.frames, xframes * ((%2 / 100) BOR 0));
+		def(local.frame, integer, 0);
+		
+		<!-- 設定第一幀 -->
+		calc(caller.crop, '0|0|' + 100 + '|' + 100);
+		
+		<!-- 動畫部分 -->
+		setinterval(calc('crop_anim_' + hotspot[%1].name), calc(1.0 / 20),
+			if(hotspot[%1].loaded,
+				inc(frame);
+				if(frame GE frames, if(hotspot[%1].onlastframe !== null, callwith(hotspot[%1], onlastframe() ) ); set(frame,0); );
+				mod(xpos, frame, xframes);
+				div(ypos, frame, xframes);
+				Math.floor(ypos);
+				mul(xpos, 100);
+				mul(ypos, 100);
+				calc(hotspot[%1].crop, xpos + '|' + ypos + '|' + 100 + '|' + 100);
+			,
+				<!-- 當熱點移除時停止動畫 -->
+				clearinterval(calc('crop_anim_' + hotspot[%1].name));
+			);
+		);
+	</action>
+
+	<action name="open_or_close_door">
+		txtadd(distanceparameter, 'distance(', get(hotspot[%1].doorframes), ',', get(hotspot[%1].doortime), ')'); if(hotspot[%1].doorstate == 'closed',
+		set(hotspot[%1].doorstate, 'opened');
+		tween(hotspot[%1].doorframe, get(hotspot[%1].doorframes), get(distanceparameter), linear, null, update_door_frame(%1) ); ,
+		set(hotspot[%1].doorstate, 'closed');
+		tween(hotspot[%1].doorframe, 1, get(distanceparameter), linear, null, update_door_frame(%1) ); );
+	</action>
+	<action name="update_door_frame">
+		copy(framenumber, hotspot[%1].doorframe);
+		Math.floor(framenumber);
+		for(set(i,1), i LE hotspot[%1].doorframes, inc(i),
+		txtadd(spotname, get(hotspot[%1].doorname), get(i) );
+		if(i == framenumber, set(hotspot[get(spotname)].alpha,1.0), set(hotspot[get(spotname)].alpha,0.0) ); );
+	</action>
+	<action name="calc_pos_from_hfov_yaw_pitch_roll"> div(hfov,%1,57.295779); div(yaw,%2,-57.295779); div(pitch,%3,57.295779); div(roll,%4,-57.295779); mul(hfov,0.5);Math.tan(hfov);mul(width,hfov,1000);set(height,'prop'); Math.cos(ch,yaw);Math.sin(sh,yaw); Math.cos(ca,pitch);Math.sin(sa,pitch); Math.cos(cb,roll);Math.sin(sb,roll); mul(m0,ca,ch); mul(tmp,cb,sa);mul(tmp,ch);mul(tmp2,sb,sh);add(m3,tmp,tmp2); mul(m4,cb,ca); mul(tmp,cb,sa);mul(tmp,sh);mul(tmp2,sb,ch);sub(m5n,tmp,tmp2);mul(m5n,-1); mul(tmp,sb,sa);mul(tmp,ch);mul(tmp2,cb,sh);sub(m6n,tmp,tmp2);mul(m6n,-1); Math.atan2(yaw,m6n,m0); Math.atan2(roll,m5n,m4); Math.asin(pitch,m3); mul(ath,yaw,57.295779); mul(atv,pitch,57.295779); mul(rotate,roll,57.295779); </action>
+	<hotspot name="info" type="text" html="Click the door..." css="font-size:20px; color:#FFFFFF; font-weight:bold;" oversampling="2" bg="false" txtshadow="2 2 4 0x000000 0.5" ath="0" atv="1" enabled="false" zorder="99"/>
+</krpano>
