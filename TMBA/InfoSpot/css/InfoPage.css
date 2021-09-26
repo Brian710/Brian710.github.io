@@ -64,12 +64,12 @@ h2 {
 
 @media (max-width: 425px){
     .pd-5{ padding: 0; };
-    .ios_btn button, .android_btn button{
+    #ios_btn button, #android_btn button{
         width: 57%;
     }
 }
 @media (min-width: 426px){
-    .ios_btn button, .android_btn button{
+    #ios_btn button, #android_btn button{
         width: 53%;
     }
 }
