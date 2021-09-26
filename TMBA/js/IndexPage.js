@@ -8,12 +8,20 @@ var roll = ["roll_a_1","roll_a_2","roll_a_3","roll_a_4","roll_a_5",
 window.onload = function(){
     embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
     pano = parent.window.document.getElementById("krpanoSWFObject");
+    AppendLogoImage();
     SetTimerChangeContent("hotspot_94");
 }
 
 document.getElementById("TMBALogo").addEventListener('click', ()=>{
     window.open("https://www.tmba.org.tw/");
 });
+
+function AppendLogoImage(){
+    let _img = document.createElement('IMG');
+    _img.setAttribute("class", "Logo");
+    _img.setAttribute("id", "TMBALogo");
+    pano.appendChild(_img);
+}
 
 function SetSpotInit(name){
     if(name != document.getElementById("Content").getAttribute("data")){

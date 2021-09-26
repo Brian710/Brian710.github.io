@@ -68,12 +68,12 @@ function InsertComponent(json, JSON_Key){
     document.getElementById('ARBtn').innerHTML = 
     '<div id="android_btn" style="text-align: center;">\
         <a id="AndroidAR" href='+ json["hotspot_94"][JSON_Key]["android_ar"] +'>\
-            <button type="button" class="col-6 btn btn-primary" style="width:54%;">點擊AR</button>\
+            <button type="button" class="col-6 btn btn-primary" style="width:57%;">點擊AR</button>\
         </a>\
     </div>\
     <div id="ios_btn" style="text-align: center;">\
         <a rel="ar" id="ar-link" href='+ json["hotspot_94"][JSON_Key]["ios_ar"] +' ><img class="" src="" alt="" style="display:none">\
-            <button type="button" class="col-6 btn btn-primary"style="width:54%;">點擊AR</button>\
+            <button type="button" class="col-6 btn btn-primary"style="width:57%;">點擊AR</button>\
         </a>\
     </div>\
     <div class="row justify-content-center" id="desk_btn">\

@@ -49,10 +49,10 @@ h2 {
     z-index: 10;
 }
 @media (max-width: 375px){
-    .Logo{ width: 10vw; content: url(../images/TMBA_Mobile.png);};
+    .Logo{ width: 9vw; content: url(../images/TMBA_Mobile.png);};
 }
 @media (min-width:376px) and (max-width: 425px){
-    .Logo{ width: 10vw; content: url(../images/TMBA_Mobile.png);};
+    .Logo{ width: 8vw; content: url(../images/TMBA_Mobile.png);};
 }
 @media (min-width: 425px){
     .Logo{ content: url(../images/TMBA.png);};
