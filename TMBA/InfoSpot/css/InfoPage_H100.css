@@ -66,14 +66,16 @@ h2 {
     --bs-gutter-x: -4rem;
 }
 
-@media (max-width: 405px){
-    #ios_btn button, #android_btn button{
-        width: 57%;
-    }
+#ios_btn button, #android_btn button{
+    width: 53%;
 }
-@media (min-width: 426px){
+
+@media (max-width: 383px){
+    .LogoImage{
+        width: 83%;
+    }
     #ios_btn button, #android_btn button{
-        width: 53%;
+        width: 54%;
     }
 }
 @media (min-width: 576px) {
