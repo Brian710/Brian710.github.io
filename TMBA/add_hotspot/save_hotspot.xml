@@ -361,31 +361,31 @@
  		/>
 	
   <hotspot  name="slot_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Slot_ItemName/slot_1.png" enabled="false" visible="false" zorder="5" zoom="true" alpha="0.85"
- 			ath="-13.6" atv="20.75" width="100" height="prop" scale="1.4" edge="center" rx="19.8" ry="12.6" distorted="true"
+ 			ath="-13.1" atv="21" width="100" height="prop" scale="1.4" edge="center" rx="19.8" ry="12.6" distorted="true"
  			install_onclick="5" title="slot_1" scene_EL="scenes_00004" fov_EL="124.36" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="slot_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Slot_ItemName/slot_2.png" enabled="false" visible="false" zorder="5" zoom="true" alpha="0.85"
- 			ath="3.604" atv="21.145" width="100" height="prop" scale="1.3" edge="center" rx="25.5" ry="-2.1" distorted="true"
+ 			ath="4.11" atv="21.5" width="100" height="prop" scale="1.3" edge="center" rx="25.5" ry="-2.1" distorted="true"
  			install_onclick="5" title="slot_2" scene_EL="scenes_00004" fov_EL="124.36" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="slot_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Slot_ItemName/slot_3.png" enabled="false" visible="false" zorder="5" zoom="true" alpha="0.85"
- 			ath="19.184" atv="20.055" width="100" height="prop" scale="1.4" edge="center" rx="24.6" ry="-16.94" distorted="true"
+ 			ath="19.55" atv="20.35" width="100" height="prop" scale="1.4" edge="center" rx="24.6" ry="-16.94" distorted="true"
  			install_onclick="5" title="slot_3" scene_EL="scenes_00004" fov_EL="124.36" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="slot_4" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Slot_ItemName/slot_4.png" enabled="false" visible="false" zorder="5" zoom="true" alpha="0.85"
- 			ath="-6.306" atv="31.152" width="100" height="prop" scale="1.3" edge="center" rx="22.2" ry="8.1" distorted="true"
+ 			ath="-5.59" atv="31.5" width="100" height="prop" scale="1.3" edge="center" rx="22.2" ry="8.1" distorted="true"
  			install_onclick="5" title="slot_4" scene_EL="scenes_00004" fov_EL="124.36" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="slot_5" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Slot_ItemName/slot_5.png" enabled="false" visible="false" zorder="5" zoom="true" alpha="0.85"
- 			ath="11.464" atv="30.743" width="100" height="prop" scale="1.25" edge="center" rx="21.6" ry="-14.3" distorted="true"
+ 			ath="11.62" atv="30.96" width="100" height="prop" scale="1.25" edge="center" rx="21.6" ry="-14.3" distorted="true"
  			install_onclick="5" title="slot_5" scene_EL="scenes_00004" fov_EL="124.36" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
@@ -458,17 +458,17 @@
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="Btn_2_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_1.png" enabled="false" visible="false" zorder="5" zoom="true"
+  <hotspot  name="Btn_2_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_3.png" enabled="false" visible="false" zorder="5" zoom="true"
  			ath="-40" atv="12" width="100" height="prop" scale="1.75" edge="center" rx="15" ry="34" distorted="true" scale.mobile="2.8" ath.mobile="2.289" atv.mobile="42.596" rx.mobile="38.18" ry.mobile="-2.42"
  			install_onclick="15" title="Btn_2_1" scene_EL="scenes_00002" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scenes_00001"
- 			onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
+ 			onclick="loadscene(scenes_00003,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="Btn_2_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_3.png" enabled="false" visible="false" zorder="5" zoom="true"
+  <hotspot  name="Btn_2_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_1.png" enabled="false" visible="false" zorder="5" zoom="true"
  			ath="-40" atv="17" width="100" height="prop" scale="1.75" edge="center" rx="20" ry="34" distorted="true"  scale.mobile="2.612"  ath.mobile="2.357" atv.mobile="48.046" rx.mobile="44.62" ry.mobile="-2.74"
  			install_onclick="15" title="Btn_2_2" scene_EL="scenes_00002" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scenes_00003"
- 			onclick="loadscene(scenes_00003,null,MERGE,BLEND(0.5));"
+ 			onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
  		/>
 	
@@ -485,17 +485,17 @@
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="Btn_2i_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_1.png" enabled="false" visible="false" zorder="5" zoom="true"
+  <hotspot  name="Btn_2i_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_3.png" enabled="false" visible="false" zorder="5" zoom="true"
  			ath="-40" atv="12" width="100" height="prop" scale="1.75" edge="center" rx="15" ry="34" distorted="true" scale.mobile="2.8" ath.mobile="2.289" atv.mobile="42.596" rx.mobile="38.18" ry.mobile="-2.42"
  			install_onclick="15" title="Btn_2i_1" scene_EL="scenes_00002_01" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scenes_00001"
- 			onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
+ 			onclick="loadscene(scenes_00003,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="Btn_2i_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_3.png" enabled="false" visible="false" zorder="5" zoom="true"
+  <hotspot  name="Btn_2i_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_1.png" enabled="false" visible="false" zorder="5" zoom="true"
  			ath="-40" atv="17" width="100" height="prop" scale="1.75" edge="center" rx="20" ry="34" distorted="true"  scale.mobile="2.612"  ath.mobile="2.357" atv.mobile="48.046" rx.mobile="44.62" ry.mobile="-2.74"
  			install_onclick="15" title="Btn_2i_2" scene_EL="scenes_00002_01" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scenes_00003"
- 			onclick="loadscene(scenes_00003,null,MERGE,BLEND(0.5));"
+ 			onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
  		/>
 	
@@ -512,17 +512,17 @@
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="Btn_3_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_1.png" enabled="false" visible="false" zorder="5" zoom="true"
+  <hotspot  name="Btn_3_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_2.png" enabled="false" visible="false" zorder="5" zoom="true"
  			ath="-44" atv="10" width="100" height="prop" scale="1.5" edge="center" rx="11" ry="41" distorted="true" scale.mobile="2.8" ath.mobile="2.289" atv.mobile="42.596" rx.mobile="38.18" ry.mobile="-2.42"
  			install_onclick="15" title="Btn_3_1" scene_EL="scenes_00003" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scenes_00001"
- 			onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
+ 			onclick="loadscene(scenes_00002,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="Btn_3_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_2.png" enabled="false" visible="false" zorder="5" zoom="true"
+  <hotspot  name="Btn_3_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_1.png" enabled="false" visible="false" zorder="5" zoom="true"
  			ath="-44" atv="15" width="100" height="prop" scale="1.5" edge="center" rx="17" ry="41" distorted="true"  scale.mobile="2.612"  ath.mobile="2.357" atv.mobile="48.046" rx.mobile="44.62" ry.mobile="-2.74"
  			install_onclick="15" title="Btn_3_2" scene_EL="scenes_00003" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scenes_00002"
- 			onclick="loadscene(scenes_00002,null,MERGE,BLEND(0.5));"
+ 			onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
  		/>
 	
@@ -539,17 +539,17 @@
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="Btn_3i_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_1.png" enabled="false" visible="false" zorder="5" zoom="true"
+  <hotspot  name="Btn_3i_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_2.png" enabled="false" visible="false" zorder="5" zoom="true"
  			ath="-44" atv="10" width="100" height="prop" scale="1.5" edge="center" rx="11" ry="41" distorted="true" scale.mobile="2.8" ath.mobile="2.289" atv.mobile="42.596" rx.mobile="38.18" ry.mobile="-2.42"
  			install_onclick="15" title="Btn_3i_1" scene_EL="scenes_00003_01" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scenes_00001"
- 			onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
+ 			onclick="loadscene(scenes_00002,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="Btn_3i_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_2.png" enabled="false" visible="false" zorder="5" zoom="true"
+  <hotspot  name="Btn_3i_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Btn_m_1.png" enabled="false" visible="false" zorder="5" zoom="true"
  			ath="-44" atv="15" width="100" height="prop" scale="1.5" edge="center" rx="17" ry="41" distorted="true"  scale.mobile="2.612"  ath.mobile="2.357" atv.mobile="48.046" rx.mobile="44.62" ry.mobile="-2.74"
  			install_onclick="15" title="Btn_3i_2" scene_EL="scenes_00003_01" fov_EL="120.07" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scenes_00002"
- 			onclick="loadscene(scenes_00002,null,MERGE,BLEND(0.5));"
+ 			onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
  		/>
 	
@@ -560,7 +560,7 @@
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_76" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Plus_Btn.png" enabled="false" visible="false" zorder="5"
+  		<hotspot  name="hotspot_76" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Plus_Btn.png" enabled="false" visible="false" zorder="5"
  			ath="-38.1674" atv="-14.725" width="100" height="prop" scale="0.5" scale.mobile="0.3" edge="center"
  			install_onclick="5" title="hotspot_76" scene_EL="scenes_00002" fov_EL="124.36" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot_2(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/5-Axis_inside-Intro.html); js(SetEnableFrame(get(name)));"
@@ -568,7 +568,7 @@
 			onloaded="js(SetSpotInit(get(name)));"
  		/>
 
-		  <hotspot  name="hotspot_76_01" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Plus_Btn.png" enabled="false" visible="false" zorder="5"
+  <hotspot  name="hotspot_76_01" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Plus_Btn.png" enabled="false" visible="false" zorder="5"
  			ath="-38.1674" atv="-14.725" width="100" height="prop" scale="0.5" scale.mobile="0.3" edge="center"
  			install_onclick="5" title="hotspot_76_01" scene_EL="scenes_00002_01" fov_EL="124.36" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot_2(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/5-Axis_inside-Intro.html); js(SetEnableFrame(get(name)));"
@@ -576,144 +576,142 @@
 			onloaded="js(SetSpotInit(get(name)));"
  		/>
 	
-  <hotspot  name="hotspot_77" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-60.64" atv="-19.0049" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_77" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_77" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-56.7454" atv="-20.6395" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_77" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_78" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-70.6041" atv="-10.3284" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_78" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_78" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-66.7411" atv="-11.1437" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_78" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_79" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-52.2129" atv="-11.4717" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_79" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_79" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-46.7761" atv="-12.4917" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_79" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_80" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-42.0734" atv="-11.7894" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_80" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_80" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-36.0076" atv="-12.8018" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_80" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_81" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-20.2205" atv="-12.0411" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_81" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_81" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-14.7403" atv="-12.0601" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_81" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_82" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-61.1805" atv="-1.4766" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_82" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_82" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-57.1615" atv="-1.7784" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_82" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_83" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-52.7873" atv="-1.1698" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_83" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_83" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-46.4902" atv="-1.7432" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_83" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_84" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-42.1409" atv="-1.4225" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_84" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_84" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-35.7155" atv="-1.5199" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_84" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_85" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-30.8066" atv="-1.2215" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_85" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_85" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-24.4534" atv="-1.738" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_85" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_86" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-69.5378" atv="7.7131" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_86" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_86" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-66.3707" atv="6.3958" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_86" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_87" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-51.7632" atv="8.5359" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_87" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_87" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-46.7664" atv="9.1386" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_87" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_88" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-41.9015" atv="9.4278" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_88" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_88" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-36.1256" atv="9.3719" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_88" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_89" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-20.0051" atv="9.8213" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_89" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_89" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-14.8659" atv="8.1911" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_89" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_90" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-60.8618" atv="17.1297" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_90" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_90" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-56.0178" atv="17.7522" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_90" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_91" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-41.5723" atv="17.7408" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_91" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_91" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-36.8098" atv="19.2758" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_91" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="hotspot_92" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
- 			ath="-31.5716" atv="18.8906" width="100" height="prop" edge="center"
- 			install_onclick="5" title="hotspot_92" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_92" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5" zoom="true"
+ 			ath="-25.5603" atv="18.3778" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_92" scene_EL="scenes_00007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
  			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/ThankWall.html); js(SetEnableFrame_Wall(get(name)));"
 			ondown="drag_LinkSM()"
- 		/>
+		/>
 	
-  <hotspot  name="hotspot_93" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Plus_Btn.png" zorder="5"
- 			ath="-92.65" atv="-0.892" width="100" height="prop" scale="0.5" scale.mobile="0.3" edge="center"
- 			install_onclick="5" title="hotspot_93" scene_EL="scenes_00006" fov_EL="124.36" enabled2="true" visible2="true" drag_hs="true"
+  <hotspot  name="hotspot_93" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/none.png" zorder="5"
+ 			ath="-92.184" atv="-16.414" width="100" height="prop" scale="1" scale.mobile="0.3" edge="center" zoom="true"
+ 			install_onclick="5" title="hotspot_93" scene_EL="scenes_00008" fov_EL="124.36" enabled2="true" visible2="true" drag_hs="true"
  			onclick="openurl(https://www.tmba.org.tw/contact.php, _blank);"
 			ondown="drag_LinkSM()"
-			onloaded="js(SetSpotInit(get(name)));"
  		/>
 	
   <hotspot  name="hotspot_94" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/UB-660.png" distorted="true" zoom="true" zorder="5"
  			ath="35" atv="6" width="100" height="prop" rx="4.2" ry="0.9" scale="6" edge="center"
- 			install_onclick="5" title="hotspot_94" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
-			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/AR.html);"
+ 			install_onclick="5" title="hotspot_94" scene_EL="scenes_00006" fov_EL="120" enabled2="false" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
  		/>
   <hotspot  name="hotspot_95" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/Plus_Btn.png" zorder="5"
  			ath="36.5" atv="-7.3" width="100" height="prop" scale="0.5" scale.mobile="0.3" edge="center"
  			install_onclick="5" title="hotspot_95" scene_EL="scenes_00006" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
-			onclick="iframe_add_hotspot(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/AR.html);  js(SetEnableFrame(get(name)));"
+			onclick="iframe_add_hotspot_2(IFRAME_HTML, TARGET_LAYER_NAME,./InfoSpot/InfoPage/AR.html);  js(SetEnableFrame(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="js(SetSpotInit(get(name)));"
  		/>
 
-	<hotspot  name="hotspot_start" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/start.png" zorder="5" alpha="0.8" scale="1" scale.mobile="0.7"
- 			ath="21.265" atv="5.864" width="120" height="prop" edge="center"
+	<hotspot  name="hotspot_start" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/start.png" zorder="5" alpha="0.8" scale="0.9" scale.mobile="0.65" distorted="true" ry="-4.38" rz="-2.36"
+ 			ath="20.187" atv="5.164" width="120" height="prop" edge="center"
  			install_onclick="5" title="hotspot_start" scene_EL="scenes_00000" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
-onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
+onclick="loadscene(scenes_00002,null,MERGE,BLEND(0.5));"
  			onhover="tween('alpha', 1);"
 			ondown="drag_LinkSM()"
 			onout="tween('alpha', 0.8);"
@@ -723,7 +721,7 @@ onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
 	<hotspot  name="hotspot_point0_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
  			ath="44.541" atv="16.137" width="100" height="prop" edge="center"
  			install_onclick="5" title="hotspot_point0_1" scene_EL="scenes_00000" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
-			onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
+			onclick="loadscene(scenes_00002,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(100, 100, 10)"
  		/>
@@ -744,6 +742,13 @@ onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(100, 100, 10)"
  		/>
+	<hotspot  name="hotspot_point1_1_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
+ 			ath="-120.958" atv="19.254" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_point1_1" scene_EL="scenes_00001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="loadscene(scenes_00004_2,null,MERGE,BLEND(0.5));"
+			ondown="drag_LinkSM()"
+			onloaded="do_crop_animation(100, 100, 10)"
+ 		/>
 
 		 	<hotspot  name="hotspot_point1_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
  			ath="-148" atv="19" width="100" height="prop" edge="center"
@@ -754,9 +759,25 @@ onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
  		/>
 
 		 	<hotspot  name="hotspot_point1_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
- 			ath="164" atv="20" width="100" height="prop" edge="center"
+ 			ath="-176.842" atv="19.107" width="100" height="prop" edge="center"
  			install_onclick="5" title="hotspot_point1_3" scene_EL="scenes_00001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			onclick="loadscene(scenes_00006,null,MERGE,BLEND(0.5));"
+			ondown="drag_LinkSM()"
+			onloaded="do_crop_animation(100, 100, 10)"
+ 		/>
+
+		<hotspot  name="hotspot_point1_4" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
+ 			ath="147.556" atv="20.105" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_point1_4" scene_EL="scenes_00001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="loadscene(scenes_00007,null,MERGE,BLEND(0.5));"
+			ondown="drag_LinkSM()"
+			onloaded="do_crop_animation(100, 100, 10)"
+ 		/>
+
+		 		<hotspot  name="hotspot_point1_5" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
+ 			ath="118.578" atv="25.941" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_point1_4" scene_EL="scenes_00001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="loadscene(scenes_00008,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(100, 100, 10)"
  		/>
@@ -777,6 +798,13 @@ onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
 			onloaded="do_crop_animation(100, 100, 10)"
  		/>
 
+	<hotspot  name="hotspot_point2_1_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
+ 			ath="-120.958" atv="19.254" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_point1_1" scene_EL="scenes_00002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="loadscene(scenes_00004_2,null,MERGE,BLEND(0.5));"
+			ondown="drag_LinkSM()"
+			onloaded="do_crop_animation(100, 100, 10)"
+ 		/>
 		 	<hotspot  name="hotspot_point2_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
  			ath="-148" atv="19" width="100" height="prop" edge="center"
  			install_onclick="5" title="hotspot_point2_2" scene_EL="scenes_00002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
@@ -786,9 +814,25 @@ onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
  		/>
 
 		 	<hotspot  name="hotspot_point2_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
- 			ath="164" atv="20" width="100" height="prop" edge="center"
+ 			ath="-176.842" atv="19.107" width="100" height="prop" edge="center"
  			install_onclick="5" title="hotspot_point2_3" scene_EL="scenes_00002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			onclick="loadscene(scenes_00006,null,MERGE,BLEND(0.5));"
+			ondown="drag_LinkSM()"
+			onloaded="do_crop_animation(100, 100, 10)"
+ 		/>
+
+		<hotspot  name="hotspot_point2_4" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
+ 			ath="147.556" atv="20.105" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_point2_4" scene_EL="scenes_00002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="loadscene(scenes_00007,null,MERGE,BLEND(0.5));"
+			ondown="drag_LinkSM()"
+			onloaded="do_crop_animation(100, 100, 10)"
+ 		/>
+
+		 		<hotspot  name="hotspot_point2_5" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
+ 			ath="118.578" atv="25.941" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_point2_4" scene_EL="scenes_00002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="loadscene(scenes_00008,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(100, 100, 10)"
  		/>
@@ -809,6 +853,14 @@ onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
 			onloaded="do_crop_animation(100, 100, 10)"
  		/>
 
+	<hotspot  name="hotspot_point3_1_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
+ 			ath="-120.958" atv="19.254" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_point1_1" scene_EL="scenes_00003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="loadscene(scenes_00004_2,null,MERGE,BLEND(0.5));"
+			ondown="drag_LinkSM()"
+			onloaded="do_crop_animation(100, 100, 10)"
+ 		/>
+
 		 	<hotspot  name="hotspot_point3_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
  			ath="-148" atv="19" width="100" height="prop" edge="center"
  			install_onclick="5" title="hotspot_point3_2" scene_EL="scenes_00003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
@@ -818,12 +870,30 @@ onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
  		/>
 
 		 	<hotspot  name="hotspot_point3_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
- 			ath="164" atv="20" width="100" height="prop" edge="center"
+ 			ath="-176.842" atv="19.107" width="100" height="prop" edge="center"
  			install_onclick="5" title="hotspot_point3_3" scene_EL="scenes_00003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			onclick="loadscene(scenes_00006,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(100, 100, 10)"
  		/>
+
+		<hotspot  name="hotspot_point3_4" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
+ 			ath="147.556" atv="20.105" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_point3_4" scene_EL="scenes_00003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="loadscene(scenes_00007,null,MERGE,BLEND(0.5));"
+			ondown="drag_LinkSM()"
+			onloaded="do_crop_animation(100, 100, 10)"
+ 		/>
+
+		 		<hotspot  name="hotspot_point3_5" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
+ 			ath="118.578" atv="25.941" width="100" height="prop" edge="center"
+ 			install_onclick="5" title="hotspot_point3_4" scene_EL="scenes_00003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="loadscene(scenes_00008,null,MERGE,BLEND(0.5));"
+			ondown="drag_LinkSM()"
+			onloaded="do_crop_animation(100, 100, 10)"
+ 		/>
+
+
 	<hotspot  name="hotspot_point1_0_01" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
  			ath="87.213" atv="19.238" width="100" height="prop" edge="center"
  			install_onclick="5" title="hotspot_point1_0_01" scene_EL="scenes_00001_01" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
@@ -855,6 +925,10 @@ onclick="loadscene(scenes_00001,null,MERGE,BLEND(0.5));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(100, 100, 10)"
  		/>
+
+
+
+		 
 	<hotspot  name="hotspot_point2_0_01" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/point.png" zorder="5" alpha="1" scale="0.65" distorted="true"
  			ath="87.213" atv="19.238" width="100" height="prop" edge="center"
  			install_onclick="5" title="hotspot_point2_0_01" scene_EL="scenes_00002_01" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"

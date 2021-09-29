@@ -77,6 +77,12 @@
 		);
 	</action>
 
+	<action name="opendoor">
+		txtadd(distanceparameter, 'distance(', get(hotspot[%1].doorframes), ',', get(hotspot[%1].doortime), ')');
+		set(hotspot[%1].doorframe, 1);
+		tween(hotspot[%1].doorframe, get(hotspot[%1].doorframes), get(distanceparameter), linear, null, update_door_frame(%1) );
+	</action>
+
 	<action name="open_or_close_door">
 		txtadd(distanceparameter, 'distance(', get(hotspot[%1].doorframes), ',', get(hotspot[%1].doortime), ')'); if(hotspot[%1].doorstate == 'closed',
 		set(hotspot[%1].doorstate, 'opened');

@@ -14,7 +14,7 @@
 	               controlbar_overlap.fractionalscaling="0"
 	               design_skin_images="vtourskin.png"
 	               design_bgcolor="0xFFFFFF"
-	               design_bgalpha="0.0"
+	               design_bgalpha="0.3"
 	               design_bgborder="0"
 	               design_bgroundedge="0"
 	               design_bgshadow="0"

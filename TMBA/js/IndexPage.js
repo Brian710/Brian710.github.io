@@ -12,14 +12,13 @@ window.onload = function(){
     SetTimerChangeContent("hotspot_94");
 }
 
-document.getElementById("TMBALogo").addEventListener('click', ()=>{
-    window.open("https://www.tmba.org.tw/");
-});
-
 function AppendLogoImage(){
     let _img = document.createElement('IMG');
     _img.setAttribute("class", "Logo");
     _img.setAttribute("id", "TMBALogo");
+    _img.addEventListener('click', ()=>{
+        window.open("https://www.tmba.org.tw/");
+    });
     pano.appendChild(_img);
 }
 

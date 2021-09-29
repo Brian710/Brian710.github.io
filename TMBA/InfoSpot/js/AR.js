@@ -78,7 +78,7 @@ function InsertComponent(json, JSON_Key){
     </div>\
     <div class="row justify-content-center" id="desk_btn">\
     <p class="ARText col-12">▼掃描點擊AR體驗▼</p>\
-        <img class="col-12" src="./images/'+ json["hotspot_94"][JSON_Key]["qrcode"] +'">\
+        <img class="col-6" src="./images/'+ json["hotspot_94"][JSON_Key]["qrcode"] +'">\
     </div>\
     <div class="row justify-content-center" id="inAPP_btn">\
         <div>\
