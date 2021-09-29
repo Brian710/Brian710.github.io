@@ -73,6 +73,7 @@ h2 {
 @media (max-width: 383px){
     .LogoImage{
         width: 83%;
+        transform: scale(0.5);
     }
     #ios_btn button, #android_btn button{
         width: 54%;
