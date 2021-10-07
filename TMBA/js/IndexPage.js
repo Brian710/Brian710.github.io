@@ -37,7 +37,7 @@ function AppendLogoImage(){
         
         let _Close = document.createElement('IMG');
         _Close.setAttribute("class","GuideClose");
-        _Close.style.content = "url('../images/close.png')";
+        _Close.style.content = "url('./images/close.png')";
         _Close.addEventListener('click', ()=>{
             document.getElementById("GuideContainer").remove();
         });
