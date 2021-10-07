@@ -13,15 +13,15 @@
 	               controlbar_overlap.no-fractionalscaling="0"
 	               controlbar_overlap.fractionalscaling="0"
 	               design_skin_images="vtourskin.png"
-	               design_bgcolor="0xFFFFFF"
-	               design_bgalpha="0.3"
+	               design_bgcolor="0xdddddd"
+	               design_bgalpha="0.9"
 	               design_bgborder="0"
 	               design_bgroundedge="0"
 	               design_bgshadow="0"
 	               design_thumbborder_bgborder="3 0x89f7fe 1.0"
 	               design_thumbborder_padding="0"
 	               design_thumbborder_bgroundedge="0"
-	               design_text_css="color:#FFFFFF; font-family:Arial; background-color:rgba(0, 0, 0, 0.45); padding:2px 5px;"
+	               design_text_css="color:#000000;font-family:Arial;padding:0px 5px;letter-spacing: 0.2em;"
 	               design_text_shadow="0"
 	               />
 

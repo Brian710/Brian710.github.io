@@ -91,6 +91,7 @@
 			<cube url="panos/scenes_00000.tiles/pano_%s.jpg" />
 		</image>
 	</scene>
+	
 	<scene name="scenes_00002" title="五軸加工中心機" onstart="js(ChangeSceneCloseFrame());" thumburl="panos/scenes_00001.tiles/thumb2.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -174,7 +175,7 @@
 		</image>
 
 	</scene>
-	<scene name="scenes_00004" title="工具機小知識" onstart="js(ChangeSceneCloseFrame());" thumburl="panos/scenes_00002.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scenes_00004" title="工具機小知識" onstart="js(ChangeSceneCloseFrame());js(InitRollScene());" thumburl="panos/scenes_00002.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -186,7 +187,7 @@
 			<cube url="panos/scenes_00002.tiles/pano_%s.jpg" />
 		</image>
 
-		<style name="doorspot_a" distorted="true" onloaded="calc_pos_from_hfov_yaw_pitch_roll(90, 0, 0, 0);" ox="27" oy="-130" scale="0.45" enabled="false" alpha="0.0" width="500" height="600" edge="center"/>
+		<style name="doorspot_a" distorted="true" onloaded="calc_pos_from_hfov_yaw_pitch_roll(90, 0, 0, 0);" ox="27" oy="-130" scale="0.45" enabled="false" enabled2="false" alpha="0.0" width="500" height="600" edge="center"/>
 	<style name="slotspot" distorted="true" onloaded="calc_pos_from_hfov_yaw_pitch_roll(90, 0, 0, 0);" ox="-120" oy="195" scale="0.25" enabled="false" alpha="0.0" width="1280" height="720" edge="center"/>
 		<hotspot name="slot_a_1" url="images/slotmachine_pngx5/slotmachine_0000.png" style="slotspot" alpha="1.0"/>
 		<hotspot name="slot_a_2" url="images/slotmachine_pngx5/slotmachine_0001.png" style="slotspot"/>
@@ -228,7 +229,7 @@
 		<hotspot name="door_hitarea15" url="images/slotmachine_pngx5/slotmachine_0000.png" alpha="0.0" ath="0" atv="14" rx="15" ry="0" width="130" height="100" ox="94" oy="151" distorted="true" capture="false" doorframe="1" doorframes="5" doortime="0.5" doorname="slot_e_" doorstate="closed" onclick="open_or_close_door(get(name)); js(SetRollingPaperImage(get(name)));"/>
 
 	<hotspot name="roll_defult" url="images/rollingpaper/Q1/Q1_00.png" style="doorspot_a" alpha="1.0"/>
-	<hotspot name="roll_a_1" url="images/rollingpaper/Q1/Q1_00.png" style="doorspot_a" alpha="1.0"/>
+		<hotspot name="roll_a_1" url="images/rollingpaper/Q1/Q1_00.png" style="doorspot_a"/>
 		<hotspot name="roll_a_2" url="images/rollingpaper/Q1/Q1_01.png" style="doorspot_a"/>
 		<hotspot name="roll_a_3" url="images/rollingpaper/Q1/Q1_02.png" style="doorspot_a"/>
 		<hotspot name="roll_a_4" url="images/rollingpaper/Q1/Q1_03.png" style="doorspot_a"/>
@@ -244,7 +245,7 @@
 		<hotspot name="roll_a_14" url="images/rollingpaper/Q1/Q1_13.png" style="doorspot_a"/>
 		<hotspot name="roll_a_15" url="images/rollingpaper/Q1/Q1_14.png" style="doorspot_a"/>
 		<hotspot name="roll_a_16" url="images/rollingpaper/Q1/Q1_15.png" style="doorspot_a"/>
-		<hotspot name="door_hitarea_a_1" url="images/rollingpaper/Q1/Q1_01.png" alpha="0.0" ath="0" atv="14" rx="13.8" ry="1.2" width="500" height="600"  ox="25.82" oy="-263.52" distorted="true" capture="false" doorframe="1" doorframes="16" doortime="1.5" doorname="roll_a_" doorstate="closed" onclick=""/>
+		<hotspot name="door_hitarea_a_1" url="images/rollingpaper/Q1/Q1_01.png" alpha="0.0" handcursor="false" ath="0" atv="14" rx="13.8" ry="1.2" width="500" height="600"  ox="25.82" oy="-263.52" distorted="true" capture="false" doorframe="1" doorframes="16" doortime="1.5" doorname="roll_a_" doorstate="closed" onclick=""/>
 
 	<hotspot name="roll_a2_1" url="images/rollingpaper/Q2/Q2_00.png" style="doorspot_a"/>
 		<hotspot name="roll_a2_2" url="images/rollingpaper/Q2/Q2_01.png" style="doorspot_a"/>
@@ -319,12 +320,12 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="-59.499" vlookat="4.218" fovtype="MFOV" fov="72.612" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" hlookatmin="-180" hlookatmax="+180" vlookatmin="-65" vlookatmax="+65"  />
+		<view hlookat="0.000" vlookat="0.000" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" hlookatmin="-180" hlookatmax="+180" vlookatmin="-60" vlookatmax="+60" />
 
-		<preview url="panos/scenes_00002.tiles/preview.jpg" />
+		<preview url="panos/scenes_00002_1.tiles/preview.jpg" />
 
 		<image>
-			<cube url="panos/scenes_00002.tiles/pano_%s.jpg" />
+			<cube url="panos/scenes_00002_1.tiles/pano_%s.jpg" />
 		</image>
 
 	</scene>
@@ -345,21 +346,43 @@
 		<hotspot name="book_defult" url="images/flippingbook_pngx15/book_00.png" style="doorspot" alpha="1.0"/>
 		<hotspot name="book1" url="images/flippingbook_pngx15/book_00.png" style="doorspot" alpha="1.0"/>
 		<hotspot name="book2" url="images/flippingbook_pngx15/book_01.png" style="doorspot"/>
-		<hotspot name="book3" url="images/flippingbook_pngx15/book_02.png" style="doorspot"/>
-		<hotspot name="book4" url="images/flippingbook_pngx15/book_03.png" style="doorspot"/>
-		<hotspot name="book5" url="images/flippingbook_pngx15/book_04.png" style="doorspot"/>
-		<hotspot name="book6" url="images/flippingbook_pngx15/book_05.png" style="doorspot"/>
-		<hotspot name="book7" url="images/flippingbook_pngx15/book_06.png" style="doorspot"/>
-		<hotspot name="book8" url="images/flippingbook_pngx15/book_07.png" style="doorspot"/>
-		<hotspot name="book9" url="images/flippingbook_pngx15/book_08.png" style="doorspot"/>
-		<hotspot name="book10" url="images/flippingbook_pngx15/book_09.png" style="doorspot"/>
-		<hotspot name="book11" url="images/flippingbook_pngx15/book_10.png" style="doorspot"/>
-		<hotspot name="book12" url="images/flippingbook_pngx15/book_11.png" style="doorspot"/>
-		<hotspot name="book13" url="images/flippingbook_pngx15/book_12.png" style="doorspot"/>
-		<hotspot name="book14" url="images/flippingbook_pngx15/book_13.png" style="doorspot"/>
-		<hotspot name="book15" url="images/flippingbook_pngx15/book_14.png" style="doorspot"/>
-		<hotspot name="book16" url="images/flippingbook_pngx15/book_15.png" style="doorspot"/>
-		<hotspot name="door_hitarea1" url="images/flippingbook_pngx15/book_00.png" alpha="0.0" ath="2" atv="15" rx="13.8" ry="-4.8" width="680" height="452.86" oy="-100" distorted="true" capture="false" doorframe="1" doorframes="16" doortime="3" doorname="book" doorstate="closed" onloaded="opendoor(get(name))" onclick="opendoor(get(name))"/>
+		<hotspot name="book3" url="images/flippingbook_pngx15/book_01.png" style="doorspot"/>
+		<hotspot name="book4" url="images/flippingbook_pngx15/book_01.png" style="doorspot"/>
+		<hotspot name="book5" url="images/flippingbook_pngx15/book_01.png" style="doorspot"/>
+		<hotspot name="book6" url="images/flippingbook_pngx15/book_01.png" style="doorspot"/>
+		<hotspot name="book7" url="images/flippingbook_pngx15/book_01.png" style="doorspot"/>
+		<hotspot name="book8" url="images/flippingbook_pngx15/book_01.png" style="doorspot"/>
+		<hotspot name="book9" url="images/flippingbook_pngx15/book_01.png" style="doorspot"/>
+		<hotspot name="book10" url="images/flippingbook_pngx15/book_02.png" style="doorspot"/>
+		<hotspot name="book11" url="images/flippingbook_pngx15/book_03.png" style="doorspot"/>
+		<hotspot name="book12" url="images/flippingbook_pngx15/book_04.png" style="doorspot"/>
+		<hotspot name="book13" url="images/flippingbook_pngx15/book_05.png" style="doorspot"/>
+		<hotspot name="book14" url="images/flippingbook_pngx15/book_06.png" style="doorspot"/>
+		<hotspot name="book15" url="images/flippingbook_pngx15/book_06.png" style="doorspot"/>
+		<hotspot name="book16" url="images/flippingbook_pngx15/book_06.png" style="doorspot"/>
+		<hotspot name="book17" url="images/flippingbook_pngx15/book_06.png" style="doorspot"/>
+		<hotspot name="book18" url="images/flippingbook_pngx15/book_06.png" style="doorspot"/>
+		<hotspot name="book19" url="images/flippingbook_pngx15/book_06.png" style="doorspot"/>
+		<hotspot name="book20" url="images/flippingbook_pngx15/book_06.png" style="doorspot"/>
+		<hotspot name="book21" url="images/flippingbook_pngx15/book_06.png" style="doorspot"/>
+		<hotspot name="book22" url="images/flippingbook_pngx15/book_07.png" style="doorspot"/>
+		<hotspot name="book23" url="images/flippingbook_pngx15/book_08.png" style="doorspot"/>
+		<hotspot name="book24" url="images/flippingbook_pngx15/book_09.png" style="doorspot"/>
+		<hotspot name="book25" url="images/flippingbook_pngx15/book_10.png" style="doorspot"/>
+		<hotspot name="book26" url="images/flippingbook_pngx15/book_10.png" style="doorspot"/>
+		<hotspot name="book27" url="images/flippingbook_pngx15/book_10.png" style="doorspot"/>
+		<hotspot name="book28" url="images/flippingbook_pngx15/book_10.png" style="doorspot"/>
+		<hotspot name="book29" url="images/flippingbook_pngx15/book_10.png" style="doorspot"/>
+		<hotspot name="book30" url="images/flippingbook_pngx15/book_10.png" style="doorspot"/>
+		<hotspot name="book31" url="images/flippingbook_pngx15/book_10.png" style="doorspot"/>		
+		<hotspot name="book32" url="images/flippingbook_pngx15/book_10.png" style="doorspot"/>
+		<hotspot name="book33" url="images/flippingbook_pngx15/book_11.png" style="doorspot"/>
+		<hotspot name="book34" url="images/flippingbook_pngx15/book_12.png" style="doorspot"/>
+		<hotspot name="book35" url="images/flippingbook_pngx15/book_13.png" style="doorspot"/>
+		<hotspot name="book36" url="images/flippingbook_pngx15/book_14.png" style="doorspot"/>
+		<hotspot name="book37" url="images/flippingbook_pngx15/book_15.png" style="doorspot"/>
+
+		<hotspot name="door_hitarea1" url="images/flippingbook_pngx15/book_00.png" alpha="0.0" ath="2" atv="15" rx="13.8" ry="-4.8" width="680" height="452.86" oy="-100" distorted="true" capture="false" doorframe="1" doorframes="37" doortime="6" doorname="book" doorstate="closed" onloaded="opendoor(get(name))" onclick="opendoor(get(name))"/>
 	</scene>
 
 	<scene name="scenes_00006" title="AR體驗" onstart="js(ChangeSceneCloseFrame());" thumburl="panos/scenes_00004.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -380,7 +403,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="-36.972" vlookat="-0.391" fovtype="MFOV" fov="95.804" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" hlookatmin="-180" hlookatmax="+180" vlookatmin="-65" vlookatmax="+65"  />
+		<view hlookat="-39.735" vlookat="0.758" fovtype="MFOV" fov="114.355" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" hlookatmin="-180" hlookatmax="+180" vlookatmin="-65" vlookatmax="+65"  />
 
 		<preview url="panos/scenes_00005.tiles/preview.jpg" />
 
@@ -390,11 +413,11 @@
 
 	</scene>
 
-			<scene name="scenes_00008" title="TMBA" onstart="js(ChangeSceneCloseFrame());" thumburl="panos/scenes_00005.tiles/thumb2.jpg" lat="" lng="" heading="">
+		<scene name="scenes_00008" title="TMBA" onstart="js(ChangeSceneCloseFrame());" thumburl="panos/scenes_00005.tiles/thumb2.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="-96.410" vlookat="-3.607" fovtype="MFOV" fov="91.110" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" hlookatmin="-180" hlookatmax="+180" vlookatmin="-65" vlookatmax="+65"  />
+		<view hlookat="-99.744" vlookat="0.430" fovtype="MFOV" fov="102.714" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" hlookatmin="-180" hlookatmax="+180" vlookatmin="-65" vlookatmax="+65"  />
 
 		<preview url="panos/scenes_00005.tiles/preview.jpg" />
 

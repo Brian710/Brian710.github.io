@@ -32,7 +32,7 @@
   "hotspot_11":{
     "image":"",
     "title":"床身鑄件",
-    "text":"是車床的大型基礎部件。底座夠穩、機身夠強、才能支撐機頭鑄件、尾座、刀塔滑座，以利進行高速高精度的加工。可分為斜背式與平台是兩種。(本機台為斜背式)"
+    "text":"是車床的大型基礎部件。底座夠穩、機身夠強、才能支撐機頭鑄件、尾座、刀塔滑座，以利進行高速高精度的加工。可分為斜背式與平台式兩種。(本機台為斜背式)"
   },
   "hotspot_12":{
     "image":"AH06/inside_6.png",
@@ -42,7 +42,7 @@
   "hotspot_13":{
     "image":"AH06/inside_7.jpg",
     "title":"伸縮護罩",
-    "text":"保護線軌、硬軌、滾珠螺桿、線材管路等等不受切消液沖刷，不受切屑磨損。"
+    "text":"保護線軌、硬軌、滾珠螺桿、線材管路等等不受切削液沖刷，不受切屑磨損。"
   },
   "hotspot_14":{
     "image":"AH06/inside_8.png",
@@ -52,7 +52,7 @@
   "hotspot_15":{
     "image":"",
     "title":"硬軌",
-    "text":"本機台為硬軌設計，另有線軌設計，軌道為機台進給系統的基礎設計，當伺服馬達驅動螺桿，使工作台於導軌上移動 ，屬滑動式的導軌；硬軌與線性滑軌的差異在面接觸滑動、相同大小時，可得到比線軌更大的承載力和強度。"
+    "text":"本機台為硬軌設計，另有線軌設計，軌道為機台進給系統的基礎設計，當伺服馬達驅動螺桿，使工作台於導軌上移動 ，屬滑動式的導軌。硬軌與線性滑軌的應用差異在面接觸滑動。"
   },
   "hotspot_16":{
     "image":"",
@@ -71,7 +71,7 @@
   },
   "hotspot_31":{
     "image":"UX500/outside_2.png",
-    "title":"刀具總成",
+    "title":"",
     "text":""
   },
   "hotspot_20":{
@@ -92,7 +92,7 @@
   "hotspot_24":{
     "image":"UX500/inside_3.jpg",
     "title":"伸縮護罩",
-    "text":"保護線軌、硬軌、滾珠螺桿、線材管路等等不受切消液沖刷，不受切屑磨損。"
+    "text":"保護線軌、硬軌、滾珠螺桿、線材管路等等不受切削液沖刷，不受切屑磨損。"
   },
   "hotspot_34":{
     "image":"",
@@ -218,7 +218,7 @@
     "UB660":{
       "logo":"LOGO/15-AR友嘉.png",
       "image":"AR/UB-660.png",
-      "title":"UB-660/五軸立式加工中心機",
+      "title":"五軸立式加工中心機",
       "qrcode":"AR/QR_UB660_CH.png",
       "android_ar":"https://onlineffg.com/InfoSpot/InfoPage/FEELER/Popreal/UB660_CH.glb",
       "ios_ar":"https://onlineffg.com/InfoSpot/InfoPage/FEELER/Popreal/UB660_CH.usdz",
@@ -227,7 +227,7 @@
     "VTL1600A":{
       "logo":"LOGO/01油機.jpg",
       "image":"AR/VTL1600A.png",
-      "title":"VTL1600ATC+C/立式車床",
+      "title":"立式車床",
       "qrcode":"AR/QR_VTL1600ATC.png",
       "android_ar":"https://youjionline.com/In_me/InfoPage/Popreal/YOU_JI_POPREAL_ch.glb",
       "ios_ar":"https://youjionline.com/In_me/InfoPage/Popreal/YOU_JI_POPREAL_ch.usdz",
