@@ -29,10 +29,10 @@ function AppendLogoImage(){
         let _Image = document.createElement("IMG");
         _Image.setAttribute("class","GuideImage");
         if(window.innerWidth <= 1024){
-            _Image.style.content = "url('../images/Guide_phone_1.png')";
+            _Image.style.content = "url('./images/Guide_phone.png')";
         }
         else{
-            _Image.style.content = "url('../images/Guide_1.jpg')";
+            _Image.style.content = "url('./images/Guide.jpg')";
         }
         
         let _Close = document.createElement('IMG');
