@@ -196,11 +196,11 @@ function ChangeSceneCloseFrame(){
 function DisplayLogo(status){
     if(status == "true"){
         document.getElementById("TMBALogo").style.display = "";
-        document.getElementById("GuideContainer").style.display = "";
+        document.getElementById("UserGuide").style.display = "";
     }
     else if(status == "false"){
         document.getElementById("TMBALogo").style.display = "none";
-        document.getElementById("GuideContainer").style.display = "none";
+        document.getElementById("UserGuide").style.display = "none";
     }
 }
 
