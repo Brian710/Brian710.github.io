@@ -19,36 +19,6 @@ function AppendLogoImage(){
     _img.addEventListener('click', ()=>{
         window.open("https://www.tmba.org.tw/");
     });
-    let _guide = document.createElement('IMG');
-    _guide.setAttribute("class","UserGuide");
-    _guide.setAttribute("id","UserGuide");
-    _guide.addEventListener('click', ()=>{
-        let _guideImage = document.createElement('DIV');
-        _guideImage.setAttribute("class","GuideContainer");
-        _guideImage.setAttribute("id","GuideContainer");
-        let _Image = document.createElement("IMG");
-        _Image.setAttribute("class","GuideImage");
-        if(window.innerWidth <= 1024){
-            _Image.style.content = "url('./images/Guide_phone.png')";
-        }
-        else{
-            _Image.style.content = "url('./images/Guide.jpg')";
-        }
-        
-        let _Close = document.createElement('IMG');
-        _Close.setAttribute("class","GuideClose");
-        _Close.style.content = "url('./images/close.png')";
-        _Close.addEventListener('click', ()=>{
-            document.getElementById("GuideContainer").remove();
-        });
-        let _BG = document.createElement('DIV');
-        _BG.setAttribute("class","GUideBG");
-        _guideImage.appendChild(_Image);
-        _guideImage.appendChild(_Close);
-        _guideImage.appendChild(_BG);
-        pano.appendChild(_guideImage);
-    });
-    pano.appendChild(_guide);
     pano.appendChild(_img);
 }
 
@@ -96,7 +66,7 @@ function SetRollingPaperImage(name){
     }
     if(name != onEnableroll){
         if(onEnableroll != ""){
-            console.log(name);
+            pano.call("set(hotspot[slot_tips].alpha, 0.0);");
             setTimeout(() => {
                 ChangeRollPaper(name);
                 pano.call("open_or_close_door(door_hitarea_a_1);");
@@ -207,4 +177,31 @@ function DisplayLogo(status){
 function InitRollScene(){
     pano.call("open_or_close_door(door_hitarea15);");
     SetRollingPaperImage("door_hitarea15");
+}
+
+function OpenGuide(){
+    let _guideImage = document.createElement('DIV');
+    _guideImage.setAttribute("class","GuideContainer");
+    _guideImage.setAttribute("id","GuideContainer");
+    let _Image = document.createElement("IMG");
+    _Image.setAttribute("class","GuideImage");
+    if(window.innerWidth <= 1024){
+        _Image.style.content = "url('./images/Guide_phone.png')";
+    }
+    else{
+        _Image.style.content = "url('./images/Guide.jpg')";
+    }
+    
+    let _Close = document.createElement('IMG');
+    _Close.setAttribute("class","GuideClose");
+    _Close.style.content = "url('./images/close.png')";
+    _Close.addEventListener('click', ()=>{
+        document.getElementById("GuideContainer").remove();
+    });
+    let _BG = document.createElement('DIV');
+    _BG.setAttribute("class","GUideBG");
+    _guideImage.appendChild(_Image);
+    _guideImage.appendChild(_Close);
+    _guideImage.appendChild(_BG);
+    pano.appendChild(_guideImage);
 }
