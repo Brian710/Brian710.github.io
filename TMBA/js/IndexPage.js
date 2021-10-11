@@ -186,7 +186,7 @@ function OpenGuide(){
     _guideImage.setAttribute("id","GuideContainer");
     let _Image = document.createElement("IMG");
     _Image.setAttribute("class","GuideImage");
-    if(window.innerWidth <= 1024){
+    if(CheckDevice()){
         _Image.style.content = "url('./images/Guide_phone.png')";
     }
     else{
@@ -205,4 +205,11 @@ function OpenGuide(){
     _guideImage.appendChild(_Close);
     _guideImage.appendChild(_BG);
     pano.appendChild(_guideImage);
+}
+
+function CheckDevice(){
+    var ua = navigator.userAgent.toLowerCase();
+    if (/(iPhone|iPad|iPod|iOS&&!safari)(Android)/i.test(ua)) {
+        return true;
+    }
 }
