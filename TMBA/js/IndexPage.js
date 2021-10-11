@@ -186,13 +186,12 @@ function OpenGuide(){
     _guideImage.setAttribute("id","GuideContainer");
     let _Image = document.createElement("IMG");
     _Image.setAttribute("class","GuideImage");
-    if(CheckDevice()){
+    if(isMobile()){
         _Image.style.content = "url('./images/Guide_phone.png')";
     }
     else{
         _Image.style.content = "url('./images/Guide.jpg')";
     }
-    
     let _Close = document.createElement('IMG');
     _Close.setAttribute("class","GuideClose");
     _Close.style.content = "url('./images/close.png')";
@@ -207,9 +206,14 @@ function OpenGuide(){
     pano.appendChild(_guideImage);
 }
 
-function CheckDevice(){
+function isMobile(){
     var ua = navigator.userAgent.toLowerCase();
-    if (/(iPhone|iPad|iPod|iOS&&!safari|Android)/i.test(ua)) {
+    if (/(iPhone|iPad|iPod|iOS)/i.test(ua)) {
         return true;
     }
+    else if (/(Android)/i.test(ua)) {
+        return true;
+    }
+
+    return false;
 }
