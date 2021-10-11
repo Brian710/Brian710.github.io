@@ -48,15 +48,6 @@ h2 {
     bottom: 0;
     z-index: 10;
 }
-.UserGuide{
-    position: absolute;
-    cursor: pointer;
-    bottom: 0;
-    right: 9vw;
-    z-index: 10;
-    content: url(../images/guide_icon.png);
-    transform: scale(0.65);
-}
 .GuideContainer{
     position: absolute;
     width: 100vw;
@@ -65,7 +56,7 @@ h2 {
 }
 .GuideImage{
     position: absolute;
-    width: 90%;
+    width: 85%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -73,8 +64,8 @@ h2 {
 .GuideClose{
     position: absolute;
     cursor: pointer;
-    top: 7vw;
-    right: 11vw;
+    top: 3%;
+    right: 3%;
 }
 .GUideBG{
     width: 100%;
@@ -84,19 +75,10 @@ h2 {
 
 @media (max-width: 375px){
     .Logo{ width: 9vw; content: url(../images/TMBA_Mobile.png); }
-    .UserGuide{ right: 62%; }
 }
 @media (min-width:376px) and (max-width: 425px){
     .Logo{ width: 8vw; content: url(../images/TMBA_Mobile.png); }
-    .UserGuide{ right: 31%; }
 }
 @media (min-width: 425px){
     .Logo{ content: url(../images/TMBA.png);};
-    .UserGuide{ right: 20%; }
-}
-@media (min-width: 425px) and (max-width: 768px) {
-    .UserGuide{ right: 16%; }
-}
-@media (min-width: 769px) and (max-width: 1024px) {
-    .UserGuide{ right: 13%; }
 }

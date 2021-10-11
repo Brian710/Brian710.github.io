@@ -10,6 +10,7 @@ window.onload = function(){
     pano = parent.window.document.getElementById("krpanoSWFObject");
     AppendLogoImage();
     SetTimerChangeContent("hotspot_94");
+    OpenGuide();
 }
 
 function AppendLogoImage(){
