@@ -209,7 +209,7 @@ function OpenGuide(){
 
 function CheckDevice(){
     var ua = navigator.userAgent.toLowerCase();
-    if (/(iPhone|iPad|iPod|iOS&&!safari)(Android)/i.test(ua)) {
+    if (/(iPhone|iPad|iPod|iOS&&!safari|Android)/i.test(ua)) {
         return true;
     }
 }
