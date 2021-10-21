@@ -33,7 +33,7 @@ function Page(data, content){
     
     let _close = document.createElement("IMG");
     $(_close).addClass("pos-a t-0 r-0 cur-p")
-    .attr("src", "../images/icon/Icon_Close.png").css({"width":"4.5rem", "padding":"0", "z-index":"10"})
+    .attr("src", "./images/icon/Icon_Close.png").css({"width":"4.5rem", "padding":"0", "z-index":"10"})
     .click(function(){
         setTimeout(function(){
             $(_pagecontent).remove();
@@ -61,11 +61,11 @@ function Page(data, content){
 function G_Top(container, data, content){
 
     let _productimage = document.createElement("IMG");
-    $(_productimage).addClass("pd-3-0").attr("src", "../images/product/1.TP825PTB.png").css({"width":"17rem"});
+    $(_productimage).addClass("pd-3-0").attr("src", "./images/product/1.TP825PTB.png").css({"width":"17rem"});
     let _logo = document.createElement("IMG");
-    $(_logo).addClass("pos-a t-0 l-0").attr("src", "../images/icon/Page_Logo.png").css({"width":"5rem", "margin-top":"calc(0.5 * var(--bs-gutter-x))"});
+    $(_logo).addClass("pos-a t-0 l-0").attr("src", "./images/icon/Page_Logo.png").css({"width":"5rem", "margin-top":"calc(0.5 * var(--bs-gutter-x))"});
     let _bgc = document.createElement("IMG");
-    $(_bgc).addClass("pos-a t-0 r-0").attr("src", "../images/icon/Page_Bgc.png").css({"width":"13rem", "padding":"0", "opacity":"0.6"});
+    $(_bgc).addClass("pos-a t-0 r-0").attr("src", "./images/icon/Page_Bgc.png").css({"width":"13rem", "padding":"0", "opacity":"0.6"});
 
     let _itemmodel = document.createElement("P");
     $(_itemmodel).addClass("pos-a b-0 ModelText").html(data[content]["D-model"]);
@@ -83,7 +83,7 @@ function G_Btn(container, data, content){
     let _catalog_btn = document.createElement("DIV");
     $(_catalog_btn).addClass("d-flex flex-column ProductBtn");
     let _catalog_img = document.createElement("IMG");
-    $(_catalog_img).attr("src","../images/icon/Icon_Catalog.png");
+    $(_catalog_img).attr("src","./images/icon/Icon_Catalog.png");
     let _catalog_text = document.createElement("P");
     $(_catalog_text).html("線上型錄");
     $(_catalog_btn).append($(_catalog_img),$(_catalog_text));
@@ -91,7 +91,7 @@ function G_Btn(container, data, content){
     let _info_btn = document.createElement("DIV");
     $(_info_btn).addClass("d-flex flex-column ProductBtn");
     let _info_img = document.createElement("IMG");
-    $(_info_img).attr("src","../images/icon/Icon_Info.png");
+    $(_info_img).attr("src","./images/icon/Icon_Info.png");
     let _info_text = document.createElement("P");
     $(_info_text).html("更多資訊");
     $(_info_btn).append($(_info_img),$(_info_text));
@@ -99,7 +99,7 @@ function G_Btn(container, data, content){
     let _contact_btn = document.createElement("DIV");
     $(_contact_btn).addClass("d-flex flex-column ProductBtn");
     let _contact_img = document.createElement("IMG");
-    $(_contact_img).attr("src","../images/icon/Icon_Contact.png");
+    $(_contact_img).attr("src","./images/icon/Icon_Contact.png");
     let _contact_text = document.createElement("P");
     $(_contact_text).html("聯絡我們");
     $(_contact_btn).append($(_contact_img),$(_contact_text));
@@ -153,12 +153,12 @@ function G_Bot(container, data, content){
         $(_industrytext).addClass("fw-7").html(IndustryType[i - 1]).css({"font-size":"15px", "margin":"15px"});
         for(let j = 0; j < data[content]["P-Industry"].length; j++){
             if(i == data[content]["P-Industry"][j]){
-                $(_industryimg).attr("src","../images/icon/Use_"+ i +".png");
+                $(_industryimg).attr("src","./images/icon/Use_"+ i +".png");
                 $(_industrytext).css("color","#00428E");
                 break;
             }
             else{
-                $(_industryimg).attr("src","../images/icon/Use_"+ i +"N.png");
+                $(_industryimg).attr("src","./images/icon/Use_"+ i +"N.png");
                 $(_industrytext).css("color","#9E9E9E");
             }
         }
@@ -179,7 +179,7 @@ function G_VideoPlay(id){
 
     let _close = document.createElement("IMG");
     $(_close).addClass("pos-a t-0 r-0 cur-p")
-    .attr("src", "../images/icon/Icon_Close.png").css({"width":"7rem", "padding":"0", "z-index":"10"})
+    .attr("src", "./images/icon/Icon_Close.png").css({"width":"7rem", "padding":"0", "z-index":"10"})
     .click(function(){
         $(_videocontainer).remove();
     }).appendTo($(_videocontainer));
