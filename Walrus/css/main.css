@@ -1,0 +1,91 @@
+.PageContent{
+    width: 35%;
+}
+.PageContentAni{
+    animation: Right-in-Page 1s linear;
+    animation-fill-mode: forwards;
+}
+.ProductPage{
+    width: 86%;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.Rollout{
+    animation: Right-out-Page 1s linear;
+}
+
+@keyframes Right-in-Page{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes Right-out-Page{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+.ModelText{
+    right: 1rem;
+    font-size: 15px;
+    text-align: end;
+    color: #3EC6FF;
+}
+.ProductBtnList{
+    top: 5rem;
+    left: 3rem;
+    width: 4rem;
+    z-index: 10;
+}
+.ProductBtn{
+    cursor: pointer;
+    width: 4rem;
+    height: 4rem;
+    padding: 9px;
+    background-color: #00428E;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.ProductBtn img{
+    width: 2rem;
+    margin: 0 14%;
+}
+.ProductBtn p{
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/**********  MID  **********/
+.ContentSeries{
+    color: #00428E;
+    border-left: 7px solid #FFD900;
+}
+.ProductContent ul li{
+    list-style: disc;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+/**********  Video  **********/
+.VideoContent{
+    cursor: pointer;
+    width: 31rem;
+    height: 21rem;
+    margin-bottom: 1rem;
+}
+.VideoPlayer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90vw;
+    height: 90vh;
+    transform: translate(-50%,-50%);
+}
