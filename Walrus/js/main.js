@@ -163,7 +163,7 @@ function G_Bot(container, data, content){
         let _industrytext = document.createElement("P");
 
         if($("#PageContent").outerWidth() > 400){
-            $(_industrycontainer).addClass("col-6 d-flex flex-column ta-c text-center").css({"margin-bottom":"1.25rem"});
+            $(_industrycontainer).addClass("col-6 d-flex flex-column text-center").css({"margin-bottom":"1.25rem"});
             $(_industryimg).css({"width":"3rem","height":"3rem","display":"block","margin":"auto"});
         }
         else{
