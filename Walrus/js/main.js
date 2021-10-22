@@ -169,6 +169,7 @@ function G_Bot(container, data, content){
             $(_industrycontainer).addClass("col-10 d-flex flex-row").css({"margin-bottom":"1.25rem"});
         }
         $(_industryimg).addClass("IndustryImg");
+        console.log($("#PageContent").outerWidth());
         if($("#PageContent").outerWidth() > 405){
             $(_industrytext).addClass("fw-7").html(IndustryType[i - 1]).css({"font-size":"15px", "margin":"15px"});
         }
