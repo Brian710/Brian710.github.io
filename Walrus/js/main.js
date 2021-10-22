@@ -65,7 +65,7 @@ function Page(data, content){
 function G_Top(container, data, content){
 
     let _productimage = document.createElement("IMG");
-    $(_productimage).addClass("pd-3-0 z-100").attr("src", "./images/product/1.TP825PTB.png").css({"width":"17rem"});
+    $(_productimage).addClass("pd-3-0 h-25 z-100").attr("src", "./images/product/1.TP825PTB.png").css({"width":"17rem"});
     let _logo = document.createElement("IMG");
     $(_logo).addClass("pos-a t-0 l-0").attr("src", "./images/icon/Page_Logo.png").css({"width":"5rem", "margin-top":"calc(0.5 * var(--bs-gutter-x))"});
     let _bgc = document.createElement("IMG");
@@ -135,7 +135,7 @@ function G_Video(container, data, content){
 
     data[content]["P-Video"].forEach(object => {
         let _video = document.createElement("IMG");
-        $(_video).addClass("col-10 VideoContent").attr("data-content", object).attr("src","https://img.youtube.com/vi/"+ object +"/sddefault.jpg")
+        $(_video).addClass("col-10 h-25 VideoContent").attr("data-content", object).attr("src","https://img.youtube.com/vi/"+ object +"/sddefault.jpg")
         .click(function(){
             G_VideoPlay(object);
         }).appendTo($(container));
