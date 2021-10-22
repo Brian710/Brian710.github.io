@@ -1,7 +1,7 @@
 {
     "hq200b":{
-        "Series":"家用-1.TP8系列",
-        "D-model":"展示機型TP825PTB",
+        "Series":"TP8系列",
+        "D-model":"TP825PTB",
         "P-Name":"塑鋼不生銹加壓機",
         "Features":[
             "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
@@ -20,8 +20,8 @@
         "P-Industry":[1, 4]
     },
     "tq1500b":{
-        "Series":"家用-1.TP8系列",
-        "D-model":"展示機型TP825PTB",
+        "Series":"TP8系列",
+        "D-model":"TP825PTB",
         "P-Name":"塑鋼不生銹加壓機",
         "Features":[
             "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
@@ -40,8 +40,8 @@
         "P-Industry":[1, 4]
     },
     "gqcn400b":{
-        "Series":"家用-1.TP8系列",
-        "D-model":"展示機型TP825PTB",
+        "Series":"TP8系列",
+        "D-model":"TP825PTB",
         "P-Name":"塑鋼不生銹加壓機",
         "Features":[
             "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
@@ -60,8 +60,8 @@
         "P-Industry":[1, 4]
     },
     "tp825ptb":{
-        "Series":"家用-1.TP8系列",
-        "D-model":"展示機型TP825PTB",
+        "Series":"TP8系列",
+        "D-model":"TP825PTB",
         "P-Name":"塑鋼不生銹加壓機",
         "Features":[
             "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
