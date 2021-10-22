@@ -162,14 +162,14 @@ function G_Bot(container, data, content){
         let _industryimg = document.createElement("IMG");
         let _industrytext = document.createElement("P");
 
-        if($("#PageContent").outerWidth() > 425){
+        if($("#PageContent").outerWidth() > 405){
             $(_industrycontainer).addClass("col-6 d-flex flex-row").css({"margin-bottom":"1.25rem"});
         }
         else{
             $(_industrycontainer).addClass("col-10 d-flex flex-row").css({"margin-bottom":"1.25rem"});
         }
         $(_industryimg).addClass("IndustryImg");
-        if($("#PageContent").outerWidth() > 425){
+        if($("#PageContent").outerWidth() > 405){
             $(_industrytext).addClass("fw-7").html(IndustryType[i - 1]).css({"font-size":"15px", "margin":"15px"});
         }
         else{
