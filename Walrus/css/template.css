@@ -55,9 +55,6 @@ body {
     height:100%;
     overflow:hidden;
     font-family:Arial, Helvetica, sans-serif;
-    font-size:16px;
-    color:#FFFFFF;
-    background-color:#000000;
 }
 #pano{
     width: 100%;
@@ -94,3 +91,6 @@ body {
     .fw-7{ font-weight: 700; }
 /*********** border ***********/
 .border-b-1{ border-bottom: 1px solid #000000; }
+/*********** z-index ***********/
+.z-100{ z-index: 100; }
+.z-110{ z-index: 110; }

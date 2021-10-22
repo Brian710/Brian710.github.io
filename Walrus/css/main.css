@@ -1,12 +1,13 @@
 .PageContent{
-    width: 35%;
+    width: 28%;
+    z-index: 110;
 }
 .PageContentAni{
     animation: Right-in-Page 1s linear;
     animation-fill-mode: forwards;
 }
 .ProductPage{
-    width: 86%;
+    width: 95%;
     background-color: #FFFFFF;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -41,9 +42,9 @@
 }
 .ProductBtnList{
     top: 5rem;
-    left: 3rem;
+    left: -1rem;
     width: 4rem;
-    z-index: 10;
+    z-index: 110;
 }
 .ProductBtn{
     cursor: pointer;
@@ -53,6 +54,7 @@
     background-color: #00428E;
     border-radius: 10px;
     margin-bottom: 1rem;
+    z-index: 10;
 }
 .ProductBtn img{
     width: 2rem;
@@ -77,8 +79,7 @@
 /**********  Video  **********/
 .VideoContent{
     cursor: pointer;
-    width: 31rem;
-    height: 21rem;
+    padding: 0;
     margin-bottom: 1rem;
 }
 .VideoPlayer{
@@ -88,4 +89,22 @@
     width: 90vw;
     height: 90vh;
     transform: translate(-50%,-50%);
+}
+/**********  Industry  **********/
+.IndustryImg{
+    height: 3rem;
+}
+
+@media (max-width: 425px){
+    html{ font-size: 14px; }
+    .PageContent{ width: 90%; }
+    .ProductBtn{ width: 4.8rem; height: 4.8rem; }
+    .ProductBtn img{ width: 2.6rem; }
+}
+@media (min-width: 426px) and (max-width: 1024px){
+    html{ font-size: 16px; }
+    .PageContent{ width: 90%; }
+    .ProductBtnList{ left: 0rem;}
+    .ProductBtn{ width: 4.8rem; height: 4.8rem; }
+    .ProductBtn img{ width: 2.6rem; }
 }

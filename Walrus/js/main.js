@@ -14,8 +14,11 @@ function Data(enableContent){
 }
 
 function Page(data, content){
+    let _clickempty = document.createElement("DIV");
+    $(_clickempty).addClass("pos-a w-100 h-100 t-0 r-0").appendTo( "#pano" );
+
     let _pagecontent = document.createElement("DIV");
-    $(_pagecontent).addClass("pos-a h-100 t-0 r-0 PageContent PageContentAni").appendTo( "#pano" );
+    $(_pagecontent).addClass("pos-a h-100 t-0 r-0 PageContent PageContentAni").attr("id","PageContent").appendTo( "#pano" );
 
     let _container = document.createElement("DIV");
     $(_container).addClass("pos-a h-100 t-0 r-0 Container ProductPage")
@@ -32,10 +35,11 @@ function Page(data, content){
     G_Btn(_btncontainer, data, content);
     
     let _close = document.createElement("IMG");
-    $(_close).addClass("pos-a t-0 r-0 cur-p")
-    .attr("src", "./images/icon/Icon_Close.png").css({"width":"4.5rem", "padding":"0", "z-index":"10"})
+    $(_close).addClass("pos-a t-0 r-0 cur-p z-110")
+    .attr("src", "./images/icon/Icon_Close.png").css({"width":"4.5rem", "padding":"0"})
     .click(function(){
         setTimeout(function(){
+            $(_clickempty).remove();
             $(_pagecontent).remove();
         }, 1000);
         $(_pagecontent).removeClass("PageContentAni").addClass("Rollout");
@@ -61,7 +65,7 @@ function Page(data, content){
 function G_Top(container, data, content){
 
     let _productimage = document.createElement("IMG");
-    $(_productimage).addClass("pd-3-0").attr("src", "./images/product/1.TP825PTB.png").css({"width":"17rem"});
+    $(_productimage).addClass("pd-3-0 z-100").attr("src", "./images/product/1.TP825PTB.png").css({"width":"17rem"});
     let _logo = document.createElement("IMG");
     $(_logo).addClass("pos-a t-0 l-0").attr("src", "./images/icon/Page_Logo.png").css({"width":"5rem", "margin-top":"calc(0.5 * var(--bs-gutter-x))"});
     let _bgc = document.createElement("IMG");
@@ -131,7 +135,7 @@ function G_Video(container, data, content){
 
     data[content]["P-Video"].forEach(object => {
         let _video = document.createElement("IMG");
-        $(_video).addClass("VideoContent").attr("data-content", object).attr("src","https://img.youtube.com/vi/"+ object +"/sddefault.jpg")
+        $(_video).addClass("col-10 VideoContent").attr("data-content", object).attr("src","https://img.youtube.com/vi/"+ object +"/sddefault.jpg")
         .click(function(){
             G_VideoPlay(object);
         }).appendTo($(container));
@@ -149,8 +153,19 @@ function G_Bot(container, data, content){
         let _industryimg = document.createElement("IMG");
         let _industrytext = document.createElement("P");
 
-        $(_industrycontainer).addClass("col-6 d-flex flex-row").css({"margin-bottom":"1.25rem"});
-        $(_industrytext).addClass("fw-7").html(IndustryType[i - 1]).css({"font-size":"15px", "margin":"15px"});
+        if($("#PageContent").outerWidth() > 425){
+            $(_industrycontainer).addClass("col-6 d-flex flex-row").css({"margin-bottom":"1.25rem"});
+        }
+        else{
+            $(_industrycontainer).addClass("col-10 d-flex flex-row").css({"margin-bottom":"1.25rem"});
+        }
+        $(_industryimg).addClass("IndustryImg");
+        if($("#PageContent").outerWidth() > 425){
+            $(_industrytext).addClass("fw-7").html(IndustryType[i - 1]).css({"font-size":"15px", "margin":"15px"});
+        }
+        else{
+            $(_industrytext).addClass("fw-7").html(IndustryType[i - 1]).css({"font-size":"12px", "margin":"15px"});
+        }        
         for(let j = 0; j < data[content]["P-Industry"].length; j++){
             if(i == data[content]["P-Industry"][j]){
                 $(_industryimg).attr("src","./images/icon/Use_"+ i +".png");
@@ -170,7 +185,7 @@ function G_Bot(container, data, content){
 function G_VideoPlay(id){
 
     let _videocontainer = document.createElement("DIV");
-    $(_videocontainer).css({"position":"absolute","top":"0","background-color":"#000","width":"100vw","height":"100vh","z-index":"100"}).appendTo( "#pano" );
+    $(_videocontainer).css({"position":"absolute","top":"0","background-color":"#000","width":"100vw","height":"100vh","z-index":"150"}).appendTo( "#pano" );
 
     let _videoplay = document.createElement("IFRAME");
     $(_videoplay).addClass("VideoPlayer").attr("frameborder", "0")
