@@ -82,6 +82,11 @@
     padding: 0;
     margin-bottom: 1rem;
 }
+.VideoBtn{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .VideoPlayer{
     position: absolute;
     top: 50%;

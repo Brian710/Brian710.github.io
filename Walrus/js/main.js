@@ -134,11 +134,20 @@ function G_Mid(container, data, content){
 function G_Video(container, data, content){
 
     data[content]["P-Video"].forEach(object => {
-        let _video = document.createElement("IMG");
-        $(_video).addClass("col-10 h-25 VideoContent").attr("data-content", object).attr("src","https://img.youtube.com/vi/"+ object +"/sddefault.jpg")
+        let _videodiv = document.createElement("DIV");
+        $(_videodiv).addClass("pos-r col-10 h-25 VideoContent").attr("data-content", object)
         .click(function(){
             G_VideoPlay(object);
-        }).appendTo($(container));
+        });
+
+        let _video = document.createElement("IMG");
+        $(_video).addClass("w-100").attr("src","https://img.youtube.com/vi/"+ object +"/sddefault.jpg");
+
+        let _videobtn = document.createElement("IMG");
+        $(_videobtn).addClass("pos-a VideoBtn").attr("src","./images/icon/Video.png");
+
+        $(_videodiv).append($(_video),$(_videobtn));
+        $(container).append($(_videodiv));
     });
 }
 
