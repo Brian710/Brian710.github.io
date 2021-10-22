@@ -94,3 +94,5 @@ body {
 /*********** z-index ***********/
 .z-100{ z-index: 100; }
 .z-110{ z-index: 110; }
+/*********** text ***********/
+.ta-c{ text-align: center; }
