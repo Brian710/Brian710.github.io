@@ -103,10 +103,102 @@
 .MenuBtn{
     top: 5px;
     left: 5px;
+    z-index: 100;
 }
 .MenuBtn img{
     top: 1.5rem;
     left: 1rem;
+}
+.MenuBgc{
+    top: 0;
+    left: 0;
+    width: 55vw;
+    height: 100vh;
+    background-color: rgba(244, 244, 244, .6);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    clip-path: circle(50% at 0 37%);
+}
+.MenuContent{
+    width: 25vw;
+    height: 80vh;
+}
+.MenuBtnList{
+    width: 15rem;
+    top: -1rem;
+    left: 6rem;
+}
+.MenuBtnListDIV{
+    cursor: pointer;
+}
+.MenuBtnListDIV p{
+    margin: 0; padding: 0;
+    top: 14px;
+    left: 18px;
+    color: #FFFFFF;
+}
+.SoundBtn{
+    top: 17px;
+    left: 13px;
+}
+.MenuSceneBtn div{
+    height: 50px;
+    margin-bottom: 1.25rem;
+}
+.MenuSceneBtn div p{
+    color: #000000;
+    width: 15rem;
+    font-weight: 400;
+}
+.SceneBtnAni{
+    animation: Left-in-Menu 1s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.SceneBtnAni-Out{
+    animation: Left-out-Menu 1s ease-in;
+}
+
+.Rollin-left{
+    animation: Left-in-Page 1s linear;
+    animation-fill-mode: forwards;
+}
+.Rollout-left{
+    animation: Left-out-Page 1s linear;
+}
+
+@keyframes Left-in-Page{
+    0%{
+        transform: translateX(-30vw) translateY(-50vh);
+    }
+    100%{
+        transform: translateX(0) translateY(0);
+    }
+}
+@keyframes Left-out-Page{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-30vw) translateY(-20vh);
+    }
+}
+
+@keyframes Left-in-Menu{
+    0%{
+        transform: translateX(-30vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes Left-out-Menu{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-30vw);
+    }
 }
 
 @media (max-width: 425px){

@@ -78,6 +78,7 @@ body {
 /*********** height ***********/
 
 /*********** padding ***********/
+.pd-10-15{ padding: 10px 15px};
 .pd-3-0{ padding: 3rem 0; }
 
 .p-r-2{ padding-right: 2rem; }
