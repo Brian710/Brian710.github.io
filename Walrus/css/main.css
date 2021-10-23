@@ -99,6 +99,11 @@
 .IndustryImg{
     height: 3rem;
 }
+/**********  Menu  **********/
+.MenuBtn img{
+    top: 1.5rem;
+    left: 1rem;
+}
 
 @media (max-width: 425px){
     html{ font-size: 14px; }

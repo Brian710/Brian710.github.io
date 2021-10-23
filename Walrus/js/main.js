@@ -1,10 +1,60 @@
-const IndustryType = ["營造工程類","農、漁業","製造業","批發零售業","科技業","服務業","住宿及餐飲業"];
+const IndustryType = [
+    "營造工程類",
+    "農、漁業",
+    "製造業",
+    "批發零售業",
+    "科技業",
+    "服務業",
+    "住宿及餐飲業"
+];
+const IndustryType_EN = [
+    "Construction Industry",
+    "Agriculture/Fishing Industry",
+    "Manufacturing Industry",
+    "Wholesale & Retail Industry",
+    "Technology Industry",
+    "Service Industry",
+    "Accommodation & Food Service Activities"
+];
+const IndustryType_JP = [
+    "建設工学",
+    "農、漁業",
+    "製造",
+    "卸売と小売り",
+    "テクノロジー産業",
+    "サービス",
+    "宿泊およびケータリング業界"
+];
 
 function Init(){
     embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
+    Menu();
 }
 
 Init();
+
+var _polymorph = anime({
+    targets: '.morph',
+    d: [
+        { value: 'M32.4999 1.49994C45.4999 3.99987 51.9999 7.50007 59.9999 18C67.1557 27.3919 64.9999 44.9999 59.9999 54.9999C54.9999 64.9999 35 92.4999 21.4999 76.0001C6.4046 57.5505 -1.96726 59.6392 1.99988 38C7.49982 7.9999 15.7768 -1.71594 32.4999 1.49994Z' },
+        { value: 'M34.0227 3.45643C38.4986 5.84602 43.5128 6.54299 48.0879 8.705C58.7677 13.7402 65.085 26.1718 65.0142 37.1525C64.9118 53.0207 53.5878 70.0063 40.085 78.0885C15.1349 91.7739 1.64373 67.5033 0.143971 42.5C-1.39585 16.8289 9.70492 -9.61455 34.0227 3.45643Z' },
+    ],
+    easing: 'easeOutQuad',
+    duration: 3000,
+    loop: true,
+})
+
+function Menu(){
+    let _menucontainer = document.createElement("DIV");
+    $(_menucontainer).addClass("pos-a t-0 MenuContainer").attr("id","MenuContainer").appendTo( "#pano" );
+
+    let _menubtn = document.createElement("DIV");
+    $(_menubtn).addClass("pos-r cur-p MenuBtn").html('<svg width="65" height="82" viewBox="0 0 65 82" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="morph" d="M34.0227 3.45643C38.4986 5.84602 43.5128 6.54299 48.0879 8.705C58.7677 13.7402 65.085 26.1718 65.0142 37.1525C64.9118 53.0207 53.5878 70.0063 40.085 78.0885C15.1349 91.7739 1.64373 67.5033 0.143971 42.5C-1.39585 16.8289 9.70492 -9.61455 34.0227 3.45643Z" fill="#00428E"/></svg>');
+    let _menubtnimage = document.createElement("IMG");
+    $(_menubtnimage).addClass("pos-a display-auto mg-auto").attr("src","./images/menu/Icon_Menu_list.png").appendTo($(_menubtn));
+    
+    $(_menucontainer).append($(_menubtn));
+}
 
 function Data(enableContent){
     console.log(enableContent);
@@ -167,13 +217,12 @@ function G_Bot(container, data, content){
             $(_industryimg).css({"width":"3rem","height":"3rem","display":"block","margin":"auto"});
         }
         else{
-            $(_industrycontainer).addClass("col-10 d-flex flex-row").css({"margin-bottom":"1.25rem"});
-            // $(_industryimg).css({""});
+            $(_industrycontainer).addClass("col-12 d-flex flex-row").css({"margin-bottom":"1.25rem"});
         }
         $(_industryimg).addClass("IndustryImg");
         console.log($("#PageContent").outerWidth());
         if($("#PageContent").outerWidth() > 400){
-            $(_industrytext).addClass("align-content-center fw-7").html(IndustryType[i - 1]).css({"font-size":"15px", "margin":"10px 0"});
+            $(_industrytext).addClass("align-content-center fw-7").html(IndustryType[i - 1]).css({"height":"2.5rem","font-size":"15px", "margin":"10px 0"});
         }
         else{
             $(_industrytext).addClass("fw-7").html(IndustryType[i - 1]).css({"font-size":"12px", "margin":"15px"});

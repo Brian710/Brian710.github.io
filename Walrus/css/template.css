@@ -61,6 +61,8 @@ body {
     height: 100%;
 }
 /*********** Template ***********/
+/*********** display ***********/
+.display-block{ display: block; }
 /*********** cursor ***********/
 .cur-p{ cursor: pointer; }
 /*********** position ***********/
@@ -82,6 +84,7 @@ body {
 .p-l-2{ padding-left: 2rem; }
 
 /*********** margin ***********/
+.mg-auto{ margin: auto; }
 .mg-0{ margin: 0;}
 /*********** font ***********/
     /*********** size ***********/
