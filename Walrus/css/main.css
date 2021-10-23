@@ -116,6 +116,7 @@
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     clip-path: circle(50% at 50% 50%);
+    transform: translateX(-60vw) translateY(-69vh);
 }
 .MenuContent{
     width: 25vw;
@@ -195,24 +196,20 @@
     0%{
         width: 800px;
         height: 800px;
-        transform: translateX(-60vw) translateY(-69vh);
     }
     100%{
         width: 1600px;
         height: 1600px;
-        transform: translateX(-60vw) translateY(-69vh);
     }
 }
 @keyframes Left-out-Page{
     0%{
         width: 1600px;
         height: 1600px;
-        transform: translateX(-60vw) translateY(-69vh);
     }
     100%{
         width: 800px;
         height: 800px;
-        transform: translateX(-60vw) translateY(-69vh);
     }
 }
 
