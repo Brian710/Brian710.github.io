@@ -86,7 +86,7 @@ function Menu(){
             setTimeout(function(){
                 $("#MenuBGC").remove();
                 $("#MenuContent").remove();
-            }, 800);
+            }, 300);
             $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
             $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
         }
