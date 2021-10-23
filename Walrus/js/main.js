@@ -86,7 +86,7 @@ function Menu(){
             setTimeout(function(){
                 $("#MenuBGC").remove();
                 $("#MenuContent").remove();
-            }, 1000);
+            }, 800);
             $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
             $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
         }
@@ -388,13 +388,17 @@ function G_MenuScenesBtnList(container){
     $(_home_img).attr("src","./images/menu/Home.png");
     let _home_text = document.createElement("P");
     $(_home_text).addClass("mg-0 pd-10-15").html(MenuButton[0]);
+    let _home_line = document.createElement("DIV");
+    $(_home_line).addClass("pos-a");
     $(_home).mouseover(function(){
         $(_home_img).hide();
-        $(_home_text).css({"color":"#00428E","font-weight":"700","border-bottom": "2px solid #00428E"});
+        $(_home_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
+        $(_home_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
     }).mouseout(function(){
         $(_home_img).show();
-        $(_home_text).css({"color":"#000000","font-weight":"400","border-bottom": ""});
-    }).append($(_home_img),$(_home_text));
+        $(_home_text).removeClass("text-roll-left-in").addClass("text-roll-right-out").css({"color":"#545454"});
+        $(_home_line).removeClass("line-roll-right-in").addClass("line-roll-right-out");
+    }).append($(_home_img),$(_home_text),$(_home_line));
 
     let _construction = document.createElement("DIV");
     $(_construction).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
@@ -402,13 +406,17 @@ function G_MenuScenesBtnList(container){
     $(_construction_img).attr("src","./images/icon/Use_1.png");
     let _construction_text = document.createElement("P");
     $(_construction_text).addClass("mg-0 pd-10-15").html(MenuButton[1]);
+    let _construction_line = document.createElement("DIV");
+    $(_construction_line).addClass("pos-a MenuBtnLine");
     $(_construction).mouseover(function(){
         $(_construction_img).hide();
-        $(_construction_text).css({"color":"#00428E","font-weight":"700","border-bottom": "2px solid #00428E"});
+        $(_construction_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
+        $(_construction_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
     }).mouseout(function(){
         $(_construction_img).show();
-        $(_construction_text).css({"color":"#000000","font-weight":"400","border-bottom": ""});
-    }).append($(_construction_img),$(_construction_text));
+        $(_construction_text).removeClass("text-roll-left-in").addClass("text-roll-right-out").css({"color":"#545454"});
+        $(_construction_line).removeClass("line-roll-right-in").addClass("line-roll-right-out");
+    }).append($(_construction_img),$(_construction_text),$(_construction_line));
 
     let _manufacturing = document.createElement("DIV");
     $(_manufacturing).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
@@ -416,13 +424,17 @@ function G_MenuScenesBtnList(container){
     $(_manufacturing_img).attr("src","./images/icon/Use_3.png");
     let _manufacturing_text = document.createElement("P");
     $(_manufacturing_text).addClass("mg-0 pd-10-15").html(MenuButton[2]);
+    let _manufacturing_line = document.createElement("DIV");
+    $(_manufacturing_line).addClass("pos-a MenuBtnLine");
     $(_manufacturing).mouseover(function(){
         $(_manufacturing_img).hide();
-        $(_manufacturing_text).css({"color":"#00428E","font-weight":"700","border-bottom": "2px solid #00428E"});
+        $(_manufacturing_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
+        $(_manufacturing_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
     }).mouseout(function(){
         $(_manufacturing_img).show();
-        $(_manufacturing_text).css({"color":"#000000","font-weight":"400","border-bottom": ""});
-    }).append($(_manufacturing_img),$(_manufacturing_text));
+        $(_manufacturing_text).removeClass("text-roll-left-in").addClass("text-roll-right-out").css({"color":"#545454"});
+        $(_manufacturing_line).removeClass("line-roll-right-in").addClass("line-roll-right-out");
+    }).append($(_manufacturing_img),$(_manufacturing_text),$(_manufacturing_line));
 
     let _tech = document.createElement("DIV");
     $(_tech).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
@@ -430,13 +442,17 @@ function G_MenuScenesBtnList(container){
     $(_tech_img).attr("src","./images/icon/Use_5.png");
     let _tech_text = document.createElement("P");
     $(_tech_text).addClass("mg-0 pd-10-15").html(MenuButton[3]);
+    let _tech_line = document.createElement("DIV");
+    $(_tech_line).addClass("pos-a MenuBtnLine");
     $(_tech).mouseover(function(){
         $(_tech_img).hide();
-        $(_tech_text).css({"color":"#00428E","font-weight":"700","border-bottom": "2px solid #00428E"});
+        $(_tech_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
+        $(_tech_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
     }).mouseout(function(){
         $(_tech_img).show();
-        $(_tech_text).css({"color":"#000000","font-weight":"400","border-bottom": ""});
-    }).append($(_tech_img),$(_tech_text));
+        $(_tech_text).removeClass("text-roll-left-in").addClass("text-roll-right-out").css({"color":"#545454"});
+        $(_tech_line).removeClass("line-roll-right-in").addClass("line-roll-right-out");
+    }).append($(_tech_img),$(_tech_text),$(_tech_line));
 
     let _retail = document.createElement("DIV");
     $(_retail).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
@@ -444,13 +460,17 @@ function G_MenuScenesBtnList(container){
     $(_retail_img).attr("src","./images/icon/Use_4.png");
     let _retail_text = document.createElement("P");
     $(_retail_text).addClass("mg-0 pd-10-15").html(MenuButton[4]);
+    let _retail_line = document.createElement("DIV");
+    $(_retail_line).addClass("pos-a MenuBtnLine");
     $(_retail).mouseover(function(){
         $(_retail_img).hide();
-        $(_retail_text).css({"color":"#00428E","font-weight":"700","border-bottom": "2px solid #00428E"});
+        $(_retail_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
+        $(_retail_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
     }).mouseout(function(){
         $(_retail_img).show();
-        $(_retail_text).css({"color":"#000000","font-weight":"400","border-bottom": ""});
-    }).append($(_retail_img),$(_retail_text));
+        $(_retail_text).removeClass("text-roll-left-in").addClass("text-roll-right-out").css({"color":"#545454"});
+        $(_retail_line).removeClass("line-roll-right-in").addClass("line-roll-right-out");
+    }).append($(_retail_img),$(_retail_text),$(_retail_line));
 
     let _fishing = document.createElement("DIV");
     $(_fishing).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
@@ -458,13 +478,17 @@ function G_MenuScenesBtnList(container){
     $(_fishing_img).attr("src","./images/icon/Use_2.png");
     let _fishing_text = document.createElement("P");
     $(_fishing_text).addClass("mg-0 pd-10-15").html(MenuButton[5]);
+    let _fishing_line = document.createElement("DIV");
+    $(_fishing_line).addClass("pos-a MenuBtnLine");
     $(_fishing).mouseover(function(){
         $(_fishing_img).hide();
-        $(_fishing_text).css({"color":"#00428E","font-weight":"700","border-bottom": "2px solid #00428E"});
+        $(_fishing_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
+        $(_fishing_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
     }).mouseout(function(){
         $(_fishing_img).show();
-        $(_fishing_text).css({"color":"#000000","font-weight":"400","border-bottom": ""});
-    }).append($(_fishing_img),$(_fishing_text));
+        $(_fishing_text).removeClass("text-roll-left-in").addClass("text-roll-right-out").css({"color":"#545454"});
+        $(_fishing_line).removeClass("line-roll-right-in").addClass("line-roll-right-out");
+    }).append($(_fishing_img),$(_fishing_text),$(_fishing_line));
 
     let _food = document.createElement("DIV");
     $(_food).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
@@ -472,13 +496,17 @@ function G_MenuScenesBtnList(container){
     $(_food_img).attr("src","./images/icon/Use_7.png");
     let _food_text = document.createElement("P");
     $(_food_text).addClass("mg-0 pd-10-15").html(MenuButton[6]);
+    let _food_line = document.createElement("DIV");
+    $(_food_line).addClass("pos-a MenuBtnLine");
     $(_food).mouseover(function(){
         $(_food_img).hide();
-        $(_food_text).css({"color":"#00428E","font-weight":"700","border-bottom": "2px solid #00428E"});
+        $(_food_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
+        $(_food_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
     }).mouseout(function(){
         $(_food_img).show();
-        $(_food_text).css({"color":"#000000","font-weight":"400","border-bottom": ""});
-    }).append($(_food_img),$(_food_text));
+        $(_food_text).removeClass("text-roll-left-in").addClass("text-roll-right-out").css({"color":"#545454"});
+        $(_food_line).removeClass("line-roll-right-in").addClass("line-roll-right-out");
+    }).append($(_food_img),$(_food_text),$(_food_line));
 
     let _fit = document.createElement("DIV");
     $(_fit).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
@@ -486,13 +514,17 @@ function G_MenuScenesBtnList(container){
     $(_fit_img).attr("src","./images/menu/Use_8.png");
     let _fit_text = document.createElement("P");
     $(_fit_text).addClass("mg-0 pd-10-15").html(MenuButton[7]);
+    let _fit_line = document.createElement("DIV");
+    $(_fit_line).addClass("pos-a MenuBtnLine");
     $(_fit).mouseover(function(){
         $(_fit_img).hide();
-        $(_fit_text).css({"color":"#00428E","font-weight":"700","border-bottom": "2px solid #00428E"});
+        $(_fit_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
+        $(_fit_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
     }).mouseout(function(){
         $(_fit_img).show();
-        $(_fit_text).css({"color":"#000000","font-weight":"400","border-bottom": ""});
-    }).append($(_fit_img),$(_fit_text));
+        $(_fit_text).removeClass("text-roll-left-in").addClass("text-roll-right-out").css({"color":"#545454"});
+        $(_fit_line).removeClass("line-roll-right-in").addClass("line-roll-right-out");
+    }).append($(_fit_img),$(_fit_text),$(_fit_line));
 
 
     $(container).append(
