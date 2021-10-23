@@ -110,10 +110,8 @@
     left: 1rem;
 }
 .MenuBgc{
-    top: -64vh;
-    left: -60vw;
-    width: 1600px;
-    height: 1600px;
+    top: 0;
+    left: 0;
     background-color: rgba(244, 244, 244, .6);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
@@ -195,18 +193,26 @@
 
 @keyframes Left-in-Page{
     0%{
-        transform: translateX(-30vw) translateY(-50vh);
+        width: 800px;
+        height: 800px;
+        transform: translateX(-20vw) translateY(-29vh);
     }
     100%{
-        transform: translateX(0) translateY(0);
+        width: 1600px;
+        height: 1600px;
+        transform: translateX(-60vw) translateY(-69vh);
     }
 }
 @keyframes Left-out-Page{
     0%{
-        transform: translateX(0);
+        width: 1600px;
+        height: 1600px;
+        transform: translateX(-60vw) translateY(-69vh);
     }
     100%{
-        transform: translateX(-30vw) translateY(-20vh);
+        width: 800px;
+        height: 800px;
+        transform: translateX(-20vw) translateY(-29vh);
     }
 }
 
