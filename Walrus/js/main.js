@@ -95,7 +95,7 @@ function Menu(){
         }
     });
     let _menubtnimage = document.createElement("IMG");
-    $(_menubtnimage).addClass("pos-a display-auto mg-auto").attr("src","./images/menu/Icon_Menu_list.png").appendTo($(_menubtn));
+    $(_menubtnimage).addClass("pos-a display-auto mg-auto").attr("src","./images/menu/Icon_Menu_List.png").appendTo($(_menubtn));
     
     
 
