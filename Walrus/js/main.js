@@ -328,7 +328,7 @@ function G_Menu(container){
 
     let _menuscenesbtnlist = document.createElement("DIV");
     $(_menuscenesbtnlist).addClass("pos-r d-flex flex-column MenuSceneBtn")
-    .css({"margin-left":"3rem"}).appendTo($(_menucontentcontainer));
+    .css({"margin-left":"2.5rem"}).appendTo($(_menucontentcontainer));
     G_MenuScenesBtnList(_menuscenesbtnlist);
 
     let _menulogo = document.createElement("IMG");
