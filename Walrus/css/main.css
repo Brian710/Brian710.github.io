@@ -303,7 +303,6 @@
     }
     .MenuBgc{ clip-path: circle(50% at -12% 26%); }
     .MenuLogo{ width: 10rem; }
-    .MenuSceneBtn div{ margin-bottom: 5px; }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
     .MenuSceneBtn div div{ bottom: 10%; }
 }
@@ -322,7 +321,6 @@
         height: 49rem;
     }
     .MenuLogo{ width: 10rem; }
-    .MenuSceneBtn div{ margin-bottom: 1rem; }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
     .MenuSceneBtn div div{ bottom: -10%; }
 }
@@ -342,7 +340,6 @@
         width: 75vw;
         height: 85vh;
     }
-    .MenuSceneBtn div{ margin-bottom: 7px; }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
     .MenuSceneBtn div div{ bottom: -10%; }
 }
