@@ -61,6 +61,10 @@ let _home_text, _construction_text, _manufacturing_text, _tech_text, _retail_tex
 var loaded = false;
 
 function Init(){
+    // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+    let vh = window.innerHeight * 0.01;
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
     embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
     $("#pano").click(function(){
         if(!loaded){
