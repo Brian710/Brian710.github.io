@@ -317,7 +317,7 @@
         width: 2rem;
         top: 2.5rem;
     }
-    .MenuBgc{ clip-path: circle(50% at -7% 34%); }
+    .MenuBgc{ clip-path: circle(50% at -14vw calc(var(--vh) * 0.33)); }
     .MenuContent{
         height: 90vh;
         height: calc(var(--vh) * 0.92);
