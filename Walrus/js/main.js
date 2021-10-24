@@ -124,7 +124,7 @@ function Data(enableContent){
 
 function Page(data, content){
     let _clickempty = document.createElement("DIV");
-    $(_clickempty).addClass("pos-a w-100 h-100 t-0 r-0").appendTo( "#pano" );
+    $(_clickempty).addClass("pos-a w-100 h-100 t-0 r-0 z-50 bgc-black").appendTo( "#pano" );
 
     let _pagecontent = document.createElement("DIV");
     $(_pagecontent).addClass("pos-a h-100 t-0 r-0 PageContent PageContentAni").attr("id","PageContent").appendTo( "#pano" );
