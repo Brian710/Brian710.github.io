@@ -77,6 +77,9 @@ function Init(){
 
 Init();
 
+let height = window.innerHeight;
+console.log(innerHeight);
+
 var _polymorph = anime({
     targets: '.morph',
     d: [
