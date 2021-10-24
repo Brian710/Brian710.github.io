@@ -43,7 +43,7 @@ const MenuButton_EN = [
     "Technology Industry",
     "Wholesale & Retail Industry",
     "Agriculture/Fishing Industry", 
-    "Service/Accommodation & Food Service Activities",
+    "Service/Accommodation<br> & Food Service Activities",
     "WALRUS fit"
 ];
 const MenuButton_JP = [
@@ -53,7 +53,7 @@ const MenuButton_JP = [
     "テクノロジー産業",
     "卸売と小売り",
     "農業、漁業", 
-    "服務/住宿餐サービス/宿泊およびケータリング業界",
+    "服務/宿泊、飲食サービス業",
     "カスタマイズ"
 ];
 
@@ -328,7 +328,7 @@ function G_Menu(container){
 
     let _menuscenesbtnlist = document.createElement("DIV");
     $(_menuscenesbtnlist).addClass("pos-r d-flex flex-column MenuSceneBtn")
-    .css({"margin-left":"3.5rem"}).appendTo($(_menucontentcontainer));
+    .css({"margin-left":"3rem"}).appendTo($(_menucontentcontainer));
     G_MenuScenesBtnList(_menuscenesbtnlist);
 
     let _menulogo = document.createElement("IMG");

@@ -149,13 +149,17 @@
     height: 1.11rem;
 }
 .MenuSceneBtn div{
-    width: 15rem;
+    width: 20rem;
     height: 50px;
     margin-bottom: 1.5rem;
 }
 .MenuSceneBtn div p{
     color: #545454;    
     font-weight: 600;
+}
+.MenuSceneBtn div img{
+    width: 2.778rem;
+    height: 2.778rem;
 }
 .MenuSceneBtn div div{
     width: 10rem;
