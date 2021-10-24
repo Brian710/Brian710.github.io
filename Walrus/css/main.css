@@ -93,6 +93,7 @@
     left: 50%;
     width: 90vw;
     height: 90vh;
+    height: calc(var(--vh) * 0.90);
     transform: translate(-50%,-50%);
 }
 /**********  Industry  **********/
@@ -318,7 +319,8 @@
     }
     .MenuBgc{ clip-path: circle(50% at -7% 34%); }
     .MenuContent{
-        height: 49rem;
+        height: 90vh;
+        height: calc(var(--vh) * 0.92);
     }
     .MenuLogo{ width: 10rem; }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
@@ -339,7 +341,7 @@
     .MenuContent{
         width: 75vw;
         height: 85vh;
-        height: calc(var(--vh) * 0.85);
+        height: calc(var(--vh) * 0.92);
     }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
     .MenuSceneBtn div div{ bottom: -10%; }
