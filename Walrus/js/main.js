@@ -57,8 +57,17 @@ const MenuButton_JP = [
     "カスタマイズ"
 ];
 
+let _home_text, _construction_text, _manufacturing_text, _tech_text, _retail_text, _fishing_text, _food_text, _fit_text;
+var loaded = false;
+
 function Init(){
     embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
+    $("#pano").click(function(){
+        if(!loaded){
+            $("#pano").attr("data-lang","TC").attr("data-sound","on");
+            loaded = true; 
+        }
+    });
     Menu();
 }
 
@@ -333,40 +342,87 @@ function G_MenuBtnList(contatiner){
     let _langbtn_tc_div = document.createElement("DIV");
     let _langbtn_tc_text = document.createElement("P");
     $(_langbtn_tc_text).html("繁");
-    $(_langbtn_tc_div).addClass("pos-r MenuBtnListDIV")
-    .mouseover(function(){
-        $(_langbtn_tc_text).css("color","#FFD900");
-    })
-    .mouseout(function(){
-        $(_langbtn_tc_text).css("color","#FFFFFF");
-    }).append($(_langbtn_tc_text));
 
     let _langbtn_en_div = document.createElement("DIV");
     let _langbtn_en_text = document.createElement("P");
     $(_langbtn_en_text).html("En");
-    $(_langbtn_en_div).addClass("pos-r MenuBtnListDIV")
-    .mouseover(function(){
-        $(_langbtn_en_text).css("color","#FFD900");
-    })
-    .mouseout(function(){
-        $(_langbtn_en_text).css("color","#FFFFFF");
-    }).append($(_langbtn_en_text));
 
     let _langbtn_jp_div = document.createElement("DIV");
     let _langbtn_jp_text = document.createElement("P");
     $(_langbtn_jp_text).html("日");
-    $(_langbtn_jp_div).addClass("pos-r MenuBtnListDIV")
-    .mouseover(function(){
-        $(_langbtn_jp_text).css("color","#FFD900");
-    })
-    .mouseout(function(){
-        $(_langbtn_jp_text).css("color","#FFFFFF");
-    }).append($(_langbtn_jp_text));
 
     let _soundbtn_div = document.createElement("DIV");
     let _soundbtn_icon = document.createElement("IMG");
     $(_soundbtn_icon).addClass("SoundBtn").attr("src","./images/menu/Btn_Video_On.png");
-    $(_soundbtn_div).addClass("pos-r MenuBtnListDIV").append($(_soundbtn_icon));
+    $(_soundbtn_div).addClass("pos-r MenuBtnListDIV")
+    .click(function(){
+        if($("#pano").attr("data-sound")=="off"){
+            $("#pano").attr("data-sound","on");
+            $(_soundbtn_icon).attr("src","./images/menu/Btn_Video_On.png");
+        }
+        else{
+            $("#pano").attr("data-sound","off");
+            $(_soundbtn_icon).attr("src","./images/menu/Btn_Video_Of.png");
+        }
+    }).append($(_soundbtn_icon));
+
+    $(_langbtn_tc_div).addClass("pos-r MenuBtnListDIV")
+    .click(function(){
+        $("#pano").attr("data-lang","TC");
+        $(_langbtn_tc_text).css("color","#FFD900");
+        $(_langbtn_en_text).css("color","#FFFFFF");
+        $(_langbtn_jp_text).css("color","#FFFFFF");
+        ChangeMenuTextLang();
+    })
+    .mouseover(function(){
+        $(_langbtn_tc_text).css("color","#FFD900");
+    })
+    .mouseout(function(){
+        if($("#pano").attr("data-lang")!="TC")
+            $(_langbtn_tc_text).css("color","#FFFFFF");
+    }).append($(_langbtn_tc_text));
+    if($("#pano").attr("data-lang")=="TC"){
+        $(_langbtn_tc_text).css("color","#FFD900");
+    }
+
+    $(_langbtn_en_div).addClass("pos-r MenuBtnListDIV")
+    .click(function(){
+        $("#pano").attr("data-lang","EN");
+        $(_langbtn_tc_text).css("color","#FFFFFF");
+        $(_langbtn_en_text).css("color","#FFD900");
+        $(_langbtn_jp_text).css("color","#FFFFFF");
+        ChangeMenuTextLang();
+    })
+    .mouseover(function(){
+        $(_langbtn_en_text).css("color","#FFD900");
+    })
+    .mouseout(function(){
+        if($("#pano").attr("data-lang")!="EN")
+            $(_langbtn_en_text).css("color","#FFFFFF");
+    }).append($(_langbtn_en_text));
+    if($("#pano").attr("data-lang")=="EN"){
+        $(_langbtn_en_text).css("color","#FFD900");
+    }
+
+    $(_langbtn_jp_div).addClass("pos-r MenuBtnListDIV")
+    .click(function(){
+        $("#pano").attr("data-lang","JP");
+        $(_langbtn_tc_text).css("color","#FFFFFF");
+        $(_langbtn_en_text).css("color","#FFFFFF");
+        $(_langbtn_jp_text).css("color","#FFD900");
+        ChangeMenuTextLang();
+    })
+    .mouseover(function(){
+        $(_langbtn_jp_text).css("color","#FFD900");
+    })
+    .mouseout(function(){
+        if($("#pano").attr("data-lang")!="JP")
+            $(_langbtn_jp_text).css("color","#FFFFFF");
+    }).append($(_langbtn_jp_text));
+
+    if($("#pano").attr("data-lang")=="JP"){
+        $(_langbtn_jp_text).css("color","#FFD900");
+    }
 
     $(contatiner).append($(_langbtn_tc_div),$(_langbtn_en_div),$(_langbtn_jp_div),$(_soundbtn_div));
 }
@@ -377,7 +433,7 @@ function G_MenuScenesBtnList(container){
     $(_home).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _home_img = document.createElement("IMG");
     $(_home_img).attr("src","./images/menu/Home.png");
-    let _home_text = document.createElement("P");
+    _home_text = document.createElement("P");
     $(_home_text).addClass("mg-0 pd-10-15").html(MenuButton[0]);
     let _home_line = document.createElement("DIV");
     $(_home_line).addClass("pos-a");
@@ -395,7 +451,7 @@ function G_MenuScenesBtnList(container){
     $(_construction).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _construction_img = document.createElement("IMG");
     $(_construction_img).attr("src","./images/icon/Use_1.png");
-    let _construction_text = document.createElement("P");
+    _construction_text = document.createElement("P");
     $(_construction_text).addClass("mg-0 pd-10-15").html(MenuButton[1]);
     let _construction_line = document.createElement("DIV");
     $(_construction_line).addClass("pos-a MenuBtnLine");
@@ -413,7 +469,7 @@ function G_MenuScenesBtnList(container){
     $(_manufacturing).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _manufacturing_img = document.createElement("IMG");
     $(_manufacturing_img).attr("src","./images/icon/Use_3.png");
-    let _manufacturing_text = document.createElement("P");
+    _manufacturing_text = document.createElement("P");
     $(_manufacturing_text).addClass("mg-0 pd-10-15").html(MenuButton[2]);
     let _manufacturing_line = document.createElement("DIV");
     $(_manufacturing_line).addClass("pos-a MenuBtnLine");
@@ -431,7 +487,7 @@ function G_MenuScenesBtnList(container){
     $(_tech).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _tech_img = document.createElement("IMG");
     $(_tech_img).attr("src","./images/icon/Use_5.png");
-    let _tech_text = document.createElement("P");
+    _tech_text = document.createElement("P");
     $(_tech_text).addClass("mg-0 pd-10-15").html(MenuButton[3]);
     let _tech_line = document.createElement("DIV");
     $(_tech_line).addClass("pos-a MenuBtnLine");
@@ -449,7 +505,7 @@ function G_MenuScenesBtnList(container){
     $(_retail).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _retail_img = document.createElement("IMG");
     $(_retail_img).attr("src","./images/icon/Use_4.png");
-    let _retail_text = document.createElement("P");
+    _retail_text = document.createElement("P");
     $(_retail_text).addClass("mg-0 pd-10-15").html(MenuButton[4]);
     let _retail_line = document.createElement("DIV");
     $(_retail_line).addClass("pos-a MenuBtnLine");
@@ -467,7 +523,7 @@ function G_MenuScenesBtnList(container){
     $(_fishing).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _fishing_img = document.createElement("IMG");
     $(_fishing_img).attr("src","./images/icon/Use_2.png");
-    let _fishing_text = document.createElement("P");
+    _fishing_text = document.createElement("P");
     $(_fishing_text).addClass("mg-0 pd-10-15").html(MenuButton[5]);
     let _fishing_line = document.createElement("DIV");
     $(_fishing_line).addClass("pos-a MenuBtnLine");
@@ -485,7 +541,7 @@ function G_MenuScenesBtnList(container){
     $(_food).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _food_img = document.createElement("IMG");
     $(_food_img).attr("src","./images/icon/Use_7.png");
-    let _food_text = document.createElement("P");
+    _food_text = document.createElement("P");
     $(_food_text).addClass("mg-0 pd-10-15").html(MenuButton[6]);
     let _food_line = document.createElement("DIV");
     $(_food_line).addClass("pos-a MenuBtnLine");
@@ -503,7 +559,7 @@ function G_MenuScenesBtnList(container){
     $(_fit).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _fit_img = document.createElement("IMG");
     $(_fit_img).attr("src","./images/menu/Use_8.png");
-    let _fit_text = document.createElement("P");
+    _fit_text = document.createElement("P");
     $(_fit_text).addClass("mg-0 pd-10-15").html(MenuButton[7]);
     let _fit_line = document.createElement("DIV");
     $(_fit_line).addClass("pos-a MenuBtnLine");
@@ -528,4 +584,37 @@ function G_MenuScenesBtnList(container){
         $(_food),
         $(_fit)
     );
+}
+
+function ChangeMenuTextLang(){
+    if($("#pano").attr("data-lang") == "TC"){
+        $(_home_text).html(MenuButton[0]);
+        $(_construction_text).html(MenuButton[1]);
+        $(_manufacturing_text).html(MenuButton[2]);
+        $(_tech_text).html(MenuButton[3]);
+        $(_retail_text).html(MenuButton[4]);
+        $(_fishing_text).html(MenuButton[5]);
+        $(_food_text).html(MenuButton[6]);
+        $(_fit_text).html(MenuButton[7]);
+    }
+    else if($("#pano").attr("data-lang") == "EN"){
+        $(_home_text).html(MenuButton_EN[0]);
+        $(_construction_text).html(MenuButton_EN[1]);
+        $(_manufacturing_text).html(MenuButton_EN[2]);
+        $(_tech_text).html(MenuButton_EN[3]);
+        $(_retail_text).html(MenuButton_EN[4]);
+        $(_fishing_text).html(MenuButton_EN[5]);
+        $(_food_text).html(MenuButton_EN[6]);
+        $(_fit_text).html(MenuButton_EN[7]);
+    }
+    else if($("#pano").attr("data-lang") == "JP"){
+        $(_home_text).html(MenuButton_JP[0]);
+        $(_construction_text).html(MenuButton_JP[1]);
+        $(_manufacturing_text).html(MenuButton_JP[2]);
+        $(_tech_text).html(MenuButton_JP[3]);
+        $(_retail_text).html(MenuButton_JP[4]);
+        $(_fishing_text).html(MenuButton_JP[5]);
+        $(_food_text).html(MenuButton_JP[6]);
+        $(_fit_text).html(MenuButton_JP[7]);
+    }
 }

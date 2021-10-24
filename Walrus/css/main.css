@@ -151,7 +151,7 @@
 .MenuSceneBtn div{
     width: 15rem;
     height: 50px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .MenuSceneBtn div p{
     color: #545454;    
@@ -345,4 +345,5 @@
     .ProductBtnList{ left: 0rem;}
     .ProductBtn{ width: 4.8rem; height: 4.8rem; }
     .ProductBtn img{ width: 2.6rem; }
+    .MenuSceneBtn div{ margin-bottom: 1.15rem; }
 }
