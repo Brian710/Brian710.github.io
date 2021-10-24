@@ -339,6 +339,7 @@
     .MenuContent{
         width: 75vw;
         height: 85vh;
+        height: calc(var(--vh) * 0.85);
     }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
     .MenuSceneBtn div div{ bottom: -10%; }
