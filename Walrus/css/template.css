@@ -58,8 +58,7 @@ body {
 }
 #pano{
     width: 100%;
-    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-    height: var(--vh);
+    height: 100%;
 }
 /*********** Template ***********/
 /*********** display ***********/
