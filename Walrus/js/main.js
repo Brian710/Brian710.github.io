@@ -319,12 +319,11 @@ function G_Menu(container){
 
     let _menuscenesbtnlist = document.createElement("DIV");
     $(_menuscenesbtnlist).addClass("pos-r d-flex flex-column MenuSceneBtn")
-    .css({"margin-left":"3rem"}).appendTo($(_menucontentcontainer));
+    .css({"margin-left":"3.5rem"}).appendTo($(_menucontentcontainer));
     G_MenuScenesBtnList(_menuscenesbtnlist);
 
     let _menulogo = document.createElement("IMG");
-    $(_menulogo).addClass("SceneBtnAni").attr("src","./images/menu/Icon_IP.png")
-    .css({"width":"12rem","margin-left":"2rem"}).appendTo($(_menucontentcontainer));
+    $(_menulogo).addClass("MenuLogo SceneBtnAni").attr("src","./images/menu/Icon_IP.png").appendTo($(_menucontentcontainer));
 
     $(container).append($(_menubgc),$(_menucontentcontainer));
 }
@@ -332,50 +331,42 @@ function G_Menu(container){
 function G_MenuBtnList(contatiner){
 
     let _langbtn_tc_div = document.createElement("DIV");
-    let _langbtn_tc_img = document.createElement("IMG");
-    $(_langbtn_tc_img).attr("src","./images/menu/Btn_Bg.png");
     let _langbtn_tc_text = document.createElement("P");
-    $(_langbtn_tc_text).addClass("pos-a").html("繁");
-    $(_langbtn_tc_div).addClass("pos-r text-center MenuBtnListDIV")
+    $(_langbtn_tc_text).html("繁");
+    $(_langbtn_tc_div).addClass("pos-r MenuBtnListDIV")
     .mouseover(function(){
         $(_langbtn_tc_text).css("color","#FFD900");
     })
     .mouseout(function(){
         $(_langbtn_tc_text).css("color","#FFFFFF");
-    }).append($(_langbtn_tc_img),$(_langbtn_tc_text));
+    }).append($(_langbtn_tc_text));
 
     let _langbtn_en_div = document.createElement("DIV");
-    let _langbtn_en_img = document.createElement("IMG");
-    $(_langbtn_en_img).attr("src","./images/menu/Btn_Bg.png");
     let _langbtn_en_text = document.createElement("P");
-    $(_langbtn_en_text).addClass("pos-a").html("En");
-    $(_langbtn_en_div).addClass("pos-r text-center MenuBtnListDIV")
+    $(_langbtn_en_text).html("En");
+    $(_langbtn_en_div).addClass("pos-r MenuBtnListDIV")
     .mouseover(function(){
         $(_langbtn_en_text).css("color","#FFD900");
     })
     .mouseout(function(){
         $(_langbtn_en_text).css("color","#FFFFFF");
-    }).append($(_langbtn_en_img),$(_langbtn_en_text));
+    }).append($(_langbtn_en_text));
 
     let _langbtn_jp_div = document.createElement("DIV");
-    let _langbtn_jp_img = document.createElement("IMG");
-    $(_langbtn_jp_img).attr("src","./images/menu/Btn_Bg.png");
     let _langbtn_jp_text = document.createElement("P");
-    $(_langbtn_jp_text).addClass("pos-a").html("日");
-    $(_langbtn_jp_div).addClass("pos-r text-center MenuBtnListDIV")
+    $(_langbtn_jp_text).html("日");
+    $(_langbtn_jp_div).addClass("pos-r MenuBtnListDIV")
     .mouseover(function(){
         $(_langbtn_jp_text).css("color","#FFD900");
     })
     .mouseout(function(){
         $(_langbtn_jp_text).css("color","#FFFFFF");
-    }).append($(_langbtn_jp_img),$(_langbtn_jp_text));
+    }).append($(_langbtn_jp_text));
 
     let _soundbtn_div = document.createElement("DIV");
-    let _soundbtn_img = document.createElement("IMG");
-    $(_soundbtn_img).attr("src","./images/menu/Btn_Bg.png");
     let _soundbtn_icon = document.createElement("IMG");
-    $(_soundbtn_icon).addClass("pos-a SoundBtn").attr("src","./images/menu/Btn_Video_On.png");
-    $(_soundbtn_div).addClass("pos-r text-center MenuBtnListDIV").append($(_soundbtn_img),$(_soundbtn_icon));
+    $(_soundbtn_icon).addClass("SoundBtn").attr("src","./images/menu/Btn_Video_On.png");
+    $(_soundbtn_div).addClass("pos-r MenuBtnListDIV").append($(_soundbtn_icon));
 
     $(contatiner).append($(_langbtn_tc_div),$(_langbtn_en_div),$(_langbtn_jp_div),$(_soundbtn_div));
 }
@@ -383,7 +374,7 @@ function G_MenuBtnList(contatiner){
 function G_MenuScenesBtnList(container){
 
     let _home = document.createElement("DIV");
-    $(_home).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
+    $(_home).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _home_img = document.createElement("IMG");
     $(_home_img).attr("src","./images/menu/Home.png");
     let _home_text = document.createElement("P");
@@ -401,7 +392,7 @@ function G_MenuScenesBtnList(container){
     }).append($(_home_img),$(_home_text),$(_home_line));
 
     let _construction = document.createElement("DIV");
-    $(_construction).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
+    $(_construction).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _construction_img = document.createElement("IMG");
     $(_construction_img).attr("src","./images/icon/Use_1.png");
     let _construction_text = document.createElement("P");
@@ -419,7 +410,7 @@ function G_MenuScenesBtnList(container){
     }).append($(_construction_img),$(_construction_text),$(_construction_line));
 
     let _manufacturing = document.createElement("DIV");
-    $(_manufacturing).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
+    $(_manufacturing).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _manufacturing_img = document.createElement("IMG");
     $(_manufacturing_img).attr("src","./images/icon/Use_3.png");
     let _manufacturing_text = document.createElement("P");
@@ -437,7 +428,7 @@ function G_MenuScenesBtnList(container){
     }).append($(_manufacturing_img),$(_manufacturing_text),$(_manufacturing_line));
 
     let _tech = document.createElement("DIV");
-    $(_tech).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
+    $(_tech).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _tech_img = document.createElement("IMG");
     $(_tech_img).attr("src","./images/icon/Use_5.png");
     let _tech_text = document.createElement("P");
@@ -455,7 +446,7 @@ function G_MenuScenesBtnList(container){
     }).append($(_tech_img),$(_tech_text),$(_tech_line));
 
     let _retail = document.createElement("DIV");
-    $(_retail).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
+    $(_retail).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _retail_img = document.createElement("IMG");
     $(_retail_img).attr("src","./images/icon/Use_4.png");
     let _retail_text = document.createElement("P");
@@ -473,7 +464,7 @@ function G_MenuScenesBtnList(container){
     }).append($(_retail_img),$(_retail_text),$(_retail_line));
 
     let _fishing = document.createElement("DIV");
-    $(_fishing).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
+    $(_fishing).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _fishing_img = document.createElement("IMG");
     $(_fishing_img).attr("src","./images/icon/Use_2.png");
     let _fishing_text = document.createElement("P");
@@ -491,7 +482,7 @@ function G_MenuScenesBtnList(container){
     }).append($(_fishing_img),$(_fishing_text),$(_fishing_line));
 
     let _food = document.createElement("DIV");
-    $(_food).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
+    $(_food).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _food_img = document.createElement("IMG");
     $(_food_img).attr("src","./images/icon/Use_7.png");
     let _food_text = document.createElement("P");
@@ -509,7 +500,7 @@ function G_MenuScenesBtnList(container){
     }).append($(_food_img),$(_food_text),$(_food_line));
 
     let _fit = document.createElement("DIV");
-    $(_fit).addClass("cur-p d-flex flex-row justify-content-start align-content-center SceneBtnAni");
+    $(_fit).addClass("cur-p d-flex flex-row justify-content-start align-content-center MenuScenesBtnDiv SceneBtnAni");
     let _fit_img = document.createElement("IMG");
     $(_fit_img).attr("src","./images/menu/Use_8.png");
     let _fit_text = document.createElement("P");

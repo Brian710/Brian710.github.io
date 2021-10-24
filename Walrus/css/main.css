@@ -115,66 +115,79 @@
     background-color: rgba(244, 244, 244, .6);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-    clip-path: circle(50% at 50% 50%);
-    transform: translateX(-60vw) translateY(-69vh);
+    clip-path: circle(50% at -13% 23%);
 }
 .MenuContent{
-    width: 25vw;
-    height: 80vh;
+    width: 22rem;
+    height: 42rem;
+    top: 3rem;
 }
 .MenuBtnList{
-    width: 15rem;
-    top: -1rem;
+    width: 13rem;
+    top: -1.5rem;
     left: 6rem;
 }
 .MenuBtnListDIV{
+    display: flex;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #00428E;
+    border-radius: 1rem;
+    box-shadow: -2px -2px 2px rgba(255,255,255,0.25), 2px 2px 2px rgba(0,0,0,0.25), inset 0px 2px 2px rgba(0,0,0,0.25);
     cursor: pointer;
 }
 .MenuBtnListDIV p{
-    margin: 0; padding: 0;
-    top: 14px;
-    left: 18px;
+    display: block;
+    margin: auto;
     color: #FFFFFF;
 }
 .SoundBtn{
-    top: 17px;
-    left: 13px;
+    display: block;
+    margin: auto;
+    width: 1.667rem;
+    height: 1.11rem;
 }
 .MenuSceneBtn div{
+    width: 15rem;
     height: 50px;
     margin-bottom: 1rem;
 }
 .MenuSceneBtn div p{
-    color: #545454;
-    width: 15rem;
+    color: #545454;    
     font-weight: 600;
 }
 .MenuSceneBtn div div{
-    width: 13rem;
+    width: 10rem;
     height: 3px;
     background-color: #00428E;
     bottom: -55%;
     opacity: 0;
 }
+.MenuLogo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 12rem;
+}
+
+/**********  Animation   *********/
 .SceneBtnAni{
     animation: Left-in-Menu 0.3s ease-out;
     animation-fill-mode: forwards;
 }
-
 .SceneBtnAni-Out{
     animation: Left-out-Menu 0.3s ease-out;
     animation-fill-mode: forwards;
 }
-
 .Rollin-left{
-    animation: Left-in-Page 0.3s ease-out;
+    animation: Left-in-Page 0.3s ease-in-out;
     animation-fill-mode: forwards;
 }
 .Rollout-left{
-    animation: Left-out-Page 0.3s ease-out;
+    animation: Left-out-Page 0.3s ease-in;
     animation-fill-mode: forwards;
 }
-
 .text-roll-left-in{
     animation: text-roll-in 0.3s ease-out;
     animation-fill-mode: forwards;
@@ -191,28 +204,30 @@
     animation: line-roll-out 0.3s ease-out;
     animation-fill-mode: forwards;
 }
-
 @keyframes Left-in-Page{
     0%{
-        width: 800px;
-        height: 800px;
+        width: 33.334rem;
+        height: 33.334rem;
+        transform: translateX(-10vw) translateY(-46vh);
     }
     100%{
-        width: 1600px;
-        height: 1600px;
+        width: 66.667rem;
+        height: 66.667rem;
+        transform: translateX(0) translateY(0);
     }
 }
 @keyframes Left-out-Page{
     0%{
-        width: 1600px;
-        height: 1600px;
+        width: 66.667rem;
+        height: 66.667rem;
+        transform: translateX(0) translateY(0);
     }
     100%{
-        width: 800px;
-        height: 800px;
+        width: 33.334rem;
+        height: 33.334rem;
+        transform: translateX(-10vw) translateY(-46vh);
     }
 }
-
 @keyframes Left-in-Menu{
     0%{
         transform: translateX(-30vw);
@@ -232,7 +247,6 @@
         transform: translateX(-30vw);
     }
 }
-
 @keyframes text-roll-in{
     0%{
         transform: translateX(50px);
@@ -270,11 +284,60 @@
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 320px){
+    html{ font-size: 12px; }
+    .PageContent{ width: 90%; }
+    .ProductBtn{ width: 4.8rem; height: 4.8rem; }
+    .ProductBtn img{ width: 2.6rem; }
+    .MenuBtn svg { width: 3.5rem; }
+    .MenuBtn img{
+        width: 1.75rem;
+        top: 2.5rem;
+    }
+    .MenuBgc{ clip-path: circle(50% at -12% 26%); }
+    .MenuLogo{ width: 10rem; }
+    .MenuSceneBtn div{ margin-bottom: 5px; }
+    .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
+    .MenuSceneBtn div div{ bottom: 10%; }
+}
+@media (min-width: 321px) and (max-width: 375px){
+    html{ font-size: 12px; }
+    .PageContent{ width: 90%; }
+    .ProductBtn{ width: 4.8rem; height: 4.8rem; }
+    .ProductBtn img{ width: 2.6rem; }
+    .MenuBtn svg { width: 3.5rem; }
+    .MenuBtn img{
+        width: 2rem;
+        top: 2.5rem;
+    }
+    .MenuBgc{ clip-path: circle(50% at -7% 34%); }
+    .MenuContent{
+        height: 49rem;
+    }
+    .MenuLogo{ width: 10rem; }
+    .MenuSceneBtn div{ margin-bottom: 1rem; }
+    .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
+    .MenuSceneBtn div div{ bottom: -10%; }
+}
+@media (min-width: 376px) and (max-width: 425px){
     html{ font-size: 14px; }
     .PageContent{ width: 90%; }
     .ProductBtn{ width: 4.8rem; height: 4.8rem; }
     .ProductBtn img{ width: 2.6rem; }
+    .MenuBtn svg { width: 3.5rem; }
+    .MenuBtn img{
+        width: 2rem;
+        top: 2rem;
+        left: 12px;
+    }
+    .MenuBgc{ clip-path: circle(50% at -10% 25%); }
+    .MenuContent{
+        width: 75vw;
+        height: 85vh;
+    }
+    .MenuSceneBtn div{ margin-bottom: 7px; }
+    .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
+    .MenuSceneBtn div div{ bottom: -10%; }
 }
 @media (min-width: 426px) and (max-width: 1024px){
     html{ font-size: 16px; }
@@ -282,13 +345,4 @@
     .ProductBtnList{ left: 0rem;}
     .ProductBtn{ width: 4.8rem; height: 4.8rem; }
     .ProductBtn img{ width: 2.6rem; }
-}
-@media (min-width: 1025px) and (max-width: 1440px){
-
-}
-@media (min-width: 1441px) and (max-width: 1920px){
-
-}
-@media (min-width: 1920px){
-
 }
