@@ -304,7 +304,7 @@ function G_Bot(container, data, content){
 function G_VideoPlay(id){
 
     let _videocontainer = document.createElement("DIV");
-    $(_videocontainer).css({"position":"absolute","top":"0","background-color":"#000","width":"100vw","height":"100vh","z-index":"150"}).appendTo( "#pano" );
+    $(_videocontainer).css({"position":"absolute","top":"0","background-color":"#000","width":"100vw","height":"100vh","height": "var(--vh)","z-index":"150"}).appendTo( "#pano" );
 
     let _videoplay = document.createElement("IFRAME");
     $(_videoplay).addClass("VideoPlayer").attr("frameborder", "0")
