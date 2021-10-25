@@ -30,13 +30,14 @@ const MenuButton_JP = [
 ];
 
 let _home_text, _construction_text, _manufacturing_text, _tech_text, _retail_text, _fishing_text, _food_text, _fit_text;
+let pano;
 var loaded = false;
 
 function Init(){  
     let height = window.innerHeight;
     document.documentElement.style.setProperty('--vh', `${height}px`);
-    console.log(height);
     embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
+    pano = parent.window.document.getElementById("WALRUS");
     $("#pano").click(function(){
         if(!loaded){
             $("#pano").attr("data-lang","TC").attr("data-sound","on");
@@ -209,7 +210,10 @@ function G_MenuScenesBtnList(container){
     $(_home_text).html(MenuButton[0]);
     let _home_line = document.createElement("DIV");
     $(_home_line).addClass("pos-a");
-    $(_home).mouseover(function(){
+    $(_home)
+    .click(function(){
+        pano.call("loadscene(scene_0000,null,MERGE|KEEPVIEW,BLEND(0.5));");
+    }).mouseover(function(){
         $(_home_img).hide();
         $(_home_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
         $(_home_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
@@ -227,7 +231,9 @@ function G_MenuScenesBtnList(container){
     $(_construction_text).html(MenuButton[1]);
     let _construction_line = document.createElement("DIV");
     $(_construction_line).addClass("pos-a MenuBtnLine");
-    $(_construction).mouseover(function(){
+    $(_construction).click(function(){
+        pano.call("loadscene(scene_0007,null,MERGE|KEEPVIEW,BLEND(0.5));");
+    }).mouseover(function(){
         $(_construction_img).hide();
         $(_construction_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
         $(_construction_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
@@ -245,7 +251,9 @@ function G_MenuScenesBtnList(container){
     $(_manufacturing_text).html(MenuButton[2]);
     let _manufacturing_line = document.createElement("DIV");
     $(_manufacturing_line).addClass("pos-a MenuBtnLine");
-    $(_manufacturing).mouseover(function(){
+    $(_manufacturing).click(function(){
+        pano.call("loadscene(scene_0009,null,MERGE|KEEPVIEW,BLEND(0.5));");
+    }).mouseover(function(){
         $(_manufacturing_img).hide();
         $(_manufacturing_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
         $(_manufacturing_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
@@ -263,7 +271,9 @@ function G_MenuScenesBtnList(container){
     $(_tech_text).html(MenuButton[3]);
     let _tech_line = document.createElement("DIV");
     $(_tech_line).addClass("pos-a MenuBtnLine");
-    $(_tech).mouseover(function(){
+    $(_tech).click(function(){
+        pano.call("loadscene(scene_0011,null,MERGE|KEEPVIEW,BLEND(0.5));");
+    }).mouseover(function(){
         $(_tech_img).hide();
         $(_tech_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
         $(_tech_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
@@ -281,7 +291,9 @@ function G_MenuScenesBtnList(container){
     $(_retail_text).html(MenuButton[4]);
     let _retail_line = document.createElement("DIV");
     $(_retail_line).addClass("pos-a MenuBtnLine");
-    $(_retail).mouseover(function(){
+    $(_retail).click(function(){
+        pano.call("loadscene(scene_0013,null,MERGE|KEEPVIEW,BLEND(0.5));");
+    }).mouseover(function(){
         $(_retail_img).hide();
         $(_retail_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
         $(_retail_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
@@ -299,7 +311,9 @@ function G_MenuScenesBtnList(container){
     $(_fishing_text).html(MenuButton[5]);
     let _fishing_line = document.createElement("DIV");
     $(_fishing_line).addClass("pos-a MenuBtnLine");
-    $(_fishing).mouseover(function(){
+    $(_fishing).click(function(){
+        pano.call("loadscene(scene_0015,null,MERGE|KEEPVIEW,BLEND(0.5));");
+    }).mouseover(function(){
         $(_fishing_img).hide();
         $(_fishing_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
         $(_fishing_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
@@ -317,7 +331,9 @@ function G_MenuScenesBtnList(container){
     $(_food_text).html(MenuButton[6]);
     let _food_line = document.createElement("DIV");
     $(_food_line).addClass("pos-a MenuBtnLine");
-    $(_food).mouseover(function(){
+    $(_food).click(function(){
+        pano.call("loadscene(scene_0017,null,MERGE|KEEPVIEW,BLEND(0.5));");
+    }).mouseover(function(){
         $(_food_img).hide();
         $(_food_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
         $(_food_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");
@@ -335,7 +351,9 @@ function G_MenuScenesBtnList(container){
     $(_fit_text).html(MenuButton[7]);
     let _fit_line = document.createElement("DIV");
     $(_fit_line).addClass("pos-a MenuBtnLine");
-    $(_fit).mouseover(function(){
+    $(_fit).click(function(){
+        pano.call("loadscene(scene_0019,null,MERGE|KEEPVIEW,BLEND(0.5));");
+    }).mouseover(function(){
         $(_fit_img).hide();
         $(_fit_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
         $(_fit_line).removeClass("line-roll-right-out").addClass("line-roll-right-in");

@@ -349,125 +349,141 @@
 	
   <hotspot  name="HQ200B" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-6.8802" atv="6.3666" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_42" scene_EL="scene_0001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="HQ200B" scene_EL="scene_0001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TQ1500B" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="7.8234" atv="4.7279" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_43" scene_EL="scene_0001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TQ1500B" scene_EL="scene_0001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="GQCN400B" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="59.4102" atv="22.3627" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_44" scene_EL="scene_0001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="GQCN400B" scene_EL="scene_0001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TP825PTB" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="81.8009" atv="10.9255" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_45" scene_EL="scene_0001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TP825PTB" scene_EL="scene_0001" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="HS800B" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="96.7898" atv="14.4061" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_46" scene_EL="scene_0004" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="HS800B" scene_EL="scene_0004" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TS400B" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="119.0817" atv="19.8391" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_47" scene_EL="scene_0004" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TS400B" scene_EL="scene_0004" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="HQC400B" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="168.768" atv="9.5825" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_48" scene_EL="scene_0004" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="HQC400B" scene_EL="scene_0004" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="HQIC800" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-177.011" atv="3.482" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_49" scene_EL="scene_0004" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="HQIC800" scene_EL="scene_0004" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="PK250" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-173.8751" atv="4.9153" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_50" scene_EL="scene_0005" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="PK250" scene_EL="scene_0005" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="PW100AR" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-112.5034" atv="18.1649" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_51" scene_EL="scene_0005" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="PW100AR" scene_EL="scene_0005" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="PW250AD" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-96.1973" atv="10.3518" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_52" scene_EL="scene_0005" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="PW250AD" scene_EL="scene_0005" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TPH12T" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-87.4948" atv="13.5284" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_53" scene_EL="scene_0002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPH12T" scene_EL="scene_0002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TH400P" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-68.1581" atv="19.5608" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_54" scene_EL="scene_0002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TH400P" scene_EL="scene_0002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TPAK8" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-15.9014" atv="-0.098" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_55" scene_EL="scene_0002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPAK8" scene_EL="scene_0002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TPHK8T(S)E" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-1.6675" atv="-2.3508" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_56" scene_EL="scene_0002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPHK8T(S)E" scene_EL="scene_0002" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="TPH-Xx2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
+  <hotspot  name="TPH-XX2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-73.3629" atv="1.5309" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_57" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPH-XX2" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
-  <hotspot  name="TPHICx2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
+  <hotspot  name="TPHICX2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="-37.0832" atv="0.5022" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_58" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPHICX2" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TPR5" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="31.1473" atv="-5.134" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_59" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPR5" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TPRK3T19" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="49.9507" atv="-0.0744" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_60" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPRK3T19" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	
   <hotspot  name="TPRK 3T" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/info.png" enabled="false" visible="false" zorder="5"
  			ath="69.7574" atv="-2.9874" width="100" height="prop" scale="0.7" edge="center"
- 			install_onclick="5" title="hotspot_61" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPRK 3T" scene_EL="scene_0003" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data(get(name)));"
 			ondown="drag_LinkSM()"
  		/>
 	

@@ -51,7 +51,6 @@
     cursor: pointer;
     width: 4rem;
     height: 4rem;
-    padding: 9px;
     background-color: #00428E;
     border-radius: 10px;
     margin-bottom: 1rem;
@@ -60,13 +59,14 @@
 .ProductBtn img{
     width: 2rem;
     display: block;
-    margin: auto;
+    margin: 10px auto 2px auto;
 }
 .ProductBtn p{
+    text-align: center;
     font-size: 12px;
     color: #FFFFFF;
     display: block;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /**********  MID  **********/

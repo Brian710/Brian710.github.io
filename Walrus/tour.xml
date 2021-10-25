@@ -58,27 +58,12 @@
 	               design_text_css="color:#FFFFFF; font-family:Arial;"
 	               design_text_shadow="1"
 	               />
-
-	<!--
-	    For an alternative skin design either change the <skin_settings> values 
-	    from above or optionally include one of the predefined designs from below.
-	-->
-	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
-	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
-	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
-	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
-	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
-	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
-
-
 	<!-- startup action - load the first scene -->
 	<action name="startup" autorun="onstart">
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
 	</action>
-
-
 	
 	<scene name="scene_0000" title="0000" onstart="" thumburl="panos/0000.tiles/thumb.jpg" lat="" lng="" heading="">
 		

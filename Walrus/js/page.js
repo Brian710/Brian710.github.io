@@ -27,14 +27,39 @@ const IndustryType_JP = [
 ];
 
 function Data(enableContent){
-    $.getJSON( "./data/machineConfigure.json", function(_data) {
-        Page(_data, enableContent);
-    });
+    enableContent = enableContent.toUpperCase();
+    if($("#pano").attr("data-lang") == "TC"){
+        $.getJSON( "./data/machineConfigure_tc.json", function(_data) {
+            Page(_data, enableContent);
+        });
+    }
+    else if($("#pano").attr("data-lang") == "EN"){
+        $.getJSON( "./data/machineConfigure_en.json", function(_data) {
+            Page(_data, enableContent);
+        });
+    }
+    else if($("#pano").attr("data-lang") == "JP"){
+        $.getJSON( "./data/machineConfigure_jp.json", function(_data) {
+            Page(_data, enableContent);
+        });
+    }
+    setTimeout(function(){
+        $("#MenuBGC").remove();
+        $("#MenuContent").remove();
+    }, 300);
+    $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
+    $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
 }
 
 function Page(data, content){
     let _clickempty = document.createElement("DIV");
-    $(_clickempty).addClass("pos-a w-100 h-100 t-0 r-0 z-50 bgc-black").appendTo( "#pano" );
+    $(_clickempty).addClass("pos-a w-100 h-100 t-0 r-0 z-50 bgc-black").click(function(){
+        setTimeout(function(){
+            $(_clickempty).remove();
+            $(_pagecontent).remove();
+        }, 500);
+        $(_pagecontent).removeClass("PageContentAni").addClass("Rollout");
+    }).appendTo( "#pano" );
 
     let _pagecontent = document.createElement("DIV");
     $(_pagecontent).addClass("pos-a h-100 t-0 r-0 PageContent PageContentAni").attr("id","PageContent").appendTo( "#pano" );
@@ -93,11 +118,11 @@ function G_Top(container, data, content){
     let _itemmodel = document.createElement("P");
     $(_itemmodel).addClass("pos-r b-0 ModelText")
     if($("#pano").attr("data-lang")=="TC")
-        $(_itemmodel).html("展示機型" + data[content]["D-model"]);
+        $(_itemmodel).html("展示機型 " + data[content]["D-model"]);
     else if($("#pano").attr("data-lang")=="EN")
-        $(_itemmodel).html("英英英英" + data[content]["D-model"]);
+        $(_itemmodel).html("Display model " + data[content]["D-model"]);
     else if($("#pano").attr("data-lang")=="JP")
-        $(_itemmodel).html("日日日日" + data[content]["D-model"]);
+        $(_itemmodel).html("ディスプレイモデル " + data[content]["D-model"]);
 
     $(container).append(
         $(_productimage),
@@ -114,7 +139,12 @@ function G_Btn(container, data, content){
     let _catalog_img = document.createElement("IMG");
     $(_catalog_img).attr("src","./images/icon/Icon_Catalog.png");
     let _catalog_text = document.createElement("P");
-    $(_catalog_text).html("線上型錄");
+    if($("#pano").attr("data-lang")=="TC")
+        $(_catalog_text).html("線上型錄");
+    else if($("#pano").attr("data-lang")=="EN")
+        $(_catalog_text).html("Brochure");
+    else if($("#pano").attr("data-lang")=="JP")
+        $(_catalog_text).html("カタログを見る");
     $(_catalog_btn).append($(_catalog_img),$(_catalog_text));
 
     let _info_btn = document.createElement("DIV");
@@ -122,7 +152,12 @@ function G_Btn(container, data, content){
     let _info_img = document.createElement("IMG");
     $(_info_img).attr("src","./images/icon/Icon_Info.png");
     let _info_text = document.createElement("P");
-    $(_info_text).html("更多資訊");
+    if($("#pano").attr("data-lang")=="TC")
+        $(_info_text).html("更多資訊");
+    else if($("#pano").attr("data-lang")=="EN")
+        $(_info_text).html("More Info");
+    else if($("#pano").attr("data-lang")=="JP")
+        $(_info_text).html("詳しくはこちら");
     $(_info_btn).append($(_info_img),$(_info_text));
 
     let _contact_btn = document.createElement("DIV");
@@ -130,7 +165,12 @@ function G_Btn(container, data, content){
     let _contact_img = document.createElement("IMG");
     $(_contact_img).attr("src","./images/icon/Icon_Contact.png");
     let _contact_text = document.createElement("P");
-    $(_contact_text).html("聯絡我們");
+    if($("#pano").attr("data-lang")=="TC")
+        $(_contact_text).html("聯絡我們");
+    else if($("#pano").attr("data-lang")=="EN")
+        $(_contact_text).html("Contact Us");
+    else if($("#pano").attr("data-lang")=="JP")
+        $(_contact_text).html("お問い合わせ");
     $(_contact_btn).append($(_contact_img),$(_contact_text));
 
     $(container).append($(_catalog_btn), $(_info_btn), $(_contact_btn));
@@ -179,7 +219,13 @@ function G_Video(container, data, content){
 function G_Bot(container, data, content){
 
     let _industrytitle = document.createElement("P");
-    $(_industrytitle).addClass("fw-7").html("適用產業範圍").css({"color":"#00428E"});
+    $(_industrytitle).addClass("fw-7").css({"color":"#00428E"});
+    if($("#pano").attr("data-lang")=="TC")
+        $(_industrytitle).html("適用產業範圍");
+    else if($("#pano").attr("data-lang")=="EN")
+        $(_industrytitle).html("Industrial application");
+    else if($("#pano").attr("data-lang")=="JP")
+        $(_industrytitle).html("産業上の利用");
     $(container).append($(_industrytitle));
 
     for(let i = 1; i <= 7; i++){
