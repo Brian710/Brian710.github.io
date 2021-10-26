@@ -311,6 +311,7 @@
     .MenuBgc{ clip-path: circle(50% at -12% 26%); }
     .MenuContent{ top: 5rem; }
     .MenuLogo{ width: 10rem; }
+    .MenuSceneBtn div{ margin-top: 1.5rem; }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
     .MenuSceneBtn div div{ bottom: 10%; }
 }
@@ -333,6 +334,7 @@
         top: 4.5rem;
     }
     .MenuLogo{ width: 10rem; }
+    .MenuSceneBtn div{ margin-top: 1.5rem; }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
     .MenuSceneBtn div div{ bottom: -10%; }
 }
@@ -354,6 +356,7 @@
         height: calc(var(--vh) * 0.84);
         top: 4rem;
     }
+    .MenuSceneBtn div{ margin-top: 1.5rem; }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
     .MenuSceneBtn div div{ bottom: -10%; }
 }
