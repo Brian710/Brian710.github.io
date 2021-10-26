@@ -160,7 +160,7 @@
 }
 .MenuSceneBtn div p{
     display: block;
-    margin: auto 13px 8px 13px;
+    margin: auto 13px 0.45rem 13px;
     padding-left: 0.5rem;
     color: #545454;    
     font-weight: 600;
