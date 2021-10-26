@@ -351,7 +351,7 @@
     }
     .MenuBgc{ clip-path: circle(50% at -10% 25%); }
     .MenuContent{
-        width: 70vw;
+        width: 75vw;
         height: 85vh;
         height: calc(var(--vh) * 0.88);
         top: 4rem;
