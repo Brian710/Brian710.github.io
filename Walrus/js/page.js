@@ -182,9 +182,9 @@ function G_Mid(container, data, content){
     let _series = document.createElement("P");
     $(_series).addClass("ContentSeries mg-0 fs-1d5 fw-7").html(data[content]["Series"]).css({"padding-left":"2rem", "padding-right":"2rem"});
     let _name = document.createElement("P");
-    $(_name).addClass("fs-1d25 fw-7").html(data[content]["P-Name"]).css({"padding-left":"43px", "padding-right":"2rem"});
+    $(_name).addClass("fs-1d25 fw-7").html(data[content]["P-Name"]).css({"padding-left":"2.5rem", "padding-right":"2rem"});
     let _features = document.createElement("UL");
-    $(_features).css({"padding-left":"60px", "padding-right":"2rem"});
+    $(_features).css({"padding-left":"3.6rem", "padding-right":"2rem"});
     data[content]["Features"].forEach(el => {
         let _f_li = document.createElement("LI");
         $(_f_li).html(el).appendTo($(_features));

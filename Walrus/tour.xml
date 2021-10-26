@@ -1,6 +1,6 @@
 ﻿<krpano version="1.20.9" title="vtour">
 
-	<include url="skin/vtourskin.xml" />
+	<!-- <include url="skin/vtourskin.xml" /> -->
 	<include url="%SWFPATH%/add_hotspot/plugins_l/add_hotspot.xml" />
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
