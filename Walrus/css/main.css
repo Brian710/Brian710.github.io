@@ -105,13 +105,14 @@
 }
 /**********  Menu  **********/
 .MenuBtn{
-    top: 5px;
-    left: 5px;
+    top: 20px;
+    left: 20px;
     z-index: 10;
 }
 .MenuBtn img{
-    top: 1.5rem;
-    left: 1rem;
+    top: 1.1rem;
+    left: 0.8rem;
+    width: 20px;
 }
 .MenuBgc{
     top: 0;
@@ -119,7 +120,7 @@
     background-color: rgba(244, 244, 244, .6);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-    clip-path: circle(50% at -13% 23%);
+    clip-path: circle(50% at -14% 24%);
 }
 .MenuContent{
     width: 22rem;
@@ -127,17 +128,17 @@
     top: 3rem;
 }
 .MenuBtnList{
-    width: 13rem;
-    top: -1.5rem;
-    left: 6rem;
+    width: 11rem;
+    top: -0.5rem;
+    left: 9rem;
 }
 .MenuBtnListDIV{
     display: flex;
     align-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2rem;
+    height: 2rem;
     background-color: #00428E;
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     box-shadow: -2px -2px 2px rgba(255,255,255,0.25), 2px 2px 2px rgba(0,0,0,0.25), inset 0px 2px 2px rgba(0,0,0,0.25);
     cursor: pointer;
 }
@@ -149,30 +150,30 @@
 .SoundBtn{
     display: block;
     margin: auto;
-    width: 1.667rem;
-    height: 1.11rem;
+    width: 1.3rem;
+    height: 0.9rem;
 }
 .MenuSceneBtn div{
-    width: 20rem;
-    height: 2.778rem;
-    margin-bottom: 1.25rem;
+    width: 18rem;
+    height: 2.5rem;
+    margin-top: 1rem;
 }
 .MenuSceneBtn div p{
     display: block;
-    margin: auto 13px;
-    padding-left: 1rem;
+    margin: auto 13px 8px 13px;
+    padding-left: 0.5rem;
     color: #545454;    
     font-weight: 600;
 }
 .MenuSceneBtn div img{
-    width: 2.778rem;
-    height: 2.778rem;
+    width: 2.2rem;
+    height: 2.2rem;
 }
 .MenuSceneBtn div div{
-    width: 10rem;
+    width: 14rem;
     height: 3px;
     background-color: #00428E;
-    bottom: -55%;
+    bottom: -14%;
     opacity: 0;
 }
 .MenuLogo{
@@ -322,8 +323,8 @@
     .ProductBtn p{ display: block; margin: auto -7px; }
     .MenuBtn svg { width: 3.5rem; }
     .MenuBtn img{
-        width: 2rem;
-        top: 2.5rem;
+        width: 1.75rem;
+        top: 1.8rem;
     }
     .MenuBgc{ clip-path: circle(50% at -14vw calc(var(--vh) * 0.33)); }
     .MenuContent{
@@ -343,14 +344,14 @@
     .MenuBtn svg { width: 3.5rem; }
     .MenuBtn img{
         width: 2rem;
-        top: 2rem;
+        top: 1.5rem;
         left: 12px;
     }
     .MenuBgc{ clip-path: circle(50% at -10% 25%); }
     .MenuContent{
-        width: 75vw;
+        width: 70vw;
         height: 85vh;
-        height: calc(var(--vh) * 0.92);
+        height: calc(var(--vh) * 0.84);
         top: 4rem;
     }
     .MenuSceneBtn div img{ width: 3rem; height: 3rem; }
@@ -362,19 +363,20 @@
     .ProductBtnList{ left: 0rem;}
     .ProductBtn{ width: 4.8rem; height: 4.8rem; }
     .ProductBtn img{ width: 2.6rem; }
-    .MenuContent{ top: 4rem; }
-    .MenuSceneBtn div{ margin-bottom: 1.15rem; }
 }
 @media (min-width: 1025px) and (max-width: 1439px){
     html{ font-size: 15px; }
     .ProductBtnList{ left: -2rem;}
     .ProductBtn{ width: 4.5rem; height: 4.5rem; }
+    .MenuBtn img{
+        top: 1.5rem;
+        left: 15px;
+    }
     .MenuBgc{ clip-path: circle(50% at -13% 20%); }
     .MenuContent{
-        width: 29vw;
+        width: 27vw;
         height: 42rem;
-        height: calc(var(--vh) * 0.8);
+        height: calc(var(--vh) * 0.9);
         top: 3.5rem;
     }
-    .MenuSceneBtn div{ margin-bottom: 1rem; }
 }

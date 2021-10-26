@@ -65,7 +65,7 @@ function Menu(){
     $(_menucontainer).addClass("pos-a t-0 MenuContainer").attr("id","MenuContainer").appendTo( "#pano" );
 
     let _menubtn = document.createElement("DIV");
-    $(_menubtn).addClass("pos-r cur-p MenuBtn").html('<svg width="65" height="82" viewBox="0 0 65 82" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="morph" d="M34.0227 3.45643C38.4986 5.84602 43.5128 6.54299 48.0879 8.705C58.7677 13.7402 65.085 26.1718 65.0142 37.1525C64.9118 53.0207 53.5878 70.0063 40.085 78.0885C15.1349 91.7739 1.64373 67.5033 0.143971 42.5C-1.39585 16.8289 9.70492 -9.61455 34.0227 3.45643Z" fill="#00428E"/></svg>')
+    $(_menubtn).addClass("pos-r cur-p MenuBtn").html('<svg width="50" height="63" viewBox="0 0 65 82" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="morph" d="M34.0227 3.45643C38.4986 5.84602 43.5128 6.54299 48.0879 8.705C58.7677 13.7402 65.085 26.1718 65.0142 37.1525C64.9118 53.0207 53.5878 70.0063 40.085 78.0885C15.1349 91.7739 1.64373 67.5033 0.143971 42.5C-1.39585 16.8289 9.70492 -9.61455 34.0227 3.45643Z" fill="#00428E"/></svg>')
     .click(function(){
         if($("#MenuBGC").length){
             setTimeout(function(){
@@ -101,7 +101,7 @@ function G_Menu(container){
 
     let _menuscenesbtnlist = document.createElement("DIV");
     $(_menuscenesbtnlist).addClass("pos-r d-flex flex-column MenuSceneBtn")
-    .css({"margin-left":"2.5rem"}).appendTo($(_menucontentcontainer));
+    .css({"margin-left":"3rem"}).appendTo($(_menucontentcontainer));
     G_MenuScenesBtnList(_menuscenesbtnlist);
 
     let _menulogo = document.createElement("IMG");
@@ -209,10 +209,10 @@ function G_MenuScenesBtnList(container){
     _home_text = document.createElement("P");
     $(_home_text).html(MenuButton[0]);
     let _home_line = document.createElement("DIV");
-    $(_home_line).addClass("pos-a");
+    $(_home_line).addClass("pos-a MenuBtnLine");
     $(_home)
     .click(function(){
-        pano.call("loadscene(scene_0000,null,MERGE|KEEPVIEW,BLEND(0.5));");
+        pano.call("loadscene(scene_0000,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_home_img).hide();
         $(_home_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
@@ -232,7 +232,7 @@ function G_MenuScenesBtnList(container){
     let _construction_line = document.createElement("DIV");
     $(_construction_line).addClass("pos-a MenuBtnLine");
     $(_construction).click(function(){
-        pano.call("loadscene(scene_0007,null,MERGE|KEEPVIEW,BLEND(0.5));");
+        pano.call("loadscene(scene_0007,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_construction_img).hide();
         $(_construction_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
@@ -252,7 +252,7 @@ function G_MenuScenesBtnList(container){
     let _manufacturing_line = document.createElement("DIV");
     $(_manufacturing_line).addClass("pos-a MenuBtnLine");
     $(_manufacturing).click(function(){
-        pano.call("loadscene(scene_0009,null,MERGE|KEEPVIEW,BLEND(0.5));");
+        pano.call("loadscene(scene_0009,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_manufacturing_img).hide();
         $(_manufacturing_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
@@ -272,7 +272,7 @@ function G_MenuScenesBtnList(container){
     let _tech_line = document.createElement("DIV");
     $(_tech_line).addClass("pos-a MenuBtnLine");
     $(_tech).click(function(){
-        pano.call("loadscene(scene_0011,null,MERGE|KEEPVIEW,BLEND(0.5));");
+        pano.call("loadscene(scene_0011,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_tech_img).hide();
         $(_tech_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
@@ -292,7 +292,7 @@ function G_MenuScenesBtnList(container){
     let _retail_line = document.createElement("DIV");
     $(_retail_line).addClass("pos-a MenuBtnLine");
     $(_retail).click(function(){
-        pano.call("loadscene(scene_0013,null,MERGE|KEEPVIEW,BLEND(0.5));");
+        pano.call("loadscene(scene_0013,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_retail_img).hide();
         $(_retail_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
@@ -312,7 +312,7 @@ function G_MenuScenesBtnList(container){
     let _fishing_line = document.createElement("DIV");
     $(_fishing_line).addClass("pos-a MenuBtnLine");
     $(_fishing).click(function(){
-        pano.call("loadscene(scene_0015,null,MERGE|KEEPVIEW,BLEND(0.5));");
+        pano.call("loadscene(scene_0015,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_fishing_img).hide();
         $(_fishing_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
@@ -332,7 +332,7 @@ function G_MenuScenesBtnList(container){
     let _food_line = document.createElement("DIV");
     $(_food_line).addClass("pos-a MenuBtnLine");
     $(_food).click(function(){
-        pano.call("loadscene(scene_0017,null,MERGE|KEEPVIEW,BLEND(0.5));");
+        pano.call("loadscene(scene_0017,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_food_img).hide();
         $(_food_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
@@ -352,7 +352,7 @@ function G_MenuScenesBtnList(container){
     let _fit_line = document.createElement("DIV");
     $(_fit_line).addClass("pos-a MenuBtnLine");
     $(_fit).click(function(){
-        pano.call("loadscene(scene_0019,null,MERGE|KEEPVIEW,BLEND(0.5));");
+        pano.call("loadscene(scene_0019,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_fit_img).hide();
         $(_fit_text).removeClass("text-roll-right-out").addClass("text-roll-left-in").css({"color":"#00428E"});
