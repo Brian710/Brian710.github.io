@@ -330,7 +330,7 @@
     .MenuBgc{ clip-path: circle(50% at -14vw calc(var(--vh) * 0.33)); }
     .MenuContent{
         height: 90vh;
-        height: calc(var(--vh) * 0.92);
+        height: calc(var(--vh) * 0.88);
         top: 4.5rem;
     }
     .MenuLogo{ width: 10rem; }
@@ -353,7 +353,7 @@
     .MenuContent{
         width: 70vw;
         height: 85vh;
-        height: calc(var(--vh) * 0.84);
+        height: calc(var(--vh) * 0.88);
         top: 4rem;
     }
     .MenuSceneBtn div{ margin-top: 1.5rem; }
