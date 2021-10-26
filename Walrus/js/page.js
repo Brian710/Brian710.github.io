@@ -146,7 +146,9 @@ function G_Btn(container, data, content){
         $(_catalog_text).html("Brochure");
     else if($("#pano").attr("data-lang")=="JP")
         $(_catalog_text).html("カタログを見る");
-    $(_catalog_btn).append($(_catalog_img),$(_catalog_text));
+    $(_catalog_btn).click(function(){
+            window.open(data[content]["P-Catalog"]);
+    }).append($(_catalog_img),$(_catalog_text));
 
     let _info_btn = document.createElement("DIV");
     $(_info_btn).addClass("d-flex flex-column ProductBtn");
@@ -159,7 +161,9 @@ function G_Btn(container, data, content){
         $(_info_text).html("More Info");
     else if($("#pano").attr("data-lang")=="JP")
         $(_info_text).html("詳しくはこちら");
-    $(_info_btn).append($(_info_img),$(_info_text));
+    $(_info_btn).click(function(){
+            window.open(data[content]["P-Info"]);
+    }).append($(_info_img),$(_info_text));
 
     let _contact_btn = document.createElement("DIV");
     $(_contact_btn).addClass("d-flex flex-column ProductBtn");
@@ -172,9 +176,17 @@ function G_Btn(container, data, content){
         $(_contact_text).html("Contact Us");
     else if($("#pano").attr("data-lang")=="JP")
         $(_contact_text).html("お問い合わせ");
-    $(_contact_btn).append($(_contact_img),$(_contact_text));
+    $(_contact_btn).click(function(){
+        window.open("https://walruspump.com/zh-tw/contact/index.html");
+    }).append($(_contact_img),$(_contact_text));
 
-    $(container).append($(_catalog_btn), $(_info_btn), $(_contact_btn));
+    if(data[content]["P-Catalog"].length > 0){
+        $(container).append($(_catalog_btn));
+    }
+    if(data[content]["P-Info"].length > 0){
+        $(container).append($(_info_btn));
+    }
+    $(container).append($(_contact_btn));
 }
 
 function G_Mid(container, data, content){
