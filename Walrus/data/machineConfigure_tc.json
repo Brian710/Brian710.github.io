@@ -11,17 +11,55 @@
             "無水雙重保護：泵浦內置溫度保護開關，當無水空轉造成水機內水溫高於55°C時，泵浦自動停止運轉；另搭載程式控制無水運轉保護，無水時自動停機。",
             "延遲6秒緩停機：避免用水時因水量太小造成泵浦啟動停止頻繁的問題。"
         ],
-        "P-Image":"1.TP825PTB.png",
+        "P-Image":"4.HQ200B-.png",
         "P-Video":[
             "N_A6VkqQjmA",
             "X4SipKLmeSc"
         ],
-        "P-Catalog":"'https://walruspump.com/images/media/product/antibacterial/HQ/DM/HQ_B-tw.pdf",
+        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HQ/DM/HQ_B-tw.pdf",
         "P-Info":"https://walruspump.com/zh-tw/product/detail/488.html",
         "P-Industry":[1, 4, 7],
         "AR":"N"
     },
     "TQ1500B":{
+        "Series":"TQ系列",
+        "D-model":"TQ1500B",
+        "P-Name":"電子穩壓加壓泵浦",
+        "Features":[
+            "葉輪採多段離心式設計，使用時安靜低噪音。",
+            "水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。",
+            "接液部位採不生銹材質製成，確保飲用水衛生。",
+            "無水保護，防止水源不足時泵浦空轉。"
+        ],
+        "P-Image":"3.TQ1500B.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TQ_B/DM/TQ_B-tw.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/498.html",
+        "P-Industry":[1, 4, 6],
+        "AR":"N"
+    },
+    "GQCN400B":{
+        "Series":"GQCN系列",
+        "D-model":"GQCN400B",
+        "P-Name":"電子穩壓加壓泵浦",
+        "Features":[
+            "迴水噴射式設計:內部結構設計，可自行調節泵浦內水路內外部壓力差，以達到快速回水順暢排氣。",
+            "優良排氣設計:齒式葉輪搭配迴水噴射式設計，遇到在容易吸入些微空氣的處所，可快速將空氣排除避免無法正常供水。",
+            "電子穩壓設計:整合泵浦、馬達、壓力桶及電子控制器的穩壓供水系統。",
+            "抗菌安心材質:水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。接液部位採用不生銹材質，確保飲用水衛生。",
+            "雙重停機保護:搭載程式控制無水運轉保護，無水時自動停機，亦裝設溫度過載保護裝置，可防止馬達過熱燒毀。",
+            "延遲6秒緩停機:可避免用水時因水量太小造成泵浦啟動停止頻繁的問題。"
+        ],
+        "P-Image":"2.GQCN400B.png",
+        "P-Video":[
+            "9NgRexTJOuo"
+        ],
+        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/GQCN_B/DM/GQCN_B-tw.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/gqcn400b.html",
+        "P-Industry":[1],
+        "AR":"N"
+    },
+    "TP825PTB":{
         "Series":"TP8系列",
         "D-model":"TP825PTB",
         "P-Name":"塑鋼不生銹加壓機",
@@ -42,364 +80,294 @@
         "P-Industry":[1, 4],
         "AR":"N"
     },
-    "GQCN400B":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
-        "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
-        ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
-    },
-    "TP825PTB":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
-        "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
-        ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
-    },
     "HS800B":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"HS系列",
+        "D-model":"HS800B",
+        "P-Name":"不生銹抽水泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "葉輪採用304不鏽鋼多段離心式設計，強度高、能效佳、運轉時安靜低噪音。",
+            "水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。",
+            "接液部位採不生銹材質製成，確保飲用水衛生。",
+            "泵浦內置溫度保護開關，防止水源不足時泵浦空轉。當水溫超過55˚C時，泵浦自動斷電。"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"8.HS400B.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HS_B/DM/HS_B-tw-20200429.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/522.html",
+        "P-Industry":[1, 2, 4],
+        "AR":"Y"
     },
     "TS400B":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TS系列",
+        "D-model":"TS400B",
+        "P-Name":"不生銹抽水泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "葉輪採多段離心式設計，使用時安靜低噪音。",
+            "水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。",
+            "接液部位採用不生銹材質製成，確保飲用水衛生。",
+            "泵浦內置溫度保護開關，防止水源不足時泵浦空轉。當水溫超過55°C時，泵浦自動斷電(TS400B / 800B)。"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"7.TS400B.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TS_B/DM/TS_B-tw-20200428.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/512.html",
+        "P-Industry":[1, 2, 4],
+        "AR":"N"
     },
     "HQC400B":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"HQC系列",
+        "D-model":"HQC400B",
+        "P-Name":"頂樓順水加壓泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "葉輪採用304不鏽鋼多段離心式設計，強度高、能效佳、運轉時安靜低噪音。",
+            "水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。",
+            "接液部位採不生銹材質製成，確保飲用水衛生。"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"6.HQC400B.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HQC_B/DM/HQC_B-tw.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/516.html",
+        "P-Industry":[1],
+        "AR":"N"
     },
     "HQIC800":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"HQIC系列",
+        "D-model":"HQIC800B",
+        "P-Name":"電腦變頻恆壓泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "結構精巧:摒除一般市面雜牌零件拼湊設計，水機全不生銹材質，體積小不佔空間，效率高噪音小。",
+            "恆壓穩壓:用水時馬達平緩啟動，變頻器依壓力感應器傳回值感測用水壓力，進而控制馬達運轉頻率，無段改變馬達轉速，使用水壓力穩定維持在壓力設定值。使用時壓力均不會高於壓力設定值，用水量超過恆壓範圍仍保持穩壓供水。",
+            "測漏補償:管路洩漏、滴水，微電腦自動偵測並運轉泵浦補償壓力至設定值。",
+            "止水停機:停止用水時，微電腦自動偵測回傳並控制馬達減速停機。",
+            "無水斷電:無水使用1分鐘後會自動斷電，1小時後自行嘗試啟動，直至正常供水為止。"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"5.HQIC800.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/HQIC/HQIC_B-TW000.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/524.html",
+        "P-Industry":[1, 2, 5, 7],
+        "AR":"N"
     },
     "PK250":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"PK系列",
+        "D-model":"PK250",
+        "P-Name":"魚池專用沉水泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "高效能馬達，用電省，效率高。",
+            "馬達備置熱過載保護。",
+            "大量採用高分子塑材，體積小、重量輕。",
+            "插頭式電源線，隨插即用。",
+            "專為造景魚池、錦鯉池、水產養殖用設計。"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"11.PK250.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/PK/DM/PK-60Hz-TW001.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/pk250.html",
+        "P-Industry":[1, 2, 3],
+        "AR":"Y"
     },
     "PW100AR":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"PW_AR系列",
+        "D-model":"PW100AR",
+        "P-Name":"家用小型沉水泵浦_海水專用型",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "高效能馬達，用電省，效率高。",
+            "馬達備置熱過載保護。",
+            "大量採用高分子塑材，產品輕。",
+            "附插頭電源線，方便使用。",
+            "適合在清洗水塔等局限空間的清潔抽水使用。"
         ],
-        "P-Image":"1.TP825PTB.png",
+        "P-Image":"9.PW100AR.png",
         "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
+            "KEuv2Zt7BzE"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/DM/PW-A-DM-TW-20200508.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/473.html",
+        "P-Industry":[1],
+        "AR":"N"
     },
     "PW250AD":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"PW_AD系列",
+        "D-model":"PW250AD",
+        "P-Name":"家用小型沉水泵浦_低水位吸乾型",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "高效能馬達，用電省，效率高。",
+            "馬達備置熱過載保護。",
+            "大量採用高分子塑材，產品輕。",
+            "附插頭電源線，方便使用。",
+            "適合在清洗水塔等局限空間的清潔抽水使用。"
         ],
-        "P-Image":"1.TP825PTB.png",
+        "P-Image":"10.PW250AD.png",
         "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
+            "-eqnX3eTSv4"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/DM/PW250AD.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/470.html",
+        "P-Industry":[1],
+        "AR":"N"
     },
     "TPH12T":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TPH系列",
+        "D-model":"TPH12T",
+        "P-Name":"水平多段離心式泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "適用場域：主要用於工業機械設備、週邊系統、清洗系統、增壓系統、液體傳送及園藝灌溉等使用",
+            "適用液體：水、冷卻劑、輕油和其他乾淨不含雜質、低粘度、無燃性、無爆炸性、無酸鹼質液體",
+            "產品特性：低中高水量、低中水壓、陸上水平多段直軸離心式泵浦",
+            "最大水量：1,500 公升/分鐘",
+            "最大水壓：8.0 公斤/平方公分"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"18.TPH12T.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/tph/DM/TPH-TW000a-202003.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/435.html",
+        "P-Industry":[1, 2, 3, 5, 6],
+        "AR":"N"
     },
     "TH400P":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TH系列",
+        "D-model":"TH400P",
+        "P-Name":"噴霧機",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "往復自吸式，體積小壓力足。",
+            "手提式握把，方便使用。",
+            "插頭式電源線，隨插即用。"
         ],
-        "P-Image":"1.TP825PTB.png",
+        "P-Image":"12.TH400P.png",
         "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
+            "x70Vqz55aCw"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Catalog":"https://walruspump.com/images/media/product/th/TH-dm-tw-20200813.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/33.html",
+        "P-Industry":[1, 2],
+        "AR":"N"
     },
     "TPAK8":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TPAK系列",
+        "D-model":"TPAK8",
+        "P-Name":"冷卻泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "適用場域：主要用於各式車、銑、鉋、磨、鋸等工具機、週邊系統、沖洗及過濾等使用",
+            "適用液體：水、冷卻劑、輕油和其他乾淨、低粘度、無燃性、無爆炸性液體",
+            "產品特性：大水量、低水壓、浸水單段直軸泵浦，無軸封設計",
+            "最大水量：400 公升/分鐘",
+            "最大水壓：1.7 公斤/平方公分"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"13.TPAK8.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/TPAK/DM/TPAK-EW007-201504.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/422.html",
+        "P-Industry":[3],
+        "AR":"N"
     },
     "TPHK8T(S)E":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TPHK系列",
+        "D-model":"TPHK8T(S)E",
+        "P-Name":"多段浸水式離心泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "適用場域：主要用於各式車、銑、鉋、磨、鋸等工具機、週邊系統、沖洗及過濾等使用",
+            "適用液體：水、冷卻劑、輕油和其他乾淨、低粘度、無燃性、無爆炸性、無酸鹼質液體",
+            "產品特性：低中水量、低中水壓、浸多段直軸離心式泵浦，採三層內漏水機身構造迴水設計，即使軸封磨耗發生洩漏，液體也會流回至水箱，可防止環境污染，延長泵浦壽命",
+            "最大水量：280 公升/分鐘",
+            "最大水壓：9.0 公斤/平方公分"
         ],
-        "P-Image":"1.TP825PTB.png",
+        "P-Image":"14.TPHK8T(S)E.png",
         "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
+            "gDtE-rPUals"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Catalog":"https://walruspump.com/images/media/product/TPHK(S)E/DM/TPHK(S)E-TW.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/485.html",
+        "P-Industry":[3],
+        "AR":"Y"
     },
     "TPH-XX2":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TPH-Xx2",
+        "D-model":"",
+        "P-Name":"壓差式交互並列泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "並列運轉(交並式)：使用時單台運轉，隨使用水量增加，單台運轉時水壓、水量不足時，第二台自動啟動併入運轉補償，隨用水量遞減，恢復為單台運轉。",
+            "交互運轉：啟動順序可依設定之時間交替運轉。"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"20.TPH-Xx2.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/tphic/DM/TPHIC-dm-tw.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/40.html",
+        "P-Industry":[1, 2, 4, 7],
+        "AR":"N"
     },
     "TPHICX2":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TPHICx2",
+        "D-model":"",
+        "P-Name":"電腦變頻恆壓-交互並列泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "恆壓穩壓：用水時泵浦平緩啟動，壓力穩定維持在壓力設定值。止水停機，變頻器自動偵測回傳控制減速停機，壓力均不會高於壓力設定值。",
+            "無水斷電：無水時，變頻器自斷停止供電運轉。",
+            "並列運轉(交並式)：使用時單台運轉，隨使用水量增加，單台運轉時水壓、水量不足時，第二台自動啟動併入運轉補償，隨用水量遞減，恢復為單台運轉。",
+            "交互運轉：啟動順序可依設定之時間交替運轉。"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"19.TPHICx2.png",
+        "P-Video":[],
+        "P-Catalog":"https://walruspump.com/images/media/product/tphic/DM/TPHIC-dm-tw.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/107.html",
+        "P-Industry":[1, 4],
+        "AR":"N"
     },
     "TPR5":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TPR系列",
+        "D-model":"TPR5",
+        "P-Name":"立式多段離心泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "適用場域：主要用於水廠過濾與輸送、工程用水系統、冷卻空調系統、高壓沖洗系統、鍋爐給水、冷凝水系統、土地灌溉、加壓、沖洗等使用",
+            "適用液體：水、冷卻劑、輕油和其他乾淨不含雜質、低粘度、無燃性、無爆炸性、無酸鹼質液體",
+            "產品特性：低中高水量、低中高水壓、陸上立式多段連軸離心式泵浦",
+            "最大水量：2,333 公升/分鐘",
+            "最大水壓：32.0 公斤/平方公分"
         ],
-        "P-Image":"1.TP825PTB.png",
+        "P-Image":"17.TPR5.png",
         "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
+            "hNYw_VOQYi8"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Catalog":"https://walruspump.com/images/media/product/TPR/DM/TPR-50Hz-TW001a-201906.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/412.html",
+        "P-Industry":[4],
+        "AR":"N"
     },
     "TPRK3T19":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TPRK_HSIC系列",
+        "D-model":"TPRK3T19-19HSIC",
+        "P-Name":"變頻多段浸水式離心泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "適用場域：主要用於各式車、銑、鉋、磨、鋸等工具機、週邊系統、沖洗等使用",
+            "適用液體：水、冷卻劑、輕油和其他乾淨、低粘度、無燃性、無爆炸性、無酸鹼質液體",
+            "產品特性：低中水量、高水壓、浸多段連軸離心式泵浦，搭載背負式變頻器提高工作壓，採三層內漏水機身構造迴水設計，即使軸封磨耗發生洩漏，液體也會流回至水箱，可防止環境污染，延長泵浦壽命，採用模組式機械軸封，維修方便",
+            "最大水量：130 公升/分鐘",
+            "最大水壓：38.0 公斤/平方公分"
         ],
-        "P-Image":"1.TP825PTB.png",
-        "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
-        ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Image":"16.TPRK3T19.png",
+        "P-Video":[],
+        "P-Catalog":"",
+        "P-Info":"",
+        "P-Industry":[3],
+        "AR":"N"
     },
     "TPRK 3T":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TPRK系列",
+        "D-model":"TPRK 3T",
+        "P-Name":"直立浸水式泵浦",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "適用場域：主要用於各式車、銑、鉋、磨、鋸等工具機、週邊系統、沖洗等使用",
+            "適用液體：水、冷卻劑、輕油和其他乾淨、低粘度、無燃性、無爆炸性、無酸鹼質液體",
+            "產品特性：低中水量、高水壓、浸水多段連軸離心式泵浦，採三層內漏水機身構造迴水設計，即使軸封磨耗發生洩漏，液體也會流回至水箱，可防止環境污染，延長泵浦壽命，採用模組式機械軸封，維修方便",
+            "最大水量：170 公升/分鐘",
+            "最大水壓：24.0 公斤/平方公分"
         ],
-        "P-Image":"1.TP825PTB.png",
+        "P-Image":"15.TPRK 3T.png",
         "P-Video":[
-            "s49bekncsFM",
-            "N_A6VkqQjmA"
+            "8YY1UHLqrbM"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
-        "P-Industry":[1, 4],"AR":"N"
+        "P-Catalog":"https://walruspump.com/images/media/product/TPRK/TPRK-TW000-202004-20200505.pdf",
+        "P-Info":"https://walruspump.com/zh-tw/product/detail/452.html",
+        "P-Industry":[3],
+        "AR":"N"
     }
 }

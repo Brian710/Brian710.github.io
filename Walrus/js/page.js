@@ -109,7 +109,7 @@ function Page(data, content){
 function G_Top(container, data, content){
 
     let _productimage = document.createElement("IMG");
-    $(_productimage).addClass("pd-3-0 h-25 z-100").attr("src", "./images/product/1.TP825PTB.png").css({"width":"17rem","margin-top":"2rem"});
+    $(_productimage).addClass("pd-3-0 h-25 z-100").attr("src", "./images/product/"+data[content]["P-Image"]).css({"width":"17rem","margin-top":"2rem"});
     let _logo = document.createElement("IMG");
     $(_logo).addClass("pos-a t-0 l-0").attr("src", "./images/icon/Page_Logo.png").css({"width":"5rem", "margin-top":"calc(0.5 * var(--bs-gutter-x))"});
     let _bgc = document.createElement("IMG");
@@ -117,13 +117,14 @@ function G_Top(container, data, content){
 
     let _itemmodel = document.createElement("P");
     $(_itemmodel).addClass("pos-r b-0 ModelText")
-    if($("#pano").attr("data-lang")=="TC")
-        $(_itemmodel).html("展示機型 " + data[content]["D-model"]);
-    else if($("#pano").attr("data-lang")=="EN")
-        $(_itemmodel).html("Display model " + data[content]["D-model"]);
-    else if($("#pano").attr("data-lang")=="JP")
-        $(_itemmodel).html("ディスプレイモデル " + data[content]["D-model"]);
-
+    if(data[content]["D-model"].length > 0){
+        if($("#pano").attr("data-lang")=="TC")
+            $(_itemmodel).html("展示機型 " + data[content]["D-model"]);
+        else if($("#pano").attr("data-lang")=="EN")
+            $(_itemmodel).html("Display model " + data[content]["D-model"]);
+        else if($("#pano").attr("data-lang")=="JP")
+            $(_itemmodel).html("ディスプレイモデル " + data[content]["D-model"]);
+    }
     $(container).append(
         $(_productimage),
         $(_logo),
