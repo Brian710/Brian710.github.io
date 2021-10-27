@@ -49,6 +49,7 @@ function Data(enableContent){
     }, 300);
     $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
     $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
+    $("#MenuLogo").hide();
 }
 
 function Page(data, content){

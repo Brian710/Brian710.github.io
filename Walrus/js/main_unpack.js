@@ -74,6 +74,7 @@ function Menu(){
             }, 300);
             $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
             $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
+            $("#MenuLogo").hide();
         }
         else{
             G_Menu(_menucontainer);
@@ -107,7 +108,7 @@ function G_Menu(container){
     G_MenuScenesBtnList(_menuscenesbtnlist);
 
     let _menulogo = document.createElement("IMG");
-    $(_menulogo).addClass("MenuLogo SceneBtnAni").attr("src","./images/menu/Icon_IP.png");
+    $(_menulogo).addClass("MenuLogo SceneBtnAni").attr("id","MenuLogo").attr("src","./images/menu/Icon_IP.png");
 
     $(_menubgcdiv).append($(_menubgc),$(_menulogo));
     $(container).append($(_menubgcdiv),$(_menucontentcontainer));
