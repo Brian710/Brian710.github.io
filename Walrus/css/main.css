@@ -325,7 +325,7 @@
     .MenuBtnList{ left: 7rem; }
     .MenuSceneBtn{ margin-left: 2rem !important; }
     .MenuLogo{ width: 10rem; }
-    .MenuSceneBtn div{ margin-top: 1rem; }
+    .MenuSceneBtn div{ margin-top: 0.75rem; }
     .MenuSceneBtn div div{ bottom: 10%; }
 }
 @media (min-width: 321px) and (max-width: 375px){
@@ -342,13 +342,15 @@
     }
     .MenuBgcDiv{
         top: -9rem;
-        width: 23rem;
-        height: 45rem;
+        width: 21rem;
+        height: 43rem;
     }
-    .MenuBgc{ clip-path: circle(50% at -33vw calc(var(--vh) * 0.31)); }
+    .MenuBgc{ clip-path: circle(50% at -12% 21%); }
     .MenuContent{ top: 4.5rem; }
+    .MenuBtnList{ left: 7rem; }
+    .MenuSceneBtn{ margin-left: 2rem !important; }
     .MenuLogo{ width: 10rem; }
-    .MenuSceneBtn div{ margin-top: 1rem; }
+    .MenuSceneBtn div{ margin-top: 0.75rem; }
     .MenuSceneBtn div div{ bottom: -10%; }
 }
 @media (min-width: 376px) and (max-width: 425px){
@@ -363,15 +365,14 @@
         left: 12px;
     }
     .MenuBgcDiv{
-        width: 100vw;
-        height: 95vh;
+        top: -10rem;
+        height: 48rem;
     }
-    .MenuBgc{ clip-path: circle(50% at -13% 26%); }
-    .MenuContent{
-        width: 84vw;
-        top: 4rem;
-    }
-    .MenuSceneBtn div{ margin-top: 1.5rem; }
+    .MenuBgc{ clip-path: circle(50% at -16% 27%); }
+    .MenuContent{ top: 4rem; }
+    .MenuBtnList{ left: 7rem; }
+    .MenuSceneBtn{ margin-left: 2rem !important; }
+    .MenuSceneBtn div{ margin-top: 0.75rem; }
     .MenuSceneBtn div div{ bottom: -10%; }
 }
 @media (min-width: 426px) and (max-width: 1024px){
