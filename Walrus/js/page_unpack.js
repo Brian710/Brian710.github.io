@@ -81,7 +81,7 @@ function Page(data, content){
     
     let _close = document.createElement("IMG");
     $(_close).addClass("pos-a t-0 r-0 cur-p z-110")
-    .attr("src", "./images/icon/Icon_Close.png").css({"width":"6rem", "padding":"0"})
+    .attr("src", "./images/icon/Icon_Close.png").css({"width":"4.5rem", "padding":"0"})
     .click(function(){
         setTimeout(function(){
             $(_clickempty).remove();
@@ -292,7 +292,7 @@ function G_VideoPlay(id){
 
     let _close = document.createElement("IMG");
     $(_close).addClass("pos-a t-0 r-0 cur-p")
-    .attr("src", "./images/icon/Icon_Close.png").css({"width":"7rem", "padding":"0", "z-index":"10"})
+    .attr("src", "./images/icon/Icon_Close.png").css({"width":"6rem", "padding":"0", "z-index":"10"})
     .click(function(){
         $(_videocontainer).remove();
     }).appendTo($(_videocontainer));
