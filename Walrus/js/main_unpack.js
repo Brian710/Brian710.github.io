@@ -89,8 +89,10 @@ function Menu(){
 
 function G_Menu(container){
 
+    let _menubgcdiv = document.createElement("DIV");
+    $(_menubgcdiv).addClass("pos-r MenuBgcDiv").attr("id","MenuBGC");
     let _menubgc = document.createElement("DIV");
-    $(_menubgc).addClass("pos-a MenuBgc Rollin-left").attr("id","MenuBGC");
+    $(_menubgc).addClass("pos-a MenuBgc Rollin-left");
 
     let _menucontentcontainer = document.createElement("DIV");
     $(_menucontentcontainer).addClass("pos-a MenuContent").attr("id","MenuContent");
@@ -105,9 +107,10 @@ function G_Menu(container){
     G_MenuScenesBtnList(_menuscenesbtnlist);
 
     let _menulogo = document.createElement("IMG");
-    $(_menulogo).addClass("MenuLogo SceneBtnAni").attr("src","./images/menu/Icon_IP.png").appendTo($(_menucontentcontainer));
+    $(_menulogo).addClass("MenuLogo SceneBtnAni").attr("src","./images/menu/Icon_IP.png");
 
-    $(container).append($(_menubgc),$(_menucontentcontainer));
+    $(_menubgcdiv).append($(_menubgc),$(_menulogo));
+    $(container).append($(_menubgcdiv),$(_menucontentcontainer));
 }
 
 function G_MenuBtnList(contatiner){

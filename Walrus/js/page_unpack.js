@@ -80,7 +80,7 @@ function Page(data, content){
     
     let _close = document.createElement("IMG");
     $(_close).addClass("pos-a t-0 r-0 cur-p z-110")
-    .attr("src", "./images/icon/Icon_Close.png").css({"width":"4.5rem", "padding":"0"})
+    .attr("src", "./images/icon/Icon_Close.png").css({"width":"6rem", "padding":"0"})
     .click(function(){
         setTimeout(function(){
             $(_clickempty).remove();
@@ -110,6 +110,9 @@ function G_Top(container, data, content){
 
     let _productimage = document.createElement("IMG");
     $(_productimage).addClass("pd-3-0 h-25 z-100").attr("src", "./images/product/"+data[content]["P-Image"]).css({"width":"17rem","margin-top":"2rem"});
+    if(data[content]["AR"] == "Y"){
+        $(_productimage).addClass("cur-p");
+    }
     let _logo = document.createElement("IMG");
     $(_logo).addClass("pos-a t-0 l-0").attr("src", "./images/icon/Page_Logo.png").css({"width":"5rem", "margin-top":"calc(0.5 * var(--bs-gutter-x))"});
     let _bgc = document.createElement("IMG");
