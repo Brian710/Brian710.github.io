@@ -1,4 +1,7 @@
+var gc = new GameCanvas();
 var t=0;
+loop();
+$("#WaveAnim").hide();
 function loop(){
     background("rgba(255,255,255,1)");
     var d=[

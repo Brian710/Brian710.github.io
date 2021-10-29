@@ -33,6 +33,13 @@ let _home_text, _construction_text, _manufacturing_text, _tech_text, _retail_tex
 let pano, WaveCanvas;
 var loaded = false;
 
+let timer = new Timer(function() {
+    $("#WaveAnim").removeClass("Wave").hide();
+    $("#CanvasDiv").remove();
+    $("#pano").attr("data-Change","OFF");
+    timer.stop();
+}, 5200);
+
 function Init(){  
     let height = window.innerHeight;
     document.documentElement.style.setProperty('--vh', `${height}px`);
@@ -53,6 +60,7 @@ function Init(){
         $("#pano").attr("data-lang","TC").attr("data-sound","on").attr("data-Change","OFF");
         G_Audio();
         loaded = true;
+        timer.stop();
     }
     Menu();
 }
@@ -96,11 +104,7 @@ var _polymorph = anime({
     loop: true,
 });
 
-var timer = new Timer(function() {
-    $("#WaveAnim").remove();
-    $("#CanvasDiv").remove();
-    $("#pano").attr("data-Change","OFF");
-}, 5200);
+
 
 function G_Audio(){
     let _audio = document.createElement("audio");
@@ -516,11 +520,8 @@ function G_WaveCanvas(){
     let _CanvasLogo = document.createElement("IMG");
     $(_CanvasLogo).addClass("pos-r CanvasLogo").attr("src","./images/transitions/WALRUS_Logo.png").appendTo($(_CanvasLogoDiv));
     $("#pano").append($(_CanvasLogoDiv));
-
-    WaveCanvas = new GameCanvas();
-    loop();
+    $("#WaveAnim").addClass("Wave").show();
     $("#pano").attr("data-Change","ON");
-    timer.stop();
     timer.start();
 }
 
