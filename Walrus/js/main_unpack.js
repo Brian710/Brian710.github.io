@@ -528,6 +528,8 @@ function G_WaveCanvas(){
 }
 
 function loop(){
+    let a = "";
+    let c = "";
     background("rgba(255,255,255,1)");
     let d=[
         function(g){
@@ -539,8 +541,8 @@ function loop(){
     ];
     let b=["rgb(255,217,0)","rgb(0,67,143)"];
     for(let f=0; f<2; f++){
-        let a=b[f];
-        let c=d[f];
+        a=b[f];
+        c=d[f];
         beginPath();
         for(let e=0; e<=1+0.01; e+=0.01){
             lineTo(e * width, 100 + c(e))
