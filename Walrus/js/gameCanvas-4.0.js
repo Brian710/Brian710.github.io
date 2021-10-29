@@ -37,7 +37,8 @@ function GameCanvas(settings) {
     
     this.createCanvas = function() {
       let canvas = document.createElement("canvas");
-      document.body.appendChild(canvas);
+      canvas.setAttribute("id","WaveAnim");
+      $("#pano").append(canvas);
       return canvas;
     }
     this.setSize = function(width, height) {
@@ -52,7 +53,7 @@ function GameCanvas(settings) {
       }
     }
     this.fillPageWithCanvas = function() {
-      top.canvas.style.position = "fixed";
+      top.canvas.style.position = "absolute";
       top.canvas.style.top = "0px";
       top.canvas.style.left = "0px";
       top.setSize(window.innerWidth, window.innerHeight);
@@ -984,8 +985,7 @@ function GameCanvas(settings) {
       if (typeof this.settings.updateSizeOnResize !== "undefined") {
         this.updateSizeOnResize = this.settings.updateSizeOnResize;
       }
-    }
-    
+    }    
     document.addEventListener("keydown", event => {
       this.altPressed = event.altKey;
       this.shiftPressed = event.shiftKey;

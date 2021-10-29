@@ -189,6 +189,18 @@
     bottom: 0;
     right: 0;
     width: 12rem;
+    z-index: 200;
+}
+
+/**********  Wave Animation   *********/
+#WaveAnim{
+    animation: Roll-down-Canvas 5s linear;
+    animation-fill-mode: forwards;
+    z-index: 9999;
+}
+.CanvasLogo{
+    animation: Fade-out-Canvas 5s linear;
+    animation-fill-mode: forwards;
 }
 
 /**********  Animation   *********/
@@ -300,6 +312,34 @@
     }
     100%{
         transform: translateX(-300px);
+        opacity: 0;
+    }
+}
+@keyframes Roll-down-Canvas{
+    0%{
+        top: 0;
+        opacity: 1;
+    }
+    100%{
+        top: 100vh;
+        opacity: 0.2;
+    }
+}
+@keyframes Fade-out-Canvas{
+    0%{
+        transform: scale(0.3);
+        opacity: 1;
+    }
+    40%{
+        transform: scale(0.3);
+        opacity: 1;
+    }
+    80%{
+        transform: scale(0.1);
+        opacity: 0.5;
+    }
+    100%{
+        transform: scale(0.1);
         opacity: 0;
     }
 }

@@ -30,22 +30,31 @@ const MenuButton_JP = [
 ];
 
 let _home_text, _construction_text, _manufacturing_text, _tech_text, _retail_text, _fishing_text, _food_text, _fit_text;
-let pano;
+let pano, WaveCanvas;
 var loaded = false;
+var time = 0;
 
 function Init(){  
     let height = window.innerHeight;
     document.documentElement.style.setProperty('--vh', `${height}px`);
     embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
     pano = parent.window.document.getElementById("WALRUS");
-    $("#pano").click(function(){
-        if(!loaded){
-            $("#pano").attr("data-lang","TC").attr("data-sound","on");
-            G_Audio();
-            // $("#AudioPlayer")[0].play();
-            loaded = true; 
-        }
-    });
+    if(!loaded){
+        let _clickempty = document.createElement("DIV");
+        $(_clickempty).addClass("pos-a t-0").attr("id","ClickEmpty").css({
+            "width":"100%",
+            "height":"100%",
+            "z-index":"999999"
+        })
+        .click(function(){
+            $("#AudioPlayer")[0].play();
+            $(_clickempty).remove();
+        }).appendTo("#pano");
+        
+        $("#pano").attr("data-lang","TC").attr("data-sound","on").attr("data-Change","OFF");
+        G_Audio();
+        loaded = true;
+    }
     Menu();
 }
 
@@ -89,6 +98,12 @@ var _polymorph = anime({
     loop: true,
 });
 
+var timer = new Timer(function() {
+    $("#WaveAnim").remove();
+    $("#CanvasDiv").remove();
+    $("#pano").attr("data-Change","OFF");
+}, 7000);
+
 function G_Audio(){
     let _audio = document.createElement("audio");
     let _source = document.createElement("source");
@@ -96,10 +111,8 @@ function G_Audio(){
     $(_source).attr("type","audio/mp4");
     $(_audio).attr("id","AudioPlayer").append($(_source));
     $(_audio)[0].loop = true;
-    $(_audio)[0].play();
 
     $("#pano").append($(_audio));
-
 }
 
 function Menu(){
@@ -258,6 +271,7 @@ function G_MenuScenesBtnList(container){
     $(_home_line).addClass("pos-a MenuBtnLine");
     $(_home)
     .click(function(){
+        G_WaveCanvas();
         pano.call("loadscene(scene_0000,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_home_img).hide();
@@ -278,6 +292,7 @@ function G_MenuScenesBtnList(container){
     let _construction_line = document.createElement("DIV");
     $(_construction_line).addClass("pos-a MenuBtnLine");
     $(_construction).click(function(){
+        G_WaveCanvas();
         pano.call("loadscene(scene_0007,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_construction_img).hide();
@@ -298,6 +313,7 @@ function G_MenuScenesBtnList(container){
     let _manufacturing_line = document.createElement("DIV");
     $(_manufacturing_line).addClass("pos-a MenuBtnLine");
     $(_manufacturing).click(function(){
+        G_WaveCanvas();
         pano.call("loadscene(scene_0009,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_manufacturing_img).hide();
@@ -318,6 +334,7 @@ function G_MenuScenesBtnList(container){
     let _tech_line = document.createElement("DIV");
     $(_tech_line).addClass("pos-a MenuBtnLine");
     $(_tech).click(function(){
+        G_WaveCanvas();
         pano.call("loadscene(scene_0011,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_tech_img).hide();
@@ -338,6 +355,7 @@ function G_MenuScenesBtnList(container){
     let _retail_line = document.createElement("DIV");
     $(_retail_line).addClass("pos-a MenuBtnLine");
     $(_retail).click(function(){
+        G_WaveCanvas();
         pano.call("loadscene(scene_0013,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_retail_img).hide();
@@ -358,6 +376,7 @@ function G_MenuScenesBtnList(container){
     let _fishing_line = document.createElement("DIV");
     $(_fishing_line).addClass("pos-a MenuBtnLine");
     $(_fishing).click(function(){
+        G_WaveCanvas();
         pano.call("loadscene(scene_0015,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_fishing_img).hide();
@@ -378,6 +397,7 @@ function G_MenuScenesBtnList(container){
     let _food_line = document.createElement("DIV");
     $(_food_line).addClass("pos-a MenuBtnLine");
     $(_food).click(function(){
+        G_WaveCanvas();
         pano.call("loadscene(scene_0017,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_food_img).hide();
@@ -398,6 +418,7 @@ function G_MenuScenesBtnList(container){
     let _fit_line = document.createElement("DIV");
     $(_fit_line).addClass("pos-a MenuBtnLine");
     $(_fit).click(function(){
+        G_WaveCanvas();
         pano.call("loadscene(scene_0019,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_fit_img).hide();
@@ -489,4 +510,68 @@ function CheckDevice(){
         // $("html").attr("data-d","Desktop");
         return false;
     };
+}
+
+function G_WaveCanvas(){
+    let _CanvasLogoDiv = document.createElement("DIV");
+    $(_CanvasLogoDiv).addClass("pos-a t-0 w-100 h-100").attr("id","CanvasDiv");
+    let _CanvasLogo = document.createElement("IMG");
+    $(_CanvasLogo).addClass("pos-r display-block mg-auto CanvasLogo").attr("src","./images/transitions/WALRUS_Logo.png").appendTo($(_CanvasLogoDiv));
+    $("#pano").append($(_CanvasLogoDiv));
+
+    WaveCanvas = new GameCanvas();
+    time = 100;
+    loop();
+    $("#pano").attr("data-Change","ON");
+    timer.start();
+}
+
+function loop(){
+    background("rgba(255,255,255,0.5)");
+    var d=[function(g){
+        return Math.sin(g * 6 + time * 0.01) * (100) * Math.sin(time * 0.03)
+    },function(g){
+        return(Math.sin(g * 6 + time * 0.01) * (180) + 20) * Math.sin(time * 0.03)
+    }];
+    var b=["rgb(255,217,0)","rgb(0,67,143)"];
+    for(var f=0;f<2;f++){
+        var a=b[f];
+        var c=d[f];
+        beginPath();
+        for(var e=0;e<=1+0.01;e+=0.01){
+            lineTo(e * width, height - 750 + c(e))
+        }        
+        lineTo(width,height);
+        lineTo(0,height);
+        closePath();
+        fillStyle(a);
+        fill()
+    }
+    time++;
+    update();
+    requestAnimationFrame(loop)
+};
+
+function Timer(fn, t) {
+    var timerObj = setInterval(fn, t);
+    this.stop = function() {
+        if (timerObj) {
+            clearInterval(timerObj);
+            timerObj = null;
+        }
+        return this;
+    }
+    // start timer using current settings (if it's not already running)
+    this.start = function() {
+        if (!timerObj) {
+            this.stop();
+            timerObj = setInterval(fn, t);
+        }
+        return this;
+    }
+    // start with new or original interval, stop current interval
+    this.reset = function(newT = t) {
+        t = newT;
+        return this.stop().start();
+    }
 }
