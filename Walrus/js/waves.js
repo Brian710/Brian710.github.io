@@ -4,29 +4,31 @@
 	var nodes = 6;
 	var waves = [];
 	var waveHeight = 150;
-	var colours = ["#00428E","#FFD900","#FFFFFF","rgba(255,255,255,0.1)"];
+	var colours = ["#00428E","#FFD900","#FFFFFF"];
 	
   // Initiator function
 	function init() {
 		cvs = document.getElementById("canvas");
 		ctx = cvs.getContext("2d");
 		resizeCanvas(cvs);    
-		for (var i = 0; i < 4; i++) {
+		for (var i = 0; i < 3; i++) {
 			waves.push(new wave(colours[i], 1, nodes));
 		}
         update();
 	}
 	function update() {
-		// ctx.globalCompositeOperation = "source-over";
+		ctx.clearRect(0,0,canvas.width,canvas.height);
+		ctx.fillStyle="rgba(255,255,255,0)";
+		ctx.globalCompositeOperation = "source-over";
 		ctx.fillRect(0,0,cvs.width,cvs.height);
-		// ctx.globalCompositeOperation = "screen";
-		// ctx.globalCompositeOperation = "source-over";
+		ctx.globalCompositeOperation = "source-over";
 		for (var i = 0; i < waves.length; i++) {
 			for (var j = 0; j < waves[i].nodes.length; j++) {
 				bounce(waves[i].nodes[j]);
 			}
 			drawWave(waves[i]);
 		}
+		ctx.fillStyle="rgba(255,255,255,0)";
     	requestAnimationFrame(update);
 	}
 
@@ -37,7 +39,7 @@
 		this.nodes = [];
 		var tick = 1;
 		for (var i = 0; i <= nodes; i++) {
-			var temp = [(i-1) * cvs.width / nodes, 0, Math.random()*200, 4];
+			var temp = [(i-1) * cvs.width / nodes, 0, Math.random()*200, 2];
 			this.nodes.push(temp);
 		}
 	}
