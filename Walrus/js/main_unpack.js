@@ -102,7 +102,7 @@ var timer = new Timer(function() {
     $("#WaveAnim").remove();
     $("#CanvasDiv").remove();
     $("#pano").attr("data-Change","OFF");
-}, 7000);
+}, 6300);
 
 function G_Audio(){
     let _audio = document.createElement("audio");
@@ -516,7 +516,7 @@ function G_WaveCanvas(){
     let _CanvasLogoDiv = document.createElement("DIV");
     $(_CanvasLogoDiv).addClass("pos-a t-0 w-100 h-100").attr("id","CanvasDiv");
     let _CanvasLogo = document.createElement("IMG");
-    $(_CanvasLogo).addClass("pos-r display-block mg-auto CanvasLogo").attr("src","./images/transitions/WALRUS_Logo.png").appendTo($(_CanvasLogoDiv));
+    $(_CanvasLogo).addClass("pos-r CanvasLogo").attr("src","./images/transitions/WALRUS_Logo.png").appendTo($(_CanvasLogoDiv));
     $("#pano").append($(_CanvasLogoDiv));
 
     WaveCanvas = new GameCanvas();
@@ -527,11 +527,11 @@ function G_WaveCanvas(){
 }
 
 function loop(){
-    background("rgba(255,255,255,0.5)");
+    background("rgba(255,255,255,0.1)");
     var d=[function(g){
-        return Math.sin(g * 6 + time * 0.01) * (100) * Math.sin(time * 0.03)
+        return Math.sin(g * 6 + time * 0.01) * (60) * Math.sin(time * 0.03)
     },function(g){
-        return(Math.sin(g * 6 + time * 0.01) * (180) + 20) * Math.sin(time * 0.03)
+        return(Math.sin(g * 6 + time * 0.01) * (120) + 20) * Math.sin(time * 0.03)
     }];
     var b=["rgb(255,217,0)","rgb(0,67,143)"];
     for(var f=0;f<2;f++){
@@ -539,7 +539,7 @@ function loop(){
         var c=d[f];
         beginPath();
         for(var e=0;e<=1+0.01;e+=0.01){
-            lineTo(e * width, height - 750 + c(e))
+            lineTo(e * width, height - 700 + c(e))
         }        
         lineTo(width,height);
         lineTo(0,height);
