@@ -59,6 +59,9 @@ body {
     width: 100%;
     height: 100%;
 }
+#WALRUS{
+    height: 100% !important;
+}
 *,:root{
     --bs-font-sans-serif:'Noto Sans TC', sans-serif;
 }
