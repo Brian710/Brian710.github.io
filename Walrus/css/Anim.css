@@ -1,0 +1,153 @@
+/**********  Animation   *********/
+.SceneBtnAni{
+    animation: Left-in-Menu 0.3s ease-out;
+    animation-fill-mode: forwards;
+}
+.SceneBtnAni-Out{
+    animation: Left-out-Menu 0.3s ease-out;
+    animation-fill-mode: forwards;
+}
+.Rollin-left{
+    animation: Left-in-Page 0.3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.Rollout-left{
+    animation: Left-out-Page 0.3s ease-in;
+    animation-fill-mode: forwards;
+}
+.text-roll-left-in{
+    animation: text-roll-in 0.3s ease-out;
+    animation-fill-mode: forwards;
+}
+.text-roll-right-out{
+    animation: text-roll-out 0.3s ease-out;
+    animation-fill-mode: forwards;
+}
+.line-roll-right-in{
+    animation: line-roll-in 0.3s ease-out;
+    animation-fill-mode: forwards;
+}
+.line-roll-right-out{
+    animation: line-roll-out 0.3s ease-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes Left-in-Page{
+    0%{
+        width: 33.334rem;
+        height: 33.334rem;
+        transform: translateX(-10vw) translateY(-46vh);
+    }
+    100%{
+        width: 66.667rem;
+        height: 66.667rem;
+        transform: translateX(0) translateY(0);
+    }
+}
+@keyframes Left-out-Page{
+    0%{
+        width: 66.667rem;
+        height: 66.667rem;
+        transform: translateX(0) translateY(0);
+    }
+    100%{
+        width: 33.334rem;
+        height: 33.334rem;
+        transform: translateX(-10vw) translateY(-46vh);
+    }
+}
+@keyframes Left-in-Menu{
+    0%{
+        transform: translateX(-30vw);
+    }
+    30%{
+        transform: translateX(-30vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes Left-out-Menu{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-30vw);
+    }
+}
+@keyframes text-roll-in{
+    0%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes text-roll-out{
+    0%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes line-roll-in{
+    0%{
+        opacity: 1;
+        transform: translateX(-250px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes line-roll-out{
+    0%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+}
+@keyframes Roll-down-Canvas{
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(90vh);
+        opacity: 0;
+    }
+}
+@keyframes Fade-out-WelcomeAnim{
+    0%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes Fade-out-Canvas{
+    0%{
+        transform: translate(-50%, -50%) scale(0.4);
+        opacity: 1;
+    }
+    40%{
+        transform: translate(-50%, -50%) scale(0.35);
+        opacity: 1;
+    }
+    80%{
+        transform: translate(-50%, -50%) scale(0.1);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(0.1);
+        opacity: 0;
+    }
+}

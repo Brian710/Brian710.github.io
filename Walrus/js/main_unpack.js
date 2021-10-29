@@ -30,15 +30,14 @@ const MenuButton_JP = [
 ];
 
 let _home_text, _construction_text, _manufacturing_text, _tech_text, _retail_text, _fishing_text, _food_text, _fit_text;
-let pano, WaveCanvas;
+let pano;
 var loaded = false;
 
 let timer = new Timer(function() {
     $("#WaveAnim").removeClass("Wave").hide();
     $("#CanvasDiv").remove();
-    $("#pano").attr("data-Change","OFF");
     timer.stop();
-}, 5200);
+}, 2200);
 
 function Init(){  
     let height = window.innerHeight;
@@ -46,18 +45,16 @@ function Init(){
     embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
     pano = parent.window.document.getElementById("WALRUS");
     if(!loaded){
-        let _clickempty = document.createElement("DIV");
-        $(_clickempty).addClass("pos-a t-0").attr("id","ClickEmpty").css({
-            "width":"100%",
-            "height":"100%",
-            "z-index":"999999"
-        })
-        .click(function(){
+        let _CanvasLogoDiv = document.createElement("DIV");
+        $(_CanvasLogoDiv).addClass("pos-a t-0 w-100 h-100 ClickEmpty").attr("id","CanvasDiv");
+        let _CanvasLogo = document.createElement("IMG");
+        $(_CanvasLogo).addClass("pos-r WelcomeLogo").attr("src","./images/transitions/WALRUS_Logo.png").appendTo($(_CanvasLogoDiv));
+        $(_CanvasLogoDiv).click(function(){
             $("#AudioPlayer")[0].play();
-            $(_clickempty).remove();
-        }).appendTo("#pano");
+            $(_CanvasLogoDiv).remove();
+        }).appendTo($("#pano"));
         
-        $("#pano").attr("data-lang","TC").attr("data-sound","on").attr("data-Change","OFF");
+        $("#pano").attr("data-lang","TC").attr("data-sound","on");
         G_Audio();
         loaded = true;
         timer.stop();
@@ -103,8 +100,6 @@ var _polymorph = anime({
     duration: 5000,
     loop: true,
 });
-
-
 
 function G_Audio(){
     let _audio = document.createElement("audio");
@@ -521,7 +516,6 @@ function G_WaveCanvas(){
     $(_CanvasLogo).addClass("pos-r CanvasLogo").attr("src","./images/transitions/WALRUS_Logo.png").appendTo($(_CanvasLogoDiv));
     $("#pano").append($(_CanvasLogoDiv));
     $("#WaveAnim").addClass("Wave").show();
-    $("#pano").attr("data-Change","ON");
     timer.start();
 }
 

@@ -19,7 +19,9 @@
         "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HQ/DM/HQ_B-tw.pdf",
         "P-Info":"https://walruspump.com/zh-tw/product/detail/488.html",
         "P-Industry":[1, 4, 7],
-        "AR":"Y"
+        "AR":"Y",
+        "AndroidUrl":"",
+        "iOSUrl":""
     },
     "TQ1500B":{
         "Series":"TQ系列",

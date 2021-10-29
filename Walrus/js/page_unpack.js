@@ -52,6 +52,32 @@ function Data(enableContent){
     $("#MenuLogo").hide();
 }
 
+function Data_Situation(enableContent){
+    enableContent = enableContent.toUpperCase().substring(0, enableContent.length-2);
+    if($("#pano").attr("data-lang") == "TC"){
+        $.getJSON( "./data/machineConfigure_tc.json", function(_data) {
+            Page(_data, enableContent);
+        });
+    }
+    else if($("#pano").attr("data-lang") == "EN"){
+        $.getJSON( "./data/machineConfigure_en.json", function(_data) {
+            Page(_data, enableContent);
+        });
+    }
+    else if($("#pano").attr("data-lang") == "JP"){
+        $.getJSON( "./data/machineConfigure_jp.json", function(_data) {
+            Page(_data, enableContent);
+        });
+    }
+    setTimeout(function(){
+        $("#MenuBGC").remove();
+        $("#MenuContent").remove();
+    }, 300);
+    $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
+    $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
+    $("#MenuLogo").hide();
+}
+
 function Page(data, content){
     let _clickempty = document.createElement("DIV");
     $(_clickempty).addClass("pos-a w-100 h-100 t-0 r-0 z-50 bgc-black").click(function(){

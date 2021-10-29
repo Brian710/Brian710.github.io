@@ -6,7 +6,7 @@
 	<include url="plugins_l/plugin_a/video_hs.xml"/>
 	<include url="plugins_l/plugin_a/video.xml"/>
 
-	<addhs_settings  pin_cod="" 
+	<addhs_settings  pin_cod=""
  					 sound_close_click="true" 
  					 video_close_click="true" 
  					 youtube_close_click="true" 
@@ -508,6 +508,7 @@
   <hotspot  name="HQIC800_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="156.9" atv="-17.37" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="HQIC800_1" scene_EL="scene_0007" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -515,6 +516,7 @@
   <hotspot  name="GQCN400B_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-130" atv="-12.8" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="GQCN400B_1" scene_EL="scene_0008" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -522,6 +524,7 @@
   <hotspot  name="TS400B_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-130.8" atv="2.34" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TS400B_1" scene_EL="scene_0008" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -529,6 +532,7 @@
   <hotspot  name="HQ200B_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-111.4" atv="-25.9" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="HQ200B_1" scene_EL="scene_0008" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		
@@ -536,6 +540,7 @@
   <hotspot  name="HS800B_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-65.4" atv="2.918" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="HS800B_1" scene_EL="scene_0008" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		 
@@ -543,6 +548,7 @@
  <hotspot  name="TPHICx2_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-58" atv="-20" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPHICx2_1" scene_EL="scene_0008" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		
@@ -550,6 +556,7 @@
  <hotspot  name="TPR5_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-35.98" atv="1.29" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPR5_1" scene_EL="scene_0008" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>	
@@ -557,6 +564,7 @@
   <hotspot  name="TPH12T_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="88.5" atv="-0.15" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPH12T_1" scene_EL="scene_0009" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -565,6 +573,7 @@
   <hotspot  name="TPHK8T(S)E_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="76.5" atv="-4.18" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPHK8T(S)E_1" scene_EL="scene_0009" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		
@@ -572,6 +581,7 @@
   <hotspot  name="TPAK8_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="67.13" atv="-2.855" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPAK8_1" scene_EL="scene_0009" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		 
@@ -579,6 +589,7 @@
  <hotspot  name="TPRK3T19_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="57.524" atv="-5.529" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPRK3T19_1" scene_EL="scene_0009" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		
@@ -586,6 +597,7 @@
  <hotspot  name="TPRK 3T_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="50" atv="-5.43" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPRK 3T_1" scene_EL="scene_0009" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -593,6 +605,7 @@
  <hotspot  name="TPR5_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-168.67" atv="-13.5" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPR5_2" scene_EL="scene_0011" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		
@@ -600,6 +613,7 @@
  <hotspot  name="TPH12T_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="170" atv="-3.532" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPH12T_2" scene_EL="scene_0011" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -607,6 +621,7 @@
  <hotspot  name="TPR5_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="29.115" atv="-12.83" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPR5_3" scene_EL="scene_0012" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		
@@ -614,6 +629,7 @@
  <hotspot  name="TPH12T_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="60.67" atv="11.81" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPH12T_3" scene_EL="scene_0012" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -621,6 +637,7 @@
   <hotspot  name="TPHR5_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="79.11" atv="-11.75" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPHR5_2" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -628,6 +645,7 @@
   <hotspot  name="TQ1500B_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="93.78" atv="-7.5" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TQ1500B_2" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		
@@ -635,6 +653,7 @@
   <hotspot  name="HS800B_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="93.99" atv="4.66" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="HS800B_2" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		 
@@ -642,6 +661,7 @@
  <hotspot  name="TP825PTB_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="107.1" atv="-8.98" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TP825PTB_1" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		
@@ -649,6 +669,7 @@
  <hotspot  name="TS400B_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="107.187" atv="4.63" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TS400B_2" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -656,6 +677,7 @@
  <hotspot  name="TPHICx2_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="120.3" atv="-3.87" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPHICx2_2" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		
@@ -663,6 +685,7 @@
  <hotspot  name="TPH-Xx2_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="130.8" atv="-3.842" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPH-Xx2_1" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -670,6 +693,7 @@
  <hotspot  name="HQ200B_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-89.86" atv="0.373" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="HQ200B_2" scene_EL="scene_0014" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		 
@@ -677,6 +701,7 @@
  <hotspot  name="PW100AR_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="171.78" atv="-9.05" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="PW100AR_1" scene_EL="scene_0015" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>	
@@ -684,6 +709,7 @@
  <hotspot  name="PK250_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-45.96" atv="-14.396" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="PK250_1" scene_EL="scene_0016" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		 
@@ -691,6 +717,7 @@
  <hotspot  name="TH400P_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-24.297" atv="-22.958" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TH400P_1" scene_EL="scene_0016" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>	
@@ -698,6 +725,7 @@
  <hotspot  name="PW250AD_1" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-9.556" atv="-21.27" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="PW250AD_1" scene_EL="scene_0016" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -705,6 +733,7 @@
  <hotspot  name="HS800B_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-10" atv="-8.98" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="HS800B_3" scene_EL="scene_0016" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		 
@@ -712,6 +741,7 @@
  <hotspot  name="HQIC800_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="6.234" atv="-20.86" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="HQIC800_2" scene_EL="scene_0016" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>	
@@ -719,6 +749,7 @@
  <hotspot  name="TS400B_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="7.165" atv="-9.02" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TS400B_3" scene_EL="scene_0016" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		 
@@ -726,6 +757,7 @@
  <hotspot  name="TPH-Xx2_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="23.52" atv="-15.23" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPH-Xx2_2" scene_EL="scene_0016" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>	
@@ -733,6 +765,7 @@
  <hotspot  name="TPHICx2_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="-6.365" atv="-18.846" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPHICx2_3" scene_EL="scene_0018" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>	
@@ -740,6 +773,7 @@
  <hotspot  name="HQIC800_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="25.08" atv="-10.716" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="HQIC800_3" scene_EL="scene_0018" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>
@@ -747,6 +781,7 @@
  <hotspot  name="TPH-Xx2_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="62.11" atv="-10.18" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TPH-Xx2_3" scene_EL="scene_0018" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>	
@@ -754,6 +789,7 @@
  <hotspot  name="TQ1500B_3" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="96.134" atv="-9.284" width="100" height="prop" scale="0.5" edge="center"
  			install_onclick="5" title="TQ1500B_3" scene_EL="scene_0018" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
  		/>		 
