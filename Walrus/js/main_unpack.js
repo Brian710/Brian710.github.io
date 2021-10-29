@@ -44,8 +44,14 @@ function Init(){
             loaded = true; 
         }
     });
-    if(CheckDevice()){
-        $(this).css({
+    
+
+    Menu();
+}
+
+$(window).resize(function() {
+    if(CheckDevice() && Math.abs(window.orientation) == 90){
+        $("html").css({
             "transform": "rotate(-90deg)",
             "transform-origin": "left top",
             "width": "100vh",
@@ -56,8 +62,19 @@ function Init(){
             "left": "0",
         });
     }
-    Menu();
-}
+    else{
+        $("html").css({
+            "transform": "",
+            "transform-origin": "",
+            "width": "",
+            "height": "",
+            "overflow-x": "",
+            "position": "",
+            "top": "",
+            "left": "",
+        });
+    }
+});
 
 Init();
 
@@ -441,18 +458,22 @@ function CheckDevice(){
 
     if (isLineApp || isInstagramApp || isFbApp || isWeixinApp || isQQApp || isweiboApp) {
         // document.getElementById("inAPP_btn").style.display = "";
+        // $("html").attr("data-d","inApp");
         return true;
     }
     else if (/(iPhone|iPad|iPod|iOS&&!safari)/i.test(ua)) {
         // document.getElementById("ios_btn").style.display = "";
+        // $("html").attr("data-d","iOS");
         return true;
     }
     else if (/(Android)/i.test(ua)) {
         // document.getElementById("android_btn").style.display = "";
+        // $("html").attr("data-d","Android");
         return true;
     }
     else{
         // document.getElementById("desk_btn").style.display = "";
+        // $("html").attr("data-d","Desktop");
         return false;
     };
 }
