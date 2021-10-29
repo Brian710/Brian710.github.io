@@ -39,7 +39,7 @@
 	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
 	               loadingtext=""
 	               layout_width="100%"
-	               layout_maxwidth="814"
+	               layout_maxwidth="100%"
 	               controlbar_width="-24"
 	               controlbar_height="40"
 	               controlbar_offset="20"

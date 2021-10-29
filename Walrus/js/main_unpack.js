@@ -41,11 +41,11 @@ function Init(){
     $("#pano").click(function(){
         if(!loaded){
             $("#pano").attr("data-lang","TC").attr("data-sound","on");
+            G_Audio();
+            // $("#AudioPlayer")[0].play();
             loaded = true; 
         }
     });
-    
-
     Menu();
 }
 
@@ -87,7 +87,20 @@ var _polymorph = anime({
     easing: 'easeOutQuad',
     duration: 5000,
     loop: true,
-})
+});
+
+function G_Audio(){
+    let _audio = document.createElement("audio");
+    let _source = document.createElement("source");
+    $(_source).attr("src","./data/audio/WALRUS_Music.m4a");
+    $(_source).attr("type","audio/mp4");
+    $(_audio).attr("id","AudioPlayer").append($(_source));
+    $(_audio)[0].loop = true;
+    $(_audio)[0].play();
+
+    $("#pano").append($(_audio));
+
+}
 
 function Menu(){
     let _menucontainer = document.createElement("DIV");
@@ -110,9 +123,7 @@ function Menu(){
         }
     });
     let _menubtnimage = document.createElement("IMG");
-    $(_menubtnimage).addClass("pos-a display-auto mg-auto").attr("src","./images/menu/Icon_Menu_List.png").appendTo($(_menubtn));
-    
-    
+    $(_menubtnimage).addClass("pos-a display-auto mg-auto").attr("src","./images/menu/Icon_Menu_List.png").appendTo($(_menubtn));    
 
     $(_menucontainer).append($(_menubtn));
 }
@@ -165,10 +176,12 @@ function G_MenuBtnList(contatiner){
         if($("#pano").attr("data-sound")=="off"){
             $("#pano").attr("data-sound","on");
             $(_soundbtn_icon).attr("src","./images/menu/Btn_Video_On.png");
+            $("#AudioPlayer")[0].play();
         }
         else{
             $("#pano").attr("data-sound","off");
             $(_soundbtn_icon).attr("src","./images/menu/Btn_Video_Of.png");
+            $("#AudioPlayer")[0].pause();
         }
     }).append($(_soundbtn_icon));
 
