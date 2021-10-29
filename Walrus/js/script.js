@@ -23,7 +23,7 @@ function loop(){
         fillStyle(a);
         fill()
     }
-    t+=5;
+    t++;
     update();
     requestAnimationFrame(loop)
 };
