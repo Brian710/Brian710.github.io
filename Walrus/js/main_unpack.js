@@ -37,7 +37,7 @@ let timer = new Timer(function() {
     $("#WaveAnim").removeClass("Wave").hide();
     $("#CanvasDiv").remove();
     timer.stop();
-}, 2200);
+}, 3000);
 
 function Init(){  
     let height = window.innerHeight;
@@ -56,6 +56,7 @@ function Init(){
         
         $("#pano").attr("data-lang","TC").attr("data-sound","on");
         G_Audio();
+        G_Canvas();
         loaded = true;
         timer.stop();
     }
@@ -507,6 +508,17 @@ function CheckDevice(){
         // $("html").attr("data-d","Desktop");
         return false;
     };
+}
+
+function G_Canvas(){
+    let _Canvas_Div = document.createElement("DIV");
+    $(_Canvas_Div).addClass("pos-a t-0 w-100 h-100 canvas-wrap").attr("id","WaveAnim").appendTo("#pano");
+    let _Canvas = document.createElement("canvas");
+    $(_Canvas).attr("id","canvas").appendTo($(_Canvas_Div));
+    let _CanvasBgc = document.createElement("DIV");
+    $(_CanvasBgc).addClass("canvas-bgc").appendTo($(_Canvas_Div));
+
+    $("#WaveAnim").removeClass("Wave").hide();
 }
 
 function G_WaveCanvas(){

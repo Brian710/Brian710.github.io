@@ -212,8 +212,20 @@
 #WaveAnim{
     z-index: 9999;
 }
+.canvas-wrap {
+    overflow: hidden;
+}
+#canvas {
+    height: 20vh !important;
+    background-color: rgba(255,255,255,0.1) !important;
+    display: block;
+}
+.canvas-bgc{
+    height: 80vh;
+    background-color: #00428E;
+}
 .Wave{
-    animation: Roll-down-Canvas 2s linear;
+    animation: Roll-down-Canvas 2.8s linear;
     animation-fill-mode: forwards;
 }
 .CanvasLogo{
@@ -222,7 +234,7 @@
     transform: translate(-50%, -50%);
     width: auto;
     height: 100vh;
-    animation: Fade-out-Canvas 2s linear;
+    animation: Fade-out-Canvas 2.8s linear;
     animation-fill-mode: forwards;
 }
 
