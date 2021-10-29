@@ -520,7 +520,7 @@ function G_WaveCanvas(){
     $("#pano").append($(_CanvasLogoDiv));
 
     WaveCanvas = new GameCanvas();
-    time = 100;
+    time = 80;
     loop();
     $("#pano").attr("data-Change","ON");
     timer.start();
@@ -529,7 +529,7 @@ function G_WaveCanvas(){
 function loop(){
     background("rgba(255,255,255,0.1)");
     var d=[function(g){
-        return Math.sin(g * 6 + time * 0.01) * (60) * Math.sin(time * 0.03)
+        return Math.sin(g * 6 + time * 0.01) * (100) * Math.sin(time * 0.03)
     },function(g){
         return(Math.sin(g * 6 + time * 0.01) * (120) + 20) * Math.sin(time * 0.03)
     }];
@@ -539,7 +539,7 @@ function loop(){
         var c=d[f];
         beginPath();
         for(var e=0;e<=1+0.01;e+=0.01){
-            lineTo(e * width, height - 700 + c(e))
+            lineTo(e * width, 100 + c(e))
         }        
         lineTo(width,height);
         lineTo(0,height);

@@ -324,11 +324,11 @@
 }
 @keyframes Roll-down-Canvas{
     0%{
-        top: 0;
+        transform: translateY(0);
         opacity: 1;
     }
     100%{
-        top: 100vh;
+        transform: translateY(90vh);
         opacity: 0.2;
     }
 }
@@ -338,7 +338,7 @@
         opacity: 1;
     }
     40%{
-        transform: translate(-50%, -50%) scale(0.3);
+        transform: translate(-50%, -50%) scale(0.35);
         opacity: 1;
     }
     80%{
