@@ -32,7 +32,6 @@ const MenuButton_JP = [
 let _home_text, _construction_text, _manufacturing_text, _tech_text, _retail_text, _fishing_text, _food_text, _fit_text;
 let pano, WaveCanvas;
 var loaded = false;
-var time = 0;
 
 function Init(){  
     let height = window.innerHeight;
@@ -84,7 +83,6 @@ $(window).resize(function() {
         });
     }
 });
-
 Init();
 
 var _polymorph = anime({
@@ -102,7 +100,7 @@ var timer = new Timer(function() {
     $("#WaveAnim").remove();
     $("#CanvasDiv").remove();
     $("#pano").attr("data-Change","OFF");
-}, 6300);
+}, 5200);
 
 function G_Audio(){
     let _audio = document.createElement("audio");
@@ -520,43 +518,11 @@ function G_WaveCanvas(){
     $("#pano").append($(_CanvasLogoDiv));
 
     WaveCanvas = new GameCanvas();
-    time = 30;
     loop();
     $("#pano").attr("data-Change","ON");
     timer.stop();
     timer.start();
 }
-
-function loop(){
-    let a = "";
-    let c = "";
-    background("rgba(255,255,255,1)");
-    let d=[
-        function(g){
-            return Math.sin(g * 6 + time * 0.01) * (100) * Math.sin(time * 0.03)
-        },
-        function(g){
-            return (Math.sin(g * 6 + time * 0.01) * (120) + 20) * Math.sin(time * 0.03)
-        }
-    ];
-    let b=["rgb(255,217,0)","rgb(0,67,143)"];
-    for(let f=0; f<2; f++){
-        a=b[f];
-        c=d[f];
-        beginPath();
-        for(let e=0; e<=1+0.01; e+=0.01){
-            lineTo(e * width, 100 + c(e))
-        }        
-        lineTo(width,height);
-        lineTo(0,height);
-        closePath();
-        fillStyle(a);
-        fill()
-    }
-    time+=3;
-    update();
-    requestAnimationFrame(loop)
-};
 
 function Timer(fn, t) {
     var timerObj = setInterval(fn, t);
