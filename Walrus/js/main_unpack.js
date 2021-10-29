@@ -44,6 +44,18 @@ function Init(){
             loaded = true; 
         }
     });
+    if(CheckDevice()){
+        $(this).css({
+            "transform": "rotate(-90deg)",
+            "transform-origin": "left top",
+            "width": "100vh",
+            "height": "100vw",
+            "overflow-x": "hidden",
+            "position": "absolute",
+            "top": "100%",
+            "left": "0",
+        });
+    }
     Menu();
 }
 
@@ -411,4 +423,36 @@ function ChangeMenuTextLang(){
         $(_food_text).html(MenuButton_JP[6]);
         $(_fit_text).html(MenuButton_JP[7]);
     }
+}
+
+function CheckDevice(){
+    var u = navigator.userAgent,
+    ua = navigator.userAgent.toLowerCase(),
+    isLineApp = u.indexOf("Line") > -1,
+    isInstagramApp = u.indexOf("Instagram") > -1,
+    isFbApp = u.indexOf("FBAV") > -1,
+    isWeixinApp = ua.match(/MicroMessenger/i) == "micromessenger",
+    isQQApp = ua.match(/QQ/i) == "qq",
+    isweiboApp = ua.match(/WeiBo/i) == "weibo";
+    // document.getElementById("ios_btn").style.display = "none";
+    // document.getElementById("android_btn").style.display = "none";
+    // document.getElementById("desk_btn").style.display = "none";
+    // document.getElementById("inAPP_btn").style.display = "none";
+
+    if (isLineApp || isInstagramApp || isFbApp || isWeixinApp || isQQApp || isweiboApp) {
+        // document.getElementById("inAPP_btn").style.display = "";
+        return true;
+    }
+    else if (/(iPhone|iPad|iPod|iOS&&!safari)/i.test(ua)) {
+        // document.getElementById("ios_btn").style.display = "";
+        return true;
+    }
+    else if (/(Android)/i.test(ua)) {
+        // document.getElementById("android_btn").style.display = "";
+        return true;
+    }
+    else{
+        // document.getElementById("desk_btn").style.display = "";
+        return false;
+    };
 }

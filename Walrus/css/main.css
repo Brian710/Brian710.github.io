@@ -377,8 +377,8 @@
 }
 @media (min-width: 426px) and (max-width: 1024px){
     html{ font-size: 16px; }
-    .PageContent{ width: 90%; }
-    .ProductBtnList{ left: 0rem;}
+    .PageContent{ width: 60%; }
+    .ProductBtnList{ left: -2rem;}
     .ProductBtn{ width: 4.8rem; height: 4.8rem; }
     .ProductBtn img{ width: 2.6rem; }
 }

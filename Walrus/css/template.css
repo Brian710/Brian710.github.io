@@ -106,3 +106,16 @@ body {
 .ta-c{ text-align: center; }
 /*********** background-color ***********/
 .bgc-black{ background-color: rgba(0, 0, 0, .6); }
+
+/* @media (max-width: 1024px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      height: 100vw;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+} */
