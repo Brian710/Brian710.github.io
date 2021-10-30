@@ -45,15 +45,7 @@ function Init(){
     embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
     pano = parent.window.document.getElementById("WALRUS");
     if(!loaded){
-        let _CanvasLogoDiv = document.createElement("DIV");
-        $(_CanvasLogoDiv).addClass("pos-a t-0 w-100 h-100 ClickEmpty").attr("id","CanvasDiv");
-        let _CanvasLogo = document.createElement("IMG");
-        $(_CanvasLogo).addClass("pos-r WelcomeLogo").attr("src","./images/transitions/WALRUS_Logo.png").appendTo($(_CanvasLogoDiv));
-        $(_CanvasLogoDiv).click(function(){
-            $("#AudioPlayer")[0].play();
-            $(_CanvasLogoDiv).remove();
-        }).appendTo($("#pano"));
-        
+        G_WelcomeCan();
         $("#pano").attr("data-lang","TC").attr("data-sound","on");
         G_Audio();
         G_Canvas();
@@ -101,6 +93,21 @@ var _polymorph = anime({
     duration: 5000,
     loop: true,
 });
+
+function G_WelcomeCan(){
+    let _CanvasLogoDiv = document.createElement("DIV");
+    $(_CanvasLogoDiv).addClass("pos-a t-0 w-100 h-100 ClickEmpty").attr("id","CanvasDiv");
+    let _CanvasLogo = document.createElement("IMG");
+    $(_CanvasLogo).addClass("pos-r WelcomeLogo").attr("src","./images/transitions/WALRUS_Start.svg").appendTo($(_CanvasLogoDiv));
+    let _CanvasSwirl_1 = document.createElement("IMG");
+    $(_CanvasSwirl_1).addClass("pos-a CanvasSwirl CanvasSwirl_1").attr("src","./images/transitions/Start_Bgc.png").appendTo($(_CanvasLogoDiv));
+    let _CanvasSwirl_2 = document.createElement("IMG");
+    $(_CanvasSwirl_2).addClass("pos-a CanvasSwirl CanvasSwirl_2").attr("src","./images/transitions/Start_Bgc.png").appendTo($(_CanvasLogoDiv));
+    $(_CanvasLogoDiv).click(function(){
+        // $("#AudioPlayer")[0].play();
+        // $(_CanvasLogoDiv).remove();
+    }).appendTo($("#pano"));
+}
 
 function G_Audio(){
     let _audio = document.createElement("audio");
@@ -525,7 +532,7 @@ function G_WaveCanvas(){
     let _CanvasLogoDiv = document.createElement("DIV");
     $(_CanvasLogoDiv).addClass("pos-a t-0 w-100 h-100").attr("id","CanvasDiv");
     let _CanvasLogo = document.createElement("IMG");
-    $(_CanvasLogo).addClass("pos-r CanvasLogo").attr("src","./images/transitions/WALRUS_Logo.png").appendTo($(_CanvasLogoDiv));
+    $(_CanvasLogo).addClass("pos-r CanvasLogo").attr("src","./images/transitions/WALRUS_Scence.svg").appendTo($(_CanvasLogoDiv));
     $("#pano").append($(_CanvasLogoDiv));
     $("#WaveAnim").addClass("Wave").show();
     timer.start();

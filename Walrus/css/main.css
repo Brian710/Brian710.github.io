@@ -237,6 +237,20 @@
     animation: Fade-out-Canvas 2.8s linear;
     animation-fill-mode: forwards;
 }
+.CanvasSwirl{
+    width: 27rem;
+}
+.CanvasSwirl_1{
+    top: 5rem;
+    left: 5rem;
+    transform-origin: right bottom;
+}
+.CanvasSwirl_2{
+    bottom: 5rem;
+    right: 5rem;
+    transform: rotate(-180deg);
+    transform-origin: left top;
+}
 
 @media (max-width: 320px){
     html{ font-size: 14px; }

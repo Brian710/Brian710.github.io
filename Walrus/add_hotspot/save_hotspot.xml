@@ -634,9 +634,9 @@
 			onloaded="do_crop_animation(150,150,17)"
  		/>
 
-  <hotspot  name="TPHR5_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
+  <hotspot  name="TPR5_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="79.11" atv="-11.75" width="100" height="prop" scale="0.5" edge="center"
- 			install_onclick="5" title="TPHR5_2" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPR5_2" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"
