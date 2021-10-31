@@ -104,8 +104,8 @@ function G_WelcomeCan(){
     let _CanvasSwirl_2 = document.createElement("IMG");
     $(_CanvasSwirl_2).addClass("pos-a CanvasSwirl CanvasSwirl_2").attr("src","./images/transitions/Start_Bgc.png").appendTo($(_CanvasLogoDiv));
     $(_CanvasLogoDiv).click(function(){
-        // $("#AudioPlayer")[0].play();
-        // $(_CanvasLogoDiv).remove();
+        $("#AudioPlayer")[0].play();
+        $(_CanvasLogoDiv).remove();
     }).appendTo($("#pano"));
 }
 

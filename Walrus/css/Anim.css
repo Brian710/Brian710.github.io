@@ -119,7 +119,7 @@
     }
     100%{
         transform: translateY(90vh);
-        opacity: 0;
+        opacity: 0.4;
     }
 }
 @keyframes Fade-out-WelcomeAnim{
@@ -138,16 +138,66 @@
         transform: translate(-50%, -50%) scale(0.4);
         opacity: 1;
     }
-    40%{
-        transform: translate(-50%, -50%) scale(0.35);
+    50%{
+        transform: translate(-50%, -50%) scale(0.4);
         opacity: 1;
     }
     80%{
         transform: translate(-50%, -50%) scale(0.1);
-        opacity: 0.5;
+        opacity: 0.7;
     }
     100%{
         transform: translate(-50%, -50%) scale(0.1);
-        opacity: 0;
+        opacity: 0.4;
+    }
+}
+@keyframes Fade-out-Canvas-mobile{
+    0%{
+        transform: translate(-50%, -50%) scale(0.28);
+        opacity: 1;
+    }
+    50%{
+        transform: translate(-50%, -50%) scale(0.28);
+        opacity: 1;
+    }
+    80%{
+        transform: translate(-50%, -50%) scale(0.1);
+        opacity: 0.7;
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(0.1);
+        opacity: 0.4;
+    }
+}
+@keyframes Roll-down-Swirl{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(-180deg);
+    }
+}
+@keyframes Roll-up-Swirl{
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes Roll-down-Swirl-mobile{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: translateX(-4rem) translateY(7rem) rotate(-75deg);
+    }
+}
+@keyframes Roll-up-Swirl-mobile{
+    0%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: translateX(7rem) translateY(-7rem) rotate(85deg);
     }
 }

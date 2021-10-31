@@ -179,7 +179,7 @@
 }
 .MenuSceneBtn div div{
     width: 14rem;
-    height: 3px;
+    height: 2px;
     background-color: #00428E;
     bottom: -25%;
     opacity: 0;
@@ -217,7 +217,6 @@
 }
 #canvas {
     height: 20vh !important;
-    background-color: rgba(255,255,255,0.1) !important;
     display: block;
 }
 .canvas-bgc{
@@ -243,13 +242,19 @@
 .CanvasSwirl_1{
     top: 5rem;
     left: 5rem;
+    transform-style: preserve-3d;
     transform-origin: right bottom;
+    animation: Roll-down-Swirl 2.8s linear;
+    animation-fill-mode: forwards;
 }
 .CanvasSwirl_2{
-    bottom: 5rem;
-    right: 5rem;
-    transform: rotate(-180deg);
-    transform-origin: left top;
+    bottom: 30rem;
+    right: 30rem;
+    transform-style: preserve-3d;
+    transform: rotate(180deg);
+    transform-origin: right bottom;
+    animation: Roll-up-Swirl 2.8s linear;
+    animation-fill-mode: forwards;
 }
 
 @media (max-width: 320px){
@@ -278,6 +283,22 @@
     .CanvasLogo{
         width: 100vw;
         height: auto;
+    }
+    .WelcomeLogo{
+        animation: Fade-out-Canvas-mobile 3.5s linear;
+        animation-fill-mode: forwards;
+    }
+    .CanvasSwirl{ width: 17rem; }
+    .CanvasSwirl_1{
+        left: 1vw;
+        animation: Roll-down-Swirl-mobile 2.8s linear;
+        animation-fill-mode: forwards;
+    }
+    .CanvasSwirl_2{
+        bottom: 20rem;
+        right: 18rem;
+        animation: Roll-up-Swirl-mobile 2.8s linear;
+        animation-fill-mode: forwards;
     }
 }
 @media (min-width: 321px) and (max-width: 375px){
@@ -308,6 +329,22 @@
         width: 100vw;
         height: auto;
     }
+    .WelcomeLogo{
+        animation: Fade-out-Canvas-mobile 3.5s linear;
+        animation-fill-mode: forwards;
+    }
+    .CanvasSwirl{ width: 17rem; }
+    .CanvasSwirl_1{
+        left: 1vw;
+        animation: Roll-down-Swirl-mobile 2.8s linear;
+        animation-fill-mode: forwards;
+    }
+    .CanvasSwirl_2{
+        bottom: 20rem;
+        right: 18rem;
+        animation: Roll-up-Swirl-mobile 2.8s linear;
+        animation-fill-mode: forwards;
+    }
 }
 @media (min-width: 376px) and (max-width: 425px){
     html{ font-size: 16px; }
@@ -333,6 +370,22 @@
     .CanvasLogo{
         width: 100vw;
         height: auto;
+    }
+    .WelcomeLogo{
+        animation: Fade-out-Canvas-mobile 3.5s linear;
+        animation-fill-mode: forwards;
+    }
+    .CanvasSwirl{ width: 17rem; }
+    .CanvasSwirl_1{
+        left: 1vw;
+        animation: Roll-down-Swirl-mobile 2.8s linear;
+        animation-fill-mode: forwards;
+    }
+    .CanvasSwirl_2{
+        bottom: 20rem;
+        right: 18rem;
+        animation: Roll-up-Swirl-mobile 2.8s linear;
+        animation-fill-mode: forwards;
     }
 }
 @media (min-width: 426px) and (max-width: 1024px){

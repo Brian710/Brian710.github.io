@@ -18,7 +18,7 @@
 	}
 	function update() {
 		ctx.clearRect(0,0,canvas.width,canvas.height);
-		ctx.fillStyle="rgba(255,255,255,0)";
+		ctx.fillStyle="rgba(0,0,0,0)";
 		ctx.globalCompositeOperation = "source-over";
 		ctx.fillRect(0,0,cvs.width,cvs.height);
 		ctx.globalCompositeOperation = "source-over";
@@ -28,7 +28,6 @@
 			}
 			drawWave(waves[i]);
 		}
-		ctx.fillStyle="rgba(255,255,255,0)";
     	requestAnimationFrame(update);
 	}
 
