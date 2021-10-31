@@ -209,11 +209,6 @@ function G_ProductImage(container, data, content){
     $(container).append($(_productimageDiv));
 }
 
-$(".close_image").click(function(){
-    console.log("fsdsfssdfsd");
-    $("#modelwindow").remove();
-});
-
 function G_Btn(container, data, content){
 
     let _catalog_btn = document.createElement("DIV");
