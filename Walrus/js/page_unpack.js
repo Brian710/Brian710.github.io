@@ -172,10 +172,10 @@ function G_ProductImage(container, data, content){
         .click(function(){
             if(CheckDevice()){
                 if($(_productimage).attr("data-d") == "Android"){
-                    $(_productimageLink).attr("href",data[content]["android_ar"]);
+                    $(_productimageLink).attr("rel","ar").attr("href",data[content]["android_ar"]);
                 }
                 else if($(_productimage).attr("data-d") == "iOS"){
-                    $(_productimageLink).attr("href","./data/model/"+data[content]["ios_ar"]);
+                    $(_productimageLink).attr("rel","ar").attr("href","./data/model/"+data[content]["ios_ar"]);
                 }
                 else{
                     let _arBgc = document.createElement("DIV");
