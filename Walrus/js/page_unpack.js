@@ -164,7 +164,6 @@ function G_ProductImage(container, data, content){
     let _productimageDiv = document.createElement("DIV");
     $(_productimageDiv).addClass("z-100");
     let _productimageLink = document.createElement("a");
-    $(_productimageLink).attr("rel","ar");
     let _productimage = document.createElement("IMG");
     $(_productimage).addClass("pd-3-0 display-block").attr("id","ProductImg").attr("src", "./images/product/"+data[content]["P-Image"]).css({"width":"17rem","height":"17rem","margin":"2rem auto auto auto"});
 
