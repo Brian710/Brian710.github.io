@@ -4,7 +4,7 @@
 	var nodes = 6;
 	var waves = [];
 	var waveHeight = 150;
-	var colours = ["#00428E","#FFD900","#FFFFFF"];
+	var colours = ["#FFFFFF","#FFD900","#00428E"];
 	
   // Initiator function
 	function init() {
