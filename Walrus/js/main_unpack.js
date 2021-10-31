@@ -29,6 +29,8 @@ const MenuButton_JP = [
     "カスタマイズ"
 ];
 
+const audio = "WALRUS_Music.m4a";
+
 let _home_text, _construction_text, _manufacturing_text, _tech_text, _retail_text, _fishing_text, _food_text, _fit_text;
 let pano;
 var loaded = false;
@@ -112,7 +114,7 @@ function G_WelcomeCan(){
 function G_Audio(){
     let _audio = document.createElement("audio");
     let _source = document.createElement("source");
-    $(_source).attr("src","./data/audio/WALRUS_Music.m4a");
+    $(_source).attr("src","./data/audio/"+audio);
     $(_source).attr("type","audio/mp4");
     $(_audio).attr("id","AudioPlayer").append($(_source));
     $(_audio)[0].loop = true;
@@ -490,29 +492,20 @@ function CheckDevice(){
     isWeixinApp = ua.match(/MicroMessenger/i) == "micromessenger",
     isQQApp = ua.match(/QQ/i) == "qq",
     isweiboApp = ua.match(/WeiBo/i) == "weibo";
-    // document.getElementById("ios_btn").style.display = "none";
-    // document.getElementById("android_btn").style.display = "none";
-    // document.getElementById("desk_btn").style.display = "none";
-    // document.getElementById("inAPP_btn").style.display = "none";
-
     if (isLineApp || isInstagramApp || isFbApp || isWeixinApp || isQQApp || isweiboApp) {
-        // document.getElementById("inAPP_btn").style.display = "";
-        // $("html").attr("data-d","inApp");
+        $("#ProductImg").attr("data-d","inAPP");
         return true;
     }
     else if (/(iPhone|iPad|iPod|iOS&&!safari)/i.test(ua)) {
-        // document.getElementById("ios_btn").style.display = "";
-        // $("html").attr("data-d","iOS");
+        $("#ProductImg").attr("data-d","iOS");
         return true;
     }
     else if (/(Android)/i.test(ua)) {
-        // document.getElementById("android_btn").style.display = "";
-        // $("html").attr("data-d","Android");
+        $("#ProductImg").attr("data-d","Android");
         return true;
     }
     else{
-        // document.getElementById("desk_btn").style.display = "";
-        // $("html").attr("data-d","Desktop");
+        $("#ProductImg").attr("data-d","Desktop");
         return false;
     };
 }

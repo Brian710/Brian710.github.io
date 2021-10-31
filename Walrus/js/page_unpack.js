@@ -135,11 +135,8 @@ function Page(data, content){
 
 function G_Top(container, data, content){
 
-    let _productimage = document.createElement("IMG");
-    $(_productimage).addClass("pd-3-0 h-25 z-100").attr("src", "./images/product/"+data[content]["P-Image"]).css({"width":"17rem","margin-top":"2rem"});
-    if(data[content]["AR"] == "Y"){
-        $(_productimage).addClass("cur-p");
-    }
+    G_ProductImage(container, data, content);
+
     let _logo = document.createElement("IMG");
     $(_logo).addClass("pos-a t-0 l-0").attr("src", "./images/icon/Page_Logo.png").css({"width":"5rem", "margin-top":"calc(0.5 * var(--bs-gutter-x))"});
     let _bgc = document.createElement("IMG");
@@ -156,12 +153,73 @@ function G_Top(container, data, content){
             $(_itemmodel).html("ディスプレイモデル " + data[content]["D-model"]);
     }
     $(container).append(
-        $(_productimage),
         $(_logo),
         $(_bgc),
         $(_itemmodel)
     );
 }
+
+function G_ProductImage(container, data, content){
+    
+    let _productimageDiv = document.createElement("DIV");
+    $(_productimageDiv).addClass("z-100");
+    let _productimageLink = document.createElement("a");
+    $(_productimageLink).attr("rel","ar");
+    let _productimage = document.createElement("IMG");
+    $(_productimage).addClass("pd-3-0 display-block").attr("id","ProductImg").attr("src", "./images/product/"+data[content]["P-Image"]).css({"width":"17rem","height":"17rem","margin":"2rem auto auto auto"});
+
+    if(data[content]["AR"] == "Y"){
+        $(_productimage).addClass("cur-p")
+        .click(function(){
+            if(CheckDevice()){
+                if($(_productimage).attr("data-a") == "Android"){
+                    $(_productimageLink).attr("href",data[content]["android_ar"]);
+                }
+                else if($(_productimage).attr("data-a") == "iOS"){
+                    $(_productimageLink).attr("href",data[content]["ios_ar"]);
+                }
+                else{
+                    let _arBgc = document.createElement("DIV");
+                    $(_arBgc).addClass("pos-a t-0 w-100 h-100 bgc-black z-500").attr("id","modelwindow").appendTo("#pano");
+                    let _arDIv = document.createElement("DIV");
+                    $(_arDIv).addClass("ta-c inAPPDiv").html(
+                        '<div>\
+                            <p>請使用預設瀏覽器<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">開啟體驗</p>\
+                            <img class="close_image" src="./images/icon/Icon_Close.png">\
+                        </div>'
+                    ).appendTo($(_arBgc));
+    
+                    $(".close_image").click(function(){
+                        $("#modelwindow").remove();
+                    });
+                }
+            }
+            else{
+                let _arBgc = document.createElement("DIV");
+                $(_arBgc).addClass("pos-a t-0 w-100 h-100 bgc-black z-500").attr("id","modelwindow").appendTo("#pano");
+                let _arDIv = document.createElement("DIV");
+                $(_arDIv).addClass("pos-a ta-c DeskDiv").html(
+                    '<p class="">▼掃描點擊AR體驗▼</p>\
+                    <img class="qrcode_image" src="./images/ar/'+ data[content]["qrcode"] +'">\
+                    <img class="close_image" src="./images/icon/Icon_Close.png">'
+                ).appendTo($(_arBgc));
+
+                $(".close_image").click(function(){
+                    $("#modelwindow").remove();
+                });
+            }
+        });
+    }
+
+    $(_productimageLink).append($(_productimage));
+    $(_productimageDiv).append($(_productimageLink));
+    $(container).append($(_productimageDiv));
+}
+
+$(".close_image").click(function(){
+    console.log("fsdsfssdfsd");
+    $("#modelwindow").remove();
+});
 
 function G_Btn(container, data, content){
 
@@ -285,11 +343,22 @@ function G_Bot(container, data, content){
         }
         $(_industryimg).addClass("IndustryImg");
         if($("#PageContent").outerWidth() > 400){
-            $(_industrytext).addClass("align-content-center fw-7").html(IndustryType[i - 1]).css({"height":"2.5rem","font-size":"15px", "margin":"10px 0"});
+            $(_industrytext).addClass("align-content-center fw-7").css({"height":"2.5rem","font-size":"15px", "margin":"10px 0"});
         }
         else{
-            $(_industrytext).addClass("fw-7").html(IndustryType[i - 1]).css({"font-size":"12px", "margin":"15px"});
-        }        
+            $(_industrytext).addClass("fw-7").css({"font-size":"12px", "margin":"15px"});
+        }
+
+        if($("#pano").attr("data-lang")=="TC"){
+            $(_industrytext).html(IndustryType[i - 1]);
+        }
+        else if($("#pano").attr("data-lang")=="EN"){
+            $(_industrytext).html(IndustryType_EN[i - 1]);
+        }
+        else{
+            $(_industrytext).html(IndustryType_JP[i - 1]);
+        }
+
         for(let j = 0; j < data[content]["P-Industry"].length; j++){
             if(i == data[content]["P-Industry"][j]){
                 $(_industryimg).attr("src","./images/icon/Use_"+ i +".png");

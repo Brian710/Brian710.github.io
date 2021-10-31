@@ -105,6 +105,7 @@ body {
 .z-50{ z-index: 50; }
 .z-100{ z-index: 100; }
 .z-110{ z-index: 110; }
+.z-500{ z-index: 500; }
 /*********** text ***********/
 .ta-c{ text-align: center; }
 /*********** background-color ***********/
