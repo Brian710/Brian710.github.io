@@ -176,7 +176,7 @@ function G_ProductImage(container, data, content){
                     $(_productimageLink).attr("href",data[content]["android_ar"]);
                 }
                 else if($(_productimage).attr("data-d") == "iOS"){
-                    $(_productimageLink).attr("href",data[content]["ios_ar"]);
+                    $(_productimageLink).attr("href","./data/model/"+data[content]["ios_ar"]);
                 }
                 else{
                     let _arBgc = document.createElement("DIV");
