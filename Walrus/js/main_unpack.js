@@ -130,13 +130,7 @@ function Menu(){
     $(_menubtn).addClass("pos-r cur-p MenuBtn").html('<svg width="50" height="63" viewBox="0 0 65 82" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="morph" d="M34.0227 3.45643C38.4986 5.84602 43.5128 6.54299 48.0879 8.705C58.7677 13.7402 65.085 26.1718 65.0142 37.1525C64.9118 53.0207 53.5878 70.0063 40.085 78.0885C15.1349 91.7739 1.64373 67.5033 0.143971 42.5C-1.39585 16.8289 9.70492 -9.61455 34.0227 3.45643Z" fill="#00428E"/></svg>')
     .click(function(){
         if($("#MenuBGC").length){
-            setTimeout(function(){
-                $("#MenuBGC").remove();
-                $("#MenuContent").remove();
-            }, 300);
-            $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
-            $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
-            $("#MenuLogo").hide();
+            Close_Menu();
         }
         else{
             G_Menu(_menucontainer);
@@ -279,6 +273,7 @@ function G_MenuScenesBtnList(container){
     $(_home)
     .click(function(){
         G_WaveCanvas();
+        Close_Menu();
         pano.call("loadscene(scene_0000,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_home_img).hide();
@@ -300,6 +295,7 @@ function G_MenuScenesBtnList(container){
     $(_construction_line).addClass("pos-a MenuBtnLine");
     $(_construction).click(function(){
         G_WaveCanvas();
+        Close_Menu();
         pano.call("loadscene(scene_0007,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_construction_img).hide();
@@ -321,6 +317,7 @@ function G_MenuScenesBtnList(container){
     $(_manufacturing_line).addClass("pos-a MenuBtnLine");
     $(_manufacturing).click(function(){
         G_WaveCanvas();
+        Close_Menu();
         pano.call("loadscene(scene_0009,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_manufacturing_img).hide();
@@ -342,6 +339,7 @@ function G_MenuScenesBtnList(container){
     $(_tech_line).addClass("pos-a MenuBtnLine");
     $(_tech).click(function(){
         G_WaveCanvas();
+        Close_Menu();
         pano.call("loadscene(scene_0011,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_tech_img).hide();
@@ -363,6 +361,7 @@ function G_MenuScenesBtnList(container){
     $(_retail_line).addClass("pos-a MenuBtnLine");
     $(_retail).click(function(){
         G_WaveCanvas();
+        Close_Menu();
         pano.call("loadscene(scene_0013,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_retail_img).hide();
@@ -384,6 +383,7 @@ function G_MenuScenesBtnList(container){
     $(_fishing_line).addClass("pos-a MenuBtnLine");
     $(_fishing).click(function(){
         G_WaveCanvas();
+        Close_Menu();
         pano.call("loadscene(scene_0015,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_fishing_img).hide();
@@ -405,6 +405,7 @@ function G_MenuScenesBtnList(container){
     $(_food_line).addClass("pos-a MenuBtnLine");
     $(_food).click(function(){
         G_WaveCanvas();
+        Close_Menu();
         pano.call("loadscene(scene_0017,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_food_img).hide();
@@ -426,6 +427,7 @@ function G_MenuScenesBtnList(container){
     $(_fit_line).addClass("pos-a MenuBtnLine");
     $(_fit).click(function(){
         G_WaveCanvas();
+        Close_Menu();
         pano.call("loadscene(scene_0019,null,MERGE,BLEND(0.5));");
     }).mouseover(function(){
         $(_fit_img).hide();
@@ -529,6 +531,16 @@ function G_WaveCanvas(){
     $("#pano").append($(_CanvasLogoDiv));
     $("#WaveAnim").addClass("Wave").show();
     timer.start();
+}
+
+function Close_Menu(){
+    setTimeout(function(){
+        $("#MenuBGC").remove();
+        $("#MenuContent").remove();
+    }, 300);
+    $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
+    $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
+    $("#MenuLogo").hide();
 }
 
 function Timer(fn, t) {

@@ -69,13 +69,7 @@ function Data_Situation(enableContent){
             Page(_data, enableContent);
         });
     }
-    setTimeout(function(){
-        $("#MenuBGC").remove();
-        $("#MenuContent").remove();
-    }, 300);
-    $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
-    $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
-    $("#MenuLogo").hide();
+    Close_Menu();
 }
 
 function Page(data, content){
