@@ -227,6 +227,7 @@
     z-index: 200;
 }
 .JCIT{
+    cursor: pointer;
     position: absolute;
     bottom: 3rem;
     left: 1rem;
@@ -235,8 +236,8 @@
 .JCIT_Page{
     position: absolute;
     bottom: 1rem;
-    left: 1rem;
-    width: 7rem;
+    left: 1.75rem;
+    width: 9rem;
 }
 
 /**********  Welcome Animation   *********/

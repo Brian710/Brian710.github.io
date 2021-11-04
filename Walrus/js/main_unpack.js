@@ -165,7 +165,11 @@ function G_Menu(container){
     $(_menulogo).addClass("MenuLogo SceneBtnAni").attr("id","MenuLogo").attr("src","./images/menu/Icon_IP.png");
 
     let _jcit = document.createElement("IMG");
-    $(_jcit).addClass("JCIT SceneBtnAni").attr("id","JCIT").attr("src","./images/icon/JCIT_Menu.png");
+    $(_jcit).addClass("JCIT SceneBtnAni").attr("id","JCIT").attr("src","./images/icon/JCIT_Menu.png")
+    .click(function(){
+        console.log("sdfsdf");
+        window.open("https://jcit.com.tw/");
+    });
 
     $(_menubgcdiv).append($(_menubgc),$(_menulogo),$(_jcit));
     $(container).append($(_menubgcdiv),$(_menucontentcontainer));

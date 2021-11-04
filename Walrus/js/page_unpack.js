@@ -148,7 +148,7 @@ function G_Top(container, data, content){
     }
 
     let _jcit = document.createElement("IMG");
-    $(_jcit).addClass("JCIT_Page").attr("src","./images/icon/JCIT_Page.png");
+    $(_jcit).addClass("JCIT_Page").attr("src","./images/icon/JCIT_Page.png").fadeOut(4500);
 
     $(container).append(
         $(_logo),
