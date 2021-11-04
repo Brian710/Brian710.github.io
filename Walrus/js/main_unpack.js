@@ -164,7 +164,10 @@ function G_Menu(container){
     let _menulogo = document.createElement("IMG");
     $(_menulogo).addClass("MenuLogo SceneBtnAni").attr("id","MenuLogo").attr("src","./images/menu/Icon_IP.png");
 
-    $(_menubgcdiv).append($(_menubgc),$(_menulogo));
+    let _jcit = document.createElement("IMG");
+    $(_jcit).addClass("JCIT SceneBtnAni").attr("id","JCIT").attr("src","./images/icon/JCIT_Menu.png");
+
+    $(_menubgcdiv).append($(_menubgc),$(_menulogo),$(_jcit));
     $(container).append($(_menubgcdiv),$(_menucontentcontainer));
 }
 
@@ -541,6 +544,7 @@ function Close_Menu(){
     $("#MenuBGC").removeClass("Rollin-left").addClass("Rollout-left");
     $(".SceneBtnAni").removeClass("SceneBtnAni").addClass("SceneBtnAni-Out");
     $("#MenuLogo").hide();
+    $("#JCIT").hide();
 }
 
 function Timer(fn, t) {

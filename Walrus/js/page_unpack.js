@@ -146,9 +146,14 @@ function G_Top(container, data, content){
         else if($("#pano").attr("data-lang")=="JP")
             $(_itemmodel).html("ディスプレイモデル " + data[content]["D-model"]);
     }
+
+    let _jcit = document.createElement("IMG");
+    $(_jcit).addClass("JCIT_Page").attr("src","./images/icon/JCIT_Page.png");
+
     $(container).append(
         $(_logo),
         $(_bgc),
+        $(_jcit),
         $(_itemmodel)
     );
 }

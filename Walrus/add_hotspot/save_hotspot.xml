@@ -489,9 +489,9 @@
 	
   <hotspot  name="hotspot_62" style="vid_hs_addhs" type="image" keep="true" url="%FIRSTXML%/plugins/videoplayer.js" distorted="true" zorder="5"
  			ath="-41.8186" atv="-26.8975" width="300" height="prop" rx="-26.32" ry="42.4" scale="2.039" edge="lefttop"
- 			videourl="%FIRSTXML%/add_hotspot/video/HD 1080p.mp4"
- 			pausedonstart="true" loop="true" playbackrate="1" onvideoplay="set(play_vh,true);" autopause="true" autoresume="false"
- 			install_onclick="11" info_Ah="HD 1080p.mp4" scene_EL="scene_0006" drag_hs="true" fov_EL="120" play_vh="false" enabled2="true" visible2="true"
+ 			videourl="%FIRSTXML%/add_hotspot/video/video.mp4"
+ 			pausedonstart="true" loop="true" playbackrate="1" onvideoplay="set(play_vh,true);" autopause="true" autoresume="ture"
+ 			install_onclick="11" info_Ah="video.mp4" scene_EL="scene_0006" drag_hs="true" fov_EL="120" play_vh="ture" enabled2="true" visible2="true"
  			Vsound3D="false" volume_max="0.5" range_sound="90"
  			onclick="togglepause(); if(hotspot[sound_hs_addhs], delete_sound_hs_addhs(); );   if(ispaused,set(play_vh,true);,set(play_vh,false); );"
 			ondown="drag_LinkSM()"
@@ -634,9 +634,9 @@
 			onloaded="do_crop_animation(150,150,17)"
  		/>
 
-  <hotspot  name="TPR5_2" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
+  <hotspot  name="TPR5_4" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/xxx.png" enabled="false" visible="false" zorder="5"
  			ath="79.11" atv="-11.75" width="100" height="prop" scale="0.5" edge="center"
- 			install_onclick="5" title="TPR5_2" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			install_onclick="5" title="TPR5_4" scene_EL="scene_0013" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			onclick="js(Data_Situation(get(name)));"
 			ondown="drag_LinkSM()"
 			onloaded="do_crop_animation(150,150,17)"

@@ -142,13 +142,9 @@
         transform: translate(-50%, -50%) scale(0.4);
         opacity: 1;
     }
-    80%{
-        transform: translate(-50%, -50%) scale(0.1);
-        opacity: 0.7;
-    }
     100%{
         transform: translate(-50%, -50%) scale(0.1);
-        opacity: 0.4;
+        opacity: 0.1;
     }
 }
 @keyframes Fade-out-Canvas-mobile{
@@ -156,7 +152,7 @@
         transform: translate(-50%, -50%) scale(0.28);
         opacity: 1;
     }
-    50%{
+    55%{
         transform: translate(-50%, -50%) scale(0.28);
         opacity: 1;
     }
@@ -166,38 +162,62 @@
     }
     100%{
         transform: translate(-50%, -50%) scale(0.1);
-        opacity: 0.4;
+        opacity: 0.1;
     }
 }
 @keyframes Roll-down-Swirl{
     0%{
         transform: rotate(0);
+        opacity: 1;
+    }
+    90%{
+        transform: rotate(-180deg);
+        opacity: 0;
     }
     100%{
         transform: rotate(-180deg);
+        opacity: 0;
     }
 }
 @keyframes Roll-up-Swirl{
     0%{
         transform: rotate(180deg);
+        opacity: 1;
+    }
+    90%{
+        transform: rotate(0deg);
+        opacity: 0;
     }
     100%{
         transform: rotate(0deg);
+        opacity: 0;
     }
 }
 @keyframes Roll-down-Swirl-mobile{
     0%{
         transform: rotate(0);
+        opacity: 1;
+    }
+    90%{
+        transform: translateX(-4rem) translateY(7rem) rotate(-75deg);
+        opacity: 0;
     }
     100%{
         transform: translateX(-4rem) translateY(7rem) rotate(-75deg);
+        opacity: 0;
     }
 }
 @keyframes Roll-up-Swirl-mobile{
     0%{
         transform: rotate(180deg);
+        opacity: 1;
+    }
+    90%{
+        transform: translateX(7rem) translateY(-7rem) rotate(85deg);
+        opacity: 0;
     }
     100%{
         transform: translateX(7rem) translateY(-7rem) rotate(85deg);
+        opacity: 0;
     }
 }

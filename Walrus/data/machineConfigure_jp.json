@@ -20,7 +20,7 @@
         "P-Info":"https://walruspump.com/zh-tw/product/detail/488.html",
         "P-Industry":[1, 4, 7],
         "AR":"Y",
-        "qrcode":"",
+        "qrcode":"qrcode_xxxx.png",
         "android_ar":"",
         "ios_ar":"PK250_Ch.usdz"
     },
@@ -108,7 +108,7 @@
         "P-Info":"https://walruspump.com/zh-tw/product/detail/522.html",
         "P-Industry":[1, 2, 4],
         "AR":"Y",
-        "qrcode":"",
+        "qrcode":"qrcode_xxxx.png",
         "android_ar":"",
         "ios_ar":"PK250_Ch.usdz"
     },
@@ -189,7 +189,7 @@
         "P-Info":"https://walruspump.com/zh-tw/product/detail/pk250.html",
         "P-Industry":[1, 2, 3],
         "AR":"Y",
-        "qrcode":"",
+        "qrcode":"qrcode_xxxx.png",
         "android_ar":"",
         "ios_ar":"PK250_Ch.usdz"
     },
@@ -321,7 +321,7 @@
         "P-Info":"https://walruspump.com/zh-tw/product/detail/485.html",
         "P-Industry":[3],
         "AR":"Y",
-        "qrcode":"",
+        "qrcode":"qrcode_xxxx.png",
         "android_ar":"",
         "ios_ar":"PK250_Ch.usdz"
     },

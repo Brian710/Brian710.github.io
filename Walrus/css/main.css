@@ -226,6 +226,18 @@
     width: 12rem;
     z-index: 200;
 }
+.JCIT{
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
+    z-index: 200;
+}
+.JCIT_Page{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: 7rem;
+}
 
 /**********  Welcome Animation   *********/
 .ClickEmpty{
@@ -245,7 +257,7 @@
 }
 /**********  Wave Animation   *********/
 #WaveAnim{
-    z-index: 9999;
+    z-index: 999;
 }
 .canvas-wrap {
     overflow: hidden;
@@ -270,6 +282,7 @@
     height: 100vh;
     animation: Fade-out-Canvas 2.8s linear;
     animation-fill-mode: forwards;
+    z-index: 1000;
 }
 .CanvasSwirl{
     width: 27rem;
