@@ -274,7 +274,6 @@ function G_MenuScenesBtnList(container){
     let _home_img = document.createElement("IMG");
     $(_home_img).attr("src","./images/menu/Home.png");
     _home_text = document.createElement("P");
-    $(_home_text).html(MenuButton[0]);
     let _home_line = document.createElement("DIV");
     $(_home_line).addClass("pos-a MenuBtnLine");
     $(_home)
@@ -297,7 +296,6 @@ function G_MenuScenesBtnList(container){
     let _construction_img = document.createElement("IMG");
     $(_construction_img).attr("src","./images/icon/Use_1.png");
     _construction_text = document.createElement("P");
-    $(_construction_text).html(MenuButton[1]);
     let _construction_line = document.createElement("DIV");
     $(_construction_line).addClass("pos-a MenuBtnLine");
     $(_construction).click(function(){
@@ -319,7 +317,6 @@ function G_MenuScenesBtnList(container){
     let _manufacturing_img = document.createElement("IMG");
     $(_manufacturing_img).attr("src","./images/icon/Use_3.png");
     _manufacturing_text = document.createElement("P");
-    $(_manufacturing_text).html(MenuButton[2]);
     let _manufacturing_line = document.createElement("DIV");
     $(_manufacturing_line).addClass("pos-a MenuBtnLine");
     $(_manufacturing).click(function(){
@@ -341,7 +338,6 @@ function G_MenuScenesBtnList(container){
     let _tech_img = document.createElement("IMG");
     $(_tech_img).attr("src","./images/icon/Use_5.png");
     _tech_text = document.createElement("P");
-    $(_tech_text).html(MenuButton[3]);
     let _tech_line = document.createElement("DIV");
     $(_tech_line).addClass("pos-a MenuBtnLine");
     $(_tech).click(function(){
@@ -363,7 +359,6 @@ function G_MenuScenesBtnList(container){
     let _retail_img = document.createElement("IMG");
     $(_retail_img).attr("src","./images/icon/Use_4.png");
     _retail_text = document.createElement("P");
-    $(_retail_text).html(MenuButton[4]);
     let _retail_line = document.createElement("DIV");
     $(_retail_line).addClass("pos-a MenuBtnLine");
     $(_retail).click(function(){
@@ -385,7 +380,6 @@ function G_MenuScenesBtnList(container){
     let _fishing_img = document.createElement("IMG");
     $(_fishing_img).attr("src","./images/icon/Use_2.png");
     _fishing_text = document.createElement("P");
-    $(_fishing_text).html(MenuButton[5]);
     let _fishing_line = document.createElement("DIV");
     $(_fishing_line).addClass("pos-a MenuBtnLine");
     $(_fishing).click(function(){
@@ -407,7 +401,6 @@ function G_MenuScenesBtnList(container){
     let _food_img = document.createElement("IMG");
     $(_food_img).attr("src","./images/icon/Use_7.png");
     _food_text = document.createElement("P");
-    $(_food_text).html(MenuButton[6]);
     let _food_line = document.createElement("DIV");
     $(_food_line).addClass("pos-a MenuBtnLine");
     $(_food).click(function(){
@@ -429,7 +422,6 @@ function G_MenuScenesBtnList(container){
     let _fit_img = document.createElement("IMG");
     $(_fit_img).attr("src","./images/menu/Use_8.png");
     _fit_text = document.createElement("P");
-    $(_fit_text).html(MenuButton[7]);
     let _fit_line = document.createElement("DIV");
     $(_fit_line).addClass("pos-a MenuBtnLine");
     $(_fit).click(function(){
@@ -446,6 +438,7 @@ function G_MenuScenesBtnList(container){
         $(_fit_line).removeClass("line-roll-right-in").addClass("line-roll-right-out");
     }).append($(_fit_img),$(_fit_text),$(_fit_line));
 
+    ChangeMenuTextLang();
 
     $(container).append(
         $(_home),
