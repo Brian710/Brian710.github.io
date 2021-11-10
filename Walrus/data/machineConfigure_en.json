@@ -1,8 +1,8 @@
 {
     "HQ200B":{
-        "Series":"HQ系列",
-        "D-model":"HQ200B",
-        "P-Name":"電子穩壓加壓泵浦",
+        "Series":"HQ series",
+        "D-model":"HQ200",
+        "P-Name":"Electronic Control Pump",
         "Features":[
             "The HQ is a complete, all-in-one unit, consisting of pump, motor, pressure tank, and electronic controller. The built-in electronic controller provides constant pressure which ensures that the pump starts automatically when water is consumed and operates continuously until water is not required.",
             "Compact design and quiet operation make the HQ series suitable for many applications.",
@@ -16,18 +16,18 @@
             "N_A6VkqQjmA",
             "X4SipKLmeSc"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HQ/DM/HQ_B-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/488.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/HQ/English/DM/HQ-EW-202002.pdf",
+        "P-Info":"'https://walruspump.com/en-global/product/detail/393.html",
         "P-Industry":[1, 4, 7],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"HQ200B_EN.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"HQ200B_EN.usdz"
     },
     "TQ1500B":{
-        "Series":"TQ系列",
-        "D-model":"TQ1500B",
-        "P-Name":"電子穩壓加壓泵浦",
+        "Series":"TQ series",
+        "D-model":"TQ1500",
+        "P-Name":"Electronic Control Pump",
         "Features":[
             "The TQ is a complete, all-in-one unit, consisting of pump, motor, pressure tank, and electronic controller. The built-in electronic controller provides constant pressure which ensures that the pump starts automatically when water is consumed and operates continuously until water is not required.",
             "Compact design and quiet operation make the TQ series suitable for many applications.",
@@ -38,8 +38,8 @@
         ],
         "P-Image":"3.TQ1500B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TQ_B/DM/TQ_B-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/498.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TQ/English/DM/TQ-catalogue-en.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/62.html",
         "P-Industry":[1, 4, 6],
         "AR":"N",
         "qrcode":"",
@@ -47,9 +47,9 @@
         "ios_ar":""
     },
     "GQCN400B":{
-        "Series":"GQCN系列",
+        "Series":"GQCN series",
         "D-model":"GQCN400B",
-        "P-Name":"電子穩壓加壓泵浦",
+        "P-Name":"Electronic Control Pump",
         "Features":[
             "The built-in electronic controller provides constant pressure which ensures that the pump starts automatically when water is consumed and operates continuously until water is not required.",
             "Compliant with RoHS standards.",
@@ -70,9 +70,9 @@
         "ios_ar":""
     },
     "TP825PTB":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TP8 series",
+        "D-model":"TP825P(T)",
+        "P-Name":"Automatic Booster Pump",
         "Features":[
             "Manufactured with non-corrosive rust proof materials.",
             "Special design corrosive resistant pressure tank with good appearance.",
@@ -86,8 +86,8 @@
             "s49bekncsFM",
             "N_A6VkqQjmA"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TP8/DM/TP8P-EW201903.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/67.html",
         "P-Industry":[1, 4],
         "AR":"N",
         "qrcode":"",
@@ -95,9 +95,9 @@
         "ios_ar":""
     },
     "HS800B":{
-        "Series":"HS系列",
-        "D-model":"HS800B",
-        "P-Name":"不生銹抽水泵浦",
+        "Series":"HS series",
+        "D-model":"HS800",
+        "P-Name":"Multistage Centrifugal Pump",
         "Features":[
             "Multistage design provides steady, quiet and vibrationfree operation for years of trouble-free service.",
             "Close coupled, space saving design provides easy installation.",
@@ -107,18 +107,18 @@
         ],
         "P-Image":"8.HS400B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HS_B/DM/HS_B-tw-20200429.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/522.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/HS/English/DM/HS-EW201601.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/401.html",
         "P-Industry":[1, 2, 4],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"HS800B_EN.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"HS800B_EN.usdz"
     },
     "TS400B":{
-        "Series":"TS系列",
-        "D-model":"TS400B",
-        "P-Name":"不生銹抽水泵浦",
+        "Series":"TS series",
+        "D-model":"TS400",
+        "P-Name":"Multistage Centrifugal Pump",
         "Features":[
             "Mutistage design provide steady, quiet and vibration-free operation for years of trouble-free service.",
             "Close coupled, space saving design provides easy installation.",
@@ -129,8 +129,8 @@
         ],
         "P-Image":"7.TS400B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TS_B/DM/TS_B-tw-20200428.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/512.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TS/DM/TS-EW2014.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/71.html",
         "P-Industry":[1, 2, 4],
         "AR":"N",
         "qrcode":"",
@@ -138,9 +138,9 @@
         "ios_ar":""
     },
     "HQC400B":{
-        "Series":"HQC系列",
-        "D-model":"HQC400B",
-        "P-Name":"頂樓順水加壓泵浦",
+        "Series":"HQC series",
+        "D-model":"HQC400",
+        "P-Name":"Automatic Flow-Controlled Pump",
         "Features":[
             "This HQC series most suitable to Install it below the water tower, to downward pressurization, When using the water; the pump will automatically start increase the pressure to supply water, when stop using the pump will automatically stop supply power and water.",
             "Compact design and quiet operation make the HQC series suitable for many applications.",
@@ -149,8 +149,8 @@
         ],
         "P-Image":"6.HQC400B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HQC_B/DM/HQC_B-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/516.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/HQC/English/DM/HQC-EW201601.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/424.html",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -158,9 +158,9 @@
         "ios_ar":""
     },
     "HQIC800":{
-        "Series":"HQIC系列",
+        "Series":"HQIC series",
         "D-model":"HQIC800B",
-        "P-Name":"電腦變頻恆壓泵浦",
+        "P-Name":"TBA",
         "Features":[
             "Manufactured with non-corrosive rust proof materials.",
             "Compact design, small size, easy installation.",
@@ -177,9 +177,9 @@
         "ios_ar":""
     },
     "PK250":{
-        "Series":"PK系列",
+        "Series":"PK series",
         "D-model":"PK250",
-        "P-Name":"魚池專用沉水泵浦",
+        "P-Name":"TBA",
         "Features":[
             "High performance, electricity saving motor.",
             "The motor has built-in thermal overload to protect against high operating temperatures and over current.",
@@ -190,15 +190,15 @@
         "P-Catalog":"https://walruspump.com/images/media/product/PK/DM/PK-60Hz-TW001.pdf",
         "P-Info":"https://walruspump.com/zh-tw/product/detail/pk250.html",
         "P-Industry":[1, 2, 3],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"PK250_EN.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"PK250_EN.usdz"
     },
     "PW100AR":{
-        "Series":"PW_AR系列",
+        "Series":"PW_AR series",
         "D-model":"PW100AR",
-        "P-Name":"家用小型沉水泵浦_海水專用型",
+        "P-Name":"Sea water pump",
         "Features":[
             "Submersible pumps for clean water.",
             "Corrosion-resistant and compact.",
@@ -211,8 +211,8 @@
         "P-Video":[
             "KEuv2Zt7BzE"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/DM/PW-A-DM-TW-20200508.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/473.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/English/PW-A-DM-EN-20200508.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/54.html",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -220,9 +220,9 @@
         "ios_ar":""
     },
     "PW250AD":{
-        "Series":"PW_AD系列",
+        "Series":"PW_AD series",
         "D-model":"PW250AD",
-        "P-Name":"家用小型沉水泵浦_低水位吸乾型",
+        "P-Name":"Low Suction Pump",
         "Features":[
             "Submersible pumps for clean water.",
             "Corrosion-resistant and compact.",
@@ -235,8 +235,8 @@
         "P-Video":[
             "-eqnX3eTSv4"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/DM/PW250AD.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/470.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/English/PW-A-DM-EN-20200508.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/pw250ad.html",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -244,9 +244,9 @@
         "ios_ar":""
     },
     "TPH12T":{
-        "Series":"TPH系列",
+        "Series":"TPH series",
         "D-model":"TPH12T",
-        "P-Name":"水平多段離心式泵浦",
+        "P-Name":"Multistage Centrifugal Pump",
         "Features":[
             "Product Description Feature：The WALRUS TPH Series is horizontal multistage centrifugal pump, suitable for clean water/liquid without abrasive matters. The applications are versatile, such as pressure boosting, transfer, circulation, and machinery.",
             "Industrial circulation system.",
@@ -257,8 +257,8 @@
         ],
         "P-Image":"18.TPH12T.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/tph/DM/TPH-TW000a-202003.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/435.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/tph/English/DM/TPH-EW021b.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/271.html",
         "P-Industry":[1, 2, 3, 5, 6],
         "AR":"N",
         "qrcode":"",
@@ -266,9 +266,9 @@
         "ios_ar":""
     },
     "TH400P":{
-        "Series":"TH系列",
+        "Series":"TH series",
         "D-model":"TH400P",
-        "P-Name":"噴霧機",
+        "P-Name":"Atomize Pump",
         "Features":[
             "Portable compact design, easy to carry.",
             "Easy operation, and maintenance.",
@@ -281,8 +281,8 @@
         "P-Video":[
             "x70Vqz55aCw"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/th/TH-dm-tw-20200813.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/33.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/th/TH-dm-en-20200813.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/73.html",
         "P-Industry":[1, 2],
         "AR":"N",
         "qrcode":"",
@@ -290,9 +290,9 @@
         "ios_ar":""
     },
     "TPAK8":{
-        "Series":"TPAK系列",
+        "Series":"TPAK series",
         "D-model":"TPAK8",
-        "P-Name":"冷卻泵浦",
+        "P-Name":"Coolant Pump",
         "Features":[
             "TPAK Series coolant pump is designed for the circulation and spraying of cooling lubricants, especially machine tools.This series may use on all machine tools performing Turning, Milling, Drilling, Cutting, Slitting, Grinding etc. It is suitable to carry liquids such as water, coolant, light oil and other clean, non aggressive matters."
         ],
@@ -307,9 +307,9 @@
         "ios_ar":""
     },
     "TPHK8T(S)E":{
-        "Series":"TPHK系列",
+        "Series":"TPHK series",
         "D-model":"TPHK8T(S)E",
-        "P-Name":"多段浸水式離心泵浦",
+        "P-Name":"Vertical Multistage Centrifugal Pump",
         "Features":[
             "The TPHK8T(S)E is vertical ultistage centrifugal pump, designed for industrial use, specially for machine tool. It is suitable to carry fluids such as water, coolant, light oil and other clean, non aggressive matters:",
             "Industrial circulation system",
@@ -320,18 +320,18 @@
         "P-Video":[
             "gDtE-rPUals"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPHK(S)E/DM/TPHK(S)E-TW.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/485.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TPHK(S)E/English/DM/TPHK(S)E-EW002.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/486.html",
         "P-Industry":[3],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"TPHK8T(S)E_EN.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"TPHK8T(S)E_EN.usdz"
     },
     "TPH-XX2":{
         "Series":"TPH-Xx2",
         "D-model":"",
-        "P-Name":"壓差式交互並列泵浦",
+        "P-Name":"TBA",
         "Features":[
             "Single or parallel unit operation: Parallel operation: When water usage is low, one unit will begin to operate until the water usage increases, when it can no longer handle the required water pressure, the other unit will start functioning in parallel. The duplex unit will switch to single unit operation automatically with the decrease in water demand."
         ],
@@ -348,15 +348,15 @@
     "TPHICX2":{
         "Series":"TPHICx2",
         "D-model":"",
-        "P-Name":"電腦變頻恆壓-交互並列泵浦",
+        "P-Name":"Constant Pressure Inverter Control System",
         "Features":[
             "Apartment buildings, houses, villa water supply, factories, water supply systems, drinking water systems, RO water treatment equipment, supermarkets, motels, SPA, etc.",
             "Single or parallel unit operation: Parallel operation: When water usage is low, one unit will begin to operate until the water usage increases, when it can no longer handle the required water pressure, the other unit will start functioning in parallel. The duplex unit will switch to single unit operation automatically with the decrease in water demand."
         ],
         "P-Image":"19.TPHICx2.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/tphic/DM/TPHIC-dm-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/107.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/tphic/English/DM/TPHIC-dm-en.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/113.html",
         "P-Industry":[1, 4],
         "AR":"N",
         "qrcode":"",
@@ -364,9 +364,9 @@
         "ios_ar":""
     },
     "TPR5":{
-        "Series":"TPR系列",
+        "Series":"TPR series",
         "D-model":"TPR5",
-        "P-Name":"立式多段離心泵浦",
+        "P-Name":"Vertical Multistage Centrifugal Pumps",
         "Features":[
             "The operating range of the shaft seal depends on operating pressure, pump type, type of shaft seal and liquid temperature.",
             "Applies to clean water and water with anti-freeze liquids. If the operating range is exceeded, the life of the shaft seal may be reduced."
@@ -375,8 +375,8 @@
         "P-Video":[
             "hNYw_VOQYi8"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPR/DM/TPR-50Hz-TW001a-201906.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/412.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TPR/EN/1-90/DM/TPR-50Hz-EW.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/524.html",
         "P-Industry":[4],
         "AR":"N",
         "qrcode":"",
@@ -384,9 +384,9 @@
         "ios_ar":""
     },
     "TPRK3T19":{
-        "Series":"TPRK_HSIC系列",
+        "Series":"TPRK_HSIC series",
         "D-model":"TPRK3T19-19HSIC",
-        "P-Name":"變頻多段浸水式離心泵浦",
+        "P-Name":"TBA",
         "Features":[
             "Immersible vertical multistage centrifugal pump, self-priming,coupling connection between pump and motor, stainless steel construction design ensures corrosion-free operation.",
             "By the Drain back tank structure, that the liquid remains in the tank even the mechanical seal leakage, and use cartridge mechanical seal for easy maintenance."
@@ -402,9 +402,9 @@
         "ios_ar":""
     },
     "TPRK 3T":{
-        "Series":"TPRK系列",
+        "Series":"TPRK series",
         "D-model":"TPRK 3T",
-        "P-Name":"直立浸水式泵浦",
+        "P-Name":"Immersible Pump",
         "Features":[
             "Immersible vertical multistage centrifugal pump, self-priming,coupling connection between pump and motor, stainless steel construction design ensures corrosion-free operation.",
             "By the Drain back tank structure, that the liquid remains in the tank even the mechanical seal leakage, and use cartridge mechanical seal for easy maintenance."
@@ -413,8 +413,8 @@
         "P-Video":[
             "8YY1UHLqrbM"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPRK/TPRK-TW000-202004-20200505.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/452.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TPRK/TPRK-EW003-202004-20200505.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/481.html",
         "P-Industry":[3],
         "AR":"N",
         "qrcode":"",

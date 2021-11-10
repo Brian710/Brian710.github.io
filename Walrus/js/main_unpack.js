@@ -10,22 +10,22 @@ const MenuButton = [
 ];
 const MenuButton_EN = [
     "Hall",
-    "Construction Industry",
-    "Manufacturing Industry",
-    "Technology Industry",
-    "Wholesale & Retail Industry",
-    "Agriculture/Fishing Industry", 
-    "Service/Accommodation<br> & Food Service Activities",
-    "WALRUS fit"
+    "Construction",
+    "Manufacturing",
+    "Technology",
+    "Wholesale and Retail Trade",
+    "Agriculture & Fisheries", 
+    "Service/Hospitality",
+    "WALRUS FIT"
 ];
 const MenuButton_JP = [
-    "ホール",
-    "建設工学",
-    "製造",
+    "ロビー",
+    "建設工事類",
+    "製造業",
     "テクノロジー産業",
-    "卸売と小売り",
+    "卸売・小売業",
     "農業、漁業", 
-    "服務/宿泊、飲食サービス業",
+    "サービス/宿泊・飲食業",
     "カスタマイズ"
 ];
 

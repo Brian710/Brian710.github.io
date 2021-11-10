@@ -19,10 +19,10 @@
         "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HQ/DM/HQ_B-tw.pdf",
         "P-Info":"https://walruspump.com/zh-tw/product/detail/488.html",
         "P-Industry":[1, 4, 7],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
-        "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "AR":"N",
+        "qrcode":"HQ200B_TC.png",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_TC.glb&amp;mode=ar_preferred&amp;title=Test&amp;link=https://www.google.com/maps/d/embed?mid=1G1y9LaQdZooqwANiaELwaIdRm4I83k7B#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_TC.glb;end;",
+        "ios_ar":"HQ200B_TC.usdz"
     },
     "TQ1500B":{
         "Series":"TQ系列",
@@ -107,10 +107,10 @@
         "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HS_B/DM/HS_B-tw-20200429.pdf",
         "P-Info":"https://walruspump.com/zh-tw/product/detail/522.html",
         "P-Industry":[1, 2, 4],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"HQ200B_TC.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"HQ200B_TC.usdz"
     },
     "TS400B":{
         "Series":"TS系列",
@@ -189,9 +189,9 @@
         "P-Info":"https://walruspump.com/zh-tw/product/detail/pk250.html",
         "P-Industry":[1, 2, 3],
         "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
-        "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "qrcode":"PK250_TC.png",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/PK250_TC.glb&amp;mode=ar_preferred&amp;title=PK250_TC&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/PK250_TC.glb;end;",
+        "ios_ar":"PK250_TC.usdz"
     },
     "PW100AR":{
         "Series":"PW_AR系列",
@@ -320,10 +320,10 @@
         "P-Catalog":"https://walruspump.com/images/media/product/TPHK(S)E/DM/TPHK(S)E-TW.pdf",
         "P-Info":"https://walruspump.com/zh-tw/product/detail/485.html",
         "P-Industry":[3],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"TPHK8T(S)E_TC.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"TPHK8T(S)E_TC.usdz"
     },
     "TPH-XX2":{
         "Series":"TPH-Xx2",

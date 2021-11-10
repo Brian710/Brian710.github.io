@@ -8,22 +8,22 @@ const IndustryType = [
     "住宿及餐飲業"
 ];
 const IndustryType_EN = [
-    "Construction Industry",
-    "Agriculture/Fishing Industry",
-    "Manufacturing Industry",
-    "Wholesale & Retail Industry",
-    "Technology Industry",
-    "Service Industry",
-    "Accommodation & Food Service Activities"
+    "Construction",
+    "Agriculture & Fisheries",
+    "Manufacturing",
+    "Wholesale and Retail Trade",
+    "Technology",
+    "Services",
+    "Restaurants & Lodging"
 ];
 const IndustryType_JP = [
-    "建設工学",
-    "農、漁業",
-    "製造",
-    "卸売と小売り",
+    "建設工事類",
+    "農業、漁業",
+    "製造業",
+    "卸売・小売業",
     "テクノロジー産業",
-    "サービス",
-    "宿泊およびケータリング業界"
+    "サービス業",
+    "宿泊・飲食業"
 ];
 
 window.onload = function(){
@@ -154,11 +154,11 @@ function G_Top(container, data, content){
         else if($("#pano").attr("data-lang")=="EN")
             $(_itemmodel).html("Display model " + data[content]["D-model"]);
         else if($("#pano").attr("data-lang")=="JP")
-            $(_itemmodel).html("ディスプレイモデル " + data[content]["D-model"]);
+            $(_itemmodel).html("展示機種 " + data[content]["D-model"]);
     }
 
     let _jcit = document.createElement("IMG");
-    $(_jcit).addClass("JCIT_Page").attr("src","./images/icon/JCIT_Page.png").fadeOut(4500);
+    $(_jcit).addClass("JCIT_Page").attr("src","./images/icon/JCIT_Page.png").fadeOut(3500);
 
     $(container).append(
         $(_logo),
@@ -190,13 +190,26 @@ function G_ProductImage(container, data, content){
                     let _arBgc = document.createElement("DIV");
                     $(_arBgc).addClass("pos-a t-0 w-100 h-100 bgc-black z-500").attr("id","modelwindow").appendTo("#pano");
                     let _arDIv = document.createElement("DIV");
-                    $(_arDIv).addClass("ta-c inAPPDiv").html(
+                    let innerHTMLtxt = "";
+                    if($("#pano").attr("data-lang")=="TC")
+                        innerHTMLtxt == 
                         '<div>\
                             <p>請使用預設瀏覽器<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">開啟體驗</p>\
                             <img class="close_image" src="./images/icon/Icon_Close.png">\
-                        </div>'
-                    ).appendTo($(_arBgc));
-    
+                        </div>';
+                    else if($("#pano").attr("data-lang")=="EN")
+                        innerHTMLtxt == 
+                        '<div>\
+                            <p>請使用預設瀏覽器<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">開啟體驗</p>\
+                            <img class="close_image" src="./images/icon/Icon_Close.png">\
+                        </div>';
+                    else if($("#pano").attr("data-lang")=="JP")
+                        innerHTMLtxt == 
+                        '<div>\
+                            <p>請使用預設瀏覽器<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">開啟體驗</p>\
+                            <img class="close_image" src="./images/icon/Icon_Close.png">\
+                        </div>';
+                    $(_arDIv).addClass("ta-c inAPPDiv").html(innerHTMLtxt).appendTo($(_arBgc));
                     $(".close_image").click(function(){
                         $("#modelwindow").remove();
                     });
@@ -206,11 +219,19 @@ function G_ProductImage(container, data, content){
                 let _arBgc = document.createElement("DIV");
                 $(_arBgc).addClass("pos-a t-0 w-100 h-100 bgc-black z-500").attr("id","modelwindow").appendTo("#pano");
                 let _arDIv = document.createElement("DIV");
-                $(_arDIv).addClass("pos-a ta-c DeskDiv").html(
-                    '<p class="">▼掃描點擊AR體驗▼</p>\
-                    <img class="qrcode_image" src="./images/ar/'+ data[content]["qrcode"] +'">\
-                    <img class="close_image" src="./images/icon/Icon_Close.png">'
-                ).appendTo($(_arBgc));
+
+                let innerHTMLtxt = "";
+                if($("#pano").attr("data-lang")=="TC")
+                    innerHTMLtxt += '<p class="">▼掃描點擊AR體驗▼</p>';
+                else if($("#pano").attr("data-lang")=="EN")
+                    innerHTMLtxt += '<p class="">▼掃描點擊AR體驗▼</p>';
+                else if($("#pano").attr("data-lang")=="JP")
+                    innerHTMLtxt += '<p class="">▼掃描點擊AR體驗▼</p>';
+                innerHTMLtxt += 
+                '<img class="qrcode_image" src="./images/ar/'+ data[content]["qrcode"] +'">\
+                <img class="close_image" src="./images/icon/Icon_Close.png">';
+
+                $(_arDIv).addClass("pos-a ta-c DeskDiv").html(innerHTMLtxt).appendTo($(_arBgc));
 
                 $(".close_image").click(function(){
                     $("#modelwindow").remove();
@@ -236,7 +257,7 @@ function G_Btn(container, data, content){
     else if($("#pano").attr("data-lang")=="EN")
         $(_catalog_text).html("Brochure");
     else if($("#pano").attr("data-lang")=="JP")
-        $(_catalog_text).html("カタログを見る");
+        $(_catalog_text).html("カタログ");
     $(_catalog_btn).click(function(){
             window.open(data[content]["P-Catalog"]);
     }).append($(_catalog_img),$(_catalog_text));
@@ -251,7 +272,7 @@ function G_Btn(container, data, content){
     else if($("#pano").attr("data-lang")=="EN")
         $(_info_text).html("More Info");
     else if($("#pano").attr("data-lang")=="JP")
-        $(_info_text).html("詳しくはこちら");
+        $(_info_text).html("詳細");
     $(_info_btn).click(function(){
             window.open(data[content]["P-Info"]);
     }).append($(_info_img),$(_info_text));
@@ -327,9 +348,9 @@ function G_Bot(container, data, content){
     if($("#pano").attr("data-lang")=="TC")
         $(_industrytitle).html("適用產業範圍");
     else if($("#pano").attr("data-lang")=="EN")
-        $(_industrytitle).html("Industrial application");
+        $(_industrytitle).html("Application");
     else if($("#pano").attr("data-lang")=="JP")
-        $(_industrytitle).html("産業上の利用");
+        $(_industrytitle).html("該当する業界の範囲");
     $(container).append($(_industrytitle));
 
     for(let i = 1; i <= 7; i++){

@@ -135,11 +135,39 @@
 
 	</scene>
 
+ <scene name="scene_0004_1" title="0004_1" onstart="" thumburl="panos/0004.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="270" vlookat="10" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/0004.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/0004.tiles/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
 	<scene name="scene_0005" title="0005" onstart="" thumburl="panos/0005.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="-136.747" vlookat="25.328" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/0005.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/0005.tiles/pano_%s.jpg" />
+		</image>
+
+	</scene>
+ 
+ 	<scene name="scene_0005_1" title="0005_1" onstart="" thumburl="panos/0005.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-270" vlookat="10" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
 		<preview url="panos/0005.tiles/preview.jpg" />
 

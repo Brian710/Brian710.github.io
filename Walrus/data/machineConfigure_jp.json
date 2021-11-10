@@ -1,43 +1,43 @@
 {
     "HQ200B":{
-        "Series":"HQ系列",
-        "D-model":"HQ200B",
-        "P-Name":"電子穩壓加壓泵浦",
+        "Series":"HQシリーズ",
+        "D-model":"HQ200",
+        "P-Name":"電子レギュレータ加圧ポンプ",
         "Features":[
-            "電子穩壓設計，整合泵浦、馬達、壓力桶及電子控制器的穩壓供水系統。",
-            "水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。",
-            "接液部位採用不生銹材質，確保飲用水衛生。",
-            "葉輪採用304不鏽鋼多段離心式設計，強度高、能效佳、運轉時安靜低噪音。",
-            "無水雙重保護：泵浦內置溫度保護開關，當無水空轉造成水機內水溫高於55°C時，泵浦自動停止運轉；另搭載程式控制無水運轉保護，無水時自動停機。",
-            "延遲6秒緩停機：避免用水時因水量太小造成泵浦啟動停止頻繁的問題。"
+            "電子レギュレータ設計で、ポンプ、モーター、圧力タンク、電子コントローラを統合した水圧安定給水システム。",
+            "機体はRoHS指令に適合する抗菌エンジニアリングプラスチックで製造され、一部の細菌類の増殖を抑制し、水質を向上させることができます。",
+            "接液部は、錆びない素材を用い、飲料水の衛生を確保できます。",
+            "インペラは304ステンレス鋼の多段遠心設計を用い、強度が高く、エネルギー効率が良く、運転時静粛性・低騒音を実現しています。",
+            "無送水二重保護：ポンプには温度保護スイッチが内蔵され、無送水の空運転により機器内の水温が55℃を超えると、ポンプは自動的に運転を停止します。また、プログラム制御の無送水運転保護を搭載し、無送水時自動的に運転を停止します。",
+            "6秒停止遅延:水使用時の水量が少なすぎて、ポンプが頻繁に起動・停止する問題を回避できます。"
         ],
         "P-Image":"4.HQ200B-.png",
         "P-Video":[
             "N_A6VkqQjmA",
             "X4SipKLmeSc"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HQ/DM/HQ_B-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/488.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/HQ/English/DM/HQ-EW-202002.pdf",
+        "P-Info":"'https://walruspump.com/en-global/product/detail/393.html",
         "P-Industry":[1, 4, 7],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"HQ200B_JP.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"HQ200B_JP.usdz"
     },
     "TQ1500B":{
-        "Series":"TQ系列",
-        "D-model":"TQ1500B",
-        "P-Name":"電子穩壓加壓泵浦",
+        "Series":"TQシリーズ",
+        "D-model":"TQ1500",
+        "P-Name":"電子レギュレータ加圧ポンプ",
         "Features":[
-            "葉輪採多段離心式設計，使用時安靜低噪音。",
-            "水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。",
-            "接液部位採不生銹材質製成，確保飲用水衛生。",
-            "無水保護，防止水源不足時泵浦空轉。"
+            "インペラは多段遠心設計を採用し、使用時の静粛性・低騒音を実現しています。",
+            "機体はRoHS指令に適合する抗菌エンジニアリングプラスチックで製造され、一部の細菌類の増殖を抑制し、水質を向上させることができます。",
+            "接液部は、錆びない素材を用い、飲料水の衛生を確保できます。",
+            "無送水保護で、水源が不足している時にポンプの空運転を防止できます。"
         ],
         "P-Image":"3.TQ1500B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TQ_B/DM/TQ_B-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/498.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TQ/English/DM/TQ-catalogue-en.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/62.html",
         "P-Industry":[1, 4, 6],
         "AR":"N",
         "qrcode":"",
@@ -45,16 +45,16 @@
         "ios_ar":""
     },
     "GQCN400B":{
-        "Series":"GQCN系列",
+        "Series":"GQCNシリーズ",
         "D-model":"GQCN400B",
-        "P-Name":"電子穩壓加壓泵浦",
+        "P-Name":"電子レギュレータ加圧ポンプ",
         "Features":[
-            "迴水噴射式設計:內部結構設計，可自行調節泵浦內水路內外部壓力差，以達到快速回水順暢排氣。",
-            "優良排氣設計:齒式葉輪搭配迴水噴射式設計，遇到在容易吸入些微空氣的處所，可快速將空氣排除避免無法正常供水。",
-            "電子穩壓設計:整合泵浦、馬達、壓力桶及電子控制器的穩壓供水系統。",
-            "抗菌安心材質:水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。接液部位採用不生銹材質，確保飲用水衛生。",
-            "雙重停機保護:搭載程式控制無水運轉保護，無水時自動停機，亦裝設溫度過載保護裝置，可防止馬達過熱燒毀。",
-            "延遲6秒緩停機:可避免用水時因水量太小造成泵浦啟動停止頻繁的問題。"
+            "水廻り噴射式設計:内部構造の設計によりポンプの内部水路の内外部の圧力差を自己調整して、迅速な水の戻り及びスムーズな排気を実現できます。",
+            "優れた排気設計:歯付きインペラに水廻り噴射式設計を組み合わせ、空気を吸い込みやすい場所にあっても、空気を迅速に排出でき、正常に給水できないことを避けることができます。",
+            "電子レギュレータ設計:ポンプ、モーター、圧力タンク、電子コントローラを統合した水圧安定給水システム。",
+            "安心な抗菌素材:機体はRoHS指令に適合する抗菌エンジニアリングプラスチックで製造され、一部の細菌類の増殖を抑制し、水質を向上させることができます。接液部は、錆びない素材を用い、飲料水の衛生を確保できます。",
+            "二重運転停止保護:プログラム制御の無送水運転保護を搭載し、無送水時自動的に運転を停止します。また、モーターの過熱による焼損を防ぐための熱過負荷保護装置も装備されています。",
+            "6秒停止遅延:水使用時の水量が少なすぎて、ポンプが頻繁に起動・停止する問題を回避できます。"
         ],
         "P-Image":"2.GQCN400B.png",
         "P-Video":[
@@ -69,23 +69,23 @@
         "ios_ar":""
     },
     "TP825PTB":{
-        "Series":"TP8系列",
-        "D-model":"TP825PTB",
-        "P-Name":"塑鋼不生銹加壓機",
+        "Series":"TP8シリーズ",
+        "D-model":"TP825P(T)",
+        "P-Name":"強化プラスチック防錆加圧機",
         "Features":[
-            "水機本體採用工程塑膠整體設計，接液部位為不生銹材質製成。",
-            "採歐美進口食用容器塑膠原料，確保使用水質安全衛生。",
-            "採壓力開關控制，當水壓不足時泵浦自行啟動增壓，水壓足夠時自動停機。",
-            "馬達裝設有溫度過載保護裝置可防止馬達燒毀。",
-            "搭配水溫控制開關，可防止吸入水源不足或出水口閉塞時加壓機空轉所造成的機構損壞。"
+            "機体の全体は、エンジニアリングプラスチックで設計され、接液部が錆ない材料で作られています。",
+            "水質の安全で衛生を確保するため、欧米から輸入される食用接触用プラスチック原料を使用しています。",
+            "圧力スイッチで制御し、水圧が不足した時ポンプが自動的に起動して増圧し、水圧が十分になると自動的に停止します。",
+            "モーターには、熱過負荷保護装置が装備され、モーターの焼損を防ぐことができます。",
+            "水温制御スイッチを搭載し、吸込み水源の不足又は吐水口が塞がれた場合、加圧機のアイドリングによる機構の損傷を防ぐことができます。"
         ],
         "P-Image":"1.TP825PTB.png",
         "P-Video":[
             "s49bekncsFM",
             "N_A6VkqQjmA"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TP8_PTB/DM/TP8_PTB-tw-20200427.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/492.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TP8/DM/TP8P-EW201903.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/67.html",
         "P-Industry":[1, 4],
         "AR":"N",
         "qrcode":"",
@@ -93,39 +93,39 @@
         "ios_ar":""
     },
     "HS800B":{
-        "Series":"HS系列",
-        "D-model":"HS800B",
-        "P-Name":"不生銹抽水泵浦",
+        "Series":"HSシリーズ",
+        "D-model":"HS800",
+        "P-Name":"防錆ポンプ",
         "Features":[
-            "葉輪採用304不鏽鋼多段離心式設計，強度高、能效佳、運轉時安靜低噪音。",
-            "水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。",
-            "接液部位採不生銹材質製成，確保飲用水衛生。",
-            "泵浦內置溫度保護開關，防止水源不足時泵浦空轉。當水溫超過55˚C時，泵浦自動斷電。"
+            "インペラは304ステンレス鋼の多段遠心設計を用い、強度が高く、エネルギー効率が良く、運転時静粛性・低騒音を実現しています。",
+            "機体はRoHS指令に適合する抗菌エンジニアリングプラスチックで製造され、一部の細菌類の増殖を抑制し、水質を向上させることができます。",
+            "接液部は、錆びない素材を用い、飲料水の衛生を確保できます。",
+            "ポンプには温度保護スイッチが内蔵され、水源が不足している時にポンプの空運転を防止できます。水温が55℃を超えると、ポンプの電源が自動的に切られます。"
         ],
         "P-Image":"8.HS400B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HS_B/DM/HS_B-tw-20200429.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/522.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/HS/English/DM/HS-EW201601.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/401.html",
         "P-Industry":[1, 2, 4],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"HS800B_JP.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"HS800B_JP.usdz"
     },
     "TS400B":{
-        "Series":"TS系列",
-        "D-model":"TS400B",
-        "P-Name":"不生銹抽水泵浦",
+        "Series":"TSシリーズ",
+        "D-model":"TS400",
+        "P-Name":"防錆ポンプ",
         "Features":[
-            "葉輪採多段離心式設計，使用時安靜低噪音。",
-            "水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。",
-            "接液部位採用不生銹材質製成，確保飲用水衛生。",
-            "泵浦內置溫度保護開關，防止水源不足時泵浦空轉。當水溫超過55°C時，泵浦自動斷電(TS400B / 800B)。"
+            "インペラは多段遠心設計を採用し、使用時の静粛性・低騒音を実現しています。",
+            "機体はRoHS指令に適合する抗菌エンジニアリングプラスチックで製造され、一部の細菌類の増殖を抑制し、水質を向上させることができます。",
+            "接液部は、錆びない素材を用い、飲料水の衛生を確保できます。",
+            "ポンプには温度保護スイッチが内蔵され、水源が不足している時にポンプの空運転を防止できます。水温が55℃を超えると、ポンプの電源が自動的に切られます（TS400B / 800B）。"
         ],
         "P-Image":"7.TS400B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/TS_B/DM/TS_B-tw-20200428.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/512.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TS/DM/TS-EW2014.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/71.html",
         "P-Industry":[1, 2, 4],
         "AR":"N",
         "qrcode":"",
@@ -133,18 +133,18 @@
         "ios_ar":""
     },
     "HQC400B":{
-        "Series":"HQC系列",
-        "D-model":"HQC400B",
-        "P-Name":"頂樓順水加壓泵浦",
+        "Series":"HQCシリーズ",
+        "D-model":"HQC400",
+        "P-Name":"屋上順水加圧ポンプ",
         "Features":[
-            "葉輪採用304不鏽鋼多段離心式設計，強度高、能效佳、運轉時安靜低噪音。",
-            "水機身採用符合RoHS規範之抗菌工程塑膠，可抑制部分菌類之滋生，提高用水品質。",
-            "接液部位採不生銹材質製成，確保飲用水衛生。"
+            "インペラは304ステンレス鋼の多段遠心設計を用い、強度が高く、エネルギー効率が良く、運転時静粛性・低騒音を実現しています。",
+            "機体はRoHS指令に適合する抗菌エンジニアリングプラスチックで製造され、一部の細菌類の増殖を抑制し、水質を向上させることができます。",
+            "接液部は、錆びない素材を用い、飲料水の衛生を確保できます。"
         ],
         "P-Image":"6.HQC400B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/HQC_B/DM/HQC_B-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/516.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/HQC/English/DM/HQC-EW201601.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/424.html",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -152,15 +152,15 @@
         "ios_ar":""
     },
     "HQIC800":{
-        "Series":"HQIC系列",
+        "Series":"HQICシリーズ",
         "D-model":"HQIC800B",
-        "P-Name":"電腦變頻恆壓泵浦",
+        "P-Name":"コンピュータ周波数変換定圧ポンプ",
         "Features":[
-            "結構精巧:摒除一般市面雜牌零件拼湊設計，水機全不生銹材質，體積小不佔空間，效率高噪音小。",
-            "恆壓穩壓:用水時馬達平緩啟動，變頻器依壓力感應器傳回值感測用水壓力，進而控制馬達運轉頻率，無段改變馬達轉速，使用水壓力穩定維持在壓力設定值。使用時壓力均不會高於壓力設定值，用水量超過恆壓範圍仍保持穩壓供水。",
-            "測漏補償:管路洩漏、滴水，微電腦自動偵測並運轉泵浦補償壓力至設定值。",
-            "止水停機:停止用水時，微電腦自動偵測回傳並控制馬達減速停機。",
-            "無水斷電:無水使用1分鐘後會自動斷電，1小時後自行嘗試啟動，直至正常供水為止。"
+            "コンパクトな構造:市場に出回っている非正規部品の組み合わせ設計を排除し、機器は錆びない素材で製造され、小型でスペースを取らず、高効率で低騒音を実現します。",
+            "定圧・水圧安定:水を使用する場合、モーターは緩やかに始動し、インバータが圧力センサーの戻り値に従って水圧を検知することで、モーターの運転周波数を制御してモーターの回転速度を無段階で変え、水圧を圧力設定値に安定して維持させます。使用時の圧力は圧力設定値を超えず、用水量が定圧範囲を超えても水圧安定性を保持して給水します。",
+            "リークテスト補正:配管の漏れ、水滴は、マイクロコンピュータが自動的に検出してポンプを運転し、圧力を設定値まで補正します。",
+            "水が止まると運転停止:水の使用が止まると、マイクロコンピューが自動的に戻り値を検出し、モーターの減速停止を制御します。",
+            "無送水状態に陥ると電源切断:無送水状態1分間経った後、自動的に電源が切れ、1時間後に給水が正常になるまで自動的に起動を試みます。"
         ],
         "P-Image":"5.HQIC800.png",
         "P-Video":[],
@@ -173,43 +173,43 @@
         "ios_ar":""
     },
     "PK250":{
-        "Series":"PK系列",
+        "Series":"PKシリーズ",
         "D-model":"PK250",
-        "P-Name":"魚池專用沉水泵浦",
+        "P-Name":"養魚池向け水中ポンプ",
         "Features":[
-            "高效能馬達，用電省，效率高。",
-            "馬達備置熱過載保護。",
-            "大量採用高分子塑材，體積小、重量輕。",
-            "插頭式電源線，隨插即用。",
-            "專為造景魚池、錦鯉池、水產養殖用設計。"
+            "高効率モーターで、省電力、効率が高い。",
+            "モーターには、熱過負荷保護が装備されています。",
+            "高分子プラスチック材料を多用し、小型軽量です。",
+            "プラグ付き電源コードで、差し込むだけで使えます。",
+            "造園養魚池、錦鯉池、水産養殖用の設計です。"
         ],
         "P-Image":"11.PK250.png",
         "P-Video":[],
         "P-Catalog":"https://walruspump.com/images/media/product/PK/DM/PK-60Hz-TW001.pdf",
         "P-Info":"https://walruspump.com/zh-tw/product/detail/pk250.html",
         "P-Industry":[1, 2, 3],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"PK250_JP.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"PK250_JP.usdz"
     },
     "PW100AR":{
-        "Series":"PW_AR系列",
+        "Series":"PW_ARシリーズ",
         "D-model":"PW100AR",
-        "P-Name":"家用小型沉水泵浦_海水專用型",
+        "P-Name":"家庭用小型水中ポンプ_海水専用タイプ",
         "Features":[
-            "高效能馬達，用電省，效率高。",
-            "馬達備置熱過載保護。",
-            "大量採用高分子塑材，產品輕。",
-            "附插頭電源線，方便使用。",
-            "適合在清洗水塔等局限空間的清潔抽水使用。"
+            "高効率モーターで、省電力、効率が高い。",
+            "モーターには、熱過負荷保護が装備されています。",
+            "高分子プラスチック素材を多用し、軽量です。",
+            "プラグ電源コード付きで使いやすくなっています。",
+            "高架水槽の洗浄などの閉鎖空間のクリーニングや揚水での使用に適しています。"
         ],
         "P-Image":"9.PW100AR.png",
         "P-Video":[
             "KEuv2Zt7BzE"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/DM/PW-A-DM-TW-20200508.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/473.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/English/PW-A-DM-EN-20200508.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/54.html",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -217,22 +217,22 @@
         "ios_ar":""
     },
     "PW250AD":{
-        "Series":"PW_AD系列",
+        "Series":"PW_ADシリーズ",
         "D-model":"PW250AD",
-        "P-Name":"家用小型沉水泵浦_低水位吸乾型",
+        "P-Name":"家庭用小型水中ポンプ_低水位排水タイプ",
         "Features":[
-            "高效能馬達，用電省，效率高。",
-            "馬達備置熱過載保護。",
-            "大量採用高分子塑材，產品輕。",
-            "附插頭電源線，方便使用。",
-            "適合在清洗水塔等局限空間的清潔抽水使用。"
+            "高効率モーターで、省電力、効率が高い。",
+            "モーターには、熱過負荷保護が装備されています。",
+            "高分子プラスチック素材を多用し、軽量です。",
+            "プラグ電源コード付きで使いやすくなっています。",
+            "高架水槽の洗浄などの閉鎖空間のクリーニングや揚水での使用に適しています。"
         ],
         "P-Image":"10.PW250AD.png",
         "P-Video":[
             "-eqnX3eTSv4"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/DM/PW250AD.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/470.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/English/PW-A-DM-EN-20200508.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/pw250ad.html",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -240,20 +240,20 @@
         "ios_ar":""
     },
     "TPH12T":{
-        "Series":"TPH系列",
+        "Series":"TPHシリーズ",
         "D-model":"TPH12T",
-        "P-Name":"水平多段離心式泵浦",
+        "P-Name":"水平多段遠心ポンプ",
         "Features":[
-            "適用場域：主要用於工業機械設備、週邊系統、清洗系統、增壓系統、液體傳送及園藝灌溉等使用",
-            "適用液體：水、冷卻劑、輕油和其他乾淨不含雜質、低粘度、無燃性、無爆炸性、無酸鹼質液體",
-            "產品特性：低中高水量、低中水壓、陸上水平多段直軸離心式泵浦",
-            "最大水量：1,500 公升/分鐘",
-            "最大水壓：8.0 公斤/平方公分"
+            "適用場面：主に産業機械設備、周辺システム、洗浄システム、増圧システム、液体輸送及び園芸灌漑などに使用されます。",
+            "適用液体：水、クーラント、軽油及びその他不純物を含まない清浄な液体、低粘度、不燃性、非爆発性、非酸性・アルカリ性の液体。",
+            "製品の特長：低・中・高水量、低・中水圧、陸上水平多段立軸遠心ポンプ",
+            "最大水量：1,500ℓ/分",
+            "最大水圧：8.0kg /cm²"
         ],
         "P-Image":"18.TPH12T.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/tph/DM/TPH-TW000a-202003.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/435.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/tph/English/DM/TPH-EW021b.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/271.html",
         "P-Industry":[1, 2, 3, 5, 6],
         "AR":"N",
         "qrcode":"",
@@ -261,20 +261,20 @@
         "ios_ar":""
     },
     "TH400P":{
-        "Series":"TH系列",
+        "Series":"THシリーズ",
         "D-model":"TH400P",
         "P-Name":"噴霧機",
         "Features":[
-            "往復自吸式，體積小壓力足。",
-            "手提式握把，方便使用。",
-            "插頭式電源線，隨插即用。"
+            "往復自吸式、小型、十分な圧力。",
+            "手持ちハンドル付き、使いやすい。",
+            "プラグ付き電源コードで、差し込むだけで使えます。"
         ],
         "P-Image":"12.TH400P.png",
         "P-Video":[
             "x70Vqz55aCw"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/th/TH-dm-tw-20200813.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/33.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/th/TH-dm-en-20200813.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/73.html",
         "P-Industry":[1, 2],
         "AR":"N",
         "qrcode":"",
@@ -282,15 +282,15 @@
         "ios_ar":""
     },
     "TPAK8":{
-        "Series":"TPAK系列",
+        "Series":"TPAKシリーズ",
         "D-model":"TPAK8",
-        "P-Name":"冷卻泵浦",
+        "P-Name":"冷却ポンプ",
         "Features":[
-            "適用場域：主要用於各式車、銑、鉋、磨、鋸等工具機、週邊系統、沖洗及過濾等使用",
-            "適用液體：水、冷卻劑、輕油和其他乾淨、低粘度、無燃性、無爆炸性液體",
-            "產品特性：大水量、低水壓、浸水單段直軸泵浦，無軸封設計",
-            "最大水量：400 公升/分鐘",
-            "最大水壓：1.7 公斤/平方公分"
+            "適用場面：主に各種旋盤、フライス盤、平削盤、研削盤、のこぎり盤などの工作機械、周辺システム、洗浄及びろ過などに使用されます。",
+            "適用液体：水、クーラント、軽油及びその他のクリーンで低粘度、不燃性、非爆発性の液体",
+            "製品の特長：大水量、低水圧、単段浸漬型立軸ポンプ、シャフトシールレス設計",
+            "最大水量：400ℓ/分",
+            "最大水圧：1.7kg /cm²"
         ],
         "P-Image":"13.TPAK8.png",
         "P-Video":[],
@@ -303,35 +303,35 @@
         "ios_ar":""
     },
     "TPHK8T(S)E":{
-        "Series":"TPHK系列",
+        "Series":"TPHKシリーズ",
         "D-model":"TPHK8T(S)E",
-        "P-Name":"多段浸水式離心泵浦",
+        "P-Name":"多段水中遠心ポンプ",
         "Features":[
-            "適用場域：主要用於各式車、銑、鉋、磨、鋸等工具機、週邊系統、沖洗及過濾等使用",
-            "適用液體：水、冷卻劑、輕油和其他乾淨、低粘度、無燃性、無爆炸性、無酸鹼質液體",
-            "產品特性：低中水量、低中水壓、浸多段直軸離心式泵浦，採三層內漏水機身構造迴水設計，即使軸封磨耗發生洩漏，液體也會流回至水箱，可防止環境污染，延長泵浦壽命",
-            "最大水量：280 公升/分鐘",
-            "最大水壓：9.0 公斤/平方公分"
+            "適用場面：主に各種旋盤、フライス盤、平削盤、研削盤、のこぎり盤などの工作機械、周辺システム、洗浄などに使用されます。",
+            "適用液体：水、クーラント、軽油及びその他のクリーンで低粘度、不燃性、非爆発性、非酸性・アルカリ性の液体",
+            "製品の特長：低・中水量、低・中水圧、多段浸漬型立軸遠心ポンプで、3層内部漏れ機体構造の水廻り設計を用い、シャフトシールが摩耗して漏れても、液体は水タンクへ戻り、環境汚染を防ぎ、ポンプの寿命を延ばすことができます。",
+            "最大水量：280ℓ/分",
+            "最大水圧：9.0kg /cm²"
         ],
         "P-Image":"14.TPHK8T(S)E.png",
         "P-Video":[
             "gDtE-rPUals"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPHK(S)E/DM/TPHK(S)E-TW.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/485.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TPHK(S)E/English/DM/TPHK(S)E-EW002.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/486.html",
         "P-Industry":[3],
-        "AR":"Y",
-        "qrcode":"qrcode_xxxx.png",
+        "AR":"N",
+        "qrcode":"TPHK8T(S)E_JP.png",
         "android_ar":"",
-        "ios_ar":"PK250_Ch.usdz"
+        "ios_ar":"TPHK8T(S)E_JP.usdz"
     },
     "TPH-XX2":{
         "Series":"TPH-Xx2",
         "D-model":"",
-        "P-Name":"壓差式交互並列泵浦",
+        "P-Name":"差圧式交互並列運転ポンプ",
         "Features":[
-            "並列運轉(交並式)：使用時單台運轉，隨使用水量增加，單台運轉時水壓、水量不足時，第二台自動啟動併入運轉補償，隨用水量遞減，恢復為單台運轉。",
-            "交互運轉：啟動順序可依設定之時間交替運轉。"
+            "並列運転（交互並列式）：使用時1台が運転し、水使用量が増加するにつれ、1台の運転時水圧、水量が不足すると自動的に2台目が起動して運転補償に組み込まれ、水使用量が減少すると1台の運転に戻ります。",
+            "交互並列運転：起動順序は、設定した時間によって交互運転できます。"
         ],
         "P-Image":"20.TPH-Xx2.png",
         "P-Video":[],
@@ -346,17 +346,17 @@
     "TPHICX2":{
         "Series":"TPHICx2",
         "D-model":"",
-        "P-Name":"電腦變頻恆壓-交互並列泵浦",
+        "P-Name":"コンピュータ周波数変換定圧-交互並列運転ポンプ",
         "Features":[
-            "恆壓穩壓：用水時泵浦平緩啟動，壓力穩定維持在壓力設定值。止水停機，變頻器自動偵測回傳控制減速停機，壓力均不會高於壓力設定值。",
-            "無水斷電：無水時，變頻器自斷停止供電運轉。",
-            "並列運轉(交並式)：使用時單台運轉，隨使用水量增加，單台運轉時水壓、水量不足時，第二台自動啟動併入運轉補償，隨用水量遞減，恢復為單台運轉。",
-            "交互運轉：啟動順序可依設定之時間交替運轉。"
+            "定圧・水圧安定：水を使用する場合、モーターは緩やかに始動し、圧力も安定し、圧力設定値に維持します。水が止まると運転を停止し、インバータが自動的に戻り値を検出し、減速停止を制御し、圧力が圧力設定値を超えないようにします。",
+            "無送水状態 に陥ると電源切断：無送水状態になると、インバータは自動的に電源を切り、運転を停止します。",
+            "並列運転（交互並列式）：使用時1台が運転し、水使用量が増加するにつれ、1台の運転時水圧、水量が不足すると自動的に2台目が起動して運転補償に組み込まれ、水使用量が減少すると1台の運転に戻ります。",
+            "交互並列運転：起動順序は、設定した時間によって交互運転できます。"
         ],
         "P-Image":"19.TPHICx2.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/tphic/DM/TPHIC-dm-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/107.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/tphic/English/DM/TPHIC-dm-en.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/113.html",
         "P-Industry":[1, 4],
         "AR":"N",
         "qrcode":"",
@@ -364,22 +364,22 @@
         "ios_ar":""
     },
     "TPR5":{
-        "Series":"TPR系列",
+        "Series":"TPRシリーズ",
         "D-model":"TPR5",
-        "P-Name":"立式多段離心泵浦",
+        "P-Name":"立形多段遠心ポンプ",
         "Features":[
-            "適用場域：主要用於水廠過濾與輸送、工程用水系統、冷卻空調系統、高壓沖洗系統、鍋爐給水、冷凝水系統、土地灌溉、加壓、沖洗等使用",
-            "適用液體：水、冷卻劑、輕油和其他乾淨不含雜質、低粘度、無燃性、無爆炸性、無酸鹼質液體",
-            "產品特性：低中高水量、低中高水壓、陸上立式多段連軸離心式泵浦",
-            "最大水量：2,333 公升/分鐘",
-            "最大水壓：32.0 公斤/平方公分"
+            "適用場面：主に浄水場のろ過と輸送、工程用水システム、冷却空調システム、高圧洗浄システム、ボイラー給水、凝縮水システム、土地灌漑、加圧、洗浄等に使用されます。",
+            "適用液体：水、クーラント、軽油及びその他不純物を含まない清浄な液体、低粘度、不燃性、非爆発性、非酸性・アルカリ性の液体",
+            "製品の特長：低・中・高水量、低・中・高水圧、陸上立形多段軸直結タイプ遠心ポンプ",
+            "最大水量：2,333 ℓ/分",
+            "最大水圧：32.0kg /cm²"
         ],
         "P-Image":"17.TPR5.png",
         "P-Video":[
             "hNYw_VOQYi8"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPR/DM/TPR-50Hz-TW001a-201906.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/412.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TPR/EN/1-90/DM/TPR-50Hz-EW.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/524.html",
         "P-Industry":[4],
         "AR":"N",
         "qrcode":"",
@@ -387,15 +387,15 @@
         "ios_ar":""
     },
     "TPRK3T19":{
-        "Series":"TPRK_HSIC系列",
+        "Series":"TPRK_HSICシリーズ",
         "D-model":"TPRK3T19-19HSIC",
-        "P-Name":"變頻多段浸水式離心泵浦",
+        "P-Name":"周波数変換多段浸漬型遠心ポンプ",
         "Features":[
-            "適用場域：主要用於各式車、銑、鉋、磨、鋸等工具機、週邊系統、沖洗等使用",
-            "適用液體：水、冷卻劑、輕油和其他乾淨、低粘度、無燃性、無爆炸性、無酸鹼質液體",
-            "產品特性：低中水量、高水壓、浸多段連軸離心式泵浦，搭載背負式變頻器提高工作壓，採三層內漏水機身構造迴水設計，即使軸封磨耗發生洩漏，液體也會流回至水箱，可防止環境污染，延長泵浦壽命，採用模組式機械軸封，維修方便",
-            "最大水量：130 公升/分鐘",
-            "最大水壓：38.0 公斤/平方公分"
+            "適用場面：主に各種旋盤、フライス盤、平削盤、研削盤、のこぎり盤などの工作機械、周辺システム、洗浄などに使用されます。",
+            "適用液体：水、クーラント、軽油及びその他のクリーンで低粘度、不燃性、非爆発性、非酸性・アルカリ性の液体。",
+            "製品の特長：低・中水量、高水圧、多段浸漬型立軸遠心ポンプで、背負い式インバータを搭載し、作動圧力を上げ、3層内部漏れ機体構造の水廻り設計を用い、シャフトシールが摩耗して漏れても、液体は水タンクへ戻り、環境汚染を防ぎ、ポンプの寿命を延ばすことができ、モジュール式メカニカルシャフトシールを用いるため、メンテナンスが簡単です。",
+            "最大水量：130ℓ/分",
+            "最大水圧：38.0kg /cm²"
         ],
         "P-Image":"16.TPRK3T19.png",
         "P-Video":[],
@@ -408,22 +408,22 @@
         "ios_ar":""
     },
     "TPRK 3T":{
-        "Series":"TPRK系列",
+        "Series":"TPRKシリーズ",
         "D-model":"TPRK 3T",
-        "P-Name":"直立浸水式泵浦",
+        "P-Name":"立形浸漬型ポンプ",
         "Features":[
-            "適用場域：主要用於各式車、銑、鉋、磨、鋸等工具機、週邊系統、沖洗等使用",
-            "適用液體：水、冷卻劑、輕油和其他乾淨、低粘度、無燃性、無爆炸性、無酸鹼質液體",
-            "產品特性：低中水量、高水壓、浸水多段連軸離心式泵浦，採三層內漏水機身構造迴水設計，即使軸封磨耗發生洩漏，液體也會流回至水箱，可防止環境污染，延長泵浦壽命，採用模組式機械軸封，維修方便",
-            "最大水量：170 公升/分鐘",
-            "最大水壓：24.0 公斤/平方公分"
+            "適用場面：主に各種旋盤、フライス盤、平削盤、研削盤、のこぎり盤などの工作機械、周辺システム、洗浄などに使用されます。",
+            "適用液体：水、クーラント、軽油及びその他のクリーンで低粘度、不燃性、非爆発性、非酸性・アルカリ性の液体",
+            "製品の特長：低・中水量、高水圧、多段浸漬型立軸遠心ポンプで、3層内部漏れ機体構造の水廻り設計を用い、シャフトシールが摩耗して漏れても、液体は水タンクへ戻り、環境汚染を防ぎ、ポンプの寿命を延ばすことができ、モジュール式メカニカルシャフトシールを用いるため、メンテナンスが簡単です。",
+            "最大水量：170ℓ/分",
+            "最大水圧：24.0kg /cm²"
         ],
         "P-Image":"15.TPRK 3T.png",
         "P-Video":[
             "8YY1UHLqrbM"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPRK/TPRK-TW000-202004-20200505.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/452.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/TPRK/TPRK-EW003-202004-20200505.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/481.html",
         "P-Industry":[3],
         "AR":"N",
         "qrcode":"",
