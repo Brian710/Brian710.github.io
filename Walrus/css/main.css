@@ -107,7 +107,7 @@
 .DeskDiv, .inAPPDiv{
     position: absolute;
     width: 20%;
-    height: 40%;
+    height: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -115,8 +115,7 @@
     border-radius: 5px;
 }
 .DeskDiv p{
-    margin-top: 1.5rem;
-    margin-bottom: 0;
+    margin:2rem 2rem 0 2rem;
 }
 .qrcode_image{
     width: 80%;
@@ -397,7 +396,7 @@
     }
     .inAPPDiv{ width: 85%;}
 }
-@media (min-width: 376px) and (max-width: 425px){
+@media (min-width: 376px) and (max-width: 430px){
     html{ font-size: 16px; }
     .PageContent{ width: 90%; }
     .ProductBtn{ width: 4.8rem; height: 4.8rem; }
@@ -440,7 +439,7 @@
     }
     .inAPPDiv{ width: 85%;}
 }
-@media (min-width: 426px) and (max-width: 1024px){
+@media (min-width: 431px) and (max-width: 1024px){
     html{ font-size: 16px; }
     .PageContent{ width: 60%; }
     .ProductBtnList{ left: -2rem;}

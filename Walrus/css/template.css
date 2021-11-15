@@ -63,7 +63,7 @@ body {
     height: 100% !important;
 }
 *,:root{
-    --bs-font-sans-serif:'Noto Sans TC', sans-serif;
+    --bs-font-sans-serif: 'Noto Sans TC', sans-serif !important;
 }
 /*********** Template ***********/
 /*********** display ***********/

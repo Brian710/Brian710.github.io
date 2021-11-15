@@ -200,13 +200,13 @@ function G_ProductImage(container, data, content){
                     else if($("#pano").attr("data-lang")=="EN")
                         innerHTMLtxt == 
                         '<div>\
-                            <p>請使用預設瀏覽器<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">開啟體驗</p>\
+                            <p>Please switch to default browser <img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png"> and turn on the experience.</p>\
                             <img class="close_image" src="./images/icon/Icon_Close.png">\
                         </div>';
                     else if($("#pano").attr("data-lang")=="JP")
                         innerHTMLtxt == 
                         '<div>\
-                            <p>請使用預設瀏覽器<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">開啟體驗</p>\
+                        <p>デフォルトのブラウザを使用して<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">体験してください</p>\
                             <img class="close_image" src="./images/icon/Icon_Close.png">\
                         </div>';
                     $(_arDIv).addClass("ta-c inAPPDiv").html(innerHTMLtxt).appendTo($(_arBgc));
@@ -224,9 +224,9 @@ function G_ProductImage(container, data, content){
                 if($("#pano").attr("data-lang")=="TC")
                     innerHTMLtxt += '<p class="">▼掃描點擊AR體驗▼</p>';
                 else if($("#pano").attr("data-lang")=="EN")
-                    innerHTMLtxt += '<p class="">▼掃描點擊AR體驗▼</p>';
+                    innerHTMLtxt += '<p class="">▼Frame the QR code with your smartphone to turn on the experience.▼</p>';
                 else if($("#pano").attr("data-lang")=="JP")
-                    innerHTMLtxt += '<p class="">▼掃描點擊AR體驗▼</p>';
+                    innerHTMLtxt += '<p class="">▼スキャンしたら、クリックしてARを体験しよう▼</p>';
                 innerHTMLtxt += 
                 '<img class="qrcode_image" src="./images/ar/'+ data[content]["qrcode"] +'">\
                 <img class="close_image" src="./images/icon/Icon_Close.png">';
@@ -282,15 +282,21 @@ function G_Btn(container, data, content){
     let _contact_img = document.createElement("IMG");
     $(_contact_img).attr("src","./images/icon/Icon_Contact.png");
     let _contact_text = document.createElement("P");
-    if($("#pano").attr("data-lang")=="TC")
+    if($("#pano").attr("data-lang")=="TC"){
         $(_contact_text).html("聯絡我們");
-    else if($("#pano").attr("data-lang")=="EN")
+        $(_contact_btn).click(function(){
+            window.open("https://walruspump.com/zh-tw/contact/index.html");
+        }).append($(_contact_img),$(_contact_text));}
+    else if($("#pano").attr("data-lang")=="EN"){
         $(_contact_text).html("Contact Us");
-    else if($("#pano").attr("data-lang")=="JP")
+        $(_contact_btn).click(function(){
+            window.open("https://walruspump.com/en-global/contact/index.html");
+        }).append($(_contact_img),$(_contact_text));}
+    else if($("#pano").attr("data-lang")=="JP"){
         $(_contact_text).html("お問い合わせ");
-    $(_contact_btn).click(function(){
-        window.open("https://walruspump.com/zh-tw/contact/index.html");
-    }).append($(_contact_img),$(_contact_text));
+        $(_contact_btn).click(function(){
+        window.open("https://walruspump.com/en-global/contact/index.html");
+    }).append($(_contact_img),$(_contact_text));}
 
     if(data[content]["P-Catalog"].length > 0){
         $(container).append($(_catalog_btn));

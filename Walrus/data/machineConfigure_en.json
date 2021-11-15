@@ -17,11 +17,11 @@
             "X4SipKLmeSc"
         ],
         "P-Catalog":"https://walruspump.com/images/media/product/HQ/English/DM/HQ-EW-202002.pdf",
-        "P-Info":"'https://walruspump.com/en-global/product/detail/393.html",
+        "P-Info":"https://walruspump.com/en-global/product/detail/393.html",
         "P-Industry":[1, 4, 7],
         "AR":"N",
         "qrcode":"HQ200B_EN.png",
-        "android_ar":"",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_EN.glb&amp;mode=ar_preferred&amp;title=HQ200B&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_EN.glb;end;",
         "ios_ar":"HQ200B_EN.usdz"
     },
     "TQ1500B":{
@@ -48,7 +48,7 @@
     },
     "GQCN400B":{
         "Series":"GQCN series",
-        "D-model":"GQCN400B",
+        "D-model":"HQCN400",
         "P-Name":"Electronic Control Pump",
         "Features":[
             "The built-in electronic controller provides constant pressure which ensures that the pump starts automatically when water is consumed and operates continuously until water is not required.",
@@ -61,8 +61,8 @@
         "P-Video":[
             "9NgRexTJOuo"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/GQCN_B/DM/GQCN_B-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/gqcn400b.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/HQCN/English/DM/HQCN-EN000a-201905.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/426.html",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -71,7 +71,7 @@
     },
     "TP825PTB":{
         "Series":"TP8 series",
-        "D-model":"TP825P(T)",
+        "D-model":"TP825PT",
         "P-Name":"Automatic Booster Pump",
         "Features":[
             "Manufactured with non-corrosive rust proof materials.",
@@ -112,7 +112,7 @@
         "P-Industry":[1, 2, 4],
         "AR":"N",
         "qrcode":"HS800B_EN.png",
-        "android_ar":"",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/HS800B_EN.glb&amp;mode=ar_preferred&amp;title=HS800B&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/HS800B_EN.glb;end;",
         "ios_ar":"HS800B_EN.usdz"
     },
     "TS400B":{
@@ -168,8 +168,8 @@
         ],
         "P-Image":"5.HQIC800.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/HQIC/HQIC_B-TW000.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/524.html",
+        "P-Catalog":"",
+        "P-Info":"",
         "P-Industry":[1, 2, 5, 7],
         "AR":"N",
         "qrcode":"",
@@ -178,7 +178,7 @@
     },
     "PK250":{
         "Series":"PK series",
-        "D-model":"PK250",
+        "D-model":"PK100",
         "P-Name":"TBA",
         "Features":[
             "High performance, electricity saving motor.",
@@ -192,7 +192,7 @@
         "P-Industry":[1, 2, 3],
         "AR":"N",
         "qrcode":"PK250_EN.png",
-        "android_ar":"",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/PK250_EN.glb&amp;mode=ar_preferred&amp;title=PK250&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/PK250_EN.glb;end;",
         "ios_ar":"PK250_EN.usdz"
     },
     "PW100AR":{
@@ -325,7 +325,7 @@
         "P-Industry":[3],
         "AR":"N",
         "qrcode":"TPHK8T(S)E_EN.png",
-        "android_ar":"",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/TPHK8T(S)E_EN.glb&amp;mode=ar_preferred&amp;title=TPHK8T(S)E&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/TPHK8T(S)E_EN.glb;end;",
         "ios_ar":"TPHK8T(S)E_EN.usdz"
     },
     "TPH-XX2":{
@@ -337,8 +337,8 @@
         ],
         "P-Image":"20.TPH-Xx2.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/tphic/DM/TPHIC-dm-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/40.html",
+        "P-Catalog":"",
+        "P-Info":"",
         "P-Industry":[1, 2, 4, 7],
         "AR":"N",
         "qrcode":"",

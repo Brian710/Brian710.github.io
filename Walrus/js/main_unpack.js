@@ -4,17 +4,17 @@ const MenuButton = [
     "製造業",
     "科技業",
     "批發零售業",
-    "農、漁業", 
+    "農/漁業", 
     "服務/住宿餐飲業",
     "客製化"
 ];
 const MenuButton_EN = [
-    "Hall",
+    "Lobby",
     "Construction",
     "Manufacturing",
     "Technology",
-    "Wholesale and Retail Trade",
-    "Agriculture & Fisheries", 
+    "Wholesale/Retail Trade",
+    "Agriculture/Fisheries", 
     "Service/Hospitality",
     "WALRUS FIT"
 ];
@@ -23,9 +23,9 @@ const MenuButton_JP = [
     "建設工事類",
     "製造業",
     "テクノロジー産業",
-    "卸売・小売業",
-    "農業、漁業", 
-    "サービス/宿泊・飲食業",
+    "卸売/小売業",
+    "農業/漁業", 
+    "サービス/宿泊/飲食業",
     "カスタマイズ"
 ];
 

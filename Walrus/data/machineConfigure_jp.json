@@ -17,11 +17,11 @@
             "X4SipKLmeSc"
         ],
         "P-Catalog":"https://walruspump.com/images/media/product/HQ/English/DM/HQ-EW-202002.pdf",
-        "P-Info":"'https://walruspump.com/en-global/product/detail/393.html",
+        "P-Info":"https://walruspump.com/en-global/product/detail/393.html",
         "P-Industry":[1, 4, 7],
         "AR":"N",
         "qrcode":"HQ200B_JP.png",
-        "android_ar":"",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_JP.glb&amp;mode=ar_preferred&amp;title=HQ200B&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_JP.glb;end;",
         "ios_ar":"HQ200B_JP.usdz"
     },
     "TQ1500B":{
@@ -46,7 +46,7 @@
     },
     "GQCN400B":{
         "Series":"GQCNシリーズ",
-        "D-model":"GQCN400B",
+        "D-model":"HQCN400",
         "P-Name":"電子レギュレータ加圧ポンプ",
         "Features":[
             "水廻り噴射式設計:内部構造の設計によりポンプの内部水路の内外部の圧力差を自己調整して、迅速な水の戻り及びスムーズな排気を実現できます。",
@@ -60,8 +60,8 @@
         "P-Video":[
             "9NgRexTJOuo"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/antibacterial/GQCN_B/DM/GQCN_B-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/gqcn400b.html",
+        "P-Catalog":"https://walruspump.com/images/media/product/HQCN/English/DM/HQCN-EN000a-201905.pdf",
+        "P-Info":"https://walruspump.com/en-global/product/detail/426.html",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -70,7 +70,7 @@
     },
     "TP825PTB":{
         "Series":"TP8シリーズ",
-        "D-model":"TP825P(T)",
+        "D-model":"TP825PT",
         "P-Name":"強化プラスチック防錆加圧機",
         "Features":[
             "機体の全体は、エンジニアリングプラスチックで設計され、接液部が錆ない材料で作られています。",
@@ -109,7 +109,7 @@
         "P-Industry":[1, 2, 4],
         "AR":"N",
         "qrcode":"HS800B_JP.png",
-        "android_ar":"",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/HS800B_JP.glb&amp;mode=ar_preferred&amp;title=HS800B&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/HS800B_JP.glb;end;",
         "ios_ar":"HS800B_JP.usdz"
     },
     "TS400B":{
@@ -164,8 +164,8 @@
         ],
         "P-Image":"5.HQIC800.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/HQIC/HQIC_B-TW000.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/524.html",
+        "P-Catalog":"",
+        "P-Info":"",
         "P-Industry":[1, 2, 5, 7],
         "AR":"N",
         "qrcode":"",
@@ -174,7 +174,7 @@
     },
     "PK250":{
         "Series":"PKシリーズ",
-        "D-model":"PK250",
+        "D-model":"PK100",
         "P-Name":"養魚池向け水中ポンプ",
         "Features":[
             "高効率モーターで、省電力、効率が高い。",
@@ -190,7 +190,7 @@
         "P-Industry":[1, 2, 3],
         "AR":"N",
         "qrcode":"PK250_JP.png",
-        "android_ar":"",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/PK250_JP.glb&amp;mode=ar_preferred&amp;title=PK250&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/PK250_JP.glb;end;",
         "ios_ar":"PK250_JP.usdz"
     },
     "PW100AR":{
@@ -322,7 +322,7 @@
         "P-Industry":[3],
         "AR":"N",
         "qrcode":"TPHK8T(S)E_JP.png",
-        "android_ar":"",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/TPHK8T(S)E_JP.glb&amp;mode=ar_preferred&amp;title=TPHK8T(S)E&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/TPHK8T(S)E_JP.glb;end;",
         "ios_ar":"TPHK8T(S)E_JP.usdz"
     },
     "TPH-XX2":{
@@ -335,8 +335,8 @@
         ],
         "P-Image":"20.TPH-Xx2.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/tphic/DM/TPHIC-dm-tw.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/40.html",
+        "P-Catalog":"",
+        "P-Info":"",
         "P-Industry":[1, 2, 4, 7],
         "AR":"N",
         "qrcode":"",
