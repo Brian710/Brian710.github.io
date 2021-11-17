@@ -1,6 +1,6 @@
 const IndustryType = [
     "營造工程類",
-    "農、漁業",
+    "農/漁業",
     "製造業",
     "批發零售業",
     "科技業",
@@ -9,21 +9,21 @@ const IndustryType = [
 ];
 const IndustryType_EN = [
     "Construction",
-    "Agriculture & Fisheries",
+    "Agriculture/Fisheries",
     "Manufacturing",
-    "Wholesale and Retail Trade",
+    "Wholesale/Retail Trade",
     "Technology",
     "Services",
-    "Restaurants & Lodging"
+    "Restaurants/Lodging"
 ];
 const IndustryType_JP = [
     "建設工事類",
-    "農業、漁業",
+    "農業/漁業",
     "製造業",
-    "卸売・小売業",
+    "卸売/小売業",
     "テクノロジー産業",
     "サービス業",
-    "宿泊・飲食業"
+    "宿泊/飲食業"
 ];
 
 window.onload = function(){
@@ -186,7 +186,7 @@ function G_ProductImage(container, data, content){
                 else if($(_productimage).attr("data-d") == "iOS"){
                     $(_productimageLink).attr("rel","ar").attr("href","./data/model/"+data[content]["ios_ar"]);
                 }
-                else{
+                else {
                     let _arBgc = document.createElement("DIV");
                     $(_arBgc).addClass("pos-a t-0 w-100 h-100 bgc-black z-500").attr("id","modelwindow").appendTo("#pano");
                     let _arDIv = document.createElement("DIV");

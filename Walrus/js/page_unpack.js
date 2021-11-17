@@ -1,6 +1,6 @@
 const IndustryType = [
     "營造工程類",
-    "農、漁業",
+    "農/漁業",
     "製造業",
     "批發零售業",
     "科技業",
@@ -9,21 +9,21 @@ const IndustryType = [
 ];
 const IndustryType_EN = [
     "Construction",
-    "Agriculture & Fisheries",
+    "Agriculture/Fisheries",
     "Manufacturing",
-    "Wholesale and Retail Trade",
+    "Wholesale/Retail Trade",
     "Technology",
     "Services",
-    "Restaurants & Lodging"
+    "Restaurants/Lodging"
 ];
 const IndustryType_JP = [
     "建設工事類",
-    "農業、漁業",
+    "農業/漁業",
     "製造業",
-    "卸売・小売業",
+    "卸売/小売業",
     "テクノロジー産業",
     "サービス業",
-    "宿泊・飲食業"
+    "宿泊/飲食業"
 ];
 
 function Data(enableContent){
@@ -182,19 +182,19 @@ function G_ProductImage(container, data, content){
                     let _arDIv = document.createElement("DIV");
                     let innerHTMLtxt = "";
                     if($("#pano").attr("data-lang")=="TC")
-                        innerHTMLtxt == 
+                        innerHTMLtxt = 
                         '<div>\
                             <p>請使用預設瀏覽器<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">開啟體驗</p>\
                             <img class="close_image" src="./images/icon/Icon_Close.png">\
                         </div>';
                     else if($("#pano").attr("data-lang")=="EN")
-                        innerHTMLtxt == 
+                        innerHTMLtxt = 
                         '<div>\
                         <p>Please switch to default browser <img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png"> and turn on the experience.</p>\
                             <img class="close_image" src="./images/icon/Icon_Close.png">\
                         </div>';
                     else if($("#pano").attr("data-lang")=="JP")
-                        innerHTMLtxt == 
+                        innerHTMLtxt =
                         '<div>\
                             <p>デフォルトのブラウザを使用して<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">体験してください</p>\
                             <img class="close_image" src="./images/icon/Icon_Close.png">\

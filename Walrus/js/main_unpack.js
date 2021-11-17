@@ -51,11 +51,17 @@ function Init(){
         $("#pano").attr("data-lang","TC").attr("data-sound","on");
         G_Audio();
         G_Canvas();
-        loaded = true;
         timer.stop();
     }
     Menu();
 }
+
+$($("#pano")).click(function(){
+    if(!loaded){
+        $("#AudioPlayer")[0].play();
+        loaded = true;
+    }
+})
 
 $(window).resize(function() {
     if(CheckDevice() && Math.abs(window.orientation) == 90){
@@ -105,10 +111,10 @@ function G_WelcomeCan(){
     $(_CanvasSwirl_1).addClass("pos-a CanvasSwirl CanvasSwirl_1").attr("src","./images/transitions/Start_Bgc.png").appendTo($(_CanvasLogoDiv));
     let _CanvasSwirl_2 = document.createElement("IMG");
     $(_CanvasSwirl_2).addClass("pos-a CanvasSwirl CanvasSwirl_2").attr("src","./images/transitions/Start_Bgc.png").appendTo($(_CanvasLogoDiv));
-    $(_CanvasLogoDiv).click(function(){
-        $("#AudioPlayer")[0].play();
+    setTimeout(function(){
         $(_CanvasLogoDiv).remove();
-    }).appendTo($("#pano"));
+    },3500);
+    $(_CanvasLogoDiv).appendTo($("#pano"));
 }
 
 function G_Audio(){
