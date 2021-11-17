@@ -186,27 +186,27 @@ function G_ProductImage(container, data, content){
                 else if($(_productimage).attr("data-d") == "iOS"){
                     $(_productimageLink).attr("rel","ar").attr("href","./data/model/"+data[content]["ios_ar"]);
                 }
-                else {
+                else{
                     let _arBgc = document.createElement("DIV");
                     $(_arBgc).addClass("pos-a t-0 w-100 h-100 bgc-black z-500").attr("id","modelwindow").appendTo("#pano");
                     let _arDIv = document.createElement("DIV");
                     let innerHTMLtxt = "";
                     if($("#pano").attr("data-lang")=="TC")
-                        innerHTMLtxt == 
+                        innerHTMLtxt = 
                         '<div>\
                             <p>請使用預設瀏覽器<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">開啟體驗</p>\
                             <img class="close_image" src="./images/icon/Icon_Close.png">\
                         </div>';
                     else if($("#pano").attr("data-lang")=="EN")
-                        innerHTMLtxt == 
+                        innerHTMLtxt = 
                         '<div>\
-                            <p>Please switch to default browser <img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png"> and turn on the experience.</p>\
+                        <p>Please switch to default browser <img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png"> and turn on the experience.</p>\
                             <img class="close_image" src="./images/icon/Icon_Close.png">\
                         </div>';
                     else if($("#pano").attr("data-lang")=="JP")
-                        innerHTMLtxt == 
+                        innerHTMLtxt =
                         '<div>\
-                        <p>デフォルトのブラウザを使用して<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">体験してください</p>\
+                            <p>デフォルトのブラウザを使用して<img src="./images/icon/safari-icon.png">&nbsp;<img src="./images/icon/Chrome-icon.png">体験してください</p>\
                             <img class="close_image" src="./images/icon/Icon_Close.png">\
                         </div>';
                     $(_arDIv).addClass("ta-c inAPPDiv").html(innerHTMLtxt).appendTo($(_arBgc));
