@@ -275,17 +275,17 @@ function G_Btn(container, data, content){
     if($("#pano").attr("data-lang")=="TC"){
         $(_contact_text).html("聯絡我們");
         $(_contact_btn).click(function(){
-            window.open("https://walruspump.com/zh-tw/contact/index.html");
+            window.open("https://walruspump.com/contactus");
         }).append($(_contact_img),$(_contact_text));}
     else if($("#pano").attr("data-lang")=="EN"){
         $(_contact_text).html("Contact Us");
         $(_contact_btn).click(function(){
-            window.open("https://walruspump.com/en-global/contact/index.html");
+            window.open("https://walruspump.com/en/contactus");
         }).append($(_contact_img),$(_contact_text));}
     else if($("#pano").attr("data-lang")=="JP"){
         $(_contact_text).html("お問い合わせ");
         $(_contact_btn).click(function(){
-        window.open("https://walruspump.com/en-global/contact/index.html");
+        window.open("https://walruspump.com/en/contactus");
     }).append($(_contact_img),$(_contact_text));}
 
     if(data[content]["P-Catalog"].length > 0){

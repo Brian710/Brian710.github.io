@@ -16,12 +16,12 @@
             "N_A6VkqQjmA",
             "X4SipKLmeSc"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/HQ/English/DM/HQ-EW-202002.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/393.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=32&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-41",
         "P-Industry":[1, 4, 7],
         "AR":"N",
         "qrcode":"HQ200B_EN.png",
-        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_EN.glb&amp;mode=ar_preferred&amp;title=HQ200B&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_EN.glb;end;",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_EN.glb&amp;mode=ar_preferred&amp;title=HQ-B,HS-B&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_EN.glb;end;",
         "ios_ar":"HQ200B_EN.usdz"
     },
     "TQ1500B":{
@@ -38,8 +38,8 @@
         ],
         "P-Image":"3.TQ1500B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/TQ/English/DM/TQ-catalogue-en.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/62.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=45&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-45",
         "P-Industry":[1, 4, 6],
         "AR":"N",
         "qrcode":"",
@@ -61,8 +61,8 @@
         "P-Video":[
             "9NgRexTJOuo"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/HQCN/English/DM/HQCN-EN000a-201905.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/426.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=40&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-43",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -86,8 +86,8 @@
             "s49bekncsFM",
             "N_A6VkqQjmA"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TP8/DM/TP8P-EW201903.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/67.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=67&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-49",
         "P-Industry":[1, 4],
         "AR":"N",
         "qrcode":"",
@@ -107,13 +107,13 @@
         ],
         "P-Image":"8.HS400B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/HS/English/DM/HS-EW201601.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/401.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=43&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-44",
         "P-Industry":[1, 2, 4],
         "AR":"N",
-        "qrcode":"HS800B_EN.png",
-        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/HS800B_EN.glb&amp;mode=ar_preferred&amp;title=HS800B&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/HS800B_EN.glb;end;",
-        "ios_ar":"HS800B_EN.usdz"
+        "qrcode":"HQ200B_EN.png",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_EN.glb&amp;mode=ar_preferred&amp;title=HQ-B,HS-BB&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/HQ200B_EN.glb;end;",
+        "ios_ar":"HQ200B_EN.usdz"
     },
     "TS400B":{
         "Series":"TS series",
@@ -129,8 +129,8 @@
         ],
         "P-Image":"7.TS400B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/TS/DM/TS-EW2014.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/71.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=61&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-48",
         "P-Industry":[1, 2, 4],
         "AR":"N",
         "qrcode":"",
@@ -149,8 +149,8 @@
         ],
         "P-Image":"6.HQC400B.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/HQC/English/DM/HQC-EW201601.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/424.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=38&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-42",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -178,7 +178,7 @@
     },
     "PK250":{
         "Series":"PK series",
-        "D-model":"PK100",
+        "D-model":"PK150",
         "P-Name":"TBA",
         "Features":[
             "High performance, electricity saving motor.",
@@ -187,10 +187,10 @@
         ],
         "P-Image":"11.PK250.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/PK/DM/PK-60Hz-TW001.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/pk250.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=96&fup=1491",
+        "P-Info":"https://walruspump.com/product/detail-25",
         "P-Industry":[1, 2, 3],
-        "AR":"N",
+        "AR":"Y",
         "qrcode":"PK250_EN.png",
         "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/PK250_EN.glb&amp;mode=ar_preferred&amp;title=PK250&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/PK250_EN.glb;end;",
         "ios_ar":"PK250_EN.usdz"
@@ -211,8 +211,8 @@
         "P-Video":[
             "KEuv2Zt7BzE"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/English/PW-A-DM-EN-20200508.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/54.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=74&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-19",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -235,8 +235,8 @@
         "P-Video":[
             "-eqnX3eTSv4"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/pw-a/English/PW-A-DM-EN-20200508.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/pw250ad.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=74&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-19",
         "P-Industry":[1],
         "AR":"N",
         "qrcode":"",
@@ -257,8 +257,8 @@
         ],
         "P-Image":"18.TPH12T.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/tph/English/DM/TPH-EW021b.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/271.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=99&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-26",
         "P-Industry":[1, 2, 3, 5, 6],
         "AR":"N",
         "qrcode":"",
@@ -281,8 +281,8 @@
         "P-Video":[
             "x70Vqz55aCw"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/th/TH-dm-en-20200813.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/73.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=91&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-24",
         "P-Industry":[1, 2],
         "AR":"N",
         "qrcode":"",
@@ -298,8 +298,8 @@
         ],
         "P-Image":"13.TPAK8.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPAK/DM/TPAK-EW007-201504.pdf",
-        "P-Info":"https://walruspump.com/zh-tw/product/detail/422.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=139&fup=1491#page/0",
+        "P-Info":"https://walruspump.com/en/product/detail-30",
         "P-Industry":[3],
         "AR":"N",
         "qrcode":"",
@@ -320,12 +320,12 @@
         "P-Video":[
             "gDtE-rPUals"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPHK(S)E/English/DM/TPHK(S)E-EW002.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/486.html",
+        "P-Catalog":"http://walrus.ecatalog.tw/flipbook5/index.php?bkid=114&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-27",
         "P-Industry":[3],
         "AR":"N",
         "qrcode":"TPHK8T(S)E_EN.png",
-        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/TPHK8T(S)E_EN.glb&amp;mode=ar_preferred&amp;title=TPHK8T(S)E&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/TPHK8T(S)E_EN.glb;end;",
+        "android_ar":"intent://arvr.google.com/scene-viewer/1.0?file=https://www.onlinejcit.com/WALRUS/data/model/TPHK8T(S)E_EN.glb&amp;mode=ar_preferred&amp;title=TPHK series&amp;link=https://www.onlinejcit.com/WALRUS/#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://www.onlinejcit.com/WALRUS/data/model/TPHK8T(S)E_EN.glb;end;",
         "ios_ar":"TPHK8T(S)E_EN.usdz"
     },
     "TPH-XX2":{
@@ -355,8 +355,8 @@
         ],
         "P-Image":"19.TPHICx2.png",
         "P-Video":[],
-        "P-Catalog":"https://walruspump.com/images/media/product/tphic/English/DM/TPHIC-dm-en.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/113.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=179&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-36",
         "P-Industry":[1, 4],
         "AR":"N",
         "qrcode":"",
@@ -375,8 +375,8 @@
         "P-Video":[
             "hNYw_VOQYi8"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPR/EN/1-90/DM/TPR-50Hz-EW.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/524.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=146&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-32",
         "P-Industry":[4],
         "AR":"N",
         "qrcode":"",
@@ -393,8 +393,8 @@
         ],
         "P-Image":"16.TPRK3T19.png",
         "P-Video":[],
-        "P-Catalog":"",
-        "P-Info":"",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=189&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-54",
         "P-Industry":[3],
         "AR":"N",
         "qrcode":"",
@@ -413,8 +413,8 @@
         "P-Video":[
             "8YY1UHLqrbM"
         ],
-        "P-Catalog":"https://walruspump.com/images/media/product/TPRK/TPRK-EW003-202004-20200505.pdf",
-        "P-Info":"https://walruspump.com/en-global/product/detail/481.html",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=165&fup=1491",
+        "P-Info":"https://walruspump.com/en/product/detail-33",
         "P-Industry":[3],
         "AR":"N",
         "qrcode":"",
