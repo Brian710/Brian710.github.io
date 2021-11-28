@@ -4,19 +4,19 @@
         "D-model":"HQ200",
         "P-Name":"Electronic Control Pump",
         "Features":[
-            "The HQ is a complete, all-in-one unit, consisting of pump, motor, pressure tank, and electronic controller. The built-in electronic controller provides constant pressure which ensures that the pump starts automatically when water is consumed and operates continuously until water is not required.",
-            "Compact design and quiet operation make the HQ series suitable for many applications.",
-            "The HQ is constructed from the top quality corrosion resistant materials.",
-            "Pump has built in dry-run shut off with automatic reset function.",
-            "The motor has built-in thermal overload to protect against high operating temperatures and over current.",
-            "The HQ has an anti-cycling feature which prevents the pump from continuous starting and stopping when you have a dripping tap or minor leak in the system."
+            "A pressure controlled water supply system with electronic-type pressure control that integrates the pump, motor, pressure tank, and electronic controller.",
+            "This device uses bacteria-proof industrial plastic that meets RoHS criteria. It suppresses the growth of certain microbes and improves water quality. ",
+            "Wetted parts are made with non-rusting material, ensuring the sanitation of drinking water.",
+            "The impeller uses a 304 multistage centrifugal design, high intensity, great efficiency, low noise during use.",
+            "Double dry-run protection: The pump has built-in thermal overload protection. The pump will automatically stop when dry running causes the temperature of the water to go above 55°C. A program for dry-run protection and auto-power off is installed.",
+            "6-second delay stopper: Avoids frequent starting and stopping of the pump due to low water volume during use."
         ],
         "P-Image":"4.HQ200B-.png",
         "P-Video":[
             "N_A6VkqQjmA",
             "X4SipKLmeSc"
         ],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=32&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/32",
         "P-Info":"https://walruspump.com/en/product/detail-41",
         "P-Industry":[1, 4, 7],
         "AR":"N",
@@ -29,16 +29,14 @@
         "D-model":"TQ1500",
         "P-Name":"Electronic Control Pump",
         "Features":[
-            "The TQ is a complete, all-in-one unit, consisting of pump, motor, pressure tank, and electronic controller. The built-in electronic controller provides constant pressure which ensures that the pump starts automatically when water is consumed and operates continuously until water is not required.",
-            "Compact design and quiet operation make the TQ series suitable for many applications.",
-            "The TQ is constructed from the top quality corrosion resistant materials.",
-            "Pump has built in dry-run shut off with automatic reset function.",
-            "The motor has built-in thermal overload to protect against high operating temperatures and over current. (Single phase motor only)",
-            "The TQ has an anti-cycling feature which prevents the pump from continuous starting and stopping when you have a dripping tap or minor leak in the system."
+            "The impeller uses a multistage centrifugal design, low noise during use.",
+            "This device uses bacteria-proof industrial plastic that meets RoHS criteria. It suppresses the growth of certain microbes and improves water quality.",
+            "Wetted parts are made with non-rusting material, ensuring the sanitation of drinking water.",
+            "Dry-run protection that prevents idle running of the pump when the water supply is low."
         ],
         "P-Image":"3.TQ1500B.png",
         "P-Video":[],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=45&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/45",
         "P-Info":"https://walruspump.com/en/product/detail-45",
         "P-Industry":[1, 4, 6],
         "AR":"N",
@@ -51,17 +49,18 @@
         "D-model":"HQCN400",
         "P-Name":"Electronic Control Pump",
         "Features":[
-            "The built-in electronic controller provides constant pressure which ensures that the pump starts automatically when water is consumed and operates continuously until water is not required.",
-            "Compliant with RoHS standards.",
-            "Pump has built in dry-run shut off with automatic reset function.",
-            "The motor has built-in thermal overload to protect against high operating temperatures and over current.",
-            "Pump has an anti-cycling feature which prevents the pump from continuous starting and stopping when you have a dripping tap or minor leak in the system."
+            "Water-returning injection design: The interior design enables the pump to adjust the pressure gradient between the inner and outer waterways on its own in order to achieve fast returning of water and smooth exhausting.",
+            "Good exhaust design: The combination of a serration form impeller with water-returning injection design in places where small amounts of air tend to be aspired means that the air will be expelled quickly, thereby preventing not being able to properly provide water.",
+            "Electronic-type pressure control design: A pressure controlled water supply system that integrates the pump, motor, pressure tank, and electronic controller.",
+            "Bacteria-proof material: This device uses bacteria-proof industrial plastic that meets RoHS criteria. It suppresses the growth of certain microbes and improves water quality. Wetted parts are made with non-rusting material, ensuring the sanitation of drinking water. ",
+            "Double shut down protection: A program to control dry-run protection and the auto-power off is installed. A thermal overload protection device is also equipped to prevent motor burn out.",
+            "6-second delay stopper: Avoids frequent starting and stopping of the pump due to low water volume during use."
         ],
         "P-Image":"2.GQCN400B.png",
         "P-Video":[
             "9NgRexTJOuo"
         ],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=40&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/40",
         "P-Info":"https://walruspump.com/en/product/detail-43",
         "P-Industry":[1],
         "AR":"N",
@@ -74,19 +73,18 @@
         "D-model":"TP825PT",
         "P-Name":"Automatic Booster Pump",
         "Features":[
-            "Manufactured with non-corrosive rust proof materials.",
-            "Special design corrosive resistant pressure tank with good appearance.",
-            "Appropriate reliable check valve with silent operation.",
-            "Compact design, small size, easy installation.",
-            "Every pumps tested in our factory to ensure quality and reliability.",
-            "High performance, electricity saving motor with patented cooling construction. Build-in thermal overload protector for motor burnt out protection."
+            "The structure of the device uses an industrial plastic integration design. Wetted parts are made with non-rusting material.",
+            "Uses food-grade plastic materials that are imported from the US and Europe countries to ensure water safety and sanitation.",
+            "Uses a pressure switch controller. The pump automatically increases pressure when pressure is insufficient and stops when sufficient.",
+            "Motors are equipped with a thermal overload protection device to prevent motor burn out.",
+            "A water temperature control switch prevents damage from the dry-run caused by insufficient water input or when output is occluded."
         ],
         "P-Image":"1.TP825PTB.png",
         "P-Video":[
             "s49bekncsFM",
             "N_A6VkqQjmA"
         ],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=67&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/67",
         "P-Info":"https://walruspump.com/en/product/detail-49",
         "P-Industry":[1, 4],
         "AR":"N",
@@ -99,15 +97,14 @@
         "D-model":"HS800",
         "P-Name":"Multistage Centrifugal Pump",
         "Features":[
-            "Multistage design provides steady, quiet and vibrationfree operation for years of trouble-free service.",
-            "Close coupled, space saving design provides easy installation.",
-            "All parts in contact with water are made from corrosion resistant materials.",
-            "The pump is installed with thermostat protection switch to protect against dry running. The pump will shut off when water temperature exceeds 130°F (55°C).",
-            "The motor has a built-in thermal overload to protect against high operating temperatures and over current."
+            "The impeller uses a 304 multistage centrifugal design, high intensity, great efficiency, low noise during use.",
+            "This device uses bacteria-proof industrial plastic that meets RoHS criteria. It suppresses the growth of certain microbes and improves water quality.",
+            "Wetted parts are made with non-rusting material, ensuring the sanitation of drinking water.",
+            "Build-in thermal overload protection inside the pump to prevent idle running of the pump when the water supply is low. The pump will automatically cut off power when the water temperature goes above 55˚C."
         ],
         "P-Image":"8.HS400B.png",
         "P-Video":[],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=43&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/43",
         "P-Info":"https://walruspump.com/en/product/detail-44",
         "P-Industry":[1, 2, 4],
         "AR":"N",
@@ -120,16 +117,14 @@
         "D-model":"TS400",
         "P-Name":"Multistage Centrifugal Pump",
         "Features":[
-            "Mutistage design provide steady, quiet and vibration-free operation for years of trouble-free service.",
-            "Close coupled, space saving design provides easy installation.",
-            "Capable of transferring both plain and salt water.",
-            "The pump is installed with thermostat protection switch to protect against dry running. The pump will shut off when water temperature exceeds 130F (55°C)(TS400/TQ800 only).",
-            "All parts in contact with water are made from corrosion resistant materials.",
-            "The motor has a built-in thermal overload to protect against high operating temperatures and over current (Single phase motor only)"
+            "The impeller uses a multistage centrifugal design, low noise during use.",
+            "This device uses bacteria-proof industrial plastic that meets RoHS criteria. It suppresses the growth of certain microbes and improves water quality.",
+            "Wetted parts are made with non-rusting material, ensuring the sanitation of drinking water.",
+            "Build-in thermal overload protection inside the pump to prevent idle running of the pump when the water supply is low. The pump will automatically cut off power (TS400B / 800B) when the water temperature goes above 55°C."
         ],
         "P-Image":"7.TS400B.png",
         "P-Video":[],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=61&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/61",
         "P-Info":"https://walruspump.com/en/product/detail-48",
         "P-Industry":[1, 2, 4],
         "AR":"N",
@@ -142,14 +137,13 @@
         "D-model":"HQC400",
         "P-Name":"Automatic Flow-Controlled Pump",
         "Features":[
-            "This HQC series most suitable to Install it below the water tower, to downward pressurization, When using the water; the pump will automatically start increase the pressure to supply water, when stop using the pump will automatically stop supply power and water.",
-            "Compact design and quiet operation make the HQC series suitable for many applications.",
-            "The HQC is constructed from the top quality corrosion resistant materials.",
-            "The motor has built-in thermal overload to protect against high operating temperatures and over current."
+            "The impeller uses a 304 multistage centrifugal design, high intensity, great efficiency, low noise during use.",
+            "This device uses bacteria-proof industrial plastic that meets RoHS criteria. It suppresses the growth of certain microbes and improves water quality.",
+            "Wetted parts are made with non-rusting material, ensuring the sanitation of drinking water."
         ],
         "P-Image":"6.HQC400B.png",
         "P-Video":[],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=38&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/38",
         "P-Info":"https://walruspump.com/en/product/detail-42",
         "P-Industry":[1],
         "AR":"N",
@@ -162,9 +156,11 @@
         "D-model":"HQIC800B",
         "P-Name":"TBA",
         "Features":[
-            "Manufactured with non-corrosive rust proof materials.",
-            "Compact design, small size, easy installation.",
-            "Pump has built in dry-run shut off with automatic reset function."
+            "Sophisticated structure: Unlike the combination of parts from different brands, our machine is made completely with non-rusting materials, small in size, highly efficient, and low noise.",
+            "Stable pressure: The pump starts steadily when in use. The frequency converter sends back the detected water pressure with pressure sensors which in turn controls the frequency of the motor. The non-stage change of motor speed keeps the pressure steady at the set level. When in use, the pressure level will not go above the set level at any time, even when the water volume goes above the stable pressure range.",
+            "Leaking compensation: The micro computer automatically detects leaking and dripping from pipes and adjusts the pump compensation pressure to the set level.",
+            "Low-water cut-off: When water is stopped, the micro-computer automatically detects it and sends back commands to slow down and stop the motor.",
+            "Dry-run power-off system: Automatically powers off after no water use for 1 minute. An automatic attempt to restart will occur after an hour, until a normal water supply returns."
         ],
         "P-Image":"5.HQIC800.png",
         "P-Video":[],
@@ -181,13 +177,15 @@
         "D-model":"PK150",
         "P-Name":"TBA",
         "Features":[
-            "High performance, electricity saving motor.",
-            "The motor has built-in thermal overload to protect against high operating temperatures and over current.",
-            "Supplied with power cable with plug."
+            "High performance motor, energy conserving, high efficiency.",
+            "Motor is equipped with thermal overload protection.",
+            "Uses polymer materials, small size, light weight.",
+            "Convenient power cord connects to a wall socket.",
+            "Specially designed for fish ponds and aquaculture."
         ],
         "P-Image":"11.PK250.png",
         "P-Video":[],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=96&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/96",
         "P-Info":"https://walruspump.com/product/detail-25",
         "P-Industry":[1, 2, 3],
         "AR":"Y",
@@ -200,18 +198,17 @@
         "D-model":"PW100AR",
         "P-Name":"Sea water pump",
         "Features":[
-            "Submersible pumps for clean water.",
-            "Corrosion-resistant and compact.",
-            "Built-in capacitor.",
-            "Supplied with power cable with plug.",
-            "Motor with thermo overload protection.",
-            "Suitable for cleaning washing towers and other confined spaces pumping use."
+            "High performance motor, energy conserving, high efficiency.",
+            "Motor is equipped with thermal overload protection.",
+            "Uses polymer materials, light weight.",
+            "Convenient power cord connects to a wall socket.",
+            "Suitable for cleaning in limited space such as water towers."
         ],
         "P-Image":"9.PW100AR.png",
         "P-Video":[
             "KEuv2Zt7BzE"
         ],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=74&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/74",
         "P-Info":"https://walruspump.com/en/product/detail-19",
         "P-Industry":[1],
         "AR":"N",
@@ -224,18 +221,17 @@
         "D-model":"PW250AD",
         "P-Name":"Low Suction Pump",
         "Features":[
-            "Submersible pumps for clean water.",
-            "Corrosion-resistant and compact.",
-            "Built-in capacitor.",
-            "Supplied with power cable with plug.",
-            "Motor with thermo overload protection.",
-            "Suitable for cleaning washing towers and other confined spaces pumping use."
+            "High performance motor, energy conserving, high efficiency.",
+            "Motor is equipped with thermal overload protection.",
+            "Uses polymer materials, light weight.",
+            "Convenient power cord connects to a wall socket.",
+            "Suitable for cleaning in limited space such as water towers."
         ],
         "P-Image":"10.PW250AD.png",
         "P-Video":[
             "-eqnX3eTSv4"
         ],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=74&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/74",
         "P-Info":"https://walruspump.com/en/product/detail-19",
         "P-Industry":[1],
         "AR":"N",
@@ -248,16 +244,15 @@
         "D-model":"TPH12T",
         "P-Name":"Multistage Centrifugal Pump",
         "Features":[
-            "Product Description Feature：The WALRUS TPH Series is horizontal multistage centrifugal pump, suitable for clean water/liquid without abrasive matters. The applications are versatile, such as pressure boosting, transfer, circulation, and machinery.",
-            "Industrial circulation system.",
-            "Washing/cleaning system.",
-            "Pressure boosting system.",
-            "Water/liquid transfer.",
-            "Agricultural irrigation."
+            "Applicable for: Mainly used in industrial mechanical devices, peripherals, washing systems, pressurization systems, liquid transport, and irrigation.",
+            "Applicable liquids: Water, coolant, light oil, and other clean, non-explosive, non-flammable neutral liquid with low viscosity.",
+            "Product properties: Low, medium, high water volume, low, medium water pressure, land horizontal multistage centrifugal type pump.",
+            "Max water volume: 1,500 liters/minute.",
+            "Max water pressure: 8.0 kg/cm2."
         ],
         "P-Image":"18.TPH12T.png",
         "P-Video":[],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=99&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/99",
         "P-Info":"https://walruspump.com/en/product/detail-26",
         "P-Industry":[1, 2, 3, 5, 6],
         "AR":"N",
@@ -270,18 +265,15 @@
         "D-model":"TH400P",
         "P-Name":"Atomize Pump",
         "Features":[
-            "Portable compact design, easy to carry.",
-            "Easy operation, and maintenance.",
-            "High pressure discharge head, and large capacity.",
-            "Powerful electrical motor,high reliability.",
-            "Suitable for agricultural spraying.",
-            "Self priming suction function."
+            "Reciprocating auto-priming pump, small volume, sufficient pressure.",
+            "Portable handle for greater convenience.",
+            "Convenient power cord connects to a wall socket."
         ],
         "P-Image":"12.TH400P.png",
         "P-Video":[
             "x70Vqz55aCw"
         ],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=91&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/91",
         "P-Info":"https://walruspump.com/en/product/detail-24",
         "P-Industry":[1, 2],
         "AR":"N",
@@ -294,11 +286,15 @@
         "D-model":"TPAK8",
         "P-Name":"Coolant Pump",
         "Features":[
-            "TPAK Series coolant pump is designed for the circulation and spraying of cooling lubricants, especially machine tools.This series may use on all machine tools performing Turning, Milling, Drilling, Cutting, Slitting, Grinding etc. It is suitable to carry liquids such as water, coolant, light oil and other clean, non aggressive matters."
+            "Applicable for: Mainly used for all kinds of turning, milling, planning, grinding, and sawing machine tools, peripherals, washing and filtering.",
+            "Applicable liquids: Water, coolant, light oil, and other clean, non-explosive, non-flammable liquid with low viscosity.",
+            "Product properties: High water volume, low water pressure, flood single-stage vertical-axial pump, no shaft seal.",
+            "Max water volume: 400 liters/minute.",
+            "Max water pressure: 1.7 kg/cm2."
         ],
         "P-Image":"13.TPAK8.png",
         "P-Video":[],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=139&fup=1491#page/0",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/139",
         "P-Info":"https://walruspump.com/en/product/detail-30",
         "P-Industry":[3],
         "AR":"N",
@@ -311,16 +307,17 @@
         "D-model":"TPHK8T(S)E",
         "P-Name":"Vertical Multistage Centrifugal Pump",
         "Features":[
-            "The TPHK8T(S)E is vertical ultistage centrifugal pump, designed for industrial use, specially for machine tool. It is suitable to carry fluids such as water, coolant, light oil and other clean, non aggressive matters:",
-            "Industrial circulation system",
-            "Washing/cleaning system",
-            "Filtration system"
+            "Applicable for: Mainly used for all kinds of turning, milling, planning, grinding, and sawing machine tools, peripherals, washing and filtering",
+            "Applicable liquids: Water, coolant, light oil, and other clean, non-explosive, non-flammable neutral liquid with low viscosity.",
+            "Product properties: Low to medium water volume, low to medium water pressure, flood multistage  vertical-axial centrifugal pump. Uses three-layer water-recycling design, even when leaking is caused due to the wearing of the shaft seal, liquid will return to the water tank and prevents environment pollution and extends the pump life.",
+            "Max water volume: 280 liters/minute.",
+            "Max water pressure: 9.0 kg/cm2."
         ],
         "P-Image":"14.TPHK8T(S)E.png",
         "P-Video":[
             "gDtE-rPUals"
         ],
-        "P-Catalog":"http://walrus.ecatalog.tw/flipbook5/index.php?bkid=114&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/114",
         "P-Info":"https://walruspump.com/en/product/detail-27",
         "P-Industry":[3],
         "AR":"Y",
@@ -333,7 +330,8 @@
         "D-model":"",
         "P-Name":"TBA",
         "Features":[
-            "Single or parallel unit operation: Parallel operation: When water usage is low, one unit will begin to operate until the water usage increases, when it can no longer handle the required water pressure, the other unit will start functioning in parallel. The duplex unit will switch to single unit operation automatically with the decrease in water demand."
+            "Parallel operation: When in use, only one device operates; other are added based on increases in water use: when the water volume/pressure is insufficient with the use of one device, the second one automatically joins the operations to compensate. As the need of water decreases, it will revert back to the use of one device.",
+            "Alternative operation: Depending on alternative operation time settings, starting order can be determined."
         ],
         "P-Image":"20.TPH-Xx2.png",
         "P-Video":[],
@@ -350,12 +348,14 @@
         "D-model":"",
         "P-Name":"Constant Pressure Inverter Control System",
         "Features":[
-            "Apartment buildings, houses, villa water supply, factories, water supply systems, drinking water systems, RO water treatment equipment, supermarkets, motels, SPA, etc.",
-            "Single or parallel unit operation: Parallel operation: When water usage is low, one unit will begin to operate until the water usage increases, when it can no longer handle the required water pressure, the other unit will start functioning in parallel. The duplex unit will switch to single unit operation automatically with the decrease in water demand."
+            "Stable pressure: The pump starts steadily when in use, keeping the pressure at the set level. Low-water cut-off. When the frequency converter automatically detects and returns command to slow down and stop the machine, the pressure will not go above the set level.",
+            "Dry-run power-off system: Frequency converter automatically cuts off power supply when there is no water.",
+            "Parallel operation: When in use, only one device operates; other are added based on increases in water use: when the water volume/pressure is insufficient with the use of one device, the second one automatically joins the operations to compensate. As the need of water decreases, it will revert back to the use of one device.",
+            "Alternative operation: Depending on alternative operation time settings, starting order can be determined."
         ],
         "P-Image":"19.TPHICx2.png",
         "P-Video":[],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=179&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/179",
         "P-Info":"https://walruspump.com/en/product/detail-36",
         "P-Industry":[1, 4],
         "AR":"N",
@@ -368,14 +368,17 @@
         "D-model":"TPR5",
         "P-Name":"Vertical Multistage Centrifugal Pumps",
         "Features":[
-            "The operating range of the shaft seal depends on operating pressure, pump type, type of shaft seal and liquid temperature.",
-            "Applies to clean water and water with anti-freeze liquids. If the operating range is exceeded, the life of the shaft seal may be reduced."
+            "Applicable for: Mainly used in the filtering and transporting at water plants, industrial water system, air cooling system, boiler water supply, water condensing system, irrigation, pressurizing, and washing.",
+            "Applicable liquids: Water, coolant, light oil, and other clean, non-explosive, non-flammable neutral liquid with low viscosity.",
+            "Product properties: Low, medium, high water volume, low, medium, or high water pressure, land vertical multistage centrifugal type pump",
+            "Max water volume: 2,333 liters/minute",
+            "Max water pressure: 32.0 kg/cm2"
         ],
         "P-Image":"17.TPR5.png",
         "P-Video":[
             "hNYw_VOQYi8"
         ],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=146&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/146",
         "P-Info":"https://walruspump.com/en/product/detail-32",
         "P-Industry":[4],
         "AR":"N",
@@ -388,12 +391,15 @@
         "D-model":"TPRK3T19-19HSIC",
         "P-Name":"TBA",
         "Features":[
-            "Immersible vertical multistage centrifugal pump, self-priming,coupling connection between pump and motor, stainless steel construction design ensures corrosion-free operation.",
-            "By the Drain back tank structure, that the liquid remains in the tank even the mechanical seal leakage, and use cartridge mechanical seal for easy maintenance."
+            "Applicable for: Mainly used for all kinds of turning, milling, planning, grinding, and sawing machine tools, peripherals and washing",
+            "Applicable liquids: Water, coolant, light oil, and other clean, non-explosive, non-flammable neutral liquid with low viscosity.",
+            "Product properties: Low to medium water volume, high water pressure, flood multiple-stage vertical-axial centrifugal pump. Equipped with a knapsack-typed frequency converter that improves working pressure. Uses three-layer water-recycling design, even when leaking is caused due to the wearing of the shaft seal, liquid will return to the water tank and prevents environment pollution and extends the pump life. Uses modular mechanical shaft seal, convenient for maintenance.",
+            "Max water volume: 130 liters/minute",
+            "Max water pressure: 38.0 kg/cm2"
         ],
         "P-Image":"16.TPRK3T19.png",
         "P-Video":[],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=189&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/189",
         "P-Info":"https://walruspump.com/en/product/detail-54",
         "P-Industry":[3],
         "AR":"N",
@@ -406,14 +412,17 @@
         "D-model":"TPRK 3T",
         "P-Name":"Immersible Pump",
         "Features":[
-            "Immersible vertical multistage centrifugal pump, self-priming,coupling connection between pump and motor, stainless steel construction design ensures corrosion-free operation.",
-            "By the Drain back tank structure, that the liquid remains in the tank even the mechanical seal leakage, and use cartridge mechanical seal for easy maintenance."
+            "Applicable for: Mainly used for all kinds of turning, milling, planning, grinding, and sawing machine tools, peripherals and washing",
+            "Applicable liquids: Water, coolant, light oil, and other clean, non-explosive, non-flammable neutral liquid with low viscosity.",
+            "Product properties: Low to medium water volume, high water pressure, flood multiple-stage vertical-axial centrifugal pump. Uses three-layer water-recycling design, even when leaking is caused due to the wearing of the shaft seal, liquid will return to the water tank and prevents environment pollution and extends the pump life. Uses modular mechanical shaft seal, convenient for maintenance.",
+            "Max water volume: 170 liters/minute",
+            "Max water pressure: 24.0 kg/cm2"
         ],
         "P-Image":"15.TPRK 3T.png",
         "P-Video":[
             "8YY1UHLqrbM"
         ],
-        "P-Catalog":"http://www.walrus.ecatalog.tw/flipbook5/index.php?bkid=165&fup=1491",
+        "P-Catalog":"http://www.walrus.ecatalog.tw/165",
         "P-Info":"https://walruspump.com/en/product/detail-33",
         "P-Industry":[3],
         "AR":"N",
