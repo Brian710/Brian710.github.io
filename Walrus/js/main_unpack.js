@@ -63,7 +63,7 @@ $("#pano").click(function(){
     }
 })
 
-$("#pano").on("touchstart mousedown tap",function(){
+$(document).on("touchstart mousedown tap",function(){
     if(!loaded){
         $("#AudioPlayer")[0].play();
         loaded = true;
