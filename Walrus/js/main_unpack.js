@@ -127,6 +127,7 @@ function G_Audio(){
     $(_source).attr("type","audio/mp4");
     $(_audio).attr("id","AudioPlayer").append($(_source));
     $(_audio)[0].loop = true;
+    $(_audio)[0].autoplay = true;
 
     $("#pano").append($(_audio));
 }
