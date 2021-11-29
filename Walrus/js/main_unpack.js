@@ -52,7 +52,7 @@ function Init(){
         G_Audio();
         G_Canvas();
         timer.stop();
-        $("#AudioPlayer")[0].play();
+        // $("#AudioPlayer")[0].play();
     }
     Menu();
 }
