@@ -52,19 +52,23 @@ function Init(){
         G_Audio();
         G_Canvas();
         timer.stop();
-        // $("#AudioPlayer")[0].play();
     }
     Menu();
 }
 
-// $("#pano").click(function(){
-//     console.log("fsjdfsi");
-//     if(!loaded){
-//         console.log("fsjdfsi");
-//         $("#AudioPlayer")[0].play();
-//         loaded = true;
-//     }
-// })
+$("#pano").click(function(){
+    if(!loaded){
+        $("#AudioPlayer")[0].play();
+        loaded = true;
+    }
+})
+
+$("#pano").on("tap",function(){
+    if(!loaded){
+        $("#AudioPlayer")[0].play();
+        loaded = true;
+    }
+})
 
 $(window).resize(function() {
     if(CheckDevice() && Math.abs(window.orientation) == 90){
@@ -127,7 +131,6 @@ function G_Audio(){
     $(_source).attr("type","audio/mp4");
     $(_audio).attr("id","AudioPlayer").append($(_source));
     $(_audio)[0].loop = true;
-    $(_audio)[0].autoplay = true;
 
     $("#pano").append($(_audio));
 }
