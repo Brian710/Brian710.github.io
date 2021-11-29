@@ -52,16 +52,19 @@ function Init(){
         G_Audio();
         G_Canvas();
         timer.stop();
+        $("#AudioPlayer")[0].play();
     }
     Menu();
 }
 
-$($("#pano")).click(function(){
-    if(!loaded){
-        $("#AudioPlayer")[0].play();
-        loaded = true;
-    }
-})
+// $("#pano").click(function(){
+//     console.log("fsjdfsi");
+//     if(!loaded){
+//         console.log("fsjdfsi");
+//         $("#AudioPlayer")[0].play();
+//         loaded = true;
+//     }
+// })
 
 $(window).resize(function() {
     if(CheckDevice() && Math.abs(window.orientation) == 90){
