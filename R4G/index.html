@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.4/lottie.min.js" integrity="sha512-ilxj730331yM7NbrJAICVJcRmPFErDqQhXJcn+PLbkXdE031JJbcK87Wt4VbAK+YY6/67L+N8p7KdzGoaRjsTg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./css/template.css">
+    <title>R4G</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .Sky{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to bottom, #80FFFB 0%, #01CDE8 100%);
+        }
+        .Grass{
+            position: absolute;
+            bottom: 0;
+            width: 100vw;
+            height: 30vh;
+            background: linear-gradient(to bottom, #12FF8F 0%, #30D8A0 50%,#009C9A 100%);
+        }
+        #BGItem{
+            position: absolute;
+            width: 100vw;
+        }
+        #RunRight{
+            position: absolute;
+            width: 6vw;
+            bottom: 5%;
+            left: 18%;
+        }
+        #RunLeft{
+            position: absolute;
+            width: 6vw;
+            bottom: 6%;
+            left: 22%;
+        }
+        #RunCenter{
+            position: absolute;
+            width: 6vw;
+            bottom: 5%;
+            left: 25%;
+        }
+        #LeftTree{
+            position: absolute;
+            left: 0;
+            width: 87vw;
+        }
+        #RightTree{
+            position: absolute;
+            right: 0;
+            width: 87vw;
+        }
+        #FrontPeople{
+            position: absolute;
+            width: 87vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Sky"></div>
+        <div class="Grass"></div>
+        <div class="align-center justify-center" id="BGItem"></div>
+        <div class="align-center justify-center" id="RunRight"></div>
+        <div class="align-center justify-center" id="RunLeft"></div>
+        <div class="align-center justify-center" id="RunCenter"></div>
+        <div class="align-center justify-center" id="LeftTree"></div>
+        <div class="align-center justify-center" id="RightTree"></div>
+        <div class="align-center justify-center" id="FrontPeople"></div>
+    </div>
+    <script>
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('BGItem'),
+            path: './images/BGItem.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+        });
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('RunRight'),
+            path: './images/RunRight.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+        });
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('RunLeft'),
+            path: './images/RunLeft.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+        });
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('RunCenter'),
+            path: './images/RunCenter.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+        });
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('LeftTree'),
+            path: './images/LeftTree.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+        });
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('RightTree'),
+            path: './images/RightTree.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+        });
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('FrontPeople'),
+            path: './images/FrontPeople.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+        });
+    </script>
+</body>
+</html>
