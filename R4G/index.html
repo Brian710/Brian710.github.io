@@ -5,14 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.4/lottie.min.js" integrity="sha512-ilxj730331yM7NbrJAICVJcRmPFErDqQhXJcn+PLbkXdE031JJbcK87Wt4VbAK+YY6/67L+N8p7KdzGoaRjsTg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="./css/template.css">
     <title>R4G</title>
     <style>
-        body{
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden;
-        }
         .container{
             position: relative;
             width: 100%;
@@ -20,71 +16,154 @@
         }
         .Sky{
             position: absolute;
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
             background: linear-gradient(to bottom, #80FFFB 0%, #01CDE8 100%);
         }
         .Grass{
             position: absolute;
             bottom: 0;
-            width: 100vw;
-            height: 30vh;
+            width: 100%;
+            height: 35%;
             background: linear-gradient(to bottom, #12FF8F 0%, #30D8A0 50%,#009C9A 100%);
         }
         #BGItem{
             position: absolute;
-            width: 100vw;
+            bottom: 0;
+            width: 100%;
+        }
+        #Cloud{
+            position: absolute;
+            width: 100%;
         }
         #RunRight{
             position: absolute;
-            width: 6vw;
-            bottom: 5%;
-            left: 18%;
+            bottom: 18%;
+            left: 1%;
+            width: 8%;
         }
         #RunLeft{
             position: absolute;
-            width: 6vw;
-            bottom: 6%;
-            left: 22%;
+            bottom: 15%;
+            left: 2%;
+            width: 8%;
         }
         #RunCenter{
             position: absolute;
-            width: 6vw;
-            bottom: 5%;
-            left: 25%;
+            bottom: 12%;
+            left: 5%;
+            width: 8%;
+        }
+        #Dog{
+            position: absolute;
+            width: 12%;
+            bottom: 7%;
+            right: 16%;
         }
         #LeftTree{
             position: absolute;
+            bottom: -1%;
             left: 0;
-            width: 87vw;
+            width: 87%;
         }
         #RightTree{
             position: absolute;
+            bottom: -1%;
             right: 0;
-            width: 87vw;
+            width: 87%;
         }
         #FrontPeople{
             position: absolute;
-            width: 87vw;
+            bottom: -1%;
+            width: 87%;
+        }
+        #BGItem > svg > g > g:nth-child(1) > image{
+            width: 1465px;
+            height: 252px;
+        }
+        #BGItem > svg > g > g:nth-child(3) > image{
+            width: 1046px;
+            height: 336px;
+        }
+        .nav-bar{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 7.5%;
+            background-color: #008DC5;
+            z-index: 5;
+        }
+        .StartWindowContainer{
+            position: absolute;
+            top: 7.5%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            z-index: 10;
+        }
+        .StartWindow{
+            content: url(./images/StartBG.svg);
+            box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.6);
+            width: 18%;
+        }
+        .StartButton{
+            cursor: pointer;
+            position: absolute;
+            bottom: 6%;
+            padding: 0.5%;
+            border: solid 1px #009C9A;
+            border-radius: 20px;
+            z-index: 15;
+        }
+        .StartButton p{
+            color: #009C9A;
         }
     </style>
 </head>
 <body>
+    <div class="noise"></div>
+    <div class="nav-bar">
+        
+    </div>
+    <div class="StartWindowContainer">
+        <image class="StartWindow">
+        <div class="noise" style="width: 18%;"></div>
+        <div class="StartButton" id="StartButton">
+            <p>開始養樹</p>
+        </div>
+    </div>
     <div class="container">
         <div class="Sky"></div>
         <div class="Grass"></div>
         <div class="align-center justify-center" id="BGItem"></div>
+        <div class="align-center justify-center" id="Cloud"></div>
         <div class="align-center justify-center" id="RunRight"></div>
         <div class="align-center justify-center" id="RunLeft"></div>
         <div class="align-center justify-center" id="RunCenter"></div>
+        <div class="align-center justify-center" id="Dog"></div>
         <div class="align-center justify-center" id="LeftTree"></div>
         <div class="align-center justify-center" id="RightTree"></div>
         <div class="align-center justify-center" id="FrontPeople"></div>
     </div>
+
     <script>
         var animation = bodymovin.loadAnimation({
             container: document.getElementById('BGItem'),
             path: './images/BGItem.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+        });
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('Cloud'),
+            path: './images/Cloud.json',
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+        });
+        var animation = bodymovin.loadAnimation({
+            container: document.getElementById('Dog'),
+            path: './images/Dog.json',
             renderer: 'svg',
             loop: true,
             autoplay: true,
@@ -130,6 +209,46 @@
             renderer: 'svg',
             loop: true,
             autoplay: true,
+        });
+    </script>
+    <script>
+        let RunRight = document.getElementById("RunRight");
+        let RunLeft = document.getElementById("RunLeft");
+        let RunCenter = document.getElementById("RunCenter");
+        anime({
+            targets: RunRight,
+            translateX: screen.width,
+            duration: 5500,
+            easing: 'linear',
+            loop: true
+        });
+        anime({
+            targets: RunLeft,
+            translateX: screen.width,
+            duration: 6500,
+            easing: 'linear',
+            loop: true
+        });
+        anime({
+            targets: RunCenter,
+            translateX: screen.width,
+            duration: 6000,
+            easing: 'linear',
+            loop: true
+        });
+    </script>
+    <script>
+        let windowButton = document.getElementById("StartButton");
+        windowButton.addEventListener("click", ()=>{
+            alert("開始養樹");
+        });
+        windowButton.addEventListener("mouseover", ()=>{
+            windowButton.style.backgroundColor = "#009C9A";
+            windowButton.children[0].style.color = "#FFFFFF";
+        });
+        windowButton.addEventListener("mouseout", ()=>{
+            windowButton.style.backgroundColor = "#FFFFFF";
+            windowButton.children[0].style.color = "#009C9A";
         });
     </script>
 </body>
