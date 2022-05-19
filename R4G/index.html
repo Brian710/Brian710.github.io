@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.4/lottie.min.js" integrity="sha512-ilxj730331yM7NbrJAICVJcRmPFErDqQhXJcn+PLbkXdE031JJbcK87Wt4VbAK+YY6/67L+N8p7KdzGoaRjsTg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="./css/template.css">
+    <script src="./js/index.js"></script>
     <title>R4G</title>
     <style>
         .container{
@@ -64,34 +65,54 @@
             position: absolute;
             bottom: -1%;
             left: 0;
-            width: 87%;
+            width: 100%;
         }
         #RightTree{
             position: absolute;
             bottom: -1%;
             right: 0;
-            width: 87%;
+            width: 100%;
         }
         #FrontPeople{
             position: absolute;
             bottom: -1%;
             width: 87%;
         }
-        #BGItem > svg > g > g:nth-child(1) > image{
+        /* #BGItem > svg > g > g:nth-child(1) > image{
             width: 1465px;
             height: 252px;
         }
         #BGItem > svg > g > g:nth-child(3) > image{
             width: 1046px;
             height: 336px;
-        }
+        } */
         .nav-bar{
             position: absolute;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
             top: 0;
             width: 100%;
             height: 7.5%;
             background-color: #008DC5;
-            z-index: 5;
+            z-index: 15;
+        }
+        .nav-bar div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+            padding: 0 40px;
+            border-left: solid 1px #FFFFFF;
+            border-right: solid 1px #FFFFFF;
+        }
+        .nav-bar div p{
+            cursor: pointer;
+            color: #FFFFFF;
+        }
+        .nav-bar div p:hover{
+            transform: scale(1.1);
         }
         .StartWindowContainer{
             position: absolute;
@@ -123,7 +144,12 @@
 <body>
     <div class="noise"></div>
     <div class="nav-bar">
-        
+        <div><p>遊戲介紹</p></div>
+        <div><p>我的永續山丘</p></div>
+        <div><p>永續樹任務</p></div>
+        <div><p>永續森林大使</p></div>
+        <div><p>永續養樹抽好禮</p></div>
+        <div><p>Run For Green</p></div>
     </div>
     <div class="StartWindowContainer">
         <image class="StartWindow">
@@ -135,8 +161,8 @@
     <div class="container">
         <div class="Sky"></div>
         <div class="Grass"></div>
-        <div class="align-center justify-center" id="BGItem"></div>
         <div class="align-center justify-center" id="Cloud"></div>
+        <div class="align-center justify-center" id="BGItem"></div>
         <div class="align-center justify-center" id="RunRight"></div>
         <div class="align-center justify-center" id="RunLeft"></div>
         <div class="align-center justify-center" id="RunCenter"></div>
@@ -218,21 +244,21 @@
         anime({
             targets: RunRight,
             translateX: screen.width,
-            duration: 5500,
+            duration: 4300,
             easing: 'linear',
             loop: true
         });
         anime({
             targets: RunLeft,
             translateX: screen.width,
-            duration: 6500,
+            duration: 4700,
             easing: 'linear',
             loop: true
         });
         anime({
             targets: RunCenter,
             translateX: screen.width,
-            duration: 6000,
+            duration: 4500,
             easing: 'linear',
             loop: true
         });
@@ -247,7 +273,7 @@
             windowButton.children[0].style.color = "#FFFFFF";
         });
         windowButton.addEventListener("mouseout", ()=>{
-            windowButton.style.backgroundColor = "#FFFFFF";
+            windowButton.style.backgroundColor = null;
             windowButton.children[0].style.color = "#009C9A";
         });
     </script>
