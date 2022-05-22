@@ -117,6 +117,7 @@ body {
 }
 .nav-bar div p {
 	cursor: pointer;
+	font-size: 0.866rem;
 	font-weight: 700;
 	letter-spacing: 0.3rem;
 	color: #ffffff;
@@ -148,6 +149,7 @@ body {
 }
 .StartButton p {
 	width: 100%;
+	font-size: 1rem;
 	font-weight: 500;
 	text-align: center;
 	letter-spacing: 0.3rem;
@@ -155,11 +157,11 @@ body {
 	color: #009c9a;
 }
 @media screen and (max-width: 2560px) {
-	body {
-		font-size: 25px;
+	html, body {
+		font-size: 20px;
 	}
 	.nav-bar div {
-		height: 2.5rem;
+		height: 2.25rem;
 		padding: 0 2.5rem;
 	}
 	.StartWindow {
@@ -170,7 +172,7 @@ body {
 	}
 }
 @media screen and (max-width: 1920px) {
-	body {
+	html, body {
 		font-size: 18px;
 	}
 	.nav-bar div {
@@ -178,7 +180,7 @@ body {
 		padding: 0 2rem;
 	}
 	.StartButton {
-		padding: 0.45rem 0.95rem 0.45rem 1.25rem;
+		padding: 0.25rem 0.95rem 0.25rem 1.25rem;
 	}
 }
 @media screen and (max-width: 1440px) {
@@ -187,11 +189,11 @@ body {
 	}
 }
 @media screen and (max-width: 1180px) {
-	body {
+	html, body {
 		font-size: 14px;
 	}
 	.nav-bar div {
-		height: 1.5rem;
+		height: 1.75rem;
 		padding: 0 1.25rem;
 	}
 	.StartWindow {
@@ -203,12 +205,16 @@ body {
 	}
 }
 @media screen and (max-width: 1024px) {
-	body {
-		font-size: 12px;
+	html, body {
+		font: 12px;
 	}
 	.nav-bar div {
-		height: 1.25rem;
+		height: 1.5rem;
 		padding: 0 1.25rem;
+	}
+	.nav-bar div p {
+		font-size: 0.866rem;
+		letter-spacing: 0.2rem;
 	}
 	.StartWindow {
 		width: 24%;
