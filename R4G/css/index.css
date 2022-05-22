@@ -117,6 +117,8 @@ body {
 }
 .nav-bar div p {
 	cursor: pointer;
+	font-weight: 700;
+	letter-spacing: 0.3rem;
 	color: #ffffff;
 }
 .nav-bar div p:hover {
@@ -146,6 +148,7 @@ body {
 }
 .StartButton p {
 	width: 100%;
+	font-weight: 500;
 	text-align: center;
 	letter-spacing: 0.3rem;
 	line-height: 1.25rem;
