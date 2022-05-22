@@ -32,22 +32,22 @@ let RunLeft = document.getElementById("RunLeft");
 let RunCenter = document.getElementById("RunCenter");
 anime({
     targets: RunRight,
-    translateX: screen.width,
-    duration: 4300,
-    easing: 'linear',
-    loop: true
-});
-anime({
-    targets: RunLeft,
-    translateX: screen.width,
-    duration: 4700,
+    translateX: screen.width * 1.5,
+    duration: 6200,
     easing: 'linear',
     loop: true
 });
 anime({
     targets: RunCenter,
-    translateX: screen.width,
-    duration: 4500,
+    translateX: screen.width * 1.5,
+    duration: 6000,
+    easing: 'linear',
+    loop: true
+});
+anime({
+    targets: RunLeft,
+    translateX: screen.width * 1.5,
+    duration: 6100,
     easing: 'linear',
     loop: true
 });
