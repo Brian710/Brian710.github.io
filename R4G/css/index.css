@@ -142,6 +142,7 @@ body {
 	padding: 0.25rem;
 	border: solid 1px #009c9a;
 	border-radius: 1.25rem;
+	text-align: justify;
 	z-index: 15;
 }
 .StartButton p {
@@ -159,7 +160,7 @@ body {
 		width: 18%;
 	}
 	.StartButton {
-		padding: 0.5rem;
+		padding: 1rem;
 	}
 }
 @media screen and (max-width: 1920px) {
@@ -175,6 +176,9 @@ body {
 	.StartWindow {
 		width: 22%;
 	}
+	.StartButton {
+		padding: 0.75rem;
+	}
 }
 @media screen and (max-width: 1180px) {
 	body {
@@ -186,9 +190,6 @@ body {
 	}
 	.StartWindow {
 		width: 27%;
-	}
-	.StartButton {
-		padding: 0.5rem;
 	}
 	#Dog {
 		bottom: 4%;
@@ -207,7 +208,7 @@ body {
 		width: 24%;
 	}
 	.StartButton {
-		padding: 0.35rem;
+		padding: 0.5rem;
 	}
 	#Dog {
 		bottom: 4%;
