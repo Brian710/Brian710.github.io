@@ -15,7 +15,7 @@ body {
 		),
 		url(../images/texture.jpg);
 	mix-blend-mode: color-burn;
-	opacity: 0.7;
+	opacity: 0.9;
 	z-index: 10;
 }
 .container {
@@ -105,6 +105,7 @@ body {
 	height: 1.25rem;
 	padding: 0 1.25rem;
 	border-left: solid 1px #ffffff;
+	z-index: 15;
 }
 .nav-bar div:nth-child(6) {
 	border-right: solid 1px #ffffff;
