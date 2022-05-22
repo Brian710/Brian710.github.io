@@ -194,6 +194,9 @@ body {
 	body {
 		font-size: 12px;
 	}
+	.nav-bar .noise {
+		width: 95%;
+	}
 	.nav-bar div {
 		height: 1.25rem;
 		padding: 0 1.25rem;
