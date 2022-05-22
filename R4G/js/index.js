@@ -4,12 +4,12 @@ document.documentElement.style.setProperty('--vw', `${vw}px`);
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 window.onload = function(){
-    if(screen.width <= 768){
+    if(window.innerWidth <= 768){
         console.log("請使用橫式");
         alert("請使用橫式");
     };
     window.addEventListener("resize",()=>{
-        if(screen.width <= 768){
+        if(window.innerWidth <= 768){
             alert("請使用橫式");
             console.log("請使用橫式");
         }
@@ -37,21 +37,21 @@ let RunLeft = document.getElementById("RunLeft");
 let RunCenter = document.getElementById("RunCenter");
 anime({
     targets: RunRight,
-    translateX: screen.width * 1.5,
+    translateX: window.innerWidth * 1.5,
     duration: 6200,
     easing: 'linear',
     loop: true
 });
 anime({
     targets: RunCenter,
-    translateX: screen.width * 1.5,
+    translateX: window.innerWidth * 1.5,
     duration: 6000,
     easing: 'linear',
     loop: true
 });
 anime({
     targets: RunLeft,
-    translateX: screen.width * 1.5,
+    translateX: window.innerWidth * 1.5,
     duration: 6100,
     easing: 'linear',
     loop: true
