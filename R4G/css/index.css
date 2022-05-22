@@ -1,3 +1,4 @@
+html,
 body {
 	width: 100vw;
 	width: calc(var(--vw, 1vw) * 100);
