@@ -8,16 +8,16 @@ window.onload = function(){
         console.log("請使用橫式");
         alert("請使用橫式");
     };
-    window.addEventListener("resize",()=>{
-        if(window.innerWidth <= 768){
-            alert("請使用橫式");
-            console.log("請使用橫式");
-        }
-        else{
-            location.reload();
-        }
-    });
 };
+window.addEventListener("resize",()=>{
+    if(window.innerWidth <= 768){
+        alert("請使用橫式");
+        console.log("請使用橫式");
+    }
+    else{
+        location.reload();
+    }
+});
 
 let windowButton = document.getElementById("StartButton");
 windowButton.addEventListener("click", ()=>{
