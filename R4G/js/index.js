@@ -38,21 +38,33 @@ let RunCenter = document.getElementById("RunCenter");
 anime({
     targets: RunRight,
     translateX: window.innerWidth * 1.5,
-    duration: 6200,
+    duration: 10200,
     easing: 'linear',
     loop: true
 });
 anime({
     targets: RunCenter,
     translateX: window.innerWidth * 1.5,
-    duration: 6000,
+    duration: 10000,
     easing: 'linear',
     loop: true
 });
 anime({
     targets: RunLeft,
     translateX: window.innerWidth * 1.5,
-    duration: 6100,
+    duration: 10100,
     easing: 'linear',
     loop: true
+});
+
+let menu_btn = document.getElementById("mobile-menu-btn");
+menu_btn.addEventListener('click', ()=>{
+    menu_btn.style.display = "none";
+    document.getElementById("nav-bar").style.display = "flex";
+});
+
+let mobile_menu_arrow = document.getElementById("mobile-menu-arrow");
+mobile_menu_arrow.addEventListener('click', ()=>{
+    menu_btn.style.display = "flex";
+    document.getElementById("nav-bar").style.display = "none";
 });

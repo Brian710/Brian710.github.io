@@ -90,9 +90,6 @@ body {
 	bottom: -1%;
 	width: 87%;
 }
-.mobile-menu-btn{
-	display: none;
-}
 .nav-bar {
 	position: absolute;
 	display: flex;
@@ -117,9 +114,6 @@ body {
 }
 .nav-bar div:nth-child(7) {
 	border-right: solid 1px #ffffff;
-}
-.nav-bar .mobile-menu-arrow{
-	display: none;
 }
 .nav-bar div p {
 	cursor: pointer;
@@ -214,65 +208,9 @@ body {
 	html, body {
 		font: 12px;
 	}
-	.mobile-menu-btn{
-		cursor: pointer;
-		position: absolute;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		top: 0;
-		width: 10%;
-		height: 8.5%;
-		background-color: #008dc5;
-		z-index: 15;
-		overflow: hidden;
-	}
-	.mobile-menu-btn .menu-btn{
-		position: absolute;
-		left: 5%;
-		font-size: 2.25rem;
-		color: #ffffff;
-	}
-	.mobile-menu-btn p{
-		position: absolute;
-		left: 45%;
-		font-size: 1rem;
-		color: #ffffff;
-	}
-	.nav-bar{
-		flex-direction: column;
-		left: 0;
-		width: 18%;
-		height: 100%;
-		display: none;
-	}
 	.nav-bar div {
-		width: 8rem;
 		height: 1.5rem;
-		padding: 0;
-		padding-bottom: 5px;
-		margin-bottom: 1rem;
-		border-left: none;
-		border-bottom: solid 1px #ffffff;
-		white-space: nowrap;
-		justify-content: left;
-	}
-	.nav-bar div:nth-child(7) {
-		border-right: none;
-	}
-	.nav-bar .mobile-menu-arrow{
-		cursor: pointer;
-		display: block;
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: auto;
-		height: auto;
-		border-bottom: none;
-		margin: 1rem 1rem 0 0;
-		color: #ffffff;
-		transform: scale(1.5);
+		padding: 0 1.25rem;
 	}
 	.nav-bar div p {
 		font-size: 0.866rem;
