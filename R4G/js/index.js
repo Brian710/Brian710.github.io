@@ -4,13 +4,13 @@ document.documentElement.style.setProperty('--vw', `${vw}px`);
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 window.onload = function(){
-    if(window.innerWidth <= 768){
+    if(screen.width < screen.height && screen.width < 1440){
         console.log("請使用橫式");
         alert("請使用橫式");
     };
 };
 window.addEventListener("resize",()=>{
-    if(window.innerWidth <= 768){
+    if(screen.width < screen.height && screen.width < 1440){
         alert("請使用橫式");
         console.log("請使用橫式");
     }
