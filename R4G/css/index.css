@@ -222,8 +222,8 @@ body {
 		align-items: center;
 		justify-content: center;
 		top: 0;
-		width: 10%;
-		height: 8.5%;
+		width: 6.25rem;
+		height: 2.5rem;
 		background-color: #008dc5;
 		z-index: 15;
 		overflow: hidden;
@@ -277,6 +277,9 @@ body {
 	.nav-bar div p {
 		font-size: 0.866rem;
 		letter-spacing: 0rem;
+	}
+	.StartWindowContainer{
+		top: 0;
 	}
 	.StartWindow {
 		width: 24%;
