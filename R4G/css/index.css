@@ -118,7 +118,7 @@ body {
 .nav-bar div:nth-child(2){
 	border-left: none;
 }
-.nav-bar div:nth-child(7) {
+.nav-bar div:nth-child(8) {
 	border-right: solid 1px #ffffff;
 }
 .nav-bar .mobile-menu-arrow{
@@ -261,7 +261,7 @@ body {
 		white-space: nowrap;
 		justify-content: left;
 	}
-	.nav-bar div:nth-child(7) {
+	.nav-bar div:nth-child(8) {
 		border-right: none;
 	}
 	.nav-bar div:nth-child(2){
