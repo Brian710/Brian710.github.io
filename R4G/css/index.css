@@ -115,6 +115,9 @@ body {
 	border-left: solid 1px #ffffff;
 	z-index: 15;
 }
+.nav-bar div:nth-child(2){
+	border-left: none;
+}
 .nav-bar div:nth-child(7) {
 	border-right: solid 1px #ffffff;
 }
