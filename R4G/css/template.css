@@ -131,3 +131,6 @@ table {
 :root {
 	font-family: 'Noto Sans TC', sans-serif;
 }
+a {
+    text-decoration:none;
+}
