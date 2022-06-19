@@ -216,7 +216,7 @@ body::-webkit-scrollbar {
 	}
 	.nav-bar .nav-bar-btn {
 		height: 1.75rem;
-		padding: 0 1.25rem;
+		padding: 0 0.75rem;
 	}
 	.nav-bar .nav-bar-btn-home{
 		left: 0;
@@ -281,6 +281,7 @@ body::-webkit-scrollbar {
 	}
 	.nav-bar .nav-bar-row{
 		flex-direction: column;
+		justify-content: flex-start;
 	}
 	.nav-bar .mobile-menu-arrow{
 		cursor: pointer;
