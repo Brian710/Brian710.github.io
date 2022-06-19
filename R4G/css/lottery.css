@@ -65,7 +65,7 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 .logo{
-    width: 10%;
+    width: 8rem;
     margin-top: 2rem;
     content: url(../images/Logo.png);
 }
