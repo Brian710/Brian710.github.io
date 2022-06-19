@@ -3,6 +3,8 @@ let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vw', `${vw}px`);
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
+let _isScrolling;
+
 window.onload = function(){
     if(window.innerWidth < window.innerHeight && window.innerWidth < 1440){
         console.log("請使用橫式");
@@ -15,8 +17,14 @@ window.addEventListener("resize",()=>{
         console.log("請使用橫式");
     }
     else{
-        location.reload();
+        if(!_isScrolling){
+            location.reload();
+        }
     }
+});
+
+window.addEventListener("scroll", ()=>{
+    _isScrolling = true;
 });
 
 let menu_btn = document.getElementById("mobile-menu-btn");
