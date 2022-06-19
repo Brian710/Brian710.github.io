@@ -236,7 +236,7 @@ body::-webkit-scrollbar {
 	top: -3.5rem;
 	left: 1rem;
 	width: 3rem;
-	content: url(../images/gift.png);
+	content: url(../images/gift.svg);
 }
 .time-rangeline{
 	position: absolute;
