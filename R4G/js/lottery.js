@@ -10,6 +10,7 @@ window.onload = function(){
         console.log("請使用橫式");
         alert("請使用橫式");
     };
+    InsertNoneObject();
     TimeLineInit();
     TimeLineLoad();
     WinnersListLoad();
@@ -41,6 +42,14 @@ mobile_menu_arrow.addEventListener('click', ()=>{
     menu_btn.style.display = "flex";
     document.getElementById("nav-bar").style.display = "none";
 });
+
+function InsertNoneObject(){
+    if(window.innerWidth > window.innerHeight && window.innerWidth >= 1180){
+        let noneObj = document.createElement("div");
+        noneObj.setAttribute("class", "nav-bar-btn");
+        document.getElementById("nav-bar").appendChild(noneObj);
+    }
+}
 
 let time_rangeline = Object.values(document.getElementsByClassName("time-rangeline"));
 let timeline_gifticon = Object.values(document.getElementsByClassName("drawday-icon"));

@@ -8,6 +8,7 @@ window.onload = function(){
         console.log("請使用橫式");
         alert("請使用橫式");
     };
+    InsertNoneObject();
 };
 window.addEventListener("resize",()=>{
     if(window.innerWidth < window.innerHeight && window.innerWidth < 1440){
@@ -68,3 +69,11 @@ mobile_menu_arrow.addEventListener('click', ()=>{
     menu_btn.style.display = "flex";
     document.getElementById("nav-bar").style.display = "none";
 });
+
+function InsertNoneObject(){
+    if(window.innerWidth > window.innerHeight && window.innerWidth >= 1180){
+        let noneObj = document.createElement("div");
+        noneObj.setAttribute("class", "nav-bar-btn");
+        document.getElementById("nav-bar").appendChild(noneObj);
+    }
+}
