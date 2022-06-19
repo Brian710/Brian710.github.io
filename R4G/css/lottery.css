@@ -385,6 +385,10 @@ body::-webkit-scrollbar {
 	z-index: 15;
 	overflow: hidden;
 }
+.nav-bar .nav-bar-row{
+	align-items: center;
+	justify-content: flex-end;
+}
 .nav-bar .nav-bar-btn {
 	display: flex;
 	align-items: center;
@@ -423,7 +427,7 @@ body::-webkit-scrollbar {
 	}
 	.nav-bar .nav-bar-btn {
 		height: 2.25rem;
-		padding: 0 2.5rem;
+		padding: 0 1rem;
 	}
 	.nav-bar .nav-bar-btn-home{
 		left: 5%;
@@ -440,7 +444,6 @@ body::-webkit-scrollbar {
 	}
 	.nav-bar .nav-bar-btn {
 		height: 2rem;
-		padding: 0 2rem;
 	}
 	.nav-bar .nav-bar-btn-home{
 		left: 2%;
@@ -453,7 +456,7 @@ body::-webkit-scrollbar {
 }
 @media screen and (max-width: 1440px) {
 	.nav-bar .nav-bar-btn {
-		padding: 0 1rem;
+		padding: 0 0.75rem;
 	}
 	.nav-bar .nav-bar-btn-home{
 		transform: scale(1.1);
@@ -541,13 +544,8 @@ body::-webkit-scrollbar {
 	#nav-bar > div:nth-child(9) {
 		border-right: none;
 	}
-	.nav-bar .nav-bar-btn:nth-child(2){
-		cursor: pointer;
-		display: block;
-		height: 2.25rem;
-		position: relative;
-		border-bottom: none;
-		margin: 1rem 1rem 0 0;
+	.nav-bar .nav-bar-row{
+		flex-direction: column;
 	}
 	.nav-bar .mobile-menu-arrow{
 		cursor: pointer;

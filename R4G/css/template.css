@@ -134,3 +134,14 @@ table {
 a {
     text-decoration:none;
 }
+
+.row-4{
+	display: flex;
+	flex-direction: row;
+	width: 33.33333%;
+}
+.row-8{
+	display: flex;
+	flex-direction: row;
+	width: 66.66666%;
+}
