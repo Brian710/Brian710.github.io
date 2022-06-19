@@ -2,10 +2,14 @@ html,
 body {
 	width: 100vw;
 	width: calc(var(--vw, 1vw) * 100);
-	height: 100vh;
-	height: calc(var(--vh, 1vh) * 100);
-	overflow: hidden;
+	height: auto;
+	min-height: calc(var(--vh, 1vh) * 100);
+	overflow: auto;
 	font-size: 12px;
+}
+html,
+body::-webkit-scrollbar {
+	width: 0;
 }
 .noise {
 	position: absolute;
@@ -25,17 +29,17 @@ body {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
+	margin-top: 15%;
 }
 .Top{
-    position: absolute;
+    position: fixed;
     top: 7.5%;
     width: 100%;
     content: url(../images/IntroTop.png);
     z-index: 5;
 }
 .Grass {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
     height: 100%;
@@ -43,16 +47,11 @@ body {
 }
 .content{
     position: relative;
-    top: 30%;
     margin: 0 12.5%;
     width: 75%;
-    height: 70%;
     background-color: #ffffff;
     overflow: auto;
     z-index: 10;
-}
-.content::-webkit-scrollbar {
-    width: 0;
 }
 .content-container{
     border: #30D8A0 1px solid;
@@ -100,7 +99,7 @@ body {
     color: #008EC6;
 }
 #LeftTree {
-	position: absolute;
+	position: fixed;
 	bottom: -1%;
 	left: 0;
 	width: 15%;
@@ -108,7 +107,7 @@ body {
     z-index: 100;
 }
 #RightTree {
-	position: absolute;
+	position: fixed;
 	bottom: -1%;
 	right: 0;
 	width: 15%;
@@ -119,7 +118,7 @@ body {
 	display: none;
 }
 .nav-bar {
-	position: absolute;
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -167,9 +166,8 @@ body {
 		height: 2.25rem;
 		padding: 0 2.5rem;
 	}
-	.content{
-		top: 28%;
-		height: 72%;
+	.container {
+		margin-top: 16%;
 	}
 }
 @media screen and (max-width: 1920px) {
@@ -180,15 +178,13 @@ body {
 		height: 2rem;
 		padding: 0 2rem;
 	}
-	.content{
-		top: 30%;
-		height: 70%;
+	.container {
+		margin-top: 15%;
 	}
 }
 @media screen and (max-width: 1440px) {
-	.content{
-		top: 28%;
-		height: 72%;
+	.container {
+		margin-top: 15%;
 	}
 }
 @media screen and (max-width: 1180px) {
@@ -199,9 +195,8 @@ body {
 		height: 1.75rem;
 		padding: 0 1.25rem;
 	}
-	.content{
-		top: 24%;
-		height: 76%;
+	.container {
+		margin-top: 17%;
 	}
 }
 @media screen and (max-width: 1024px) {
@@ -210,7 +205,7 @@ body {
 	}
 	.mobile-menu-btn{
 		cursor: pointer;
-		position: absolute;
+		position: fixed;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -283,20 +278,17 @@ body {
 	.Top{
 		top: 0;
 	}
-	.content{
-		top: 15%;
-		height: 85%;
+	.container {
+		margin-top: 11%;
 	}
 }
 @media screen and (max-width: 900px) {
-	.content{
-		top: 25%;
-		height: 75%;
+	.container {
+		margin-top: 12%;
 	}
 }
 @media screen and (max-width: 700px) {
-	.content{
-		top: 21%;
-		height: 79%;
+	.container {
+		margin-top: 12%;
 	}
 }
