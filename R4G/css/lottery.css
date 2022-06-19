@@ -35,11 +35,11 @@ body::-webkit-scrollbar {
     position: fixed;
     top: 7.5%;
     width: 100%;
-    content: url(../images/IntroTop.png);
+    content: url(../images/IntroTop.svg);
     z-index: 5;
 }
 .Grass {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
     height: 100%;
@@ -358,7 +358,7 @@ body::-webkit-scrollbar {
 	bottom: -1%;
 	left: 0;
 	width: 15%;
-    content: url(../images/IntroLeft.png);
+    content: url(../images/IntroLeft.svg);
     z-index: 100;
 }
 #RightTree {
@@ -366,7 +366,7 @@ body::-webkit-scrollbar {
 	bottom: -1%;
 	right: 0;
 	width: 15%;
-    content: url(../images/IntroRight.png);
+    content: url(../images/IntroRight.svg);
     z-index: 100;
 }
 .mobile-menu-btn{
