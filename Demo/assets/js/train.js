@@ -146,7 +146,9 @@ function SubmitResult(){
     }
 }
 
+document.getElementById("restart").addEventListener('click', ()=>{
+    window.location.href = "Train.html";
+});
 document.getElementById("next").addEventListener('click', ()=>{
-    document.getElementById("popwindow").style.visibility = "hidden";
-    document.getElementById("submit-window-container").style.visibility = "hidden";
+    window.location.href = "Mission.html";
 });

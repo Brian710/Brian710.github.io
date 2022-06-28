@@ -242,6 +242,9 @@
     content: url(../images/train/measuring.png);
     margin-right: 2rem;
 }
+.counter{
+    margin-top: 1rem;
+}
 .minus{
     cursor: pointer;
     content: url(../images/train/minus.svg);
@@ -249,6 +252,7 @@
 }
 .input-pour{
     width: 7rem;
+    font-size: 1rem;
 }
 .plus{
     cursor: pointer;
@@ -328,4 +332,37 @@
 }
 .next{
     cursor: url(../images/point.png), pointer;
+}
+
+@media screen and (max-width:2560px) {
+    .title-img{
+        width: 20rem;
+    }
+    .title-content{
+        top: 37%;
+        left: 3%;
+    }
+	.btn-group{
+        top: 75%;
+        left: 33%;
+    }
+    .pour-object{
+        width: 15rem;
+    }
+}
+@media screen and (max-width:1920px) {
+    .title-img{
+        width: 27rem;
+    }
+    .title-content{
+        top: 48%;
+        left: 6%;
+    }
+	.btn-group{
+        top: 75%;
+        left: 30%;
+    }
+    .pour-object{
+        width: 18rem;
+    }
 }
