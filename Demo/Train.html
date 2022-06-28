@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>主橙展間Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<link rel="stylesheet"  href="./assets/css/template.css">
+	<link rel="stylesheet"  href="./assets/css/train.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.5/lottie.min.js" integrity="sha512-6dYBCNIZ9riy73O8JuGbTYlSTaHLWT1ngC+fp6xqNAx/B4rft2q1k3trWGK1fmtl6NnOzD9NjIKt0i1u7KTUvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	<audio id="AudioPlayer" loop><source src="./assets/audio/SPIDER-SPIN.m4a" type="audio/mp4"></audio>
+	<div class="cutscenes" id="cutscenes"></div>
+	<div class="container">
+		<div class="top">
+			<div class="title-img"></div>
+			<div class="title-content">
+				<p class="level-title">關卡</p>
+				<div class="level-text-container">
+					<p class="level-text-now">1</p>
+					<p class="level-text"> / 10</p>
+				</div>
+			</div>
+			<div class="btn-group">
+				<div class="btn-home margin-r-1" id="btn-home"></div>
+				<div class="btn-sound margin-r-1" id="btn-sound"></div>
+			</div>
+		</div>
+		<div id="pano"></div>
+		<div class="bottom">
+			<div class="mission-detail-container">
+				<div class="mission-icon"></div>
+				<div class="mission-text">請依比例調配110公克油漆</div>
+			</div>
+			<div class="bottom-right-group">
+				<div class="flex-row mission-display-container">
+					<div class="flex-row main">
+						<div class="main-color"></div>
+						<div class="flex-row main-text">
+							<p>主劑</p>
+							<p id="main-count">0</p>
+							<p>公克</p>
+						</div>
+					</div>
+					<div class="flex-row hardener">
+						<div class="hardener-color"></div>
+						<div class="flex-row hardener-text">
+							<p>硬化劑</p>
+							<p id="hardener-count">0</p>
+							<p>公克</p>
+						</div>
+					</div>
+					<div class="flex-row dispensing">
+						<div class="dispensing-color"></div>
+						<div class="flex-row dispensing-text">
+							<p>調薄劑</p>
+							<p id="dispensing-count">0</p>
+							<p>公克</p>
+						</div>
+					</div>
+				</div>
+				<div class="btn-submit" id="btn-submit">作答完畢</div>
+			</div>
+		</div>
+	</div>
+	<div class="pour-container" id="pour-container">
+		<div class="pour-display">
+			<div class="pour-1" id="pour-1"></div>
+			<div class="pour-2" id="pour-2"></div>
+			<div class="pour-3" id="pour-3"></div>
+		</div>
+	</div>
+	<div class="popwindow" id="popwindow">
+		<div class="pour-window-container flex-col" id="pour-window-container">
+			<div class="pour-top flex-row">
+				<div class="pour-object" id="pour-object"></div>
+				<div class="pour-counter-conatiner flex-col">
+					<div class="measuring margin-r-1"></div>
+					<div class="counter flex-row">
+						<div class="minus" id="minus"></div>
+						<input class="input-pour" id="input-pour" type="number" value="0" placeholder="0"/>
+						<div class="plus" id="plus"></div>
+						<p>公克</p>
+					</div>
+				</div>
+			</div>
+			<div class="btn-pour-submit" id="btn-pour-submit">確定</div>
+		</div>
+		<div class="submit-window-container flex-col" id="submit-window-container">
+			<div class="result-conatiner flex-row">
+				<div class="main-result flex-col">
+					<div class="main-img margin-b-1"></div>
+					<div class="main-result-count margin-b-1" id="main-result-count"></div>
+					<p>公克</p>
+				</div>
+				<div class="hardener-result flex-col">
+					<div class="hardener-img margin-b-1"></div>
+					<div class="hardener-result-count margin-b-1" id="hardener-result-count"></div>
+					<p>公克</p>
+				</div>
+				<div class="dispensing-result flex-col">
+					<div class="dispensing-img margin-b-1"></div>
+					<div class="dispensing-result-count margin-b-1" id="dispensing-result-count"></div>
+					<p>公克</p>
+				</div>
+			</div>
+			<div class="submit-result" id="submit-result"></div>
+			<div class="submit-nextbtn-container flex-row">
+				<div class="restart">重新作答</div>
+				<div class="next" id="next">下一關</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="./assets/js/tour.js"></script>
+<script src="./assets/js/train.js"></script>
+<script src="./assets/js/common.js"></script>
+</html>

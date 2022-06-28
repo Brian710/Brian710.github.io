@@ -1,0 +1,158 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.top-bar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 7rem;
+    background-color: #004DA0;
+}
+.logo {
+    top: 0;
+    left: 0;
+    content: url(../images/select/TittleTrain.svg);
+}
+.user{
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 0.15rem;
+    color:#FFFFFF;
+}
+.btn-group{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    right: 2%;
+    height: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+.btn-sound{
+    cursor: url(../images/point.png), pointer;
+    content: url(../images/select/Btn_Video_W.svg);
+}
+.btn-logout{
+    cursor: url(../images/point.png), pointer;
+    width: 4.75rem;
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    background: #FFFFFF;
+    color: #004DA0;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+}
+.item-select-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 7rem;
+    background-color: #F8F4EA;
+}
+.item-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+    border-radius: 1.25rem 1.25rem 0 0;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+.paint-train{
+    cursor: url(../images/point.png), pointer;
+    color: #B09451;
+    background:#FFFFFF;
+}
+.safety{
+    /* cursor: url(../images/point.png), pointer; */
+    color: #FFFFFF;
+    background:#B09451;
+}
+.fire{
+    /* cursor: url(../images/point.png), pointer; */
+    color: #FFFFFF;
+    background:#B09451;
+}
+.mode-title{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    color: #4F4F4F;
+    text-align: center;
+    margin-top: 7rem;
+}
+.mode-select-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.train{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+}
+.train-img{
+    cursor: url(../images/point.png), pointer;
+    content: url(../images/select/TrainImg.png);
+}
+.detail-group{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.train-text{
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2.75rem;
+    letter-spacing: 0.2rem;
+    color: #4F4F4F;
+    margin-right: 1rem;
+}
+.btn-detail{
+    width: 7rem;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    color: #FFFFFF;
+    background-color: #013A74;
+    border: none;
+    border-radius: 3rem;
+    margin-right: 1rem;
+}
+.exam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+}
+.exam-img{
+    content: url(../images/select/TestImg.png);
+}
+.exam-text{
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 2.75rem;
+    letter-spacing: 0.2rem;
+    color: #4F4F4F;
+}

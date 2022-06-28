@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>主橙展間Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<link rel="stylesheet"  href="./assets/css/template.css">
+	<link rel="stylesheet"  href="./assets/css/mission.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<audio id="AudioPlayer" loop><source src="./assets/audio/SPIDER-SPIN.m4a" type="audio/mp4"></audio>
+	<div class="container">
+		<div class="top-bar">
+			<div class="logo"></div>
+			<div class="user">您好，主橙資訊</div>
+		</div>
+		<div class="btn-group">
+			<div class="btn-sound margin-r-1" id="btn-sound"></div>
+			<button class="btn-logout margin-r-1" id="btn-logout">登出</button>
+		</div>
+		<div class="item-select-container">
+			<div class="item-select paint-train">油漆認證訓練</div>
+			<div class="item-select safety">工作安全守則</div>
+			<div class="item-select fire">火災防範</div>
+		</div>
+		<div class="mode-select-container">
+			<p class="mode-title">在此可學習正確調配油漆</p>
+			<div class="mode-select-block">
+				<div class="train">
+					<div class="train-img" id="TrainMode"></div>
+					<div class="detail-group">
+						<div class="train-text">上次分數  60</div>
+						<button class="btn-detail">詳細</button>
+					</div>
+				</div>
+				<div class="exam">
+					<div class="exam-img" id="ExamMode"></div>
+					<div class="detail-group">
+						<div class="exam-text">上次分數  無</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="./assets/js/mission.js"></script>
+<script src="./assets/js/common.js"></script>
+</html>

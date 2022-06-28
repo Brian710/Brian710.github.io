@@ -1,0 +1,91 @@
+
+<krpano>
+
+	<include url="plugins_l/plugin_a/photo.xml"/>
+	<include url="plugins_l/plugin_a/youtube.xml"/>
+	<include url="plugins_l/plugin_a/video.xml"/>
+
+	<addhs_settings  pin_cod="" 
+ 					 sound_close_click="true" 
+ 					 video_close_click="true" 
+ 					 youtube_close_click="true" 
+					 FIRSTXML="tour" 
+					 path="%FIRSTXML%/" 
+					 action_list="'add_hotspot/plugins_l/actionSM.html'" 
+					 photo="true" 
+					 video="true" 
+					 youtube="true" 
+ 		   		/>
+	
+
+  <hotspot  name="main" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/main.png" distorted="true" zorder="5"
+ 			ath="-29.0609" atv="18.4127" width="160" height="prop" rx="15" ry="31.5" scale="0.98" edge="center"
+ 			install_onclick="5" title="main" scene_EL="scene_ver_1" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			ondown="drag_LinkSM()"
+			onclick="js(Pour(get(name)));"
+			onhover="tween(scale,1.225)" onout="tween(scale,0.98)"
+ 		/>
+	
+  <hotspot  name="hardener" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/hardener.png" distorted="true" zorder="5"
+ 			ath="-6.7225" atv="20.2602" width="160" height="prop" rx="15" ry="7" scale="1.1" edge="center"
+ 			install_onclick="5" title="hardener" scene_EL="scene_ver_1" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			ondown="drag_LinkSM()"
+			onclick="js(Pour(get(name)));"
+			onhover="tween(scale,1.375)" onout="tween(scale,1.1)"
+ 		/>
+	
+  <hotspot  name="dispensing" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/dispensing.png" distorted="true" zorder="5"
+ 			ath="18.0412" atv="19.4635" width="160" height="prop" rx="15" ry="-20.5" scale="1.05" edge="center"
+ 			install_onclick="5" title="dispensing" scene_EL="scene_ver_1" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			ondown="drag_LinkSM()"
+			onclick="js(Pour(get(name)));"
+			onhover="tween(scale,1.25)" onout="tween(scale,1.05)" 
+ 		/>
+	
+  <hotspot  name="bucket" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/bucket.png" distorted="true" zorder="5"
+ 			ath="37.5976" atv="16.7011" width="160" height="prop" rx="15" ry="-39" scale="0.87" edge="center"
+ 			install_onclick="5" title="bucket" scene_EL="scene_ver_1" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			ondown="drag_LinkSM()"
+			onhover="tween(scale,1.0875)" onout="tween(scale,0.87)"
+ 		/>
+	
+  <hotspot  name="measuring" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/measuring.png" distorted="true" zorder="1"
+ 			ath="-42.1358" atv="17.6894" width="100" height="prop" rx="15" ry="42" scale="1" edge="center"
+ 			install_onclick="5" title="measuring" scene_EL="scene_ver_1" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+			ondown="drag_LinkSM()"
+			onhover="tween(scale,1.25)" onout="tween(scale,1)"
+ 		/>
+	
+ <style name="pl_hs_add_hs"
+ 		keep="true"
+		enabled2="true"
+ 		visible2="true"
+ 		visible="false"
+ 		alpha="1"
+ 		alpha2="1"
+ 		capture="false"
+ 		handcursor="true"
+ 		zorder="0"
+ 		install_onclick="14"
+ 		fov_EL="90"
+ 		fillcolor="0x1500FF"
+ 		fillcolor2="0xE85A5A"
+ 		fillalpha="0.50"
+ 		fillalpha2="0.50"
+ 		borderwidth="1"
+ 		borderwidth2="1"
+ 		bordercolor="0x55FF00"
+ 		bordercolor2="0x55FF00"
+ 		borderalpha="1.00"
+ 		borderalpha2="1.00"
+ 		onover="set_pol_2(get(name));"
+ 		onout="set_pol_1(get(name));"
+ 		ondown="ondown_pl_hs();"
+ 		blendmode="normal"
+	 />
+
+	 <!-- polygonal hotspot -->
+
+
+ 
+</krpano>
