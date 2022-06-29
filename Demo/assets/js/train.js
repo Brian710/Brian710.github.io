@@ -59,13 +59,15 @@ function Pour(name){
 
 btn_plus.addEventListener('click', ()=>{
     let curVal = parseInt(count.value);
-    count.value = curVal + 1;
+    if(count.value < 110){
+        count.value = curVal + 10;
+    }
 });
 
 btn_minus.addEventListener('click', ()=>{
     let curVal = parseInt(count.value);
     if(curVal > 0){
-        count.value = curVal - 1;
+        count.value = curVal - 10;
     }
 });
 
@@ -81,12 +83,14 @@ function OpenPourWindow(name){
     document.getElementById("popwindow").style.visibility = "visible";
     document.getElementById("pour-window-container").style.visibility = "visible";
 
-    document.getElementById("pour-object").style.content = "url(../assets/images/train/" + name + ".png)";
+    document.getElementById("pour-object").style.content = "url(./assets/images/train/" + name + ".png)";
 }
 
 function SubmitPour(){
     document.getElementById("popwindow").style.visibility = "hidden";
     document.getElementById("pour-window-container").style.visibility = "hidden";
+
+    if(parseInt(count.value) > 110) count.value = 110;
 
     switch(CurrentPour){
         case "main":
@@ -139,10 +143,10 @@ function SubmitResult(){
     document.getElementById("dispensing-result-count").innerHTML = dispensing_count;
 
     if(main_count == 80 && hardener_count == 20 && dispensing_count == 10){
-        document.getElementById("submit-result").style.content = "url(../assets/images/train/FinCorrect.svg)";
+        document.getElementById("submit-result").style.content = "url(./assets/images/train/FinCorrect.svg)";
     }
     else{
-        document.getElementById("submit-result").style.content = "url(../assets/images/train/FinError.svg)";
+        document.getElementById("submit-result").style.content = "url(./assets/images/train/FinError.svg)";
     }
 }
 

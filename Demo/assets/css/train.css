@@ -91,7 +91,7 @@
 }
 .mission-detail-container{
     position: relative;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 .mission-icon{
     position: absolute;
@@ -252,7 +252,7 @@
 }
 .input-pour{
     width: 7rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .plus{
     cursor: pointer;
