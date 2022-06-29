@@ -4,7 +4,14 @@
     height: 100%;
     z-index: 9999;
 }
-
+.logoanimation{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .container{
     position: relative;
     width: 100%;
@@ -191,21 +198,21 @@
     position: relative;
     width: 91%;
     height: 5rem;
-    /* background-color: #FFFF66; */
+    opacity: 0.8;
     z-index: 9999;
 }
 .pour-2{
     position: relative;
     width: 91%;
     height: 5rem;
-    /* background-color: #FFFF66; */
+    opacity: 0.8;
     z-index: 9999;
 }
 .pour-3{
     position: relative;
     width: 91%;
     height: 5rem;
-    /* background-color: #FFFF66; */
+    opacity: 0.8;
     z-index: 9999;
 }
 .popwindow{
@@ -329,10 +336,11 @@
     margin: 0 1rem;
 }
 .restart{
+    cursor: url(../images/point.png)20 20, pointer;
     opacity: 0.5;
 }
 .next{
-    cursor: url(../images/point.png), pointer;
+    cursor: url(../images/point.png)20 20, pointer;
 }
 
 @media screen and (max-width:2560px) {

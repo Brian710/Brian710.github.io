@@ -7,6 +7,9 @@ let first = false;
 let pano = "";
 let CurrentPour = "";
 let pourcount = 0;
+let mainindex = 0;
+let hardenerindex = 0;
+let dispensingindex = 0;
 
 window.addEventListener('load', ()=>{
     embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
@@ -38,7 +41,7 @@ document.getElementById("btn-sound").addEventListener('click', ()=>{
 });
 
 lottie.loadAnimation({
-    wrapper: document.getElementById("cutscenes"),
+    wrapper: document.getElementById("logoanimation"),
     animType: 'svg',
     loop: true,
     path: './assets/animation/logo.json'
@@ -52,6 +55,7 @@ function Pour(name){
     CurrentPour = name;
     if(!first){
         document.getElementById("pour-container").style.visibility = "visible";
+        pano.call("set(hotspot[bucket].url, '')");
         first = true;
     }
     OpenPourWindow(name);
@@ -94,23 +98,35 @@ function SubmitPour(){
 
     switch(CurrentPour){
         case "main":
-            if(document.getElementById("main-count").innerHTML === "0" && parseInt(count.value) != 0){
+            if(mainindex == 0){
                 pourcount++;
                 PourBucket("#FFFF66");
+                mainindex = pourcount;
             }
-            document.getElementById("main-count").innerHTML = parseInt(count.value);
+            else{
+                RePour(mainindex);
+            }
+            document.getElementById("main-count").innerHTML = parseInt(count.value);            
             break;
         case "hardener":
-            if(document.getElementById("hardener-count").innerHTML === "0" && parseInt(count.value) != 0){
+            if(hardenerindex == 0){
                 pourcount++;
                 PourBucket("#FD282A");
+                hardenerindex = pourcount;
+            }
+            else{
+                RePour(hardenerindex);
             }
             document.getElementById("hardener-count").innerHTML = parseInt(count.value);
             break;
         case "dispensing":
-            if(document.getElementById("dispensing-count").innerHTML === "0" && parseInt(count.value) != 0){
+            if(dispensingindex == 0){
                 pourcount++;
                 PourBucket("#2D7FBF");
+                dispensingindex = pourcount;
+            }
+            else{
+                RePour(dispensingindex);
             }
             document.getElementById("dispensing-count").innerHTML = parseInt(count.value);
             break;
@@ -121,12 +137,30 @@ function SubmitPour(){
 function PourBucket(color){
     if(pourcount == 1){
         document.getElementById("pour-1").style.backgroundColor = color;
+        document.getElementById("pour-1").style.height = `${(parseInt(count.value) / 110) * 5}rem`;
     }
     else if(pourcount == 2){
         document.getElementById("pour-2").style.backgroundColor = color;
+        document.getElementById("pour-2").style.height = `${(parseInt(count.value) / 110) * 5}rem`;
     }
     else if(pourcount == 3){
         document.getElementById("pour-3").style.backgroundColor = color;
+        document.getElementById("pour-3").style.height = `${(parseInt(count.value) / 110) * 5}rem`;
+    }
+}
+
+function RePour(index){
+    if(index == 1){
+        // document.getElementById("pour-1").style.backgroundColor = color;
+        document.getElementById("pour-1").style.height = `${(parseInt(count.value) / 110) * 5}rem`;
+    }
+    else if(index == 2){
+        // document.getElementById("pour-2").style.backgroundColor = color;
+        document.getElementById("pour-2").style.height = `${(parseInt(count.value) / 110) * 5}rem`;
+    }
+    else if(index == 3){
+        // document.getElementById("pour-3").style.backgroundColor = color;
+        document.getElementById("pour-3").style.height = `${(parseInt(count.value) / 110) * 5}rem`;
     }
 }
 
@@ -151,7 +185,9 @@ function SubmitResult(){
 }
 
 document.getElementById("restart").addEventListener('click', ()=>{
-    window.location.href = "Exam.html";
+    // window.location.href = "Exam.html";
+    document.getElementById("popwindow").style.visibility = "hidden";
+    document.getElementById("submit-window-container").style.visibility = "hidden";
 });
 document.getElementById("next").addEventListener('click', ()=>{
     window.location.href = "Mission.html";

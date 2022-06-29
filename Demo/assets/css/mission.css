@@ -35,11 +35,11 @@
     justify-content: center;
 }
 .btn-sound{
-    cursor: url(../images/point.png), pointer;
+    cursor: url(../images/point.png)20 20, pointer;
     content: url(../images/select/Btn_Video_W.svg);
 }
 .btn-logout{
-    cursor: url(../images/point.png), pointer;
+    cursor: url(../images/point.png)20 20, pointer;
     width: 4.75rem;
     height: 3.5rem;
     font-weight: 700;
@@ -73,7 +73,7 @@
     text-align: center;
 }
 .paint-train{
-    cursor: url(../images/point.png), pointer;
+    cursor: url(../images/point.png)20 20, pointer;
     color: #B09451;
     background:#FFFFFF;
 }
@@ -93,14 +93,14 @@
     letter-spacing: 0.2rem;
     color: #4F4F4F;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 3%;
 }
 .mode-select-block{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    margin-top: 3%;
 }
 .train{
     display: flex;
@@ -146,7 +146,7 @@
     margin-left: 5rem;
 }
 .exam-img{
-    cursor: url(../images/point.png), pointer;
+    cursor: url(../images/point.png)20 20, pointer;
     content: url(../images/select/TestImg.png);
 }
 .exam-text{
