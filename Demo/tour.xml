@@ -8,21 +8,21 @@
 	               maps_bing_api_key=""
 	               maps_google_api_key=""
 	               maps_zoombuttons="false"
-	               maps_loadonfirstuse="true"
-	               gyro="true"
+	               maps_loadonfirstuse="false"
+	               gyro="false"
 	               gyro_keeplookingdirection="false"
-	               webvr="true"
-	               webvr_keeplookingdirection="true"
-	               webvr_prev_next_hotspots="true"
+	               webvr="false"
+	               webvr_keeplookingdirection="false"
+	               webvr_prev_next_hotspots="false"
 	               autotour="false"
 	               littleplanetintro="false"
 	               followmousecontrol="false"
-	               title="true"
-	               thumbs="true"
-	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               title="false"
+	               thumbs="false"
+	               thumbs_width="0" thumbs_height="0" thumbs_padding="0" thumbs_crop="0|40|240|160"
 	               thumbs_opened="false"
 	               thumbs_text="false"
-	               thumbs_dragging="true"
+	               thumbs_dragging="false"
 	               thumbs_onhoverscrolling="false"
 	               thumbs_scrollbuttons="false"
 	               thumbs_scrollindicator="false"
@@ -77,8 +77,6 @@
 		if(startactions !== null, startactions() );
 	</action>
 
-
-	
 	<scene name="scene_ver_1" title="ver_1" onstart="" thumburl="panos/ver_1.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />

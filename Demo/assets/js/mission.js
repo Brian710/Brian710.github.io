@@ -1,12 +1,12 @@
-let train = document.getElementById("TrainMode");
+let exam = document.getElementById("ExamMode");
 let logout = document.getElementById("btn-logout");
 let loaded = false;
 
 window.addEventListener('load', ()=>{
 });
 
-train.addEventListener("click", ()=>{
-    window.location.href = "Train.html";
+exam.addEventListener("click", ()=>{
+    window.location.href = "Exam.html";
 });
 
 logout.addEventListener("click", ()=>{

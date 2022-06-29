@@ -17,7 +17,8 @@
 					 youtube="true" 
  		   		/>
 	
-
+  <cursors standard="url(./add_hotspot/picture/normal.png), auto"/> 
+  <cursors dragging="url(./add_hotspot/picture/catch.png), move"/>
   <hotspot  name="main" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/main.png" distorted="true" zorder="5"
  			ath="-29.0609" atv="18.4127" width="160" height="prop" rx="15" ry="31.5" scale="0.98" edge="center"
  			install_onclick="5" title="main" scene_EL="scene_ver_1" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
@@ -64,7 +65,7 @@
  		alpha="1"
  		alpha2="1"
  		capture="false"
- 		handcursor="true"
+ 		handcursor="false"
  		zorder="0"
  		install_onclick="14"
  		fov_EL="90"

@@ -147,7 +147,7 @@ function SubmitResult(){
 }
 
 document.getElementById("restart").addEventListener('click', ()=>{
-    window.location.href = "Train.html";
+    window.location.href = "Exam.html";
 });
 document.getElementById("next").addEventListener('click', ()=>{
     window.location.href = "Mission.html";

@@ -67,7 +67,7 @@
     left: 30%;
 }
 .btn-home{
-    cursor: url(../images/point.png), pointer;
+    cursor: url(../images/point.png)20 20, pointer;
     content: url(../images/train/Btn_Home.svg);
 }
 .btn-sound{
@@ -75,19 +75,19 @@
     content: url(../images/train/Btn_Video.svg);
 }
 #pano{
-    cursor: url(../images/catch.png), grab;
     position: relative;
     width: 100%;
     height: 100%;
 }
 .bottom{
+    cursor: url(../images/normal.png)20 20, auto;
     position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     bottom: 3%;
-    z-index: 4999;
+    z-index: 9999;
 }
 .mission-detail-container{
     position: relative;
@@ -153,7 +153,7 @@
     background-color: #2D7FBF;
 }
 .btn-submit{
-    cursor: url(../images/point.png), pointer;
+    cursor: url(../images/point.png)20 20, pointer;
     position: relative;
     display: flex;
     align-items: center;
@@ -281,6 +281,7 @@
     letter-spacing: 0.15rem;
     color: #AB8D46;
     margin-top: 1rem;
+    z-index: 999999999999999999;
 }
 .main-result, .hardener-result, .dispensing-result{
     margin: 0 1rem;

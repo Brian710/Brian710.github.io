@@ -110,7 +110,6 @@
     margin-right: 5rem;
 }
 .train-img{
-    cursor: url(../images/point.png), pointer;
     content: url(../images/select/TrainImg.png);
 }
 .detail-group{
@@ -147,6 +146,7 @@
     margin-left: 5rem;
 }
 .exam-img{
+    cursor: url(../images/point.png), pointer;
     content: url(../images/select/TestImg.png);
 }
 .exam-text{
