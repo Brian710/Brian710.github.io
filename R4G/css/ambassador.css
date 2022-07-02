@@ -38,9 +38,11 @@ body {
     position: relative;
 	display: flex;
 	flex-direction: row;
-    justify-content: space-evenly;
-	margin: 7.5% 12.5%;
-    overflow: auto;
+	width: 70%;
+	justify-content: space-evenly;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
     z-index: 10;
 }
 .name-wall-container{
@@ -277,6 +279,7 @@ body {
     50% { transform: scale(1.1);}
     to { transform: scale(1);}
 }
+
 @media screen and (max-width: 2560px) {
 	html, body {
 		font-size: 25px;
