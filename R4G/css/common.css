@@ -36,7 +36,7 @@
 	position: absolute;
 	left: 2%;
 	bottom: 0;
-	content: url(../images/IndexLogo.svg);
+	content: url(../images/common/IndexLogo.svg);
 	transform: scale(1.2);
 	z-index: 15;
 }

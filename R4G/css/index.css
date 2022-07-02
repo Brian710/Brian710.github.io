@@ -99,7 +99,7 @@ body {
 	z-index: 10;
 }
 .StartWindow {
-	content: url(../images/StartBG.svg);
+	content: url(../images/index/StartBG.svg);
 	box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.6);
 	width: 22%;
 }

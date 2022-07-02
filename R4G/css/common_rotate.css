@@ -36,7 +36,7 @@
 	position: absolute;
 	left: 2%;
 	bottom: 0;
-	content: url(../images/IndexLogo.svg);
+	content: url(../images/common/IndexLogo.svg);
 	transform: scale(1.2);
 	z-index: 15;
 }
@@ -100,24 +100,6 @@
 		transform: scale(0.85);
 	}
 }
-/* @media screen and (max-width: 1024px) {
-	body{
-		width: 100vw;
-		width: calc(var(--vh, 1vw) * 100);
-		height: 100vh;
-		height: calc(var(--vw, 1vh) * 100);
-		transform-origin: top left;
-        transform: rotate(90deg) translate(0,-100vmin);
-	}
-	.nav-bar .nav-bar-btn {
-		height: 1.75rem;
-		padding: 0 0.75rem;
-	}
-	.nav-bar .nav-bar-btn-home{
-		left: 0;
-		transform: scale(0.85);
-	}
-} */
 @media screen and (max-width: 1024px) {
 	.row-4{
 		width: 100%;

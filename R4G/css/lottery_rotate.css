@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
     position: fixed;
     top: 7.5%;
     width: 100%;
-    content: url(../images/IntroTop.svg);
+    content: url(../images/common/IntroTop.svg);
     z-index: 5;
 }
 .Grass {
@@ -67,7 +67,7 @@ body::-webkit-scrollbar {
 .logo{
     width: 8rem;
     margin-top: 2rem;
-    content: url(../images/Logo.svg);
+    content: url(../images/common/Logo.svg);
 }
 .content-title{
     margin: 1.75rem 1.75rem 3rem 2rem;
@@ -236,7 +236,7 @@ body::-webkit-scrollbar {
 	top: -3.5rem;
 	left: 1rem;
 	width: 3rem;
-	content: url(../images/gift.svg);
+	content: url(../images/lottery/gift.svg);
 }
 .time-rangeline{
 	position: absolute;
@@ -291,7 +291,7 @@ body::-webkit-scrollbar {
 	width: 8rem;
 	right: 0;
 	bottom: 0;
-	content: url(../images/CardTree.png);
+	content: url(../images/lottery/CardTree.png);
 }
 .text-flex{
     display: flex;
@@ -359,7 +359,7 @@ body::-webkit-scrollbar {
 	bottom: -1%;
 	left: 0;
 	width: 15%;
-    content: url(../images/IntroLeft.svg);
+    content: url(../images/common/IntroLeft.svg);
     z-index: 100;
 }
 #RightTree {
@@ -367,7 +367,7 @@ body::-webkit-scrollbar {
 	bottom: -1%;
 	right: 0;
 	width: 15%;
-    content: url(../images/IntroRight.svg);
+    content: url(../images/common/IntroRight.svg);
     z-index: 100;
 }
 @media screen and (max-width: 2560px) {
