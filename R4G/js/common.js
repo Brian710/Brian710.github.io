@@ -5,10 +5,6 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 let _isScrolling;
 
 window.onload = function(){
-    if(window.innerWidth < window.innerHeight && window.innerWidth < 1440){
-        document.body.style.transformOrigin = "top left";
-        document.body.style.transform = "rotate(90deg) translate(0,-100vmin)";
-    }
     InsertNoneObject();
 };
 
