@@ -412,27 +412,21 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 1024px) {
 	html, body {
 		font: 12px;
-		overflow: hidden;
 	}
 	.Top{
 		top: 0;
 	}
 	.container {
 		margin-top: 11%;
-		height: 86%;
-	}
-	.content{
-		height: 100%;
 	}
 	.award-img{
 		width: 10rem;
 		height: 10rem;
 	}
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 390px) {
 	.container {
 		margin-top: 12%;
-		height: 74%;
 	}
 	.award-img{
 		width: 6rem;
@@ -457,7 +451,6 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 375px) {
 	.container {
 		margin-top: 12%;
-		height: 79%;
 	}
 	.awards-container{
 		margin: 2%;

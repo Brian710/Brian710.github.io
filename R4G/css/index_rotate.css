@@ -145,7 +145,7 @@ body {
 		width: 22%;
 	}
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
 	html, body {
 		font-size: 14px;
 	}
@@ -157,7 +157,7 @@ body {
 		width: 16%;
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 	html, body {
 		font: 12px;
 	}

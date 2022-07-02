@@ -3,6 +3,7 @@ body {
 	width: 100vw;
 	width: calc(var(--vw, 1vw) * 100);
 	height: auto;
+	/* min-height: calc(var(--vh, 1vh) * 100); */
 	height: calc(var(--vh, 1vh) * 100);
 	overflow: auto;
 	font-size: 12px;
@@ -146,28 +147,21 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 1024px) {
 	html, body {
 		font: 12px;
-		overflow: hidden;
 	}
 	.Top{
 		top: 0;
 	}
 	.container {
 		margin-top: 11%;
-		height: 86%;
-	}
-	.content{
-		height: 100%;
 	}
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 900px) {
 	.container {
 		margin-top: 12%;
-		height: 74%;
 	}
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
 	.container {
 		margin-top: 12%;
-		height: 79%;
 	}
 }

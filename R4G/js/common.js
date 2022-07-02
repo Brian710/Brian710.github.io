@@ -6,21 +6,15 @@ let _isScrolling;
 
 window.onload = function(){
     if(window.innerWidth < window.innerHeight && window.innerWidth < 1440){
-        console.log("請使用橫式");
-        alert("請使用橫式");
-    };
+        document.body.style.transformOrigin = "top left";
+        document.body.style.transform = "rotate(90deg) translate(0,-100vmin)";
+    }
     InsertNoneObject();
 };
 
 window.addEventListener("resize",()=>{
-    if(window.innerWidth < window.innerHeight && window.innerWidth < 1440){
-        alert("請使用橫式");
-        console.log("請使用橫式");
-    }
-    else{
-        if(!_isScrolling){
-            location.reload();
-        }
+    if(!_isScrolling){
+        location.reload();
     }
 });
 

@@ -134,25 +134,3 @@ table {
 a {
     text-decoration:none;
 }
-
-.row-4{
-	display: flex;
-	flex-direction: row;
-	width: 33.33333%;
-}
-.row-8{
-	display: flex;
-	flex-direction: row;
-	width: 66.66666%;
-}
-
-@media screen and (max-width: 1024px) {
-	.row-4{
-		width: 100%;
-		height: 33.33333%;
-	}
-	.row-8{
-		width: 100%;
-		height: 66.66666%;
-	}
-}
