@@ -4,10 +4,10 @@ document.documentElement.style.setProperty('--vw', `${vw}px`);
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 let _isScrolling;
 
-window.onload = function(){
+window.addEventListener('DOMContentLoaded', ()=>{
     GenerateNavBar();
     InsertNoneObject();
-};
+});
 
 window.addEventListener("resize",()=>{
     if(!_isScrolling){
