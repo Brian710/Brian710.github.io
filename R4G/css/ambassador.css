@@ -33,6 +33,7 @@ body {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
+	z-index: 9999;
 }
 .content{
     position: relative;
@@ -146,6 +147,13 @@ body {
 .carousel{
 	height: fit-content;
 }
+.carousel-item{
+	height: 15rem;
+}
+.carousel-item iframe{
+	width: 100%;
+	height: 100%;
+}
 #EnvoyLeft{
     position: fixed;
 	bottom: 0;
@@ -161,6 +169,108 @@ body {
 	width: 30%;
     content: url(../images/ambassador/EnvoyRight.svg);
     z-index: 100;
+}
+
+.mycertificate-container{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	z-index: 9999;
+}
+.mycertificate-block{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+	height: 65%;
+	background: linear-gradient(to bottom, #FFFFFF 6.77%, #EBE1D7 100%);
+	transform: translate(-50%, -50%);
+}
+.mycertificate{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 8px solid #008DC5;
+}
+.mycertificate-content{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+	transform: translate(-50%, -50%);
+}
+.logo{
+	content: url(../images/ambassador/logo.svg);
+	margin-bottom: 1rem;
+}
+.mycertificate-title{
+	position: relative;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 3rem;
+	letter-spacing: 0.3rem;
+	color: #009D9B;
+}
+.certificate-name{
+	width: 55%;
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 4.5rem;
+	border-bottom: 1px solid #008DC5;
+	color: #008DC5;
+	text-align: center;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+.mycertificate-content p{
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+	color: #004F74;
+	margin-bottom: 0.5rem !important;
+}
+.fubonlogo{
+	margin-top: 1rem;
+	content: url(../images/ambassador/CertificateLogo.svg);
+}
+.certificate-left{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 35%;
+    content: url(../images/ambassador/CertificateLeft.svg);
+    z-index: 100;
+}
+.certificate-right{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 35%;
+    content: url(../images/ambassador/CertificateRight.svg);
+    z-index: 100;
+}
+.btn-share{
+	cursor: pointer;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 21%;
+	left: 50%;
+	width: 10rem;
+	height: 2.5rem;
+	border-radius: 3rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+	background-color: #004F74;
+	color: #FFFFFF;
+	transform: translate(-50%, -50%);
 }
 
 @keyframes fade {
