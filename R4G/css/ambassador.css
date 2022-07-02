@@ -21,13 +21,153 @@ body {
 	opacity: 0.9;
 	z-index: 10;
 }
-.container {
+.background{
+    position: fixed;
+	bottom: 0;
+	width: 100%;
+    height: 100%;
+	background: linear-gradient(to bottom, #FFFFFF 6.77%, #EBE1D7 100%);
+}
+.content-container {
 	position: relative;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
+.content{
+    position: relative;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+	margin: 7.5% 12.5%;
+    overflow: auto;
+    z-index: 10;
+}
+.name-wall-container{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+	border-left: 1px solid #004F74;
+	border-right: 1px solid #004F74;
+}
+.name-wall-title{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2rem;
+}
+.name-wall-title p{
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 2rem;
+	letter-spacing: 0.15rem;
+	color: #009D9B;
+	margin-left: 1rem;
+}
+.name-wall-title p:nth-child(1){
+	border-right: 1px solid #009D9B;
+	padding-right: 1rem;
+}
+.name-wall-slogan{
+	position: relative;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.5rem;
+	letter-spacing: 0.15rem;
+	padding: 0.25rem 0.5rem;
+	color: #FFFFFF;
+	background-color: #004F74;
+	border-radius: 3rem;
+	margin-bottom: 2rem;
+}
+.main-ambassador{
+	position: relative;
+	display: flex;
+	width: 35%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 2rem;
+}
+.main-ambassador p{
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.5rem;
+	letter-spacing: 0.05rem;
+	color: #004F74;
+}
+.name-wall{
+	position: relative;
+	display: contents;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+	letter-spacing: 0.05rem;
+	text-align: center;
+	color: #004F74;
+}
+.name-wall .row{
+	position: relative;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.player-name{
+	cursor: pointer;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 2.25rem;
+	font-weight: 700;
+	color: #008DC5;
+}
+.certificate-container{
+	cursor: pointer;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+.certificate{
+	position: absolute;
+	top: -50%;
+	width: 8rem;
+	height: auto;
+	content: url(../images/ambassador/checkcertificate.svg);
+	animation: fade 3.5s ease-in-out infinite;
+}
+.carousel{
+	height: fit-content;
+}
+#EnvoyLeft{
+    position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 30%;
+    content: url(../images/ambassador/EnvoyLeft.svg);
+    z-index: 100;
+}
+#EnvoyRight{
+    position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 30%;
+    content: url(../images/ambassador/EnvoyRight.svg);
+    z-index: 100;
+}
 
+@keyframes fade {
+    from { transform: scale(1); }
+    50% { transform: scale(1.1);}
+    to { transform: scale(1);}
+}
 @media screen and (max-width: 2560px) {
 	html, body {
 		font-size: 25px;

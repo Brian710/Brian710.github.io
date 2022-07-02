@@ -5,40 +5,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.4/lottie.min.js" integrity="sha512-ilxj730331yM7NbrJAICVJcRmPFErDqQhXJcn+PLbkXdE031JJbcK87Wt4VbAK+YY6/67L+N8p7KdzGoaRjsTg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="./css/template.css">
     <link rel="stylesheet" href="./css/ambassador.css" media="(orientation:portrait)">
     <link rel="stylesheet" href="./css/common.css" media="(orientation:portrait)">
     <link rel="stylesheet" href="./css/ambassador_rotate.css" media="(orientation:landscape)">
     <link rel="stylesheet" href="./css/common_rotate.css" media="(orientation:landscape)">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css" integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>R4G</title>
+    <style>
+        *,:root {
+            font-family: 'Noto Sans TC', sans-serif !important;
+        }
+        p{
+            margin-bottom: 0 !important;
+        }
+        .row>*{
+            margin-top: 0 !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    </style>
 </head>
 <body>
     <div class="noise" style="position: fixed;"></div>
-    <div class="mobile-menu-btn" id="mobile-menu-btn">
-        <div class="menu-btn">&equiv;</div>
-        <p>選單</p>
+    <div id="nav-bar-conatiner"></div>
+    <div class="background"></div>
+    <div class="content-container">
+        <div class="content">
+            <div class="name-wall-container">
+                <div class="name-wall-title">
+                    <p>富邦地球隊</p>
+                    <p>永續森林大使姓名牆</p>
+                </div>
+                <div class="name-wall-slogan">與富邦一起為永續倡議</div>
+                <div class="main-ambassador">
+                    <p>陳金鋒</p>
+                    <p>郭婞淳</p>
+                    <p>林志傑</p>
+                </div>
+                <div class="name-wall">
+                    <div class="row align-items-center row-cols-5">
+                        <div class="col align-self-center">江少慶</div>
+                        <div class="col align-self-center">簡偉儒</div>
+                        <div class="col align-self-center">瓊　斯</div>
+                        <div class="col align-self-center">李宗賢</div>
+                        <div class="col align-self-center">張耕淯</div>
+                    </div>
+                    <div class="row row-cols-5">
+                        <div class="col">陳鴻文</div>
+                        <div class="col">曾峻岳</div>
+                        <div class="col">王正棠</div>
+                        <div class="col">莊韋恩</div>
+                        <div class="col">高國麟</div>
+                    </div>
+                    <div class="row row-cols-5">
+                        <div class="col">賴廷恩</div>
+                        <div class="col">戴培峰</div>
+                        <div class="col">董子恩</div>
+                        <div class="col">辛特力</div>
+                        <div class="col">塞瑟夫</div>
+                    </div>
+                    <div class="row row-cols-5">
+                        <div class="col">陳仕朋</div>
+                        <div class="col">張宗憲</div>
+                        <div class="col player-name" id="playername">Name</div>
+                        <div class="col">于森旭</div>
+                        <div class="col">高孝儀</div>
+                    </div>
+                    <div class="row row-cols-5">
+                        <div class="col">羅　力</div>
+                        <div class="col">張進德</div>
+                        <div class="col certificate-container" id="certificate"><div class="certificate"></div></div>
+                        <div class="col">曾祥鈞</div>
+                        <div class="col">陽耀勳</div>
+                    </div>
+                    <div class="row row-cols-5">
+                        <div class="col">林書緯</div>
+                        <div class="col">林琨笙</div>
+                        <div class="col">林孟學</div>
+                        <div class="col">申皓瑋</div>
+                        <div class="col">曾文鼎</div>
+                    </div>
+                    <div class="row row-cols-5">
+                        <div class="col">岳少華</div>
+                        <div class="col">周桂羽</div>
+                        <div class="col">陳　真</div>
+                        <div class="col">石博恩</div>
+                        <div class="col">林益全</div>
+                    </div>
+                    <div class="row row-cols-5">
+                        <div class="col">郭俊麟</div>
+                        <div class="col">范國宸</div>
+                        <div class="col">王勝偉</div>
+                        <div class="col">林哲瑄</div>
+                        <div class="col">蔣智賢</div>
+                    </div>
+                    <div class="row row-cols-5">
+                        <div class="col">王尉永</div>
+                        <div class="col">王苡丞</div>
+                        <div class="col">蔡文誠</div>
+                        <div class="col">高國輝</div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide row-4" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <video class="img-fluid" autoplay loop muted>
+                            <source src="https://mdbcdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="img-fluid" autoplay loop muted>
+                            <source src="https://mdbcdn.b-cdn.net/img/video/forest.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="img-fluid" autoplay loop muted>
+                            <source src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4" type="video/mp4"/>
+                        </video>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        <div id="EnvoyLeft"></div>
+        <div id="EnvoyRight"></div>
     </div>
-    <div class="nav-bar" id="nav-bar">
-        <div class="noise" style="width: 100%; height: 100%;"></div>
-        <div class="nav-bar-row row-4">
-            <div class="mobile-menu-arrow" id="mobile-menu-arrow">&larr;</div>
-            <a class="nav-bar-btn-home" href="./index.html"></a>
+    <div class="mycertificate-container" id="mycertificate">
+        <div class="mycertificate-block">
+            <div class="mycertificate">
+                <div class="mycertificate-content">
+                    <div class="logo"></div>
+                    <div class="mycertificate-title">永續森林大使</div>
+                    <div class="certificate-name">Name</div>
+                    <p>2022 富邦 Run For Green</p>
+                    <p>永續森林養樹行動</p>
+                    <p>你參與的每一步 都算樹</p>
+                    <div class="fubonlogo"></div>
+                </div>
+                <div class="certificate-left"></div>
+                <div class="certificate-right"></div>
+            </div>
         </div>
-        <div class="nav-bar-row row-8">
-            <div class="nav-bar-btn"><a href="./gameIntroduction.html"><p>遊戲介紹</p></a></div>
-            <div class="nav-bar-btn"><a><p>我的永續山丘</p></a></div>
-            <div class="nav-bar-btn"><a><p>永續樹任務</p></a></div>
-            <div class="nav-bar-btn"><a href="./ambassador.html"><p>永續森林大使</p></a></div>
-            <div class="nav-bar-btn"><a href="./lottery.html"><p>永續養樹抽好禮</p></a></div>
-            <div class="nav-bar-btn"><a href="https://www.fubon.com/r4g/#r4g"><p>Run For Green</p></a></div>
-        </div>
-    </div>
-    <div class="container">
     </div>
 </body>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js" integrity="sha512-Hqe3s+yLpqaBbXM6VA0cnj/T56ii5YjNrMT9v+us11Q81L0wzUG0jEMNECtugqNu2Uq5MSttCg0p4KK0kCPVaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./js/ambassador.js"></script>
 <script src="./js/common.js"></script>
 </html>
