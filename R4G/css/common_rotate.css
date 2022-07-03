@@ -28,7 +28,7 @@
 	height: 1.25rem;
 	padding: 0 1.25rem;
 	border-left: solid 1px #ffffff;
-	z-index: 15;
+	z-index: 9999;
 }
 .nav-bar .mobile-menu-arrow{
 	display: none;
