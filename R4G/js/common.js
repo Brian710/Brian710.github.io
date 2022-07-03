@@ -9,15 +9,15 @@ window.addEventListener('DOMContentLoaded', ()=>{
     InsertNoneObject();
 });
 
-window.addEventListener("resize",()=>{
-    if(!_isScrolling){
-        location.reload();
-    }
-});
+// window.addEventListener("resize",()=>{
+//     if(!_isScrolling){
+//         location.reload();
+//     }
+// });
 
-window.addEventListener("scroll", ()=>{
-    _isScrolling = true;
-});
+// window.addEventListener("scroll", ()=>{
+//     _isScrolling = true;
+// });
 
 function GenerateNavBar(){
     let nav_container = document.getElementById("nav-bar-conatiner");

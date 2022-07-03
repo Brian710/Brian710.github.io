@@ -141,7 +141,7 @@ body {
 .certificate{
 	position: absolute;
 	top: -50%;
-	width: 8rem;
+	width: 100%;
 	height: auto;
 	content: url(../images/ambassador/checkcertificate.svg);
 	animation: fade 3.5s ease-in-out infinite;
@@ -180,6 +180,11 @@ body {
 	-webkit-backdrop-filter: blur(5px);
 	z-index: 9999;
 }
+.close-block{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
 .mycertificate-block{
 	position: relative;
 	top: 50%;
@@ -207,7 +212,6 @@ body {
 }
 .logo{
 	content: url(../images/ambassador/logo.svg);
-	margin-bottom: 1rem;
 }
 .mycertificate-title{
 	position: relative;
@@ -225,8 +229,8 @@ body {
 	border-bottom: 1px solid #008DC5;
 	color: #008DC5;
 	text-align: center;
-	padding: 1rem;
-	margin-bottom: 1rem;
+	padding: 0 1rem;
+	/* margin-bottom: 1rem; */
 }
 .mycertificate-content p{
 	font-size: 1rem;
@@ -300,10 +304,6 @@ body {
 		width: 80%;
 		height: 60%;
 	}
-	.certificate{
-		width: 7rem;
-		left: -12%;
-	}
 }
 @media screen and (max-width: 768px) {
 	html, body {
@@ -338,9 +338,7 @@ body {
 		width: 55%;
 	}
 	.certificate{
-		width: 4.5rem;
 		top: -25%;
-		left: -6%;
 	}
 	#EnvoyLeft, #EnvoyRight{
 		width: 20%;
@@ -351,11 +349,10 @@ body {
 	}
 	.logo{
 		width: 5rem;
-		margin-bottom: 0.5rem;
 	}
 	.certificate-name{
 		width: 40%;
-		margin-bottom: 0rem;
+		margin-bottom: 0;
 		padding: 0;
 	}
 	.fubonlogo{
@@ -382,8 +379,5 @@ body {
 	}
 	.name-wall-title p{
 		font-size: 1.1rem;
-	}
-	.certificate{
-		left: -10%;
 	}
 }
