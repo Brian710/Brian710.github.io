@@ -419,7 +419,7 @@ body::-webkit-scrollbar {
 	}
 	.container {
 		margin-top: 11%;
-		height: 89%;
+		height: 84%;
 	}
 	.content{
 		height: 100%;
@@ -432,7 +432,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 425px) {
 	.container {
 		margin-top: 12%;
-		height: 88%;
+		height: 83%;
 	}
 	.award-img{
 		width: 6rem;
@@ -457,7 +457,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 375px) {
 	.container {
 		margin-top: 12%;
-		height: 88%;
+		height: 83%;
 	}
 	.awards-container{
 		margin: 2%;
