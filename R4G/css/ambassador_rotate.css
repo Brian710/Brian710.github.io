@@ -29,7 +29,7 @@ body {
 	background: linear-gradient(to bottom, #FFFFFF 6.77%, #EBE1D7 100%);
 }
 .content-container {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
