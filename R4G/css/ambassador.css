@@ -320,14 +320,24 @@ body {
 		width: 90%;
 		height: 80%;
 	}
+	.carousel{
+		width: 45%;
+	}
 	.name-wall-title, .name-wall-slogan, .main-ambassador, .name-wall .row{
 		margin-bottom: 0.5rem;
 	}
-	.main-ambassador{
+	.name-wall-title p{
+		font-size: 1.15rem;
+		white-space: nowrap;
+	}
+	.player-name{
+		font-size: 1.2rem;
+	}
+	.main-ambassador {
 		width: 55%;
 	}
 	.certificate{
-		width: 6rem;
+		width: 4.5rem;
 		top: -25%;
 		left: -6%;
 	}
@@ -371,17 +381,8 @@ body {
 	}
 	.name-wall-title p{
 		font-size: 1.1rem;
-		white-space: nowrap;
-	}
-	.player-name{
-		font-size: 1.5rem;
-	}
-	.main-ambassador {
-		width: 55%;
 	}
 	.certificate{
-		width: 5rem;
-		top: -25%;
 		left: -10%;
 	}
 }
