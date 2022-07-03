@@ -424,7 +424,7 @@ body::-webkit-scrollbar {
 		height: 10rem;
 	}
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 900px) {
 	.container {
 		margin-top: 12%;
 	}
@@ -448,7 +448,7 @@ body::-webkit-scrollbar {
 		width: 2rem;
 	}
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
 	.container {
 		margin-top: 12%;
 	}
