@@ -153,8 +153,7 @@ body::-webkit-scrollbar {
 	}
 	.container {
 		margin-top: 11%;
-		height: 86%;
-		/* height: calc(var(--vh, 1%) * 64); */
+		height: 89%;
 	}
 	.content{
 		height: 100%;
@@ -163,14 +162,12 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 425px) {
 	.container {
 		margin-top: 12%;
-		height: 74%;
-		height: calc(var(--vh, 1%) * 35);
+		height: 88%;
 	}
 }
 @media screen and (max-width: 375px) {
 	.container {
 		margin-top: 12%;
-		height: 79%;
-		height: calc(var(--vh, 1%) * 45);
+		height: 88%;
 	}
 }
