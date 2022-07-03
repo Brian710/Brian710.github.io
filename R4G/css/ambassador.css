@@ -29,11 +29,11 @@ body {
 	background: linear-gradient(to bottom, #FFFFFF 6.77%, #EBE1D7 100%);
 }
 .content-container {
-	/* position: absolute; */
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	/* z-index: 9999; */
+	z-index: 9999;
 }
 .content{
     position: relative;
