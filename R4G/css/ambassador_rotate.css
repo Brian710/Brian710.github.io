@@ -361,7 +361,7 @@ body {
 		height: 80%;
 	}
 	.logo{
-		width: 8rem;
+		width: 5rem;
 		margin-bottom: 0.5rem;
 	}
 	.certificate-name{
@@ -370,10 +370,13 @@ body {
 		padding: 0;
 	}
 	.fubonlogo{
-		width: 3rem;
+		width: 2rem;
 		margin-top: 0.5rem;
 	}
 	.btn-share{
+		width: 7rem;
+		height: 2rem;
+		font-size: 1.25rem;
 		top: 15%;
 	}
 }
