@@ -376,7 +376,7 @@ body {
 	.content{
 		width: 90%;
 		height: 80%;
-		transform: translate(-45%, -50%);
+		transform: translate(-50%, -55%) scale(0.8);
 	}
 	.main-ambassador {
 		width: 55%;
