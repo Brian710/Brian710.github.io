@@ -50,11 +50,48 @@
 			onhover="tween(scale,1.0875)" onout="tween(scale,0.87)"
  		/>
 	
-  <hotspot  name="measuring" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/measuring.png" distorted="true" zorder="1"
+  	<hotspot  name="measuring" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/measuring.png" distorted="true" zorder="1"
  			ath="-42.1358" atv="17.6894" width="100" height="prop" rx="15" ry="42" scale="1" edge="center"
  			install_onclick="5" title="measuring" scene_EL="scene_ver_1" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
 			ondown="drag_LinkSM()"
 			onhover="tween(scale,1.25)" onout="tween(scale,1)"
+ 		/>
+
+	
+	<hotspot  name="hotspot_main" style="vid_hs_addhs" type="image" keep="true" url="%FIRSTXML%/plugins/videoplayer.js" zorder="5"
+ 			ath="-0.181" atv="11.823" rx="15" width="1000" height="prop" scale="0.75" edge="center"
+ 			videourl="%FIRSTXML%/add_hotspot/video/main.mp4"   
+			alphachannel="TB" alpha="0"
+ 			pausedonstart="true" loop="false" playbackrate="1" onvideoplay="set(play_vh,true);" autopause="true" autoresume="false" distorted="true"
+ 			install_onclick="11" info_Ah="main.mp4" scene_EL="scene_ver_1"  drag_hs="false" fov_EL="120" play_vh="false" enabled2="false" visible2="true"
+ 			Vsound3D="false" volume_max="1" range_sound="90"  zoom="true"
+ 			 ondown="drag_LinkSM();" onvideocomplete="set(alpha, 0); js(SetPourObjectAlpha(true));"
+	         onclick="togglepause();"
+	         cursor=""
+ 		/>
+  	<hotspot  name="hotspot_hardener" style="vid_hs_addhs" type="image" keep="true" url="%FIRSTXML%/plugins/videoplayer.js" zorder="5"
+ 			ath="-0.181" atv="11.823" rx="15" width="1000" height="prop" scale="0.75" edge="center"
+ 			videourl="%FIRSTXML%/add_hotspot/video/hardender.mp4"   
+			alphachannel="TB" alpha="0"
+ 			pausedonstart="true" loop="false" playbackrate="1" onvideoplay="set(play_vh,true);" autopause="true" autoresume="false" distorted="true"
+ 			install_onclick="11" info_Ah="hardender.mp4" scene_EL="scene_ver_1"  drag_hs="false" fov_EL="120" play_vh="false" enabled2="false" visible2="true"
+ 			Vsound3D="false" volume_max="1" range_sound="90"  zoom="true"
+ 			 ondown="drag_LinkSM();"  onvideocomplete="set(alpha, 0); js(SetPourObjectAlpha(true));"
+	         onclick="togglepause();"
+	         cursor=""
+		
+ 		/>
+  	<hotspot  name="hotspot_dispensing" style="vid_hs_addhs" type="image" keep="true" url="%FIRSTXML%/plugins/videoplayer.js" zorder="5"
+ 			ath="-0.181" atv="11.823" rx="15" width="1000" height="prop" scale="0.75" edge="center"
+ 			videourl="%FIRSTXML%/add_hotspot/video/dispensing.mp4"   
+			alphachannel="TB" alpha="0"	
+ 			pausedonstart="true" loop="false" playbackrate="1" onvideoplay="set(play_vh,true);" autopause="true" autoresume="false" distorted="true"
+ 			install_onclick="11" info_Ah="dispensing.mp4" scene_EL="scene_ver_1"  drag_hs="false" fov_EL="120" play_vh="false" enabled2="false" visible2="true"
+ 			Vsound3D="false" volume_max="1" range_sound="90"  zoom="true"
+ 			 ondown="drag_LinkSM();" onvideocomplete="set(alpha, 0); js(SetPourObjectAlpha(true));"
+	         onclick="togglepause();"
+	         cursor=""
+		
  		/>
 	
  <style name="pl_hs_add_hs"

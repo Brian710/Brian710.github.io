@@ -76,12 +76,25 @@ btn_minus.addEventListener('click', ()=>{
 });
 
 document.getElementById("btn-pour-submit").addEventListener('click', ()=>{
+    if(count.value > 0){
+        SetPourObjectAlpha(false);
+    }
     SubmitPour();
 });
 
 document.getElementById("btn-submit").addEventListener("click", ()=>{
     SubmitResult();
-})
+});
+
+function SetPourObjectAlpha(active){
+    let isActive = active ? 1 : 0;
+    let containerActive = active ? "" : "none";
+    document.getElementById("pour-container").style.display = containerActive;
+    pano.call("set(hotspot[main].alpha, " + isActive +")");
+    pano.call("set(hotspot[hardener].alpha, " + isActive +")");
+    pano.call("set(hotspot[dispensing].alpha, " + isActive +")");
+    pano.call("set(hotspot[measuring].alpha, " + isActive +")");
+}
 
 function OpenPourWindow(name){
     document.getElementById("popwindow").style.visibility = "visible";
@@ -106,7 +119,11 @@ function SubmitPour(){
             else{
                 RePour(mainindex);
             }
-            document.getElementById("main-count").innerHTML = parseInt(count.value);            
+            if(count.value > 0){
+                pano.call("set(hotspot[hotspot_main].alpha, 1)");  
+                pano.call("hotspot[hotspot_main].play()");  
+            }
+            document.getElementById("main-count").innerHTML = parseInt(count.value);        
             break;
         case "hardener":
             if(hardenerindex == 0){
@@ -116,6 +133,10 @@ function SubmitPour(){
             }
             else{
                 RePour(hardenerindex);
+            }
+            if(count.value > 0){
+                pano.call("set(hotspot[hotspot_hardener].alpha, 1)");  
+                pano.call("hotspot[hotspot_hardener].play()");  
             }
             document.getElementById("hardener-count").innerHTML = parseInt(count.value);
             break;
@@ -127,6 +148,10 @@ function SubmitPour(){
             }
             else{
                 RePour(dispensingindex);
+            }
+            if(count.value > 0){
+                pano.call("set(hotspot[hotspot_dispensing].alpha, 1)");  
+                pano.call("hotspot[hotspot_dispensing].play()");  
             }
             document.getElementById("dispensing-count").innerHTML = parseInt(count.value);
             break;
