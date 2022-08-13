@@ -164,7 +164,7 @@ body::-webkit-scrollbar {
 	text-align: center;
 	margin-bottom: 1rem;
 }
-.timeline-title, .list-title{
+.timeline-title{
 	border: 1px #004F74 solid;
 	width: fit-content;
 	border-radius: 2rem;
