@@ -1,71 +1,25 @@
-let time_rangeline = Object.values(document.getElementsByClassName("time-rangeline"));
-let timeline_gifticon = Object.values(document.getElementsByClassName("drawday-icon"));
-let timeline_text_month = Object.values(document.getElementsByClassName("timeline-text-month"));
-let time = document.querySelector("div.card-title > span");
-let awards_list_container = document.querySelector("div.card-content");
-let drawday = document.querySelector("div.card-drawtime > span");
 let winner_list_container = document.querySelector("div.winners-list");
 let list_time_block;
 
 window.addEventListener("load", ()=>{
-    TimeLineInit();
-    TimeLineLoad();
-    WinnersListLoad();
+    // WinnersListLoad();
 });
 
-function TimeLineInit(){
-    time_rangeline.forEach((element)=>{
-        element.style.display = "none";
-    });
-    timeline_gifticon.forEach((element)=>{
-        element.style.display = "none";
-    });
-    timeline_text_month.forEach((element)=>{
-        element.style.opacity = 0.3;
-    });
-}
+document.getElementById("btnEarly").addEventListener('click', ()=>{
+    JumpTo("Early");
+});
+document.getElementById("btnMission").addEventListener('click', ()=>{
+    JumpTo("Mission");
+});
 
-function TimeLineLoad(){
-    let timeline_selected = document.getElementById("awards-timeline").getAttribute("data-month");
-    awards_list_container.innerHTML = "";
-    for(let i = 0; i < time_rangeline.length; i++){
-        if(time_rangeline[i].parentElement.getAttribute("class").match(timeline_selected)){
-            time_rangeline[i].style.display = "";
-            timeline_gifticon[i + 1].style.display = "";
-            timeline_text_month[i].style.opacity = 1;
-            timeline_text_month[i + 1].style.opacity = 1;
-            time.innerHTML = awards_drawday_items[timeline_selected]["time"];
-            for(let i = 0; i < awards_drawday_items[timeline_selected]["awards"].length; i++){
-                let content = document.createElement("p");
-                content.innerHTML = awards_drawday_items[timeline_selected]["awards"][i];
-                awards_list_container.appendChild(content);
-            }
-            drawday.innerHTML = awards_drawday_items[timeline_selected]["drawday"];
-        }
-        if(!time_rangeline[i].parentElement.getAttribute("class").match("jan")){
-            time_rangeline[i].parentElement.addEventListener('click', ()=>{
-                document.getElementById("awards-timeline").setAttribute("data-month", time_rangeline[i].parentElement.getAttribute("class").substring(9,12));
-                OnTimelineSelect(i);
-            });
-        }
-    }
-}
+document.getElementById("btnAmbassador").addEventListener('click', ()=>{
+    JumpTo("Ambassador");
+});
 
-function OnTimelineSelect(index){
-    TimeLineInit();
-    let timeline_selected = document.getElementById("awards-timeline").getAttribute("data-month");
-    awards_list_container.innerHTML = "";
-    time.innerHTML = awards_drawday_items[timeline_selected]["time"];
-    for(let i = 0; i < awards_drawday_items[timeline_selected]["awards"].length; i++){
-        let content = document.createElement("p");
-        content.innerHTML = awards_drawday_items[timeline_selected]["awards"][i];
-        awards_list_container.appendChild(content);
-    }
-    drawday.innerHTML = awards_drawday_items[timeline_selected]["drawday"];
-    time_rangeline[index].style.display = "";
-    timeline_gifticon[index + 1].style.display = "";
-    timeline_text_month[index].style.opacity = 1;
-    timeline_text_month[index + 1].style.opacity = 1;
+function JumpTo(id){
+    var url = location.href;
+    location.href = "#" + id;
+    history.replaceState(null,null,url);
 }
 
 function WinnersListLoad(){

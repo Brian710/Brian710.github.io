@@ -93,41 +93,64 @@ body {
 }
 .StartWindowContainer {
 	position: absolute;
+	margin: 0 40%;
 	top: 7.5%;
-	width: 100%;
+	width: 20%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.6);
 	z-index: 11;
 }
 .StartWindow {
-	content: url(../images/index/StartBG.svg);
-	box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.6);
-	width: 22%;
+	width: 100%;
+	border: #30D8A0 1px solid;
+	margin: 10px;
+}
+.StartLogo{
+	width: 90%;
+	height: auto;
+	text-align: center;
+	margin: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.StartLogo img{
+	width: 100%;
 }
 .StartButton {
 	cursor: pointer;
-	position: absolute;
-	bottom: 6%;
+	position: relative;
+	width: fit-content;
 	padding: 0.25rem;
-	border: solid 1px #009c9a;
 	border-radius: 2rem;
+	background-color: #feff00;
 	z-index: 15;
+	margin: auto;
 }
 .StartButton p {
 	width: 100%;
 	font-size: 1rem;
 	font-weight: 500;
-	text-align: center;
 	letter-spacing: 0.3rem;
 	line-height: 1.25rem;
 	color: #009c9a;
 }
+.ActivityTime{
+	position: relative;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #009c9a;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
 @media screen and (max-width: 2560px) {
 	html, body {
 		font-size: 25px;
-	}
-	.StartWindow {
-		width: 18%;
 	}
 	.StartButton {
 		padding: 0.25rem 0.95rem 0.25rem 1.25rem;
@@ -142,16 +165,11 @@ body {
 	}
 }
 @media screen and (max-width: 1440px) {
-	.StartWindow {
-		width: 22%;
-	}
+
 }
 @media screen and (max-width: 1024px) {
 	html, body {
 		font-size: 14px;
-	}
-	.StartWindow {
-		width: 27%;
 	}
 	#Dog {
 		bottom: 4%;
@@ -164,9 +182,8 @@ body {
 	}
 	.StartWindowContainer{
 		top: 0;
-	}
-	.StartWindow {
-		width: 24%;
+		width: 30%;
+		margin: 0 35%;
 	}
 	.StartButton {
 		padding: 0.15rem 0.95rem 0.15rem 1.25rem;

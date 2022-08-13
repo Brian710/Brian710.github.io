@@ -108,7 +108,10 @@ section {
 body {
 	line-height: 1;
 }
-ol,
+/* ol,
+ul {
+	list-style: none;
+} */
 ul {
 	list-style: none;
 }
@@ -129,7 +132,7 @@ table {
 }
 *,
 :root {
-	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Noto Sans TC', sans-serif !important;
 }
 a {
     text-decoration:none !important;

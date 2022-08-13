@@ -6,6 +6,7 @@ let _isScrolling;
 
 window.addEventListener('DOMContentLoaded', ()=>{
     GenerateNavBar();
+    GenerateFixPlayIcon();
     InsertNoneObject();
 });
 
@@ -24,7 +25,6 @@ function GenerateNavBar(){
     nav_container.innerHTML = 
     '<div class="mobile-menu-btn" id="mobile-menu-btn">\
         <div class="menu-btn">&equiv;</div>\
-        <p>選單</p>\
     </div>\
     <div class="nav-bar" id="nav-bar">\
         <div class="noise" style="width: 100%; height: 100%;"></div>\
@@ -33,11 +33,9 @@ function GenerateNavBar(){
             <a class="nav-bar-btn-home" href="./index.html"></a>\
         </div>\
         <div class="nav-bar-row row-8">\
-            <div class="nav-bar-btn"><a href="./gameIntroduction.html"><p>遊戲介紹</p></a></div>\
-            <div class="nav-bar-btn"><a><p>我的永續山丘</p></a></div>\
-            <div class="nav-bar-btn"><a><p>永續樹任務</p></a></div>\
-            <div class="nav-bar-btn"><a href="./ambassador.html"><p>永續森林大使</p></a></div>\
-            <div class="nav-bar-btn"><a href="./lottery.html"><p>永續養樹抽好禮</p></a></div>\
+            <div class="nav-bar-btn"><a><p>勇闖森林GO!</p></a></div>\
+            <div class="nav-bar-btn"><a href="./gameIntroduction.html"><p>森林遊戲介紹</p></a></div>\
+            <div class="nav-bar-btn"><a href="./lottery.html"><p>抽獎好禮&中獎名單</p></a></div>\
             <div class="nav-bar-btn"><a href="https://www.fubon.com/r4g/#r4g"><p>Run For Green</p></a></div>\
         </div>\
     </div>';
@@ -65,3 +63,20 @@ function InsertNoneObject(){
         document.getElementById("nav-bar").appendChild(noneObj);
     }
 }
+
+function GenerateFixPlayIcon(){
+    let icon_container = document.createElement("div");
+    icon_container.setAttribute("class", "PlayIcon");
+
+    let icon = document.createElement("img");
+    icon.setAttribute("src", "./images/common/playIcon.svg");
+
+    icon_container.appendChild(icon);
+
+    icon_container.addEventListener('click', ()=>{
+        location.href = "./lottery.html";
+    });
+
+    document.body.appendChild(icon_container);
+}
+

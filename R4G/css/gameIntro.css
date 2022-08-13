@@ -47,8 +47,8 @@ body::-webkit-scrollbar {
 }
 .content{
     position: relative;
-    margin: 0 12.5%;
-    width: 75%;
+    margin: 0 7.5%;
+    width: 85%;
     background-color: #ffffff;
     overflow: auto;
     z-index: 10;
@@ -76,12 +76,13 @@ body::-webkit-scrollbar {
     color: #009C9A;
 }
 .content-container-text{
+	width: 100%;
     font-size: 1rem;
     font-weight: 500;
     color: #004F74;
     line-height: 35px;
 }
-.content-container-text div{
+.content-text{
     margin: 0 7% 2% 7%;
 }
 .text-flex{
@@ -98,11 +99,20 @@ body::-webkit-scrollbar {
     font-weight: 700;
     color: #008EC6;
 }
+.game{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 5%;
+}
+.game img{
+	width: 100%;
+}
 #LeftTree {
 	position: fixed;
 	bottom: -1%;
 	left: 0;
-	width: 15%;
+	width: 10%;
     content: url(../images/common/IntroLeft.svg);
     z-index: 100;
 }
@@ -110,7 +120,7 @@ body::-webkit-scrollbar {
 	position: fixed;
 	bottom: -1%;
 	right: 0;
-	width: 15%;
+	width: 10%;
     content: url(../images/common/IntroRight.svg);
     z-index: 100;
 }
@@ -154,6 +164,7 @@ body::-webkit-scrollbar {
 	.container {
 		margin-top: 11%;
 		height: 84%;
+		height: max-content;
 	}
 	.content{
 		height: 100%;
@@ -161,13 +172,12 @@ body::-webkit-scrollbar {
 }
 @media screen and (max-width: 425px) {
 	.container {
-		margin-top: 12%;
+		margin-top: 8%;
 		height: 83%;
 	}
 }
 @media screen and (max-width: 375px) {
 	.container {
-		margin-top: 12%;
 		height: 88%;
 	}
 }

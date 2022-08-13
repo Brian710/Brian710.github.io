@@ -10,168 +10,178 @@
     <link rel="stylesheet" href="./css/common.css" media="(orientation:portrait)">
     <link rel="stylesheet" href="./css/lottery_rotate.css" media="(orientation:landscape)">
     <link rel="stylesheet" href="./css/common_rotate.css" media="(orientation:landscape)">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css" integrity="sha512-o/MhoRPVLExxZjCFVBsm17Pkztkzmh7Dp8k7/3JrtNCHh0AQ489kwpfA3dPSHzKDe8YCuEhxXq3Y71eb/o6amg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>R4G</title>
 </head>
 <body>
     <div class="noise" style="position: fixed;"></div>
     <div id="nav-bar-conatiner"></div>
     <div class="Grass"></div>
-    <div class="container">
+    <div class="container-fluid m_container">
         <div class="Top"></div>
         <div class="content">
             <div class="content-container">
-                <div class="logo"></div>
-                <div class="content-title"><p>永續養樹抽好禮</p></div>
+                <div class="content-banner"><img src="./images/awards/抽好禮banner.jpg"></div>
+                <div class="content-nav row justify-content-center align-items-center">
+                    <div class="content-nav-text col-3 align-self-center" id="btnEarly"><p>月月早鳥禮</p></div>
+                    <div class="content-nav-text col-3 align-self-center" id="btnMission"><p>任務達成禮</p></div>
+                    <div class="content-nav-text col-3 align-self-center" id="btnAmbassador"><p>永續大使禮</p></div>
+                </div>
+                <tag id="Early"></tag>
                 <div class="content-container-text">
-                    <div class="awards-container">
-                        <div class="award">
-                            <div class="award-img"  style="content: url(./images/awards/ino.png)"></div>
-                            <div class="award-level"><p>首獎</p></div>
-                            <p>iNO太空人<br>律動機</p>
-                            <p>(市價$24,000)</p>
-                            <p>1件</p>
-                        </div>
-                        <div class="award">
-                            <div class="award-img" style="content: url(./images/awards/jersey.png)"></div>
-                            <div class="award-level"><p>貳獎</p></div>
-                            <p>Run For Green<br>富邦悍將環保球衣</p>
-                            <p>(市價$2,000)</p>
-                            <p>20件</p>
-                        </div>
-                        <div class="award">
-                            <div class="award-img"  style="content: url(./images/awards/biji.jpg)"></div>
-                            <div class="award-level"><p>參獎</p></div>
-                            <p>Biji筆記<br>跑步裝備包</p>
-                            <p>(市價$1,590)</p>
-                            <p>20件</p>
-                        </div>
-                        <div class="award">
-                            <div class="award-img"  style="content: url(./images/awards/microgreen.png)"></div>
-                            <div class="award-level"><p>肆獎</p></div>
-                            <p>城市小農<br>桌上小農田</p>
-                            <p>(市價$420)</p>
-                            <p>50件</p>
-                        </div>
-                    </div>
-                    <div class="text-flex">
-                        <p>活動期間：</p>
-                        <p>2022/6/30~2022/12/31</p>
-                    </div>
-                    <div class="text-flex">
-                        <p>抽獎資格：</p>
-                        <p>於活動期間線上玩永續森林活動，<span>每日登入1次累積達每月 7 次，即可參與當月抽獎</span>，獎項於次月第一週抽中。未中獎者資格不遞延至次月。</p>
-                    </div>
-                    <div class="text-flex">
-                        <p>抽獎時間：</p>
-                        <p>2022年8月至2023年1月，每月第一週<span>由電腦抽獎程式隨機抽出，抽獎將全程錄影保留紀錄。</span>活動期間內最多共有 6 次中獎機會，愈早玩就有愈多機會把好禮帶回家！</p>
-                    </div>
                     <div class="awards-timeline-container">
                         <div class="awards-timeline-title">
-                            <div class="timeline-title">抽獎好禮</div>
-                            <div class="timeline-text">點選看看各月份好禮</div>
+                            <div class="timeline-title">月月早鳥禮</div>
+                            <div class="timeline-text">每月前15號完成任務，抽7-11禮券500元 (每月10名，共40名)。</div>
                         </div>
-                        <div class="awards-timeline" id="awards-timeline" data-month="jul">
-                            <div class="timeline"></div>
-                            <div class="timeline-dot-container">
-                                <div class="timeline-jul">
-                                    <div class="timeline-dot-month"></div>
-                                    <div class="timeline-dot-drawday"></div>
-                                    <div class="drawday-icon"></div>
-                                    <div class="time-rangeline"></div>
-                                    <div class="timeline-text-month">7月</div>
-                                </div>
-                                <div class="timeline-aug">
-                                    <div class="timeline-dot-month"></div>
-                                    <div class="timeline-dot-drawday"></div>
-                                    <div class="drawday-icon"></div>
-                                    <div class="time-rangeline"></div>
-                                    <div class="timeline-text-month">8月</div>
-                                </div>
-                                <div class="timeline-sep">
-                                    <div class="timeline-dot-month"></div>
-                                    <div class="timeline-dot-drawday"></div>
-                                    <div class="drawday-icon"></div>
-                                    <div class="time-rangeline"></div>
-                                    <div class="timeline-text-month">9月</div>
-                                </div>
-                                <div class="timeline-oct">
-                                    <div class="timeline-dot-month"></div>
-                                    <div class="timeline-dot-drawday"></div>
-                                    <div class="drawday-icon"></div>
-                                    <div class="time-rangeline"></div>
-                                    <div class="timeline-text-month">10月</div>
-                                </div>
-                                <div class="timeline-nov">
-                                    <div class="timeline-dot-month"></div>
-                                    <div class="timeline-dot-drawday"></div>
-                                    <div class="drawday-icon"></div>
-                                    <div class="time-rangeline"></div>
-                                    <div class="timeline-text-month">11月</div>
-                                </div>
-                                <div class="timeline-dec">
-                                    <div class="timeline-dot-month"></div>
-                                    <div class="timeline-dot-drawday"></div>
-                                    <div class="drawday-icon"></div>
-                                    <div class="time-rangeline"></div>
-                                    <div class="timeline-text-month">12月</div>
-                                </div>
-                                <div class="timeline-jan">
-                                    <div class="timeline-dot-month"></div>
-                                    <div class="timeline-dot-drawday"></div>
-                                    <div class="drawday-icon"></div>
-                                    <div class="time-rangeline"></div>
-                                    <div class="timeline-text-month">1月</div>
-                                </div>
+                        <div class="col-3 align-self-center awards-container">
+                            <div class="award">
+                                <div class="award-img"  style="content: url(./images/awards/award1.png)"></div>
+                                <p class="award-title">7-11禮券500元！</p>
+                                <p class="award-quota">(1份/10名)</p>
                             </div>
                         </div>
-                        <div class="award-card">
-                            <div class="card-title">遊戲期間：<span></span></div>
-                            <div class="card-content"></div>
-                            <div class="card-drawtime">抽獎時間：<span></span>月第一週</div>
-                            <div class="card-tree"></div>
+                    </div>
+                </div>
+                <tag id="Mission"></tag>
+                <div class="content-container-text">
+                    <div class="awards-timeline-container">
+                        <div class="awards-timeline-title">
+                            <div class="timeline-title">任務達成禮</div>
+                            <div class="timeline-text">完成永續樹任務即獲得抽獎資格，1個月最多有7次抽獎機會。</div>
+                        </div>
+                        <div class="row justify-content-center align-items-center awards-container">
+                            <div class="award col-3 align-self-center">
+                                <div class="award-level">9月</div>
+                                <div class="award-img"  style="content: url(./images/awards/award2.png)"></div>
+                                <p class="award-title">桌上小農田</p>
+                                <p class="award-quota">(1組/10名)</p>
+                                <p class="award-desc">城市小農 食用栽培 在書桌上即可種植的室內小農田</p>
+                            </div>
+                            <div class="award col-3 align-self-center">
+                                <div class="award-level">10月</div>
+                                <div class="award-img" style="content: url(./images/awards/award3.png)"></div>
+                                <p class="award-title">BIJI筆記跑步裝備包</p>
+                                <p class="award-quota">(1個/10名)</p>
+                                <p class="award-desc">強化結構、背負減壓、專利開發</p>
+                                <p class="award-title">台北馬拉松名額</p>
+                                <p class="award-quota">(1份/3名)</p>
+                                <p class="award-desc">2022台北馬拉松 任意組別名額</p>
+                            </div>
+                            <div class="award col-3 align-self-center">
+                                <div class="award-level">11月</div>
+                                <div class="award-img"  style="content: url(./images/awards/award4.png)"></div>
+                                <p class="award-title">富邦R4G環保主題球衣(客製化)</p>
+                                <p class="award-quota">(1件/10名)</p>
+                                <p class="award-desc">採用ECOGREEN環保回收絲製成，降低二氧化碳排放量及能源消耗，兼具環保與排汗散熱效果。</p>
+                                <p class="award-ann">*主辦單位將於公告得獎後，聯繫得獎者繡中文姓名，限量出貨，恕無法挑選尺寸。</p>
+                            </div>
+                            <div class="award col-3 align-self-center">
+                                <div class="award-level">12月</div>
+                                <div class="award-img"  style="content: url(./images/awards/award5.png)"></div>
+                                <p class="award-title">經典勇士T-Shirt</p>
+                                <p class="award-quota">(1件/10名)</p>
+                                <p class="award-desc">搭配經典「Brave it Up」Slogan，球場應援平日穿搭都方便。</p>
+                                <p class="award-ann">*限量出貨，恕無法挑選尺寸。</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="text-flex">
-                        <p>中獎公告：</p>
-                        <p>得獎名單將公布於永續森林網站 永續養樹抽好禮頁面，並同時寄發Email通知。提醒所有得獎者，需於公佈中獎名單當月底列印Email中的「機會中獎回覆函」，並以「紙本方式」寄送回函給主辦單位，才視為確認得獎喔！</p>
+                </div>
+                <tag id="Ambassador"></tag>
+                <div class="content-container-text">
+                    <div class="awards-timeline-container">
+                        <div class="awards-timeline-title">
+                            <div class="timeline-title">永續大使禮</div>
+                            <div class="timeline-text">完成任務後並分享永續森林大使姓名牆，即可獲得抽獎機會。將於活動結束後，抽出大獎(3名)</div>
+                        </div>
+                        <div class="row justify-content-center align-items-center awards-container" style="width: 75%;">
+                            <div class="award col-4 align-self-center">
+                                <div class="award-level">好禮1</div>
+                                <div class="award-img"  style="content: url(./images/awards/award6.png)"></div>
+                                <p class="award-title">動!ino太空人律動機</p>
+                                <p class="award-quota">(1台/10名)</p>
+                                <p class="award-desc">開創「垂直律動」新篇章，讓所有家庭都能簡單享受輕鬆、安全的「被動式運動」</p>
+                            </div>
+                            <div class="award col-4 align-self-center">
+                                <div class="award-level">好禮2</div>
+                                <div class="award-img" style="content: url(./images/awards/award7.png)"></div>
+                                <p class="award-title">Apple Watch Series7</p>
+                                <p class="award-quota">(1支/10名)</p>
+                                <p class="award-desc">時尚流行指標、血氧濃度量測、運動健康管理、3C最前線</p>
+                                <p class="award-ann">*顏色隨機出貨*</p>
+                            </div>
+                            <div class="award col-4 align-self-center">
+                                <div class="award-level">好禮3</div>
+                                <div class="award-img"  style="content: url(./images/awards/award8.png)"></div>
+                                <p class="award-title">陽光伏特家太陽面板</p>
+                                <p class="award-quota">(1式/10名)</p>
+                                <p class="award-desc">擁有太陽能板，預估IRR 5%以上，每兩個月發放電費收益達20年。每片太陽能板相當於20棵樹的減碳量！</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="notice">
-                        <div class="text-flex">
-                            <p></p>
-                            <p>※依所得稅法規定，年度累積中獎價值超過NT$1,000整，請中獎人另提供主辦單位中獎人姓名、身分證字號、戶籍地址、通訊地址及身分證正、反面影本，供主辦單位向稅捐機關進行年度列單申報作業。</p>
-                        </div>
-                        <div class="text-flex">
-                            <p></p>
-                            <p>注意事項：</p>
-                        </div>
-                        <div class="text-flex">
-                            <p></p>
-                            <p>1.&ensp;玩家是否符合本活動之資格及參加本活動是否成功皆以活動單位電腦系統資料為準。倘有任何因為電腦、網路、電話、技術或不可歸責於活動單位之事由，而使參加本活動之玩家所寄出之資料有遺失、錯誤、無法辨識或毀損之情況，活動單位不負任何法律責任，參加本活動之玩家亦不得因此向活動單位為任何異議或請求。</p>
-                        </div>
-                        <div class="text-flex">
-                            <p></p>
-                            <p>2.&ensp;每個帳號每月限一次得獎資格，若重複得獎將重新抽出得獎名單。獎品不得作轉讓、延遞、折現或為其他請求。</p>
-                        </div>
-                        <div class="text-flex">
-                            <p></p>
-                            <p>3.&ensp;活動獎品寄送範圍僅限台灣本島。離島得獎者，需自行負擔運費，恕不寄送國外。</p>
-                        </div>
-                        <div class="text-flex">
-                            <p></p>
-                            <p>4.&ensp;依中華民國所得稅法規定，得獎人為國內居住的個人，或在國內有固定營業場所的營利事業，其得獎的獎金或贈品，按給付金額扣取 10% 之所得稅，惟國內居住的個人得獎價值未超過 NT$20,000 元者得免予扣繳；得獎獎項金額若超過新台幣 1,000 元(含稅)以上，得獎人需依規定填寫並繳交相關收據，若得獎者不願提供資料，則視同放棄得獎資格，不另行通知，亦不進行候補。</p>
-                        </div>
-                        <div class="text-flex">
-                            <p></p>
-                            <p>5.&ensp;參加本活動即同意本活動之活動內容及所有相關規範事項（含之後更新修正之內容），活動單位保有修正、取消、暫停或終止本活動之權利。</p>
-                        </div>
-                    </div>
-                    <div class="winners-list-container">
-                        <div class="winners-list-title">
+                </div>
+                <div class="content-container-text">
+                    <div class="awards-timeline-container">
+                        <div class="awards-timeline-title">
                             <div class="list-title">得獎名單</div>
-                            <div class="list-text">得獎名單在此公告，並寄發Email 或簡訊</div>
                         </div>
-                        <div class="winners-list"></div>
+                        <div class="winners-list">
+                            <table>
+                                <tr>
+                                  <th>獎品內容</th>
+                                  <th>活動日期</th>
+                                  <th>公告中獎名冊</th>
+                                </tr>
+                                <tr>
+                                  <td>9月 月月早鳥禮7-11 $500禮卷 10名</td>
+                                  <td>2022.9.12 - 9.30</td>
+                                  <td><img src="./images/awards/download.png"></td>
+                                </tr>
+                                <tr>
+                                  <td>9月 任務達成禮 桌上小農田 10名</td>
+                                  <td>2022.9.12 - 9.30</td>
+                                  <td><img src="./images/awards/download.png"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-container-text">
+                    <div class="awards-timeline-container">
+                        <div class="awards-timeline-title">
+                            <div class="timeline-title">活動注意事項</div>
+                        </div>
+                        <div class="notice">
+                            <li>請於參加前詳閱「富邦永續森林遊戲抽好禮」(以下簡稱本活動)注意事項，參加者於參加本活動時，即表示同意本活動注意事項，並充分知悉與同意以下事項：</li>
+                            <ol>
+                                <li>本活動由富邦金融控股股份有限公司(以下簡稱主辦單位)所舉辦，於2022/09/12-2022/12/31在本活動完成各項任務即有機會參與抽獎。
+                                    <ul>
+                                        <li>「月月早鳥禮」:每月15日(9/15、10/15、11/15、12/15)前完成一次養樹任務遊戲並確實留下抽獎資料即享有抽獎資格。</li>
+                                        <li>「任務達成禮」:於活動期間，完成乙次以上養樹任務即享有抽獎資格，每人每月最多獲得七次抽獎機會。(舉例:同一人任務完成7次以上，最多享7次抽獎機會)</li>
+                                        <li>「永續大使禮」:活動期間，完成養樹任務並透過本網站之分享按鈕，將永續森林大使姓名牆分享至個人社群(限Facebook、LINE及instagram)，即可獲得抽獎資格。</li>
+                                    </ul>
+                                </li>
+                                <li>個資法相關聲明
+                                    <ol>
+                                        <li>感謝您參加富邦金融控股股份有限公司(以下稱主辦單位)所辦理之「永續森林養樹遊戲」(以下稱本活動)，主辦單位將蒐集您的個人資料(包括姓名、電話、E-mail、地址等資料)，並作為本活動之聯繫、領獎、後續處理、統計分析及紀錄等目的使用。</li>
+                                        <li>主辦單位對於您於本活動提供之個人資料，將依通常作業方式妥為處理，並依個人資料保護法及相關法令於本活動之目的範圍內，在中華民國境內蒐集、處理及利用您的個人資料。</li>
+                                        <li>個人資料保護法第3條規定，您可以隨時向主辦單位提出申請查詢、閱覽、製給複製本、補充/更正、請求停止蒐集、處理、利用或刪除您的個人資料。若您有個人資料權益相關問題，請聯絡主辦單位(02-6636-6636)，並告知您的姓名及活動名稱，主辦單位於收到您的要求後，將在相關法令許可之範圍及合理期間內依您的要求進行處理。</li>
+                                        <li>若您不欲提供相關個人資料，將影響您參加本活動、取得本活動訊息或獎項之權益。</li>
+                                    </ol>
+                                </li>
+                                <li>參加活動者必須遵守活動規範及其他有關規定，如未遵循者，富邦金控得拒絕其參與或取消其得獎資格，並對於任何破壞本活動行為保留相關權利。</li>
+                                <li>富邦金控將主動以電子郵件通知活動得獎人，請活動得獎人於指定回覆資料截止日期前，提供真實姓名、身分證字號、地址、電話等個人資料以完成相關領獎作業〈填妥領獎收據及附上得獎人身分證正反面影本寄回富邦金控〉，逾期回覆或未回覆者視為棄權，富邦金控不遞補名額。</li>
+                                <li>本活動獎項屬於機會中獎，依中華民國所得稅法及各類所得扣繳率標準規定，機會中獎金額年度累積中獎價值若超過新台幣1,000元，將列入個人年度累計所得，機會中獎金額若超過新台幣20,010元(含)者，得獎者需先行繳納10%機會中獎所得稅款(不足1元部分捨去)，非中華民國境內居住者，無論金額大小皆需先行繳納20%機會中獎所得稅款，詳細規定，請參閱財政部稅務入口網。無論扣繳與否，均需列入活動得獎人當年度之個人機會中獎所得，並由富邦金控開立扣繳憑單予活動得獎人，活動得獎人需依規定填寫並繳交相關資料方可領獎。如不願意配合者，則視為自動放棄得獎資格。得獎者因參加本活動而須支付任何稅捐皆為得獎者之義務，與富邦金控無涉。前述法令如有更新或異動者，依修正後規定辦理。</li>
+                                <li>本活動所提供之獎品以實物為主，不得折換現金、兌換其他商品或優惠，亦不得將本活動得獎資格轉讓或轉售予他人，富邦金控保有更換同值獎品之權利。獎品相關使用辦法請依照兌換券內容說明為準。一旦活動得獎人領取獎品後，若有遺失或被竊，富邦金控不發給任何證明或補償。</li>
+                                <li>富邦金控非獎品製造者或提供者，與各項獎品或服務之製造或提供廠商無任何代理或合夥關係，且本活動獎品之保固期限均依廠商出廠時實際提供者為準。得獎者如因本活動各項獎品、服務或保固發生任何爭議，概與富邦金控無關。</li>
+                                <li>若活動得獎人未於時間內回覆得獎人資料或提供資料有誤，導致無法通知得獎或獎品無法寄送者，視同活動得獎人放棄權利並自負其責，富邦金控不另行通知。</li>
+                                <li>本活動獎品之寄送地址僅限台灣地區(包括金門、馬祖、澎湖)，如獎品寄送地點為前述地區以外者，富邦金控得取消其得獎資格。</li>
+                                <li>本活動如遇其他不可抗力之事由者，得順延之；富邦金控保有取消、終止、修改或暫停、審核民眾參加本活動資格及解釋本活動及獎品等細節之權利，其他相關事宜悉公布於「富邦金控」官方網頁，並依其相關規定辦理。</li>
+                                <li>本公司有權檢視得獎情況是否有人為操作之行為，對於以偽造、詐欺或其他不正當之方式意圖兌領之參加者，本公司有權撤銷其得獎資格或拒絕其參與本活動。</li>
+                                <li>若各活動獎項遇停產、缺貨或其他無法排除之情事，將以其他等值商品替代，恕不另行公告。</li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -180,7 +190,7 @@
     <div id="LeftTree"></div>
     <div id="RightTree"></div>
 </body>
-<script src="./js/data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js" integrity="sha512-Hqe3s+yLpqaBbXM6VA0cnj/T56ii5YjNrMT9v+us11Q81L0wzUG0jEMNECtugqNu2Uq5MSttCg0p4KK0kCPVaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./js/lottery.js"></script>
 <script src="./js/common.js"></script>
 </html>
