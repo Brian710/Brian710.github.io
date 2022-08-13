@@ -109,15 +109,15 @@ body {
 	margin: 10px;
 }
 .StartLogo{
-	width: 90%;
+	width: 80%;
 	height: auto;
 	text-align: center;
 	margin: auto;
 	padding-top: 5%;
-	padding-bottom: 5%;
 }
 .StartLogo img{
 	width: 100%;
+	opacity: 0.85;
 }
 .StartButton {
 	cursor: pointer;
