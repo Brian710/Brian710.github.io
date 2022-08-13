@@ -123,12 +123,13 @@ body {
 	cursor: pointer;
 	position: relative;
 	width: fit-content;
-	padding: 0.25rem;
+	padding: 0.15rem 0.95rem 0.15rem 1.25rem;
 	border-radius: 2rem;
 	background-color: #feff00;
 	z-index: 15;
 	margin: auto;
-	animation: btn-ani 2s infinite linear;
+	text-align: center;
+	animation: btn-ani 1.75s infinite linear;
 }
 .StartButton p {
 	width: 100%;
@@ -151,12 +152,15 @@ body {
 }
 @keyframes btn-ani{
 	0%{
+		padding: 0.15rem 0.95rem 0.15rem 1.25rem;
 		transform: scale(1);
 	}
 	50%{
+		padding: 0.15rem 2rem 0.15rem 2.3rem;
 		transform: scale(1.2);
 	}
 	100%{
+		padding: 0.15rem 0.95rem 0.15rem 1.25rem;
 		transform: scale(1);
 	}
 }
@@ -164,16 +168,10 @@ body {
 	html, body {
 		font-size: 25px;
 	}
-	.StartButton {
-		padding: 0.25rem 0.95rem 0.25rem 1.25rem;
-	}
 }
 @media screen and (max-width: 1920px) {
 	html, body {
 		font-size: 18px;
-	}
-	.StartButton {
-		padding: 0.25rem 0.95rem 0.25rem 1.25rem;
 	}
 }
 @media screen and (max-width: 1440px) {
@@ -198,9 +196,6 @@ body {
 	}
 	.StartWindowContainer{
 		top: 0;
-	}
-	.StartButton {
-		padding: 0.15rem 0.95rem 0.15rem 1.25rem;
 	}
 	#Dog {
 		bottom: 4%;
