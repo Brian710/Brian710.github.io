@@ -84,7 +84,7 @@ body::-webkit-scrollbar {
 }
 .content-nav-text{
 	cursor: pointer;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	font-weight: 700;
 	text-align: center;
 	align-items: center;
@@ -97,10 +97,11 @@ body::-webkit-scrollbar {
 	border-right: #FFFFFF 1px solid;
 }
 .content-nav-text p {
+	max-width: initial;
 	margin-bottom: 0;
 }
 .content-nav-text:hover{
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 }
 .content-container-text{
 	width: 100%;

@@ -33,7 +33,7 @@ function GenerateNavBar(){
             <a class="nav-bar-btn-home" href="https://www.fubon.com/financialholdings/home/index.html"></a>\
         </div>\
         <div class="nav-bar-row row-8">\
-            <div class="nav-bar-btn"><a><p>勇闖森林GO!</p></a></div>\
+            <div class="nav-bar-btn"><a href="./game.html"><p>勇闖森林GO!</p></a></div>\
             <div class="nav-bar-btn"><a href="./gameIntroduction.html"><p>森林遊戲介紹</p></a></div>\
             <div class="nav-bar-btn"><a href="./lottery.html"><p>抽獎好禮&中獎名單</p></a></div>\
             <div class="nav-bar-btn"><a href="https://www.fubon.com/r4g/#r4g"><p>Run For Green</p></a></div>\
@@ -74,7 +74,7 @@ function GenerateFixPlayIcon(){
     icon_container.appendChild(icon);
 
     icon_container.addEventListener('click', ()=>{
-        location.href = "./lottery.html";
+        location.href = "./game.html";
     });
 
     document.body.appendChild(icon_container);

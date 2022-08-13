@@ -1,0 +1,111 @@
+html,
+body {
+    width: 100vw;
+    width: calc(var(--vw, 1vw) * 100);
+    height: auto;
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: auto;
+    font-size: 18px;
+}
+html,
+body::-webkit-scrollbar {
+    width: 0;
+}
+.noise {
+    position: absolute;
+    width: calc(var(--vw, 1vw) * 100);
+    height: calc(var(--vh, 1vh) * 100);
+    background-image: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.4)
+        ),
+        url(../images/texture.jpg);
+    mix-blend-mode: color-burn;
+    opacity: 0.9;
+    z-index: 10;
+}
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 93.5%;
+    z-index: 0;
+}
+iframe{
+    position: absolute;
+    top: 7.5%;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.PlayIcon{
+    display: none;
+}
+
+@media screen and (max-width: 2560px) {
+	html, body {
+		font-size: 25px;
+	}
+    body{
+        transform-origin: 0;
+        transform: none;
+    }
+}
+@media screen and (max-width: 1920px) {
+	html, body {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1180px) {
+	html, body {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	html, body {
+		font-size: 14px;
+		overflow: hidden;
+	}
+	.container {
+		height: 100%;
+	}
+    #nav-bar-conatiner{
+        transform-origin: top left;
+        transform: rotate(90deg) translate(0,-100vmin);
+        width: calc(var(--vh, 1vw) * 100);
+        height: 7.5%;
+    }
+    .nav-bar{
+        width: 100%;
+        height: 70%;
+    }
+    iframe{
+        top: 0;
+        right: 7.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #nav-bar-conatiner{
+        transform-origin: top left;
+        transform: rotate(90deg) translate(0,-100vmin);
+        width: 18%;
+        height: 100%;
+    }
+    .nav-bar{
+        width: 100%;
+        height: 100%;
+    }
+    iframe{
+        top: 0;
+        right: 0;
+    }
+}
+@media screen and (max-width: 425px) {
+}
+@media screen and (max-width: 375px) {
+
+}

@@ -63,6 +63,7 @@
 	bottom: 2%;
 	right: 2%;
 	z-index: 999;
+	animation: playicon-ani 2s infinite linear;
 }
 .PlayIcon img{
 	width: 100%;
@@ -81,6 +82,18 @@
 	display: flex;
 	flex-direction: row;
 	width: 66.66666%;
+}
+
+@keyframes playicon-ani{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.25);
+	}
+	100%{
+		transform: scale(1);
+	}
 }
 
 @media screen and (max-width: 2560px) {

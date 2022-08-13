@@ -34,7 +34,7 @@ window.addEventListener('load', ()=>{
     });
 });
 windowButton.addEventListener("click", ()=>{
-    alert("開始養樹");
+    location.href = "./game.html";
 });
 windowButton.addEventListener("mouseover", ()=>{
     windowButton.style.backgroundColor = "#009C9A";

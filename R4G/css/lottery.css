@@ -97,6 +97,7 @@ body::-webkit-scrollbar {
 	border-right: #FFFFFF 1px solid;
 }
 .content-nav-text p {
+	max-width: initial;
 	margin-bottom: 0;
 }
 .content-nav-text:hover{
