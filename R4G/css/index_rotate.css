@@ -128,11 +128,12 @@ body {
 	background-color: #feff00;
 	z-index: 15;
 	margin: auto;
+	animation: btn-ani 2s infinite linear;
 }
 .StartButton p {
 	width: 100%;
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: 0.3rem;
 	line-height: 1.25rem;
 	color: #009c9a;
@@ -147,6 +148,17 @@ body {
 	margin: auto;
 	padding-top: 5%;
 	padding-bottom: 5%;
+}
+@keyframes btn-ani{
+	0%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(1.2);
+	}
+	100%{
+		transform: scale(1);
+	}
 }
 @media screen and (max-width: 2560px) {
 	html, body {
