@@ -59,6 +59,7 @@
 .PlayIcon{
 	cursor: pointer;
 	position: fixed;
+	width: 5%;
 	bottom: 2%;
 	right: 2%;
 	z-index: 999;
@@ -114,9 +115,6 @@
 	}
 	.nav-bar .nav-bar-btn-home{
 		transform: translate(-50%, 50%) scale(0.85);
-	}
-	.PlayIcon{
-		width: 5%;
 	}
 }
 @media screen and (max-width: 1024px) {

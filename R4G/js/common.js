@@ -30,7 +30,7 @@ function GenerateNavBar(){
         <div class="noise" style="width: 100%; height: 100%;"></div>\
         <div class="nav-bar-row row-4">\
             <div class="mobile-menu-arrow" id="mobile-menu-arrow">&larr;</div>\
-            <a class="nav-bar-btn-home" href="./index.html"></a>\
+            <a class="nav-bar-btn-home" href="https://www.fubon.com/financialholdings/home/index.html"></a>\
         </div>\
         <div class="nav-bar-row row-8">\
             <div class="nav-bar-btn"><a><p>勇闖森林GO!</p></a></div>\

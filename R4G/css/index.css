@@ -141,14 +141,17 @@ body {
 }
 .ActivityTime{
 	position: relative;
-	font-size: 1rem;
-	font-weight: 500;
-	color: #009c9a;
+	width: fit-content;
 	text-align: center;
-	letter-spacing: 2px;
 	margin: auto;
 	padding-top: 5%;
 	padding-bottom: 5%;
+}
+.ActivityTime p{
+	font-size: 0.75rem;
+	font-weight: 500;
+	color: #009c9a;
+	letter-spacing: 2px;
 }
 @keyframes btn-ani{
 	0%{
