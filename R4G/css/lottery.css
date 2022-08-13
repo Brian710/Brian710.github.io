@@ -277,15 +277,10 @@ tr td img{
 	}
 }
 @media screen and (max-width: 425px) {
-	.m_container {
-		height: 83%;
-	}
 	tr td img{
 		width: 60%;
 	}
 }
 @media screen and (max-width: 375px) {
-	.m_container {
-		height: 83%;
-	}
+	
 }
