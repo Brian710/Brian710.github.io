@@ -154,7 +154,7 @@ body::-webkit-scrollbar {
 	margin: 0;
 }
 .award-desc{
-	letter-spacing: 1rem;
+	letter-spacing: -1px;
 }
 .award-ann{
 	font-size: 0.5rem;
@@ -206,8 +206,9 @@ table {
 	font-size: 1rem;
 	text-align: center;
 }
-tbody{
-	border: 1px solid #004F74 !important;
+table td{
+	vertical-align: middle;
+  	text-align: center;
 }
 td, th {
 	border: 1px solid #004F74 !important;
@@ -223,14 +224,16 @@ tr td:nth-child(1){
 }
 
 tr th:nth-child(1), tr td:nth-child(1){
-	white-space: nowrap;
+	width: 33.3%;
+	/* white-space: nowrap; */
 }
 tr th:nth-child(2), tr td:nth-child(2){
-	word-break: keep-all;
+	width: 33.3%;
+	/* word-break: keep-all; */
 }
 tr th:nth-child(3), tr td:nth-child(3){
-	width: 20%;
-	word-break: keep-all;
+	width: 33.3%;
+	/* word-break: keep-all; */
 }
 
 tr td img{
@@ -253,15 +256,38 @@ tr td img{
     content: url(../images/common/IntroRight.svg);
     z-index: 100;
 }
-.margin-left-m1{
-	margin-left: -1rem;
+
+ol > ol{
+	margin-left: -0.5rem;
 }
+.notice > ol:nth-child(5) > ol:nth-child(2) > li{
+	margin-left: 1rem;
+}
+ol ul li, ul table{
+	margin-left: -0.5rem;
+}
+ol li ol{
+	counter-reset: list;
+}
+ol li ol li{
+	list-style: none;
+	text-indent: -2rem;
+}
+ol li ol li::before{
+	counter-increment: list;
+    content: "(" counter(list, decimal) "). ";
+	list-style: none;
+}
+
 @media screen and (max-width: 2560px) {
 	html, body {
 		font-size: 25px;
 	}
 	.container {
 		margin-top: 16%;
+	}
+	.award-title br{
+		display: none;
 	}
 }
 @media screen and (max-width: 1920px) {
@@ -289,6 +315,9 @@ tr td img{
 	}
 	.m_container {
 		margin-top: 8%;
+	}
+	.award-title br{
+		display: contents;
 	}
 }
 @media screen and (max-width: 900px) {
