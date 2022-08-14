@@ -164,7 +164,6 @@ body::-webkit-scrollbar {
 	.container {
 		margin-top: 11%;
 		height: 84%;
-		height: max-content;
 	}
 	.content{
 		height: 100%;

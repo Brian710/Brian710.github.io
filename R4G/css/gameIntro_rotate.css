@@ -141,14 +141,9 @@ body::-webkit-scrollbar {
 	html, body {
 		font-size: 18px;
 	}
-	.container {
-		margin-top: 15%;
-	}
 }
 @media screen and (max-width: 1440px) {
-	.container {
-		margin-top: 15%;
-	}
+
 }
 @media screen and (max-width: 1180px) {
 	html, body {
@@ -166,16 +161,12 @@ body::-webkit-scrollbar {
 		top: 0;
 	}
 	.container {
-		margin-top: 11%;
+		margin-top: 8%;
 	}
 }
 @media screen and (max-width: 900px) {
-	.container {
-		margin-top: 12%;
-	}
+
 }
 @media screen and (max-width: 700px) {
-	.container {
-		margin-top: 12%;
-	}
+
 }

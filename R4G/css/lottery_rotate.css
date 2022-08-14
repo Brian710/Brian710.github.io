@@ -34,7 +34,7 @@ body::-webkit-scrollbar {
 	height: 100%;
 	margin-top: 15%;
 	padding-left: 0 !important;
-	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 .Top{
     position: fixed;
