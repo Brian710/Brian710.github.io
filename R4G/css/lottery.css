@@ -234,7 +234,7 @@ tr th:nth-child(3), tr td:nth-child(3){
 
 tr td img{
 	cursor: pointer;
-	width: 100%;
+	width: 80%;
 }
 #LeftTree {
 	position: fixed;
@@ -306,7 +306,7 @@ tr td img{
 		height: 87%;
 	}
 	tr td img{
-		/* width: 60%; */
+		width: 100%;
 	}
 }
 @media screen and (max-width: 375px) {
