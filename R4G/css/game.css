@@ -92,7 +92,7 @@ iframe{
     #nav-bar-conatiner{
         transform-origin: top left;
         transform: rotate(90deg) translate(0,-100vmin);
-        width: 45%;
+        width: 18%;
         height: 100%;
     }
     .nav-bar{
@@ -105,6 +105,9 @@ iframe{
     }
 }
 @media screen and (max-width: 425px) {
+    #nav-bar-conatiner{
+        width: 45%;
+    }
 }
 @media screen and (max-width: 375px) {
 
