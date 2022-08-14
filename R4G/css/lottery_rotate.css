@@ -145,7 +145,6 @@ body::-webkit-scrollbar {
 	margin-bottom: 0%;
 }
 .award-quota, .award-desc, .award-ann{
-	font-size: 0.75rem;
 	font-weight: 500;
 	line-height: 1.25rem;
 	text-align: center;
@@ -153,9 +152,11 @@ body::-webkit-scrollbar {
 	margin: 0.5rem;
 }
 .award-quota{
+	font-size: 0.75rem;
 	margin: 0;
 }
 .award-desc{
+	font-size: 0.85rem;
 	letter-spacing: -1px;
 }
 .award-ann{
