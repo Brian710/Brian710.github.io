@@ -132,7 +132,7 @@ table {
 }
 *,
 :root {
-	font-family: 'Noto Sans TC','Montserrat', sans-serif !important;
+	font-family: 'Montserrat', 'Noto Sans TC', sans-serif !important;
 }
 a {
     text-decoration:none !important;
