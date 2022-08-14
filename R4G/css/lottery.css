@@ -226,7 +226,7 @@ tr th:nth-child(2), tr td:nth-child(2){
 	word-break: keep-all;
 }
 tr th:nth-child(3), tr td:nth-child(3){
-	width: 24%;
+	width: 20%;
 	word-break: keep-all;
 }
 
