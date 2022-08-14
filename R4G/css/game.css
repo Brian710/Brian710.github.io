@@ -92,7 +92,7 @@ iframe{
     #nav-bar-conatiner{
         transform-origin: top left;
         transform: rotate(90deg) translate(0,-100vmin);
-        width: 18%;
+        width: 45%;
         height: 100%;
     }
     .nav-bar{
