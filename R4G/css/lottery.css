@@ -240,6 +240,11 @@ tr td img{
 	cursor: pointer;
 	width: 80%;
 }
+
+.notice tr th:nth-child(1), .notice tr td:nth-child(1){
+	width: 10%;
+}
+
 #LeftTree {
 	position: fixed;
 	bottom: -1%;
