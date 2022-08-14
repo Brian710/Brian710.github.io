@@ -254,6 +254,13 @@ tr td img{
 	word-break: keep-all;
 }
 
+.notice tr td{
+	font-size: 0.85rem;
+}
+.notice tr td:nth-child(2), .notice tr td:nth-child(3){
+	color: #004F74;
+}
+
 #LeftTree {
 	position: fixed;
 	bottom: -1%;
@@ -291,6 +298,10 @@ ol li ol li::before{
 	counter-increment: list;
     content: "(" counter(list, decimal) "). ";
 	list-style: none;
+}
+
+li a{
+	color: #008dc5;
 }
 
 @media screen and (max-width: 2560px) {
