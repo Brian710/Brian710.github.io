@@ -153,6 +153,9 @@ body::-webkit-scrollbar {
 .award-quota{
 	margin: 0;
 }
+.award-desc{
+	letter-spacing: 1rem;
+}
 .award-ann{
 	font-size: 0.5rem;
 	color: #008DC5;
