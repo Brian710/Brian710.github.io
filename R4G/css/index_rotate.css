@@ -19,7 +19,7 @@ body {
 		url(../images/texture.jpg);
 	mix-blend-mode: color-burn;
 	opacity: 0.9;
-	z-index: 10;
+	z-index: 20;
 }
 .container {
 	position: absolute;
@@ -146,7 +146,7 @@ body {
 	text-align: center;
 	margin: auto;
 	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-bottom: 1%;
 }
 .ActivityTime p{
 	font-size: 0.75rem;
@@ -204,5 +204,9 @@ body {
 	#Dog {
 		bottom: 4%;
 		width: 16%;
+	}
+	.ActivityTime p{
+		font-size: 0.25rem;
+		letter-spacing: 1px;
 	}
 }
