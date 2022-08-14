@@ -92,6 +92,8 @@ body::-webkit-scrollbar {
 	border-left: #FFFFFF 1px solid;
 	height: 2rem;
 	line-height: 2rem;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 .content-nav-text:nth-child(3){
 	border-right: #FFFFFF 1px solid;
