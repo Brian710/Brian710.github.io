@@ -331,7 +331,7 @@ ol li ol li::before{
 		margin-top: 8%;
 	}
 	.award-title br{
-		display: contents;
+		display: block;
 	}
 }
 @media screen and (max-width: 900px) {

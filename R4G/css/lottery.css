@@ -341,7 +341,7 @@ ol li ol li::before{
 		height: 100%;
 	}
 	.award-title br{
-		display: contents;
+		display: block;
 	}
 }
 @media screen and (max-width: 425px) {
