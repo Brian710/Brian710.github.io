@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
 	font-size: 0.85rem;
 	border: 1px #009c9a solid;
 	border-radius: 2rem;
-	width: inherit;
+	width: 5.5rem;
 	margin: 1rem auto;
 }
 .award-quota, .award-desc, .award-ann{
