@@ -2,6 +2,7 @@ let vw = window.innerWidth * 0.01;
 let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vw', `${vw}px`);
 document.documentElement.style.setProperty('--vh', `${vh}px`);
+let nav_container = document.getElementById("nav-bar-conatiner");
 let _isScrolling;
 
 window.addEventListener('DOMContentLoaded', ()=>{
@@ -21,7 +22,6 @@ window.addEventListener("scroll", ()=>{
 });
 
 function GenerateNavBar(){
-    let nav_container = document.getElementById("nav-bar-conatiner");
     nav_container.innerHTML = 
     '<div class="mobile-menu-btn" id="mobile-menu-btn">\
         <div class="menu-btn">&equiv;</div>\
@@ -37,6 +37,7 @@ function GenerateNavBar(){
             <div class="nav-bar-btn"><a href="./gameIntroduction.html"><p>森林遊戲介紹</p></a></div>\
             <div class="nav-bar-btn"><a href="./lottery.html"><p>抽獎好禮&中獎名單</p></a></div>\
             <div class="nav-bar-btn"><a href="https://www.fubon.com/r4g/#r4g"><p>Run For Green</p></a></div>\
+            <div class="nav-bar-btn" id="btn-home"><a href="./index.html"><p>回首頁</p></a></div>\
         </div>\
     </div>';
     AddNavObjectListener();
@@ -54,6 +55,11 @@ function AddNavObjectListener(){
         menu_btn.style.display = "flex";
         document.getElementById("nav-bar").style.display = "none";
     });
+
+    let home_btn = document.getElementById("btn-home");
+    if(nav_container.getAttribute("data") == "index"){
+        home_btn.style.display = "none";
+    }
 }
 
 function InsertNoneObject(){
