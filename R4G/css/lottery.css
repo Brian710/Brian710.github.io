@@ -143,6 +143,13 @@ body::-webkit-scrollbar {
 	margin-top: 1rem;
 	margin-bottom: 0%;
 }
+.award-plus{
+	font-size: 0.85rem;
+	border: 1px #009c9a solid;
+	border-radius: 2rem;
+	width: inherit;
+	margin: 1rem auto;
+}
 .award-quota, .award-desc, .award-ann{
 	font-weight: 500;
 	line-height: 1.25rem;
