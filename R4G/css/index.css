@@ -101,7 +101,7 @@ body {
 	align-items: center;
 	background-color: #FFFFFF;
 	box-shadow: 4px 2px 10px rgba(0, 0, 0, 0.6);
-	z-index: 11;
+	z-index: 20;
 }
 .StartWindow {
 	width: 100%;
@@ -127,7 +127,7 @@ body {
 	padding: 0.65rem 0.95rem 0.35rem 1.25rem;
 	border-radius: 2rem;
 	background-color: #feff00;
-	z-index: 15;
+	z-index: 30;
 	margin: auto;
 	text-align: center;
 	animation: btn-ani 1.75s infinite linear;
