@@ -124,7 +124,7 @@ body {
 	position: relative;
 	width: 25%;
 	width: fit-content;
-	padding: 0.65rem 0.95rem 0.35rem 1.25rem;
+	padding: 0.45rem 0.95rem 0.35rem 1.25rem;
 	border-radius: 2rem;
 	background-color: #feff00;
 	z-index: 30;
@@ -156,29 +156,29 @@ body {
 }
 @keyframes btn-ani{
 	0%{
-		padding: 0.65rem 0.95rem 0.35rem 1.25rem;
+		padding: 0.45rem 0.95rem 0.35rem 1.25rem;
 		transform: scale(1);
 	}
 	50%{
-		padding: 0.65rem 2rem 0.35rem 2.3rem;
+		padding: 0.45rem 2rem 0.35rem 2.3rem;
 		transform: scale(1.1);
 	}
 	100%{
-		padding: 0.65rem 0.95rem 0.35rem 1.25rem;
+		padding: 0.45rem 0.95rem 0.35rem 1.25rem;
 		transform: scale(1);
 	}
 }
 @keyframes btn-ani-mobile{
 	0%{
-		padding: 0.45rem 0.95rem 0.15rem 1.25rem;
+		padding: 0.25rem 0.95rem 0.15rem 1.25rem;
 		transform: scale(1);
 	}
 	50%{
-		padding: 0.45rem 1.25rem 0.15rem 1.55rem;
+		padding: 0.25rem 1.25rem 0.15rem 1.55rem;
 		transform: scale(1.1);
 	}
 	100%{
-		padding: 0.45rem 0.95rem 0.15rem 1.25rem;
+		padding: 0.25rem 0.95rem 0.15rem 1.25rem;
 		transform: scale(1);
 	}
 }
