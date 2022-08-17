@@ -50,7 +50,7 @@ function GenerateNavBar(){
             <div class="nav-bar-btn" id="btn-home"><a href="./index.html"><p>回首頁</p></a></div>\
         </div>\
     </div>\
-    <div class="nav-bar-click-zone" id="nav-bar-click-zone"></div>';
+    <div class="nav-bar-click-zone" id="nav-bar-click-zone" style="display: none;"></div>';
     AddNavObjectListener();
 }
 
