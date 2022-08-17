@@ -21,9 +21,9 @@ window.addEventListener("scroll", ()=>{
     _isScrolling = true;
 });
 
-window.addEventListener('click', (el)=>{
+document.body.addEventListener('click', (el)=>{
     if(el.target != document.getElementById("menu-btn") && el.target != document.getElementById("noise")){
-        if(document.getElementById("nav-bar").style.display == "flex"){
+        if(document.getElementById("nav-bar").getAttribute("data") == "open"){
             document.getElementById("mobile-menu-btn").style.display = "flex";
             document.getElementById("nav-bar").style.display = "none";
         }
@@ -35,7 +35,7 @@ function GenerateNavBar(){
     '<div class="mobile-menu-btn" id="mobile-menu-btn">\
         <div class="menu-btn" id="menu-btn">&equiv;</div>\
     </div>\
-    <div class="nav-bar" id="nav-bar">\
+    <div class="nav-bar" id="nav-bar" data="close">\
         <div class="noise" id="noise" style="width: 100%; height: 100%; z-index: 10;"></div>\
         <div class="nav-bar-row row-4">\
             <div class="mobile-menu-arrow" id="mobile-menu-arrow">&larr;</div>\
@@ -57,12 +57,14 @@ function AddNavObjectListener(){
     menu_btn.addEventListener('click', ()=>{
         menu_btn.style.display = "none";
         document.getElementById("nav-bar").style.display = "flex";
+        document.getElementById("nav-bar").setAttribute("data", "open");
     });
 
     let mobile_menu_arrow = document.getElementById("mobile-menu-arrow");
     mobile_menu_arrow.addEventListener('click', ()=>{
         menu_btn.style.display = "flex";
         document.getElementById("nav-bar").style.display = "none";
+        document.getElementById("nav-bar").setAttribute("data", "close");
     });
 
     let home_btn = document.getElementById("btn-home");
