@@ -276,7 +276,7 @@ tr td img{
 }
 
 .notice tr{
-	font-size: 0.85rem;
+	font-size: 0.75rem;
 }
 tr td:nth-child(2), .notice tr td:nth-child(2), .notice tr td:nth-child(3), .notice tr td:nth-child(4){
 	color: #004F74;
