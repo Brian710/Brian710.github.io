@@ -21,13 +21,22 @@ window.addEventListener("scroll", ()=>{
     _isScrolling = true;
 });
 
+window.addEventListener('click', (el)=>{
+    if(el.target != document.getElementById("menu-btn") && el.target != document.getElementById("noise")){
+        if(document.getElementById("nav-bar").style.display == "flex"){
+            document.getElementById("mobile-menu-btn").style.display = "flex";
+            document.getElementById("nav-bar").style.display = "none";
+        }
+    }
+});
+
 function GenerateNavBar(){
     nav_container.innerHTML = 
     '<div class="mobile-menu-btn" id="mobile-menu-btn">\
-        <div class="menu-btn">&equiv;</div>\
+        <div class="menu-btn" id="menu-btn">&equiv;</div>\
     </div>\
     <div class="nav-bar" id="nav-bar">\
-        <div class="noise" style="width: 100%; height: 100%; z-index: 10;"></div>\
+        <div class="noise" id="noise" style="width: 100%; height: 100%; z-index: 10;"></div>\
         <div class="nav-bar-row row-4">\
             <div class="mobile-menu-arrow" id="mobile-menu-arrow">&larr;</div>\
             <a class="nav-bar-btn-home" href="https://www.fubon.com/financialholdings/home/index.html"></a>\
@@ -36,7 +45,7 @@ function GenerateNavBar(){
             <div class="nav-bar-btn"><a href="./game.html"><p>勇闖森林GO!</p></a></div>\
             <div class="nav-bar-btn"><a href="./gameIntroduction.html"><p>森林遊戲介紹</p></a></div>\
             <div class="nav-bar-btn"><a href="./lottery.html"><p>抽獎好禮&中獎名單</p></a></div>\
-            <div class="nav-bar-btn"><a href="https://www.fubon.com/r4g/#r4g"><p>Run For Green</p></a></div>\
+            <div class="nav-bar-btn"><a href="https://www.fubon.com/r4g/#r4g" target="_blank"><p>Run For Green</p></a></div>\
             <div class="nav-bar-btn" id="btn-home"><a href="./index.html"><p>回首頁</p></a></div>\
         </div>\
     </div>';

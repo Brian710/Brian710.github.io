@@ -168,6 +168,7 @@ body::-webkit-scrollbar {
 .award-ann{
 	font-size: 0.5rem;
 	color: #008DC5;
+	line-height: 1rem;
 }
 .awards-timeline-container{
 	position: relative;
@@ -266,6 +267,11 @@ tr td img{
 .notice tr th:nth-child(4), .notice tr td:nth-child(4){
 	/* width: 25%; */
 	word-break: keep-all;
+}
+
+.reminder{
+	text-align: left;
+	margin-left: -2rem;
 }
 
 .notice tr{
@@ -367,6 +373,9 @@ li a{
 	}
 	.award-title br{
 		display: block;
+	}
+	.award-ann{
+		margin: 0.5rem -0.5rem;
 	}
 }
 @media screen and (max-width: 425px) {
