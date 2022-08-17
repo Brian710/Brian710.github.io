@@ -26,6 +26,7 @@ document.body.addEventListener('click', (el)=>{
         if(document.getElementById("nav-bar").getAttribute("data") == "open"){
             document.getElementById("mobile-menu-btn").style.display = "flex";
             document.getElementById("nav-bar").style.display = "none";
+            document.getElementById("nav-bar-click-zone").style.display = "none";
         }
     }
 });
@@ -48,7 +49,8 @@ function GenerateNavBar(){
             <div class="nav-bar-btn"><a href="https://www.fubon.com/r4g/#r4g" target="_blank"><p>Run For Green</p></a></div>\
             <div class="nav-bar-btn" id="btn-home"><a href="./index.html"><p>回首頁</p></a></div>\
         </div>\
-    </div>';
+    </div>\
+    <div class="nav-bar-click-zone" id="nav-bar-click-zone"></div>';
     AddNavObjectListener();
 }
 
@@ -57,6 +59,7 @@ function AddNavObjectListener(){
     menu_btn.addEventListener('click', ()=>{
         menu_btn.style.display = "none";
         document.getElementById("nav-bar").style.display = "flex";
+        document.getElementById("nav-bar-click-zone").style.display = "flex";
         document.getElementById("nav-bar").setAttribute("data", "open");
     });
 
@@ -64,6 +67,7 @@ function AddNavObjectListener(){
     mobile_menu_arrow.addEventListener('click', ()=>{
         menu_btn.style.display = "flex";
         document.getElementById("nav-bar").style.display = "none";
+        document.getElementById("nav-bar-click-zone").style.display = "none";
         document.getElementById("nav-bar").setAttribute("data", "close");
     });
 

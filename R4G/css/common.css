@@ -56,6 +56,13 @@
 .nav-bar .nav-bar-btn p:hover {
 	transform: scale(1.1);
 }
+.nav-bar-click-zone{
+	position: absolute;
+	width: calc(var(--vh, 1vw) * 100);
+	height: auto;
+	height: calc(var(--vw, 1vh) * 100);
+	z-index: 5;
+}
 .PlayIcon{
 	cursor: pointer;
 	position: fixed;
