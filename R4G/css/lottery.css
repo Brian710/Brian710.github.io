@@ -166,9 +166,10 @@ body::-webkit-scrollbar {
 	letter-spacing: -1px;
 }
 .award-ann{
-	font-size: 0.5rem;
+	font-size: 0.75rem;
 	color: #008DC5;
 	line-height: 1rem;
+	margin-left: -2rem;
 }
 .awards-timeline-container{
 	position: relative;
@@ -373,9 +374,6 @@ li a{
 	}
 	.award-title br{
 		display: block;
-	}
-	.award-ann{
-		margin: 0.5rem -0.5rem;
 	}
 }
 @media screen and (max-width: 425px) {
